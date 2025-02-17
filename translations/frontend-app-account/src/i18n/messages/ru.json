@@ -8,7 +8,7 @@
   "account.settings.banner.beta.language": "Вы установили для языка значение {beta_language}, которое в настоящее время не полностью переведено. Вы можете помочь нам полностью перевести этот язык, присоединившись к сообществу Transifex и добавив переводы с английского языка для тех, кто говорит на {beta_language}.",
   "account.settings.banner.beta.language.action.switch.back": "Переключиться обратно на {previous_language}",
   "account.settings.banner.beta.language.action.help.translate": "Помощь в переводе {beta_language}",
-  "account.settings.section.account.information": "Информация об учётной записи",
+  "account.settings.section.account.information": "Информация об учётной запис",
   "account.settings.section.account.information.description": "В этом разделе вы можете изменить базовые настройки аккаунта.",
   "account.settings.section.profile.information": "Личные данные",
   "account.settings.section.demographics.information": "Необязательная информация",
