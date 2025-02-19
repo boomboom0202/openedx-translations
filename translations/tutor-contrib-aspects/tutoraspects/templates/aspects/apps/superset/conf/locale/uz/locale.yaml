@@ -1,16 +1,15 @@
 en:
-  ? '## Help<br>* [Aspects Reference](https://docs.openedx.org/projects/openedx-aspects/page/reference/learner_groups_dashboard.html)<br>*
-    [Superset Resources](https://github.com/apache/superset#resources)<br>'
-  : '## Yordam<br> * [Aspektlar ma''lumotnomasi](https://docs.openedx.org/projects/openedx-aspects/page/reference/learner_groups_dashboard.html)<br> * [Superset Resources](https://github.com/apache/superset#resources)<br>'
   '% Correct': '% Toʻgʻri'
   '% Incorrect': '% Noto‘g‘ri'
   '% Video Seconds Rewatched': '%Video soniyalar qayta koʻrildi'
   '% Video Seconds Watched': '%Video soniyalar koʻrilgan'
-  ? |-
-    <dl>
+  ? '<dl>
+
     <dt>Avg % Correct on 1st Attempt </dt>
+
     <dd> The average percentage of correct answers on the first attempt of the learners who attempted the problem. </dd>
-    </dl>
+
+    </dl>'
   : |-
     <dl>
     <dt>Oʻrtacha % 1-urinishda toʻgʻri</dt>
@@ -25,7 +24,6 @@ en:
   Active Learners: Faol o‘quvchilar
   Active Users Per Organization: Har bir tashkilot bo‘yicha faol foydalanuvchilar
   Active Within Last 7 Days: Oxirgi 7 kun ichida faol
-  Active within Last 7 Days: Oxirgi 7 kun ichida faol
   Actor ID: Aktyor identifikatori
   Actor Id: Aktyor identifikatori
   Actors Count: Aktyorlar soni
@@ -207,7 +205,6 @@ en:
   Problem Engagement per Section: Har bir bo‘limga kirish muammosi
   Problem Engagement per Section/Subsection: Har bir bo‘lim/kichik bo‘lim bo‘yicha muammo bilan o‘zaro aloqadorlik
   Problem Engagement per Subsection: Har bir kichik bo‘limga bog‘liq muammolar
-  Problem ID: Muammo identifikatori
   Problem Id: Muammo identifikatori
   Problem Link: Muammoli havola
   Problem Location and Name: Muammoning joylashuvi va nomi
@@ -245,7 +242,7 @@ en:
   Selected Learners % Correct: Tanlangan oʻquvchilar % Toʻgʻri
   Selected Learners % Incorrect: Tanlangan oʻquvchilar % Notoʻgʻri
   Self Paced: O‘z vaqtida
-  Slice ID: "Qism identifikatori "
+  Slice ID: 'Qism identifikatori '
   Slice Name: Qism nomi
   Slowest ClickHouse Queries: Eng sekin ClickHouse so‘rovlari
   Start Position: Boshlanish pozitsiyasi
@@ -266,8 +263,7 @@ en:
   Time Grain: Vaqt donasi
   Time Last Dumped: Oxirgi 'damp' vaqti
   Time Range: Vaqt oralig‘i
-  ? To view the number of views across the duration of a single video, click the name
-    of the video in the Video Link column in table above.
+  ? To view the number of views across the duration of a single video, click the name of the video in the Video Link column in table above.
   : Bitta videoning davomiyligi boʻyicha koʻrishlar sonini koʻrish uchun yuqoridagi jadvaldagi Video havolasi ustunidagi video nomini bosing.
   Total: Jami
   Total Courses: Jami kurslar

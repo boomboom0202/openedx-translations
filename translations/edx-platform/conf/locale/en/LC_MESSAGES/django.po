@@ -1,26 +1,26 @@
 # #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2024 EdX
+# Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2024.
+# EdX Team <info@edx.org>, 2025.
 #
 # #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2024 edX
+# Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2024.
+# EdX Team <info@edx.org>, 2025.
 #
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2024 edX
+# Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2024.
+# EdX Team <info@edx.org>, 2025.
 #
 # #-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
+# Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 #, fuzzy
 msgid ""
@@ -66,7 +66,7 @@ msgstr ""
 "#-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-14 00:35+0000\n"
+"POT-Creation-Date: 2025-02-19 00:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,29 +79,29 @@ msgstr ""
 msgid "Course team user does not exist"
 msgstr ""
 
-#: cms/djangoapps/contentstore/admin.py:45
+#: cms/djangoapps/contentstore/admin.py:47
 #, python-brace-format
 msgid ""
 "Number of course outline regenerations successfully requested: {regenerates}"
 msgstr ""
 
-#: cms/djangoapps/contentstore/admin.py:49
+#: cms/djangoapps/contentstore/admin.py:51
 msgid "Regenerate selected course outlines"
 msgstr ""
 
-#: cms/djangoapps/contentstore/admin.py:57
+#: cms/djangoapps/contentstore/admin.py:59
 msgid "All course outline regenerations successfully requested."
 msgstr ""
 
-#: cms/djangoapps/contentstore/admin.py:58
+#: cms/djangoapps/contentstore/admin.py:60
 msgid "Regenerate *all* course outlines"
 msgstr ""
 
-#: cms/djangoapps/contentstore/asset_storage_handlers.py:547
+#: cms/djangoapps/contentstore/asset_storage_handlers.py:548
 msgid "Upload completed"
 msgstr ""
 
-#: cms/djangoapps/contentstore/asset_storage_handlers.py:591
+#: cms/djangoapps/contentstore/asset_storage_handlers.py:592
 #, python-brace-format
 msgid "File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
 msgstr ""
@@ -147,11 +147,11 @@ msgstr ""
 msgid "Could not index item: {}"
 msgstr ""
 
-#: cms/djangoapps/contentstore/courseware_index.py:268
+#: cms/djangoapps/contentstore/courseware_index.py:269
 msgid "General indexing error occurred"
 msgstr ""
 
-#: cms/djangoapps/contentstore/courseware_index.py:351
+#: cms/djangoapps/contentstore/courseware_index.py:352
 msgid "(Unnamed)"
 msgstr ""
 
@@ -264,22 +264,22 @@ msgstr ""
 msgid "Missing branch on fresh clone"
 msgstr ""
 
-#: cms/djangoapps/contentstore/helpers.py:171
+#: cms/djangoapps/contentstore/helpers.py:180
 msgid "Vertical"
 msgstr ""
 
-#: cms/djangoapps/contentstore/helpers.py:175
-#: cms/templates/course_outline.html:208 lms/templates/ccx/schedule.html:86
+#: cms/djangoapps/contentstore/helpers.py:184
+#: cms/templates/course_outline.html:212 lms/templates/ccx/schedule.html:86
 #: lms/templates/seq_block.html:136
 msgid "Section"
 msgstr ""
 
-#: cms/djangoapps/contentstore/helpers.py:177
+#: cms/djangoapps/contentstore/helpers.py:186
 #: lms/templates/ccx/schedule.html:90
 msgid "Subsection"
 msgstr ""
 
-#: cms/djangoapps/contentstore/helpers.py:179
+#: cms/djangoapps/contentstore/helpers.py:188
 #: lms/djangoapps/instructor/views/tools.py:241
 #: lms/djangoapps/instructor/views/tools.py:253 xmodule/unit_block.py:41
 #: lms/templates/ccx/schedule.html:94 lms/templates/seq_block.html:89
@@ -287,10 +287,19 @@ msgstr ""
 msgid "Unit"
 msgstr ""
 
-#: cms/djangoapps/contentstore/helpers.py:186
-#: cms/djangoapps/contentstore/views/component.py:215
-#: openedx/core/djangoapps/content_libraries/constants.py:12
+#: cms/djangoapps/contentstore/helpers.py:195
+#: cms/djangoapps/contentstore/views/component.py:268
 msgid "Problem"
+msgstr ""
+
+#: cms/djangoapps/contentstore/helpers.py:197
+#: cms/djangoapps/contentstore/views/component.py:272
+msgid "Library Content"
+msgstr ""
+
+#: cms/djangoapps/contentstore/helpers.py:199
+#: cms/djangoapps/contentstore/views/component.py:273
+msgid "Problem Bank"
 msgstr ""
 
 #: cms/djangoapps/contentstore/management/commands/git_export.py:33
@@ -298,6 +307,87 @@ msgid ""
 "Take the specified course and attempt to export it to a git repository\n"
 ". Course directory must already be a git repository. Usage:  git_export "
 "<course_loc> <git_url>"
+msgstr ""
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:46
+msgid "COURSE_KEY"
+msgstr ""
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:48
+msgid ""
+"Recreate links for xblocks under given course keys. For eg. course-v1:"
+"edX+DemoX.1+2014"
+msgstr ""
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:55
+msgid ""
+"Recreate links for xblocks under all courses. NOTE: this can take long time "
+"depending on number of course and xblocks"
+msgstr ""
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:62
+msgid "Recreate links even for completely processed courses."
+msgstr ""
+
+#: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:67
+msgid "Delete all and create links for given course(s)."
+msgstr ""
+
+#: cms/djangoapps/contentstore/models.py:97
+msgid ""
+"Upstream block usage key, this value cannot be null and useful to track "
+"upstream library blocks that do not exist yet"
+msgstr ""
+
+#: cms/djangoapps/contentstore/models.py:103
+msgid "Upstream context key i.e., learning_package/library key"
+msgstr ""
+
+#: cms/djangoapps/contentstore/models.py:139
+msgid "Publishable Entity Link"
+msgstr ""
+
+#: cms/djangoapps/contentstore/models.py:140
+msgid "Publishable Entity Links"
+msgstr ""
+
+#. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
+#. Translators: This is listed as the duration for a video that has not
+#. yet reached the point in its processing by the servers where its
+#. duration is determined.
+#: cms/djangoapps/contentstore/models.py:210
+#: cms/djangoapps/contentstore/video_storage_handlers.py:533
+#: openedx/core/djangoapps/api_admin/models.py:42 cms/templates/index.html:483
+msgid "Pending"
+msgstr ""
+
+#: cms/djangoapps/contentstore/models.py:211
+msgid "Processing"
+msgstr ""
+
+#. Translators: This is the status for a video that the servers have failed to
+#. process
+#: cms/djangoapps/contentstore/models.py:212
+#: cms/djangoapps/contentstore/video_storage_handlers.py:127
+msgid "Failed"
+msgstr ""
+
+#: cms/djangoapps/contentstore/models.py:213 lms/templates/seq_block.html:76
+#: lms/templates/vert_module.html:28
+msgid "Completed"
+msgstr ""
+
+#: cms/djangoapps/contentstore/models.py:225
+msgid "Linking status for course context key"
+msgstr ""
+
+#: cms/djangoapps/contentstore/models.py:230
+msgid "Status of links in given learning context/course."
+msgstr ""
+
+#: cms/djangoapps/contentstore/models.py:236
+#: cms/djangoapps/contentstore/models.py:237
+msgid "Learning Context Links status"
 msgstr ""
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:47
@@ -379,7 +469,7 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/transcript_storage_handlers.py:205
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:243
-#: xmodule/video_block/video_handlers.py:543
+#: xmodule/video_block/video_handlers.py:548
 msgid ""
 "There is a problem with this transcript file. Try to upload a different file."
 msgstr ""
@@ -396,7 +486,7 @@ msgstr ""
 msgid "A transcript file is required."
 msgstr ""
 
-#: cms/djangoapps/contentstore/utils.py:810
+#: cms/djangoapps/contentstore/utils.py:853
 #: cms/templates/visibility_editor.html:113
 msgid "Deleted Group"
 msgstr ""
@@ -404,32 +494,32 @@ msgstr ""
 #. Translators: This is building up a list of groups. It is marked for
 #. translation because of the
 #. comma, which is used as a separator between each group.
-#: cms/djangoapps/contentstore/utils.py:878
+#: cms/djangoapps/contentstore/utils.py:921
 #, python-brace-format
 msgid "{previous_groups}, {current_group}"
 msgstr ""
 
-#: cms/djangoapps/contentstore/utils.py:1041
-#: cms/djangoapps/contentstore/views/block.py:272
-#: cms/djangoapps/contentstore/views/component.py:214 xmodule/html_block.py:59
+#: cms/djangoapps/contentstore/utils.py:1084
+#: cms/djangoapps/contentstore/views/block.py:274
+#: cms/djangoapps/contentstore/views/component.py:267 xmodule/html_block.py:61
 msgid "Text"
 msgstr ""
 
-#: cms/djangoapps/contentstore/utils.py:1237
+#: cms/djangoapps/contentstore/utils.py:1280
 #, python-brace-format
 msgid "Duplicate of {0}"
 msgstr ""
 
-#: cms/djangoapps/contentstore/utils.py:1239
+#: cms/djangoapps/contentstore/utils.py:1282
 #, python-brace-format
 msgid "Duplicate of '{0}'"
 msgstr ""
 
-#: cms/djangoapps/contentstore/utils.py:1295
+#: cms/djangoapps/contentstore/utils.py:1338
 msgid "Invalid prerequisite course key"
 msgstr ""
 
-#: cms/djangoapps/contentstore/utils.py:1870
+#: cms/djangoapps/contentstore/utils.py:1904
 msgid "Set Date"
 msgstr ""
 
@@ -456,12 +546,6 @@ msgstr ""
 #. Translators: This is the status for a video that is uploaded completely
 #: cms/djangoapps/contentstore/video_storage_handlers.py:125
 msgid "Uploaded"
-msgstr ""
-
-#. Translators: This is the status for a video that the servers have failed to
-#. process
-#: cms/djangoapps/contentstore/video_storage_handlers.py:127
-msgid "Failed"
 msgstr ""
 
 #. Translators: This is the status for a video that is cancelled during upload
@@ -535,7 +619,7 @@ msgid "{profile_name} URL"
 msgstr ""
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:516
-#: lms/djangoapps/instructor/views/api.py:1477
+#: lms/djangoapps/instructor/views/api.py:1501
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:59
 msgid "Name"
 msgstr ""
@@ -555,15 +639,6 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/video_storage_handlers.py:520
 msgid "Status"
-msgstr ""
-
-#. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
-#. Translators: This is listed as the duration for a video that has not
-#. yet reached the point in its processing by the servers where its
-#. duration is determined.
-#: cms/djangoapps/contentstore/video_storage_handlers.py:533
-#: openedx/core/djangoapps/api_admin/models.py:42 cms/templates/index.html:487
-msgid "Pending"
 msgstr ""
 
 #. Translators: This is the suggested filename when downloading the URL
@@ -639,7 +714,7 @@ msgstr ""
 msgid "PermissionDenied: Failed in authenticating {user}"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/component.py:209
+#: cms/djangoapps/contentstore/views/component.py:262
 #, python-brace-format
 msgid "{platform_name} Support Levels:"
 msgstr ""
@@ -647,52 +722,51 @@ msgstr ""
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: 'Discussion' refers to the tab in the courseware that leads to
 #. the discussion forums
-#: cms/djangoapps/contentstore/views/component.py:213
+#: cms/djangoapps/contentstore/views/component.py:266
 #: lms/djangoapps/courseware/tabs.py:241
 #: lms/djangoapps/discussion/plugins.py:27
 #: openedx/core/djangoapps/discussions/plugins.py:23
-#: openedx/features/lti_course_tab/tab.py:274 xmodule/discussion_block.py:196
+#: openedx/features/lti_course_tab/tab.py:274 xmodule/discussion_block.py:198
 #: lms/djangoapps/discussion/templates/discussion/discussion_profile_page.html:48
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:24
 msgid "Discussion"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/component.py:216
-#: openedx/core/djangoapps/content_libraries/constants.py:10
+#: cms/djangoapps/contentstore/views/component.py:269
 #: lms/templates/video.html:57
 msgid "Video"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/component.py:217
+#: cms/djangoapps/contentstore/views/component.py:270
 msgid "Open Response"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/component.py:218
-msgid "Library Content"
+#: cms/djangoapps/contentstore/views/component.py:271
+msgid "Legacy Library"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/component.py:219
+#: cms/djangoapps/contentstore/views/component.py:274
 msgid "Drag and Drop"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/component.py:253
+#: cms/djangoapps/contentstore/views/component.py:315
 msgid "Blank"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/component.py:256
+#: cms/djangoapps/contentstore/views/component.py:318
 msgid "Peer Assessment Only"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/component.py:260 xmodule/capa_block.py:182
+#: cms/djangoapps/contentstore/views/component.py:322 xmodule/capa_block.py:183
 msgid "Blank Problem"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/component.py:384
-#: xmodule/video_block/video_block.py:152
+#: cms/djangoapps/contentstore/views/component.py:447
+#: xmodule/video_block/video_block.py:153
 msgid "Advanced"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/course.py:360
+#: cms/djangoapps/contentstore/views/course.py:355
 msgid "Course has been successfully reindexed."
 msgstr ""
 
@@ -784,18 +858,18 @@ msgstr ""
 msgid "File upload failed. Please try again"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/library.py:257
+#: cms/djangoapps/contentstore/views/library.py:240
 msgid ""
 "User does not have the permission to create library in this organization or "
 "course creation is disabled"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/library.py:264
+#: cms/djangoapps/contentstore/views/library.py:247
 #, python-brace-format
 msgid "Unable to create library - missing required field '{field}'"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/library.py:269
+#: cms/djangoapps/contentstore/views/library.py:252
 #, python-brace-format
 msgid ""
 "Unable to create library '{name}'.\n"
@@ -803,14 +877,14 @@ msgid ""
 "{err}"
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/library.py:275
+#: cms/djangoapps/contentstore/views/library.py:258
 msgid ""
 "There is already a library defined with the same organization and library "
 "code. Please change your library code so that it is unique within your "
 "organization."
 msgstr ""
 
-#: cms/djangoapps/contentstore/views/library.py:284
+#: cms/djangoapps/contentstore/views/library.py:267
 #, python-brace-format
 msgid "'{organization_key}' is not a valid organization identifier."
 msgstr ""
@@ -904,73 +978,73 @@ msgid "You may not remove the last Admin. Add another Admin first."
 msgstr ""
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/create_xblock.py:101
-#: xmodule/library_content_block.py:826
+#: xmodule/library_content_block.py:458
 msgid "Empty"
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:227
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:574
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:229
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:578
 #, python-brace-format
 msgid "Libraries cannot have more than {limit} components"
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:436
-#: openedx/core/djangoapps/xblock/rest_api/views.py:293
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:438
+#: openedx/core/djangoapps/xblock/rest_api/views.py:313
 msgid "Invalid data"
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:438
-#: openedx/core/djangoapps/xblock/rest_api/views.py:295
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:440
+#: openedx/core/djangoapps/xblock/rest_api/views.py:315
 #, python-brace-format
 msgid "Invalid data ({details})"
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:549
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:552
 msgid "There was a problem pasting your component."
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:553
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:556
 msgid "Your clipboard is empty or invalid."
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:677
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:699
 #, python-brace-format
 msgid "You can not move {source_type} into {target_parent_type}."
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:686
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:708
 msgid "Item is already present in target location."
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:688
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:710
 msgid "You can not move an item into itself."
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:690
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:712
 msgid "You can not move an item into it's child."
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:692
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:714
 msgid "You can not move an item directly into content experiment."
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:694
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:716
 #, python-brace-format
 msgid "{source_usage_key} not found in {parent_usage_key}."
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:706
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:728
 #, python-brace-format
 msgid ""
 "You can not move {source_usage_key} at an invalid index ({target_index})."
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:713
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:735
 #, python-brace-format
 msgid "You must provide target_index ({target_index}) as an integer."
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1025
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1047
 #, python-brace-format
 msgid ""
 "Students must score {score}{pct_sign} or higher to access course materials."
@@ -978,11 +1052,11 @@ msgstr ""
 
 #. Translators: This is the percent sign. It will be used to represent
 #. a percent value out of 100, e.g. "58%" means "58/100".
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1030
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1052
 msgid "%"
 msgstr ""
 
-#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1587
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1609
 #, python-brace-format
 msgid "{section_or_subsection} \"{display_name}\""
 msgstr ""
@@ -1029,49 +1103,6 @@ msgstr ""
 msgid "Grant the user the permission to create courses in ALL organizations"
 msgstr ""
 
-#: cms/djangoapps/maintenance/views.py:35
-#: cms/templates/maintenance/_force_publish_course.html:24
-msgid "Force Publish Course"
-msgstr ""
-
-#: cms/djangoapps/maintenance/views.py:38
-msgid ""
-"Sometimes the draft and published branches of a course can get out of sync. "
-"Force publish course command resets the published branch of a course to "
-"point to the draft branch, effectively force publishing the course. This "
-"view dry runs the force publish command"
-msgstr ""
-
-#: cms/djangoapps/maintenance/views.py:45
-msgid "Edit Announcements"
-msgstr ""
-
-#: cms/djangoapps/maintenance/views.py:48
-msgid ""
-"This view shows the announcement editor to create or alter announcements "
-"that are shown on the rightside of the dashboard."
-msgstr ""
-
-#: cms/djangoapps/maintenance/views.py:56
-msgid "Please provide course id."
-msgstr ""
-
-#: cms/djangoapps/maintenance/views.py:57
-msgid "Invalid course key."
-msgstr ""
-
-#: cms/djangoapps/maintenance/views.py:58
-msgid "No matching course found."
-msgstr ""
-
-#: cms/djangoapps/maintenance/views.py:199
-msgid "Force publishing course is not supported with old mongo courses."
-msgstr ""
-
-#: cms/djangoapps/maintenance/views.py:213
-msgid "Course is already in published state."
-msgstr ""
-
 #: cms/djangoapps/models/settings/course_metadata.py:225
 #, python-brace-format
 msgid "Incorrect format for field '{name}'. {detailed_message}"
@@ -1079,6 +1110,36 @@ msgstr ""
 
 #: cms/lib/xblock/tagging/tagging.py:21
 msgid "Dictionary with the available tags"
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:68
+msgid "Content is not linked to a Content Library."
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:152
+msgid "Cannot update content because it does not belong to a course."
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:154
+msgid "Updating content with children is not yet supported."
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:158
+msgid "Reference to linked library item is malformed"
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:165
+#, python-brace-format
+msgid ""
+"Content type mismatch: {downstream_type} cannot be linked to {upstream_type}."
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:179
+msgid "Linked library item was not found in the system"
+msgstr ""
+
+#: cms/lib/xblock/upstream_sync.py:238
+msgid "Linked library item could not be loaded: {}"
 msgstr ""
 
 #: cms/templates/admin/base_site.html:4 lms/templates/admin/base_site.html:3
@@ -1108,7 +1169,6 @@ msgstr ""
 
 #: common/djangoapps/course_modes/admin.py:40
 #: common/djangoapps/course_modes/models.py:60
-#: xmodule/library_content_block.py:139
 msgid "Mode"
 msgstr ""
 
@@ -1143,8 +1203,8 @@ msgstr ""
 
 #: common/djangoapps/course_modes/helpers.py:48
 #: lms/djangoapps/branding/api.py:329 lms/djangoapps/branding/api.py:404
-#: lms/djangoapps/courseware/views/views.py:2238
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:1006
+#: lms/djangoapps/courseware/views/views.py:2264
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:1009
 #: lms/templates/static_templates/honor.html:5
 #: lms/templates/static_templates/honor.html:10
 #: themes/stanford-style/lms/templates/footer.html:20
@@ -1160,14 +1220,14 @@ msgstr ""
 msgid "Professional Ed"
 msgstr ""
 
-#: common/djangoapps/course_modes/models.py:63 xmodule/annotatable_block.py:65
-#: xmodule/capa_block.py:177 xmodule/conditional_block.py:88
-#: xmodule/discussion_block.py:47 xmodule/html_block.py:54
-#: xmodule/html_block.py:390 xmodule/library_content_block.py:122
-#: xmodule/lti_block.py:131 xmodule/split_test_block.py:82
-#: xmodule/unit_block.py:38 xmodule/word_cloud_block.py:57
-#: xmodule/x_module.py:226 cms/templates/container.html:166
-#: cms/templates/library.html:51
+#: common/djangoapps/course_modes/models.py:63 xmodule/annotatable_block.py:69
+#: xmodule/capa_block.py:178 xmodule/conditional_block.py:88
+#: xmodule/discussion_block.py:49 xmodule/html_block.py:56
+#: xmodule/html_block.py:393 xmodule/item_bank_block.py:454
+#: xmodule/library_content_block.py:77 xmodule/lti_block.py:130
+#: xmodule/split_test_block.py:82 xmodule/unit_block.py:38
+#: xmodule/word_cloud_block.py:63 xmodule/x_module.py:226
+#: cms/templates/container.html:167 cms/templates/library.html:51
 msgid "Display Name"
 msgstr ""
 
@@ -1258,24 +1318,19 @@ msgstr ""
 msgid "The time period before a course ends in which a course mode will expire"
 msgstr ""
 
-#: common/djangoapps/course_modes/views.py:209
-#, python-brace-format
-msgid "Congratulations!  You are now enrolled in {course_name}"
-msgstr ""
-
-#: common/djangoapps/course_modes/views.py:308
+#: common/djangoapps/course_modes/views.py:268
 msgid "Enrollment is closed"
 msgstr ""
 
-#: common/djangoapps/course_modes/views.py:323
+#: common/djangoapps/course_modes/views.py:283
 msgid "Enrollment mode not supported"
 msgstr ""
 
-#: common/djangoapps/course_modes/views.py:354
+#: common/djangoapps/course_modes/views.py:314
 msgid "Invalid amount selected."
 msgstr ""
 
-#: common/djangoapps/course_modes/views.py:363
+#: common/djangoapps/course_modes/views.py:323
 msgid "No selected price or selected price is too low."
 msgstr ""
 
@@ -1295,7 +1350,7 @@ msgstr ""
 #. meant to hold the user's password.
 #: common/djangoapps/student/admin.py:339
 #: openedx/core/djangoapps/user_authn/views/login_form.py:117
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:605
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:608
 #: lms/templates/provider_login.html:48 lms/templates/provider_login.html:49
 #: lms/templates/signup_modal.html:44
 #: themes/stanford-style/lms/templates/register-form.html:101
@@ -1353,25 +1408,25 @@ msgstr ""
 msgid "Disabled Account"
 msgstr ""
 
-#: common/djangoapps/student/models/course_enrollment.py:1653
+#: common/djangoapps/student/models/course_enrollment.py:1655
 msgid "Namespace of enrollment attribute"
 msgstr ""
 
-#: common/djangoapps/student/models/course_enrollment.py:1657
+#: common/djangoapps/student/models/course_enrollment.py:1659
 msgid "Name of the enrollment attribute"
 msgstr ""
 
-#: common/djangoapps/student/models/course_enrollment.py:1661
+#: common/djangoapps/student/models/course_enrollment.py:1663
 msgid "Value of the enrollment attribute"
 msgstr ""
 
-#: common/djangoapps/student/models/course_enrollment.py:1735
+#: common/djangoapps/student/models/course_enrollment.py:1737
 msgid ""
 "The window of time after enrolling during which users can be granted a "
 "refund, represented in microseconds. The default is 14 days."
 msgstr ""
 
-#: common/djangoapps/student/models/course_enrollment.py:1757
+#: common/djangoapps/student/models/course_enrollment.py:1759
 msgid ""
 "It expect that the data will be provided in a csv file format "
 "with                     first row being the header and columns will be as "
@@ -1379,7 +1434,7 @@ msgid ""
 "is_verified, verification_date"
 msgstr ""
 
-#: common/djangoapps/student/models/course_enrollment.py:1769
+#: common/djangoapps/student/models/course_enrollment.py:1773
 msgid ""
 "It expect that the data will be provided in a csv file format "
 "with                     first row being the header and columns will be as "
@@ -1502,14 +1557,14 @@ msgid ""
 "that employee can login via third party authentication backend only."
 msgstr ""
 
-#: common/djangoapps/student/models/user.py:1691
+#: common/djangoapps/student/models/user.py:1693
 msgid ""
 "It expect that the data will be provided in a csv file format "
 "with                     first row being the header and columns will be as "
 "follows:                     username, current_email, desired_email"
 msgstr ""
 
-#: common/djangoapps/student/models/user.py:1829
+#: common/djangoapps/student/models/user.py:1833
 msgid "Add a reason"
 msgstr ""
 
@@ -1580,63 +1635,63 @@ msgstr ""
 msgid "The course you are looking for is closed for enrollment as of {date}."
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:367
+#: common/djangoapps/student/views/management.py:368
 msgid "Course id not specified"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:378
+#: common/djangoapps/student/views/management.py:379
 msgid "Invalid course id"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:393
+#: common/djangoapps/student/views/management.py:394
 msgid "Course id is invalid"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:426
+#: common/djangoapps/student/views/management.py:429
 msgid "Could not enroll"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:446
+#: common/djangoapps/student/views/management.py:449
 msgid "Unenrollment is currently disabled"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:450
+#: common/djangoapps/student/views/management.py:453
 msgid "You are not enrolled in this course"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:454
+#: common/djangoapps/student/views/management.py:457
 msgid "Your certificate prevents you from unenrolling from this course"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:465
+#: common/djangoapps/student/views/management.py:468
 msgid "Enrollment action is invalid"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:508
+#: common/djangoapps/student/views/management.py:511
 msgid "Please enter a username"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:513
+#: common/djangoapps/student/views/management.py:516
 msgid "Please choose an option"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:520
+#: common/djangoapps/student/views/management.py:523
 msgid "User with username {} does not exist"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:528
+#: common/djangoapps/student/views/management.py:531
 msgid "Successfully disabled {}'s account"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:532
+#: common/djangoapps/student/views/management.py:535
 msgid "Successfully reenabled {}'s account"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:535
+#: common/djangoapps/student/views/management.py:538
 msgid "Unexpected account status"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:576
+#: common/djangoapps/student/views/management.py:579
 #, python-brace-format
 msgid ""
 "{html_start}Your {account_or_email} could not be {activated_or_confirmed}"
@@ -1644,21 +1699,21 @@ msgid ""
 "support</a> to resolve this issue."
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:611
+#: common/djangoapps/student/views/management.py:614
 #, python-brace-format
 msgid ""
 "{html_start}This {account_or_email} has already been "
 "{activated_or_confirmed}.{html_end}"
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:623
+#: common/djangoapps/student/views/management.py:626
 #, python-brace-format
 msgid ""
 "{html_start}Success{html_end} You have {activated_or_confirmed} your "
 "{account_or_email}."
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:636
+#: common/djangoapps/student/views/management.py:639
 #, python-brace-format
 msgid ""
 "{html_start}Success! You have {activated_or_confirmed} your "
@@ -1666,21 +1721,21 @@ msgid ""
 "from us related to the courses you are enrolled in. Sign In to continue."
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:727
-#: common/djangoapps/student/views/management.py:742
+#: common/djangoapps/student/views/management.py:730
+#: common/djangoapps/student/views/management.py:745
 msgid "Valid e-mail address required."
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:730
-#: common/djangoapps/student/views/management.py:747
+#: common/djangoapps/student/views/management.py:733
+#: common/djangoapps/student/views/management.py:750
 msgid "Old email is the same as the new email."
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:751
+#: common/djangoapps/student/views/management.py:754
 msgid "Cannot be same as your sign in email address."
 msgstr ""
 
-#: common/djangoapps/student/views/management.py:821
+#: common/djangoapps/student/views/management.py:824
 msgid "Unable to send email activation link. Please try again later."
 msgstr ""
 
@@ -2736,7 +2791,7 @@ msgstr ""
 #. meant to confirm the user's email address.
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.html:24
 #: openedx/core/djangoapps/user_authn/api/form_fields.py:360
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:529
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:532
 msgid "Confirm Email"
 msgstr ""
 
@@ -2894,7 +2949,7 @@ msgstr ""
 #. in order to register a new account.
 #: lms/djangoapps/branding/api.py:328 lms/djangoapps/branding/api.py:403
 #: openedx/core/djangoapps/user_authn/api/form_fields.py:331
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:1079
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:1082
 #: cms/templates/widgets/footer.html:25
 #: lms/templates/static_templates/tos.html:5
 #: lms/templates/static_templates/tos.html:10
@@ -3386,13 +3441,13 @@ msgstr ""
 #: lms/djangoapps/commerce/models.py:38
 #: openedx/core/djangoapps/catalog/models.py:31
 #: openedx/core/djangoapps/credentials/models.py:60
-#: openedx/core/djangoapps/credit/models.py:786
+#: openedx/core/djangoapps/credit/models.py:785
 msgid "Cache Time To Live"
 msgstr ""
 
 #: lms/djangoapps/commerce/models.py:41
 #: openedx/core/djangoapps/credentials/models.py:63
-#: openedx/core/djangoapps/credit/models.py:789
+#: openedx/core/djangoapps/credit/models.py:788
 msgid ""
 "Specified in seconds. Enable caching by setting this to a value greater than "
 "0."
@@ -3406,11 +3461,11 @@ msgstr ""
 msgid "Automatically approve valid refund requests, without manual processing"
 msgstr ""
 
-#: lms/djangoapps/commerce/utils.py:473
+#: lms/djangoapps/commerce/utils.py:387
 msgid "[Refund] User-Requested Refund"
 msgstr ""
 
-#: lms/djangoapps/commerce/utils.py:483
+#: lms/djangoapps/commerce/utils.py:397
 #, python-brace-format
 msgid ""
 "A refund request has been initiated for {username} ({email}). To process "
@@ -3444,31 +3499,31 @@ msgid ""
 "                        "
 msgstr ""
 
-#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:54
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:55
 #, python-format, python-brace-format
 msgid ""
 "\n"
-"                            You set a goal of learning "
+"                                You set a goal of learning "
 "{start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. "
 "You’re not quite there, but there's still time to reach that goal!\n"
-"                            "
+"                                "
 msgid_plural ""
 "\n"
-"                            You set a goal of learning "
+"                                You set a goal of learning "
 "{start_bold}%(days_per_week)s times a week in %(course_name)s{end_bold}. "
 "You're not quite there, but there's still time to reach that goal!\n"
-"                        "
+"                            "
 msgstr[0] ""
 msgstr[1] ""
 
-#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:78
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:80
 msgid ""
 "\n"
 "                                Jump back in\n"
 "                            "
 msgstr ""
 
-#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:88
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:90
 msgid ""
 "\n"
 "                            Remember, you can always change your learning "
@@ -3476,14 +3531,14 @@ msgid ""
 "                        "
 msgstr ""
 
-#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:107
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:109
 msgid ""
 "\n"
 "                            Adjust my goal\n"
 "                        "
 msgstr ""
 
-#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:127
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:129
 msgid ""
 "\n"
 "                            Unsubscribe from goal reminder emails for this "
@@ -3499,7 +3554,7 @@ msgstr ""
 msgid "There's still time to reach your goal"
 msgstr ""
 
-#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:4
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:5
 #, python-format
 msgid ""
 "You set a goal of learning %(days_per_week)s times a week in "
@@ -3507,7 +3562,7 @@ msgid ""
 "that goal!"
 msgstr ""
 
-#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:7
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:9
 msgid ""
 "Remember, you can always change your learning goal. The best goal is one "
 "that you can stick to.  "
@@ -3538,8 +3593,8 @@ msgid ""
 "then that course will be Disabled only if the org that it is in is Disabled."
 msgstr ""
 
-#: lms/djangoapps/course_home_api/models.py:20
-#: openedx/features/discounts/models.py:23
+#: lms/djangoapps/course_home_api/models.py:22
+#: openedx/features/discounts/models.py:25
 msgid "Disabled"
 msgstr ""
 
@@ -3852,21 +3907,21 @@ msgstr ""
 msgid "Disable the dynamic upgrade deadline for this organization."
 msgstr ""
 
-#: lms/djangoapps/courseware/models.py:551
+#: lms/djangoapps/courseware/models.py:553
 msgid "Internal API Base URL"
 msgstr ""
 
-#: lms/djangoapps/courseware/models.py:552
+#: lms/djangoapps/courseware/models.py:554
 msgid "Financial Assistance Backend API Base URL."
 msgstr ""
 
-#: lms/djangoapps/courseware/models.py:560
+#: lms/djangoapps/courseware/models.py:562
 msgid ""
 "Username created for Financial Assistance Backend, e.g. "
 "financial_assistance_service_user."
 msgstr ""
 
-#: lms/djangoapps/courseware/models.py:565
+#: lms/djangoapps/courseware/models.py:567
 msgid "Percentage of courses allowed to use edx-financial-assistance"
 msgstr ""
 
@@ -3886,7 +3941,7 @@ msgstr ""
 #: lms/djangoapps/courseware/plugins.py:74
 #: lms/djangoapps/courseware/tabs.py:109 cms/templates/textbooks.html:11
 #: cms/templates/textbooks.html:64 cms/templates/textbooks.html:70
-#: cms/templates/widgets/header.html:138
+#: cms/templates/widgets/header.html:145
 msgid "Textbooks"
 msgstr ""
 
@@ -3931,10 +3986,10 @@ msgid ""
 msgstr ""
 
 #: lms/djangoapps/courseware/tabs.py:36
-#: lms/djangoapps/courseware/views/views.py:2191
-#: openedx/features/course_experience/__init__.py:84 xmodule/tabs.py:490
-#: cms/templates/widgets/header.html:87 cms/templates/widgets/header.html:91
-#: cms/templates/widgets/header.html:157 cms/templates/widgets/header.html:280
+#: lms/djangoapps/courseware/views/views.py:2217
+#: openedx/features/course_experience/__init__.py:94 xmodule/tabs.py:490
+#: cms/templates/widgets/header.html:89 cms/templates/widgets/header.html:93
+#: cms/templates/widgets/header.html:164 cms/templates/widgets/header.html:292
 #: lms/templates/courseware/course_navigation.html:49
 #: lms/templates/courseware/courseware.html:201
 #: lms/templates/courseware/courseware.html:215
@@ -3951,107 +4006,107 @@ msgstr ""
 msgid "Dates"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/index.py:231
+#: lms/djangoapps/courseware/views/index.py:234
 #, python-brace-format
 msgid ""
 "You are not signed in. To see additional course content, {sign_in_link} or "
 "{register_link}, and enroll in this course."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/index.py:234
-#: lms/djangoapps/courseware/views/views.py:548 xmodule/discussion_block.py:185
+#: lms/djangoapps/courseware/views/index.py:237
+#: lms/djangoapps/courseware/views/views.py:561 xmodule/discussion_block.py:187
 msgid "sign in"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/index.py:238
-#: lms/djangoapps/courseware/views/views.py:552
-#: lms/djangoapps/courseware/views/views.py:567 xmodule/discussion_block.py:189
+#: lms/djangoapps/courseware/views/index.py:241
+#: lms/djangoapps/courseware/views/views.py:565
+#: lms/djangoapps/courseware/views/views.py:580 xmodule/discussion_block.py:191
 msgid "register"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:167
+#: lms/djangoapps/courseware/views/views.py:174
 msgid "Your enrollment: Audit track"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:168
+#: lms/djangoapps/courseware/views/views.py:175
 msgid ""
 "You are enrolled in the audit track for this course. The audit track does "
 "not include a certificate."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:176
+#: lms/djangoapps/courseware/views/views.py:183
 msgid "Your enrollment: Honor track"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:177
+#: lms/djangoapps/courseware/views/views.py:184
 msgid ""
 "You are enrolled in the honor track for this course. The honor track does "
 "not include a certificate."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:190
+#: lms/djangoapps/courseware/views/views.py:197
 msgid "We're working on it..."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:192
+#: lms/djangoapps/courseware/views/views.py:199
 msgid ""
 "We're creating your certificate. You can keep working in your courses and a "
 "link to it will appear here and on your Dashboard when it is ready."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:202
+#: lms/djangoapps/courseware/views/views.py:209
 msgid "Your certificate has been invalidated"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:203
+#: lms/djangoapps/courseware/views/views.py:210
 msgid "Please contact your course team if you have any questions."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:211
+#: lms/djangoapps/courseware/views/views.py:218
 msgid "Congratulations, you qualified for a certificate!"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:212
-#: lms/djangoapps/courseware/views/views.py:234
+#: lms/djangoapps/courseware/views/views.py:219
+#: lms/djangoapps/courseware/views/views.py:241
 msgid "You've earned a certificate for this course."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:222
+#: lms/djangoapps/courseware/views/views.py:229
 msgid "Your certificate will be available soon!"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:223
+#: lms/djangoapps/courseware/views/views.py:230
 msgid ""
 "After this course officially ends, you will receive an email notification "
 "with your certificate."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:233
+#: lms/djangoapps/courseware/views/views.py:240
 msgid "Your certificate is available"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:247
+#: lms/djangoapps/courseware/views/views.py:254
 msgid "Certificate unavailable"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:249
+#: lms/djangoapps/courseware/views/views.py:256
 #, python-brace-format
 msgid ""
 "You have not received a certificate because you do not have a current "
 "{platform_name} verified identity."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:546
+#: lms/djangoapps/courseware/views/views.py:559
 #, python-brace-format
 msgid "To see course content, {sign_in_link} or {register_link}."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:561
+#: lms/djangoapps/courseware/views/views.py:574
 #, python-brace-format
 msgid "{sign_in_link} or {register_link}."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:563
+#: lms/djangoapps/courseware/views/views.py:576
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html:25
 #: lms/templates/header/navbar-not-authenticated.html:63
 #: lms/templates/header/navbar-not-authenticated.html:67
@@ -4060,53 +4115,53 @@ msgstr ""
 msgid "Sign in"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:577
+#: lms/djangoapps/courseware/views/views.py:590
 #, python-brace-format
 msgid ""
 "You must be enrolled in the course to see course content. {enroll_link_start}"
 "Enroll now{enroll_link_end}."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:590
+#: lms/djangoapps/courseware/views/views.py:603
 msgid "You must be enrolled in the course to see course content."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:1206
-#: lms/djangoapps/instructor/views/api.py:165
+#: lms/djangoapps/courseware/views/views.py:1219
+#: lms/djangoapps/instructor/views/api.py:172
 msgid "User does not exist."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:1213
+#: lms/djangoapps/courseware/views/views.py:1226
 msgid "Invalid location."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:1227
+#: lms/djangoapps/courseware/views/views.py:1240
 #, python-brace-format
 msgid "User {username} has never accessed problem {location}"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:1424
+#: lms/djangoapps/courseware/views/views.py:1437
 #, python-brace-format
 msgid "You must be signed in to {platform_name} to create a certificate."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:1434
+#: lms/djangoapps/courseware/views/views.py:1447
 msgid "Course is not valid"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:1450
+#: lms/djangoapps/courseware/views/views.py:1463
 msgid "Your certificate will be available when you pass the course."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:1463
+#: lms/djangoapps/courseware/views/views.py:1476
 msgid "Certificate has already been created."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:1465
+#: lms/djangoapps/courseware/views/views.py:1478
 msgid "Certificate is being created."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:2004
+#: lms/djangoapps/courseware/views/views.py:2030
 msgid ""
 "We plan to use this information to evaluate your application for financial "
 "assistance and to further develop our financial assistance program. \n"
@@ -4123,29 +4178,29 @@ msgid ""
 "processed."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:2198
+#: lms/djangoapps/courseware/views/views.py:2224
 msgid ""
 "Select the course for which you want to earn a verified certificate. If the "
 "course does not appear in the list, make sure that you have enrolled in the "
 "audit track for the course."
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:2205
+#: lms/djangoapps/courseware/views/views.py:2231
 msgid "I certify that: "
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:2212
+#: lms/djangoapps/courseware/views/views.py:2238
 msgid ""
 "Paying the verified certificate fee for the above course would cause me "
 "economic hardship"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:2224
+#: lms/djangoapps/courseware/views/views.py:2250
 msgid ""
 "I will work diligently to complete the course work and receive a certificate"
 msgstr ""
 
-#: lms/djangoapps/courseware/views/views.py:2236
+#: lms/djangoapps/courseware/views/views.py:2262
 #, python-brace-format
 msgid ""
 "I have read, understand, and will abide by the {honor_code_link} for the edX "
@@ -4153,44 +4208,44 @@ msgid ""
 msgstr ""
 
 #: lms/djangoapps/discussion/django_comment_client/base/views.py:545
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:611
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:610
 msgid "Title can't be empty"
 msgstr ""
 
 #: lms/djangoapps/discussion/django_comment_client/base/views.py:547
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:613
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:655
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:738
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:612
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:654
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:737
 msgid "Body can't be empty"
 msgstr ""
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:630
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:629
 msgid "Topic doesn't exist"
 msgstr ""
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:704
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:803
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:703
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:802
 msgid "Comment level too deep"
 msgstr ""
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:1092
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:1091
 msgid "Error uploading file. Please contact the site administrator. Thank you."
 msgstr ""
 
-#: lms/djangoapps/discussion/django_comment_client/base/views.py:1095
+#: lms/djangoapps/discussion/django_comment_client/base/views.py:1094
 msgid "Good"
 msgstr ""
 
 #. Translators: Replier commented on "your" response to your post
-#: lms/djangoapps/discussion/rest_api/discussions_notifications.py:143
+#: lms/djangoapps/discussion/rest_api/discussions_notifications.py:145
 msgid "your"
 msgstr ""
 
 #. Translators: Replier commented on "their" response to your post
 #. Translators: Replier commented on "their" response in a post you're
 #. following
-#: lms/djangoapps/discussion/rest_api/discussions_notifications.py:147
-#: lms/djangoapps/discussion/rest_api/discussions_notifications.py:230
+#: lms/djangoapps/discussion/rest_api/discussions_notifications.py:149
+#: lms/djangoapps/discussion/rest_api/discussions_notifications.py:236
 msgid "their"
 msgstr ""
 
@@ -4255,7 +4310,7 @@ msgid ""
 "%(comment_body|truncatechars:200)s"
 msgstr ""
 
-#: lms/djangoapps/discussion/views.py:79
+#: lms/djangoapps/discussion/views.py:80
 msgid "Access to this discussion is restricted to team members and staff."
 msgstr ""
 
@@ -4286,7 +4341,7 @@ msgid ""
 "Allow learners to highlight passages and make notes right in the course."
 msgstr ""
 
-#: lms/djangoapps/grades/rest_api/v1/gradebook_views.py:1147
+#: lms/djangoapps/grades/rest_api/v1/gradebook_views.py:1142
 msgid ""
 "Cannot override subsection grade: subsection is not available for target "
 "learner."
@@ -4310,31 +4365,31 @@ msgstr ""
 msgid "Your Platform Insights"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:149
+#: lms/djangoapps/instructor/views/api.py:156
 #, python-brace-format
 msgid ""
 "The {report_type} report is being created. To view the status of the report, "
 "see Pending Tasks below."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:167
+#: lms/djangoapps/instructor/views/api.py:174
 msgid ""
 "Found a conflict with given identifier. Please try an alternative identifier"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:358
-#: lms/djangoapps/instructor/views/api.py:3586
+#: lms/djangoapps/instructor/views/api.py:365
+#: lms/djangoapps/instructor/views/api.py:3665
 msgid ""
 "Make sure that the file you upload is in CSV format with no extraneous "
 "characters or rows."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:364
-#: lms/djangoapps/instructor/views/api.py:3589
+#: lms/djangoapps/instructor/views/api.py:371
+#: lms/djangoapps/instructor/views/api.py:3668
 msgid "Could not read uploaded file."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:389
+#: lms/djangoapps/instructor/views/api.py:396
 #, python-brace-format
 msgid ""
 "Data in row #{row_num} must have between four and six columns: email, "
@@ -4342,64 +4397,64 @@ msgid ""
 "are optional."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:394
+#: lms/djangoapps/instructor/views/api.py:401
 #, python-brace-format
 msgid ""
 "Data in row #{row_num} must have exactly four columns: email, username, full "
 "name, and country."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:423
+#: lms/djangoapps/instructor/views/api.py:430
 msgid ""
 "Course is not cohorted but cohort provided. Ignoring cohort assignment for "
 "all users."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:438
+#: lms/djangoapps/instructor/views/api.py:445
 #, python-brace-format
 msgid ""
 "Cohort name not found: {cohort}. Ignoring cohort assignment for all users."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:455
+#: lms/djangoapps/instructor/views/api.py:462
 #, python-brace-format
 msgid ""
 "Invalid course mode: {mode}. Falling back to the default mode, or keeping "
 "the current mode in case the user is already enrolled."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:461
+#: lms/djangoapps/instructor/views/api.py:468
 #, python-brace-format
 msgid ""
 "Invalid course mode: {mode}.  Failling back to {default_mode}, or resetting "
 "to {default_mode} in case the user is already enrolled."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:479
-#: lms/djangoapps/instructor/views/api.py:541
-#: lms/djangoapps/instructor/views/api.py:576
+#: lms/djangoapps/instructor/views/api.py:486
+#: lms/djangoapps/instructor/views/api.py:548
+#: lms/djangoapps/instructor/views/api.py:583
 #, python-brace-format
 msgid "Invalid email {email_address}."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:491
+#: lms/djangoapps/instructor/views/api.py:498
 #, python-brace-format
 msgid ""
 "An account with email {email} exists but the provided username {username} is "
 "different. Enrolling anyway with {email}."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:581
-#: lms/djangoapps/instructor/views/api.py:3631
+#: lms/djangoapps/instructor/views/api.py:588
+#: lms/djangoapps/instructor/views/api.py:3710
 msgid "File is not attached."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:715
+#: lms/djangoapps/instructor/views/api.py:722
 #, python-brace-format
 msgid "Username {user} already exists."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:742
+#: lms/djangoapps/instructor/views/api.py:749
 #, python-brace-format
 msgid ""
 "Error '{error}' while sending email to new user (user email={email}). "
@@ -4407,86 +4462,86 @@ msgid ""
 "for further information."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1144
+#: lms/djangoapps/instructor/views/api.py:1153
 msgid ""
 "A usage key location for a section or a problem. If the location is a block "
 "that contains other blocks, (such as the course, section, subsection, or "
 "unit blocks) then all blocks under that block will be included in the report."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1153
+#: lms/djangoapps/instructor/views/api.py:1162
 msgid "A list of usage keys for the blocks to include in the report. "
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1161
+#: lms/djangoapps/instructor/views/api.py:1170
 msgid ""
 "A list of problem/block types to generate the report for. This field can be "
 "omitted if the report should include details of allblock types. "
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1172
+#: lms/djangoapps/instructor/views/api.py:1181
 msgid "User-friendly text describing current status of report generation."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1175
+#: lms/djangoapps/instructor/views/api.py:1184
 msgid ""
 "A unique id for the report generation task. It can be used to query the "
 "latest report generation status."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1201
+#: lms/djangoapps/instructor/views/api.py:1210
 msgid ""
 "The provided parameters were invalid. Make sure you've provided at least one "
 "valid usage key for `problem_locations`."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1204
-#: lms/djangoapps/instructor/views/api.py:2346
-#: lms/djangoapps/instructor/views/api.py:2556
+#: lms/djangoapps/instructor/views/api.py:1213
+#: lms/djangoapps/instructor/views/api.py:2375
+#: lms/djangoapps/instructor/views/api.py:2585
 msgid "The requesting user is not authenticated."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1205
-#: lms/djangoapps/instructor/views/api.py:2347
-#: lms/djangoapps/instructor/views/api.py:2557
+#: lms/djangoapps/instructor/views/api.py:1214
+#: lms/djangoapps/instructor/views/api.py:2376
+#: lms/djangoapps/instructor/views/api.py:2586
 msgid "The requesting user lacks access to the course."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1340
+#: lms/djangoapps/instructor/views/api.py:1349
 #: lms/djangoapps/instructor_task/api_helper.py:109
 msgid "problem responses"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1346
+#: lms/djangoapps/instructor/views/api.py:1355
 msgid "Could not find problem with this location."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1397
+#: lms/djangoapps/instructor/views/api.py:1421
 msgid "CourseID"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1398
+#: lms/djangoapps/instructor/views/api.py:1422
 msgid "Certificate Type"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1399
+#: lms/djangoapps/instructor/views/api.py:1423
 msgid "Total Certificates Issued"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1400
+#: lms/djangoapps/instructor/views/api.py:1424
 msgid "Date Report Run"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1450
+#: lms/djangoapps/instructor/views/api.py:1474
 #: lms/djangoapps/instructor_task/api_helper.py:110
 msgid "enrolled learner profile"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1475
+#: lms/djangoapps/instructor/views/api.py:1499
 msgid "User ID"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1476
+#: lms/djangoapps/instructor/views/api.py:1500
 #: lms/djangoapps/instructor/views/tools.py:221
 #: lms/djangoapps/instructor/views/tools.py:226
 #: openedx/core/djangoapps/schedules/admin.py:148
@@ -4503,22 +4558,22 @@ msgstr ""
 #. form meant to hold the user's email address.
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's email address.
-#: lms/djangoapps/instructor/views/api.py:1478
+#: lms/djangoapps/instructor/views/api.py:1502
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:714
 #: openedx/core/djangoapps/user_authn/views/login_form.py:96
 #: openedx/core/djangoapps/user_authn/views/password_reset.py:90
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:502
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:505
 #: lms/templates/ccx/enrollment.html:84
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:53
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:66
 msgid "Email"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1479
+#: lms/djangoapps/instructor/views/api.py:1503
 msgid "Language"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1480
+#: lms/djangoapps/instructor/views/api.py:1504
 msgid "Location"
 msgstr ""
 
@@ -4527,48 +4582,48 @@ msgstr ""
 #. the user's gender.
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the user's gender.
-#: lms/djangoapps/instructor/views/api.py:1483
+#: lms/djangoapps/instructor/views/api.py:1507
 #: openedx/core/djangoapps/user_authn/api/form_fields.py:117
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:655
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:658
 #: lms/templates/signup_modal.html:94
 #: themes/stanford-style/lms/templates/register-form.html:193
 msgid "Gender"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1484
+#: lms/djangoapps/instructor/views/api.py:1508
 msgid "Level of Education"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1485
+#: lms/djangoapps/instructor/views/api.py:1509
 #: themes/stanford-style/lms/templates/register-form.html:223
 msgid "Mailing Address"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1486
+#: lms/djangoapps/instructor/views/api.py:1510
 msgid "Goals"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1487
+#: lms/djangoapps/instructor/views/api.py:1511
 msgid "Enrollment Mode"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1488
+#: lms/djangoapps/instructor/views/api.py:1512
 msgid "Last Login"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1489
+#: lms/djangoapps/instructor/views/api.py:1513
 msgid "Date Joined"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1490
+#: lms/djangoapps/instructor/views/api.py:1514
 msgid "External User Key"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1496
+#: lms/djangoapps/instructor/views/api.py:1520
 msgid "Cohort"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1500
+#: lms/djangoapps/instructor/views/api.py:1524
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:770
 msgid "Team"
 msgstr ""
@@ -4578,318 +4633,312 @@ msgstr ""
 #. which allows the user to input the city in which they live.
 #. Translators: This label appears above a field on the registration form
 #. which allows the user to input the city in which they live.
-#: lms/djangoapps/instructor/views/api.py:1504
-#: openedx/core/djangoapps/user_api/accounts/settings_views.py:261
+#: lms/djangoapps/instructor/views/api.py:1528
 #: openedx/core/djangoapps/user_authn/api/form_fields.py:290
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:840
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:843
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:88
 #: themes/stanford-style/lms/templates/register-form.html:160
 msgid "City"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1506
+#: lms/djangoapps/instructor/views/api.py:1530
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:103
 #: themes/stanford-style/lms/templates/register-form.html:167
 msgid "Country"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1555
+#: lms/djangoapps/instructor/views/api.py:1579
 #: lms/djangoapps/instructor_task/api_helper.py:111
 msgid "enrollment"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1581
+#: lms/djangoapps/instructor/views/api.py:1605
 msgid "The file must contain a 'cohort' column containing cohort names."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1583
+#: lms/djangoapps/instructor/views/api.py:1607
 msgid "The file must contain a 'username' column, an 'email' column, or both."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1673
+#: lms/djangoapps/instructor/views/api.py:1702
 #: lms/djangoapps/instructor_task/api_helper.py:113
 msgid "survey"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1691
+#: lms/djangoapps/instructor/views/api.py:1720
 #: lms/djangoapps/instructor_task/api_helper.py:114
 msgid "proctored exam results"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1719
+#: lms/djangoapps/instructor/views/api.py:1748
 msgid "Anonymized User IDs"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1756
+#: lms/djangoapps/instructor/views/api.py:1785
 #, python-brace-format
 msgid "Enrollment status for {student}: active"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1758
+#: lms/djangoapps/instructor/views/api.py:1787
 #, python-brace-format
 msgid "Enrollment status for {student}: inactive"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1763
+#: lms/djangoapps/instructor/views/api.py:1792
 #, python-brace-format
 msgid "Enrollment status for {student}: pending"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1765
+#: lms/djangoapps/instructor/views/api.py:1794
 #, python-brace-format
 msgid "Enrollment status for {student}: never enrolled"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1911
+#: lms/djangoapps/instructor/views/api.py:1940
 msgid "Module does not exist."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1914
+#: lms/djangoapps/instructor/views/api.py:1943
 msgid "An error occurred while deleting the score."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1924
+#: lms/djangoapps/instructor/views/api.py:1953
 msgid "An error occurred while attempting to reset for all students."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1961
-#: lms/djangoapps/instructor/views/api.py:2181
+#: lms/djangoapps/instructor/views/api.py:1990
+#: lms/djangoapps/instructor/views/api.py:2210
 msgid "Course has no entrance exam section."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1976
+#: lms/djangoapps/instructor/views/api.py:2005
 msgid "all_students and unique_student_identifier are mutually exclusive."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1980
+#: lms/djangoapps/instructor/views/api.py:2009
 msgid "all_students and delete_module are mutually exclusive."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:1986
+#: lms/djangoapps/instructor/views/api.py:2015
 msgid "Requires instructor access."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2003
-#: lms/djangoapps/instructor/views/api.py:2192
-#: lms/djangoapps/instructor/views/api.py:2495
+#: lms/djangoapps/instructor/views/api.py:2032
+#: lms/djangoapps/instructor/views/api.py:2221
+#: lms/djangoapps/instructor/views/api.py:2524
 msgid "Course has no valid entrance exam section."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2005
-#: lms/djangoapps/instructor/views/api.py:2198
+#: lms/djangoapps/instructor/views/api.py:2034
+#: lms/djangoapps/instructor/views/api.py:2227
 msgid "All Students"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2186
+#: lms/djangoapps/instructor/views/api.py:2215
 msgid "Cannot rescore with all_students and unique_student_identifier."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2264
+#: lms/djangoapps/instructor/views/api.py:2293
 msgid "Current status of task."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2265
+#: lms/djangoapps/instructor/views/api.py:2294
 msgid "Identifies the kind of task being performed, e.g. rescoring."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2266
+#: lms/djangoapps/instructor/views/api.py:2295
 msgid "The celery ID for the task."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2267
+#: lms/djangoapps/instructor/views/api.py:2296
 msgid "The date and time when the task was created."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2270
+#: lms/djangoapps/instructor/views/api.py:2299
 msgid ""
 "The input parameters for the task. The format and content of this data will "
 "depend on the kind of task being performed. For instanceit may contain the "
 "problem locations for a problem resources task."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2274
+#: lms/djangoapps/instructor/views/api.py:2303
 msgid "The username of the user who initiated this task."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2275
+#: lms/djangoapps/instructor/views/api.py:2304
 msgid "The last knows state of the celery task."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2276
+#: lms/djangoapps/instructor/views/api.py:2305
 msgid "Task duration information, if known"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2277
+#: lms/djangoapps/instructor/views/api.py:2306
 msgid "User-friendly task status information, if available."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2286
+#: lms/djangoapps/instructor/views/api.py:2315
 msgid "List of instructor tasks."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2348
-#: lms/djangoapps/instructor/views/api.py:2558
+#: lms/djangoapps/instructor/views/api.py:2377
+#: lms/djangoapps/instructor/views/api.py:2587
 msgid "The requested course does not exist."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2520
+#: lms/djangoapps/instructor/views/api.py:2549
 msgid "URL from which report can be downloaded."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2521
+#: lms/djangoapps/instructor/views/api.py:2550
 msgid "Name of report."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2522
+#: lms/djangoapps/instructor/views/api.py:2551
 msgid "HTML anchor tag that contains the name and link."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2531
+#: lms/djangoapps/instructor/views/api.py:2560
 msgid "List of report downloads"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2545
+#: lms/djangoapps/instructor/views/api.py:2574
 msgid "ID for the course whose reports need to be listed."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2551
+#: lms/djangoapps/instructor/views/api.py:2580
 msgid ""
 "Filter results to only return details of for the report with the specified "
 "name."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2664
+#: lms/djangoapps/instructor/views/api.py:2693
 #: lms/djangoapps/instructor_task/api_helper.py:115
 msgid "ORA data"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2682
+#: lms/djangoapps/instructor/views/api.py:2711
 msgid "ORA summary"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2706
+#: lms/djangoapps/instructor/views/api.py:2735
 msgid "Attachments archive is being created."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2721
+#: lms/djangoapps/instructor/views/api.py:2750
 #: lms/djangoapps/instructor_task/api_helper.py:116
 msgid "grade"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:2744
+#: lms/djangoapps/instructor/views/api.py:2773
 #: lms/djangoapps/instructor_task/api_helper.py:108
 msgid "problem grade"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3048
+#: lms/djangoapps/instructor/views/api.py:3077
 #, python-brace-format
 msgid "Successfully changed due date for student {0} for {1} to {2}"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3095
+#: lms/djangoapps/instructor/views/api.py:3124
 msgid "Successfully removed invalid due date extension (unit has no due date)."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3100
+#: lms/djangoapps/instructor/views/api.py:3129
 #, python-brace-format
 msgid "Successfully reset due date for student {0} for {1} to {2}"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3252
+#: lms/djangoapps/instructor/views/api.py:3281
 #, python-format
 msgid "This student (%s) will skip the entrance exam."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3254
+#: lms/djangoapps/instructor/views/api.py:3283
 #, python-format
 msgid "This student (%s) is already allowed to skip the entrance exam."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3278
+#: lms/djangoapps/instructor/views/api.py:3307
 msgid ""
 "Certificate generation task for all students of this course has been "
 "started. You can view the status of the generation task in the \"Pending "
 "Tasks\" section."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3303
-msgid ""
-"Please select one or more certificate statuses that require certificate "
-"regeneration."
-msgstr ""
-
-#: lms/djangoapps/instructor/views/api.py:3317
+#: lms/djangoapps/instructor/views/api.py:3340
 msgid "Please select certificate statuses from the list only."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3323
+#: lms/djangoapps/instructor/views/api.py:3347
 msgid ""
 "Certificate regeneration task has been started. You can view the status of "
 "the generation task in the \"Pending Tasks\" section."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3384
+#: lms/djangoapps/instructor/views/api.py:3393
+#: lms/djangoapps/instructor/views/api.py:3543
+msgid ""
+"The record is not in the correct format. Please add a valid username or "
+"email address."
+msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py:3459
 #, python-brace-format
 msgid ""
 "Student {user} is not enrolled in this course. Please check your spelling "
 "and retry."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3391
+#: lms/djangoapps/instructor/views/api.py:3466
 #, python-brace-format
 msgid ""
 "Student {user} is already on the certificate invalidation list and cannot be "
 "added to the certificate exception list."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3397
+#: lms/djangoapps/instructor/views/api.py:3472
 #, python-brace-format
 msgid "Student (username/email={user}) already in certificate exception list."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3433
+#: lms/djangoapps/instructor/views/api.py:3508
 #, python-brace-format
 msgid ""
 "Error occurred removing the allowlist entry for student {student}. Please "
 "refresh the page and try again"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3451
+#: lms/djangoapps/instructor/views/api.py:3526
 msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Add to Exception List\" button."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3468
-msgid ""
-"The record is not in the correct format. Please add a valid username or "
-"email address."
-msgstr ""
-
-#: lms/djangoapps/instructor/views/api.py:3485
+#: lms/djangoapps/instructor/views/api.py:3560
 #, python-brace-format
 msgid "{user} does not exist in the LMS. Please check your spelling and retry."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3522
+#: lms/djangoapps/instructor/views/api.py:3601
 msgid "Invalid data, generate_for must be \"new\" or \"all\"."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3530
+#: lms/djangoapps/instructor/views/api.py:3609
 msgid "Certificate generation started for students on the allowlist."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3578
+#: lms/djangoapps/instructor/views/api.py:3657
 #, python-brace-format
 msgid "user \"{user}\" in row# {row}"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3629
+#: lms/djangoapps/instructor/views/api.py:3708
 #, python-brace-format
 msgid "user \"{username}\" in row# {row}"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3670
+#: lms/djangoapps/instructor/views/api.py:3768
 #, python-brace-format
 msgid ""
 "The student {student} appears on the Certificate Exception list in course "
@@ -4897,33 +4946,33 @@ msgid ""
 "attempting to invalidate their certificate."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3707
+#: lms/djangoapps/instructor/views/api.py:3829
 #, python-brace-format
 msgid ""
 "Certificate of {user} has already been invalidated. Please check your "
 "spelling and retry."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3715
+#: lms/djangoapps/instructor/views/api.py:3837
 #, python-brace-format
 msgid ""
 "Certificate for student {user} is already invalid, kindly verify that "
 "certificate was generated for this student and then proceed."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3752
+#: lms/djangoapps/instructor/views/api.py:3874
 msgid ""
 "Certificate Invalidation does not exist, Please refresh the page and try "
 "again."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3788
+#: lms/djangoapps/instructor/views/api.py:3910
 msgid ""
 "Student username/email field is required and can not be empty. Kindly fill "
 "in username/email and then press \"Invalidate Certificate\" button."
 msgstr ""
 
-#: lms/djangoapps/instructor/views/api.py:3806
+#: lms/djangoapps/instructor/views/api.py:3928
 #, python-brace-format
 msgid ""
 "The student {student} does not have certificate for the course {course}. "
@@ -4949,7 +4998,7 @@ msgstr ""
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:374
 #: lms/djangoapps/support/views/index.py:15 cms/templates/certificates.html:57
 #: cms/templates/certificates.html:67 cms/templates/certificates.html:90
-#: cms/templates/export.html:217 cms/templates/widgets/header.html:212
+#: cms/templates/export.html:217 cms/templates/widgets/header.html:219
 msgid "Certificates"
 msgstr ""
 
@@ -5036,11 +5085,11 @@ msgstr ""
 msgid "Incomplete"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/serializer.py:17
+#: lms/djangoapps/instructor/views/serializer.py:20
 msgid "Role name"
 msgstr ""
 
-#: lms/djangoapps/instructor/views/serializer.py:24
+#: lms/djangoapps/instructor/views/serializer.py:27
 msgid "Invalid role name."
 msgstr ""
 
@@ -5075,7 +5124,7 @@ msgstr ""
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's full name.
 #: lms/djangoapps/instructor/views/tools.py:221
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:552
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:555
 #: lms/templates/signup_modal.html:50
 #: themes/stanford-style/lms/templates/register-form.html:88
 #: themes/stanford-style/lms/templates/register-form.html:142
@@ -5793,7 +5842,7 @@ msgid "Are you sure you want to cancel retirement for user \"%(username)s\"? "
 msgstr ""
 
 #: lms/templates/admin/user_api/accounts/cancel_retirement_action.html:38
-#: xmodule/capa_block.py:1018 cms/templates/index.html:219
+#: xmodule/capa_block.py:1019 cms/templates/index.html:219
 #: cms/templates/videos_index_pagination.html:14
 #: lms/templates/dashboard/_entitlement_reason_survey.html:134
 #: lms/templates/dashboard/_reason_survey.html:20
@@ -6305,7 +6354,7 @@ msgid ""
 msgstr ""
 
 #: lms/templates/main_django.html:50 cms/templates/base.html:102
-#: lms/templates/main.html:203
+#: cms/templates/container_chromeless.html:112 lms/templates/main.html:203
 msgid "Skip to main content"
 msgstr ""
 
@@ -6547,7 +6596,7 @@ msgstr ""
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/delete.html:9
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/index.html:35
 #: wiki/templates/wiki/delete.html:7 cms/templates/component.html:32
-#: cms/templates/studio_xblock_wrapper.html:170
+#: cms/templates/studio_xblock_wrapper.html:202
 msgid "Delete"
 msgstr ""
 
@@ -6581,8 +6630,8 @@ msgstr ""
 
 #: lms/templates/wiki/edit.html:4 wiki/templates/wiki/edit.html:4
 #: wiki/templates/wiki/includes/article_menu.html:34
-#: cms/templates/component.html:13 cms/templates/container.html:200
-#: cms/templates/studio_xblock_wrapper.html:124
+#: cms/templates/component.html:13 cms/templates/container.html:201
+#: cms/templates/studio_xblock_wrapper.html:157
 #: lms/templates/wiki/includes/article_menu.html:22
 msgid "Edit"
 msgstr ""
@@ -6595,7 +6644,7 @@ msgid "Save changes"
 msgstr ""
 
 #: lms/templates/wiki/edit.html:36 wiki/templates/wiki/edit.html:31
-#: cms/templates/container.html:193
+#: cms/templates/container.html:194
 msgid "Preview"
 msgstr ""
 
@@ -7097,7 +7146,7 @@ msgid ""
 "Comma-separated list of usernames which will be able to view this catalog."
 msgstr ""
 
-#: openedx/core/djangoapps/api_admin/models.py:43 cms/templates/index.html:459
+#: openedx/core/djangoapps/api_admin/models.py:43 cms/templates/index.html:455
 msgid "Denied"
 msgstr ""
 
@@ -7300,178 +7349,168 @@ msgid ""
 "libraries to be represented in content search filters."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/api.py:551
+#: openedx/core/djangoapps/content_libraries/api.py:578
 msgid "Cannot change or remove the access level for the only admin."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/api.py:814
-#, python-brace-format
-msgid ""
-"Block type \"{block_type}\" is not compatible with library type "
-"\"{library_type}\"."
-msgstr ""
-
-#: openedx/core/djangoapps/content_libraries/api.py:823
+#: openedx/core/djangoapps/content_libraries/api.py:864
 msgid "Library cannot have more than {} Components"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/constants.py:11
-msgid "Complex"
-msgstr ""
-
-#: openedx/core/djangoapps/content_libraries/constants.py:25
+#: openedx/core/djangoapps/content_libraries/constants.py:15
 msgid "All Rights Reserved."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/constants.py:26
+#: openedx/core/djangoapps/content_libraries/constants.py:16
 msgid "Creative Commons Attribution 4.0"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/constants.py:27
+#: openedx/core/djangoapps/content_libraries/constants.py:17
 msgid "Creative Commons Attribution-NonCommercial 4.0"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/constants.py:28
+#: openedx/core/djangoapps/content_libraries/constants.py:18
 msgid "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/constants.py:29
+#: openedx/core/djangoapps/content_libraries/constants.py:19
 msgid "Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/constants.py:30
+#: openedx/core/djangoapps/content_libraries/constants.py:20
 msgid "Creative Commons Attribution-NoDerivatives 4.0"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/constants.py:31
+#: openedx/core/djangoapps/content_libraries/constants.py:21
 msgid "Creative Commons Attribution-ShareAlike 4.0"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:209
+#: openedx/core/djangoapps/content_libraries/models.py:200
 msgid "Administer users and author content"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:210
+#: openedx/core/djangoapps/content_libraries/models.py:201
 msgid "Author content"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:211
+#: openedx/core/djangoapps/content_libraries/models.py:202
 msgid "Read-only"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:231
+#: openedx/core/djangoapps/content_libraries/models.py:222
 msgid "One and only one of 'user' and 'group' must be set."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:257
+#: openedx/core/djangoapps/content_libraries/models.py:250
 msgid "Task was created, but not queued to run."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:258
+#: openedx/core/djangoapps/content_libraries/models.py:251
 msgid "Task was created and queued to run."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:259
+#: openedx/core/djangoapps/content_libraries/models.py:252
 msgid "Task is running."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:260
+#: openedx/core/djangoapps/content_libraries/models.py:253
 msgid "Task finished, but some blocks failed to import."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:261
+#: openedx/core/djangoapps/content_libraries/models.py:254
 msgid "Task finished successfully."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:268
+#: openedx/core/djangoapps/content_libraries/models.py:261
 msgid "state"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:269
+#: openedx/core/djangoapps/content_libraries/models.py:262
 msgid "The state of the block import task."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:274
+#: openedx/core/djangoapps/content_libraries/models.py:267
 msgid "progress"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:275
+#: openedx/core/djangoapps/content_libraries/models.py:268
 msgid "A float from 0.0 to 1.0 representing the task progress."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:281
+#: openedx/core/djangoapps/content_libraries/models.py:274
 msgid "course ID"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:282
+#: openedx/core/djangoapps/content_libraries/models.py:275
 msgid "ID of the imported course."
 msgstr ""
 
 #. Translators: 'Open edX' is a trademark, please keep this untranslated
-#: openedx/core/djangoapps/content_libraries/models.py:357
+#: openedx/core/djangoapps/content_libraries/models.py:352
 msgid "open edx user"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:362
+#: openedx/core/djangoapps/content_libraries/models.py:357
 msgid "lti platform identifier"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:363
+#: openedx/core/djangoapps/content_libraries/models.py:358
 msgid "The LTI platform identifier to which this profile belongs to."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:369
+#: openedx/core/djangoapps/content_libraries/models.py:364
 msgid "client identifier"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:370
+#: openedx/core/djangoapps/content_libraries/models.py:365
 msgid "The LTI client identifier generated by the LTI platform."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:375
+#: openedx/core/djangoapps/content_libraries/models.py:370
 msgid "subject identifier"
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:376
+#: openedx/core/djangoapps/content_libraries/models.py:371
 msgid ""
 "Identifies the entity that initiated the launch request, commonly a user."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:477
+#: openedx/core/djangoapps/content_libraries/models.py:474
 msgid ""
 "The authorized LTI profile that launched the resource (identifies the user)."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:482
+#: openedx/core/djangoapps/content_libraries/models.py:479
 msgid ""
 "The usage key string of the resource serving the content of this launch."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:488
+#: openedx/core/djangoapps/content_libraries/models.py:485
 msgid ""
 "The LTI platform unique identifier of this resource, also known as the "
 "\"resource link id\"."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:495
+#: openedx/core/djangoapps/content_libraries/models.py:492
 msgid "The LTI platform descriptive title for this resource."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/models.py:501
+#: openedx/core/djangoapps/content_libraries/models.py:498
 msgid "If AGS was enabled during launch, this should hold the lineitem ID."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/views.py:357
+#: openedx/core/djangoapps/content_libraries/views.py:371
 msgid "We could not find a user with that email address."
 msgstr ""
 
-#: openedx/core/djangoapps/content_libraries/views.py:361
+#: openedx/core/djangoapps/content_libraries/views.py:375
 msgid "This user already has access to this library."
 msgstr ""
 
 #: openedx/core/djangoapps/content_staging/data.py:17
-#: cms/templates/certificates.html:82 cms/templates/container.html:231
-#: cms/templates/course_outline.html:289
+#: cms/templates/certificates.html:82 cms/templates/container.html:232
+#: cms/templates/container_chromeless.html:159
+#: cms/templates/course_outline.html:293
 #: cms/templates/group_configurations.html:60
 #: cms/templates/group_configurations.html:76 cms/templates/library.html:84
 #: cms/templates/manage_users.html:76 cms/templates/manage_users_lib.html:77
@@ -7479,7 +7518,6 @@ msgstr ""
 #: lms/templates/edxnotes/edxnotes.html:64
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:198
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:212
-#: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:49
 msgid "Loading"
 msgstr ""
 
@@ -7502,20 +7540,20 @@ msgid ""
 "        "
 msgstr ""
 
-#: openedx/core/djangoapps/content_staging/models.py:68
+#: openedx/core/djangoapps/content_staging/models.py:71
 msgid "Content tags applied to these blocks"
 msgstr ""
 
-#: openedx/core/djangoapps/content_staging/models.py:111
+#: openedx/core/djangoapps/content_staging/models.py:115
 msgid "Original usage key/ID of the thing that is in the clipboard."
 msgstr ""
 
-#: openedx/core/djangoapps/content_tagging/models/base.py:22
+#: openedx/core/djangoapps/content_tagging/models/base.py:24
 #: wiki/models/article.py:32
 msgid "owner"
 msgstr ""
 
-#: openedx/core/djangoapps/content_tagging/models/base.py:31
+#: openedx/core/djangoapps/content_tagging/models/base.py:33
 msgid ""
 "Organization that is related to this taxonomy.If None, then this taxonomy is "
 "related to all organizations."
@@ -7544,25 +7582,25 @@ msgstr ""
 msgid "A cohort with the same name already exists."
 msgstr ""
 
-#: openedx/core/djangoapps/course_live/models.py:19
+#: openedx/core/djangoapps/course_live/models.py:21
 msgid "If disabled, the LTI in the associated course will be disabled."
 msgstr ""
 
-#: openedx/core/djangoapps/course_live/models.py:26
+#: openedx/core/djangoapps/course_live/models.py:28
 msgid "The LTI configuration data for this course/provider."
 msgstr ""
 
-#: openedx/core/djangoapps/course_live/models.py:31
+#: openedx/core/djangoapps/course_live/models.py:33
 #: openedx/core/djangoapps/programs/models.py:57
 msgid "LTI provider"
 msgstr ""
 
-#: openedx/core/djangoapps/course_live/models.py:32
+#: openedx/core/djangoapps/course_live/models.py:34
 #: openedx/core/djangoapps/programs/models.py:58
 msgid "The LTI provider's id"
 msgstr ""
 
-#: openedx/core/djangoapps/course_live/models.py:36
+#: openedx/core/djangoapps/course_live/models.py:38
 msgid "True, if LTI credential are provided by Org globally"
 msgstr ""
 
@@ -7705,7 +7743,7 @@ msgstr ""
 msgid "Credit requirement statuses"
 msgstr ""
 
-#: openedx/core/djangoapps/credit/models.py:561
+#: openedx/core/djangoapps/credit/models.py:560
 msgid "Deadline for purchasing and requesting credit."
 msgstr ""
 
@@ -7754,111 +7792,111 @@ msgstr ""
 msgid "technical support"
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:332
+#: openedx/core/djangoapps/discussions/models.py:334
 #, python-brace-format
 msgid "Comma-separated list of providers to allow, eg: {choices}"
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:340
+#: openedx/core/djangoapps/discussions/models.py:342
 msgid "Allow List"
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:351
+#: openedx/core/djangoapps/discussions/models.py:353
 #, python-brace-format
 msgid "Comma-separated list of providers to deny, eg: {choices}"
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:359
+#: openedx/core/djangoapps/discussions/models.py:361
 msgid "Deny List"
 msgstr ""
 
 #. Translators: A key specifying a course, library, program,
 #. website, or some other collection of content where learning
 #. happens.
-#: openedx/core/djangoapps/discussions/models.py:419
-#: openedx/core/djangoapps/discussions/models.py:564
+#: openedx/core/djangoapps/discussions/models.py:423
+#: openedx/core/djangoapps/discussions/models.py:570
 msgid "Learning Context Key"
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:423
+#: openedx/core/djangoapps/discussions/models.py:427
 msgid ""
 "If disabled, the discussions in the associated learning context/course will "
 "be disabled."
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:430
+#: openedx/core/djangoapps/discussions/models.py:434
 msgid ""
 "The Posting availability in discussions whether it will be enabled, "
 "scheduled or indefinitely disabled."
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:438
+#: openedx/core/djangoapps/discussions/models.py:442
 msgid "The LTI configuration data for this context/provider."
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:443
+#: openedx/core/djangoapps/discussions/models.py:447
 msgid ""
 "If enabled, discussion topics will be created for each non-graded unit in "
 "the course. A UI for discussions will show up with each unit."
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:449
+#: openedx/core/djangoapps/discussions/models.py:453
 msgid "If enabled, discussion topics will be created for graded units as well."
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:453
+#: openedx/core/djangoapps/discussions/models.py:457
 msgid "If enabled, discussions will need to be manually enabled for each unit."
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:458
+#: openedx/core/djangoapps/discussions/models.py:462
 msgid "The plugin configuration data for this context/provider."
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:463
+#: openedx/core/djangoapps/discussions/models.py:467
 msgid "Discussion provider"
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:464
+#: openedx/core/djangoapps/discussions/models.py:468
 msgid "The discussion tool/provider's id"
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:565
+#: openedx/core/djangoapps/discussions/models.py:571
 msgid "Context key for context in which this discussion topic exists."
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:572
+#: openedx/core/djangoapps/discussions/models.py:578
 msgid ""
 "Usage key for in-context discussion topic. Set to null for course-level "
 "topics."
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:576
+#: openedx/core/djangoapps/discussions/models.py:582
 msgid "Title for discussion topic."
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:583
+#: openedx/core/djangoapps/discussions/models.py:589
 msgid "Group for divided discussions."
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:587
+#: openedx/core/djangoapps/discussions/models.py:593
 msgid "Provider id for discussion provider."
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:592
+#: openedx/core/djangoapps/discussions/models.py:598
 msgid ""
 "Discussion context ID in external forum provider. e.g. commentable_id for "
 "cs_comments_service."
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:596
+#: openedx/core/djangoapps/discussions/models.py:602
 msgid "Whether this topic should be shown in-context in the course."
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:600
+#: openedx/core/djangoapps/discussions/models.py:606
 msgid "Ordering of this topic in its learning context"
 msgstr ""
 
-#: openedx/core/djangoapps/discussions/models.py:604
+#: openedx/core/djangoapps/discussions/models.py:610
 msgid "Additional context for this topic, such as its section, and subsection"
 msgstr ""
 
@@ -7988,21 +8026,28 @@ msgid ""
 "></{p}>"
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/base_notification.py:85
+#: openedx/core/djangoapps/notifications/base_notification.py:68
+#, python-brace-format
+msgid ""
+"<{p}><{strong}>{replier_name}</{strong}> and others started new discussions</"
+"{p}>"
+msgstr ""
+
+#: openedx/core/djangoapps/notifications/base_notification.py:87
 #, python-brace-format
 msgid ""
 "<{p}><{strong}>{username}</{strong}> asked <{strong}>{post_title}</{strong}"
 "></{p}>"
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/base_notification.py:99
+#: openedx/core/djangoapps/notifications/base_notification.py:101
 #, python-brace-format
 msgid ""
 "<{p}><{strong}>{replier_name}</{strong}> responded to a post you’re "
 "following: <{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/base_notification.py:114
+#: openedx/core/djangoapps/notifications/base_notification.py:116
 #, python-brace-format
 msgid ""
 "<{p}><{strong}>{replier_name}</{strong}> commented on <{strong}>{author_name}"
@@ -8010,57 +8055,57 @@ msgid ""
 "{strong}></{p}>"
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/base_notification.py:135
+#: openedx/core/djangoapps/notifications/base_notification.py:137
 #, python-brace-format
 msgid ""
 "<p><strong>{username}’s </strong> {content_type} has been reported <strong> "
 "{content}</strong></p>"
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/base_notification.py:152
+#: openedx/core/djangoapps/notifications/base_notification.py:154
 #, python-brace-format
 msgid ""
 "<{p}><{strong}>{replier_name}'s</{strong}> response has been endorsed in "
 "your post <{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/base_notification.py:167
+#: openedx/core/djangoapps/notifications/base_notification.py:169
 #, python-brace-format
 msgid ""
 "<{p}>Your response has been endorsed on the post <{strong}>{post_title}</"
 "{strong}></{p}>"
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/base_notification.py:185
+#: openedx/core/djangoapps/notifications/base_notification.py:187
 #, python-brace-format
 msgid "<{p}><{strong}>{course_update_content}</{strong}></{p}>"
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/base_notification.py:202
+#: openedx/core/djangoapps/notifications/base_notification.py:204
 #, python-brace-format
 msgid ""
 "<{p}>You have a new open response submission awaiting for review for "
 "<{strong}>{ora_name}</{strong}></{p}>"
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/base_notification.py:221
+#: openedx/core/djangoapps/notifications/base_notification.py:223
 #, python-brace-format
 msgid ""
 "<{p}>You have received {points_earned} out of {points_possible} on your "
 "assessment: <{strong}>{ora_name}</{strong}></{p}>"
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/base_notification.py:236
+#: openedx/core/djangoapps/notifications/base_notification.py:238
 msgid ""
 "Notifications for responses and comments on your posts, and the ones you’re "
 "following, including endorsements to your responses and on your posts."
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/base_notification.py:246
+#: openedx/core/djangoapps/notifications/base_notification.py:248
 msgid "Notifications for new announcements and updates from the course team."
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/base_notification.py:255
+#: openedx/core/djangoapps/notifications/base_notification.py:257
 msgid "Notifications for submission grading."
 msgstr ""
 
@@ -8077,8 +8122,8 @@ msgid "Immediately"
 msgstr ""
 
 #: openedx/core/djangoapps/notifications/email_notifications.py:19
-#: xmodule/capa_block.py:223 xmodule/capa_block.py:241
-#: xmodule/capa_block.py:280
+#: xmodule/capa_block.py:224 xmodule/capa_block.py:242
+#: xmodule/capa_block.py:281
 msgid "Never"
 msgstr ""
 
@@ -8095,23 +8140,23 @@ msgstr ""
 msgid "The notification preference config version is not up to date."
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/views.py:371
+#: openedx/core/djangoapps/notifications/views.py:373
 msgid "Invalid app name."
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/views.py:381
+#: openedx/core/djangoapps/notifications/views.py:383
 msgid "Notifications marked as seen."
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/views.py:420
+#: openedx/core/djangoapps/notifications/views.py:422
 msgid "Notification marked read."
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/views.py:432
+#: openedx/core/djangoapps/notifications/views.py:434
 msgid "Notifications marked read."
 msgstr ""
 
-#: openedx/core/djangoapps/notifications/views.py:434
+#: openedx/core/djangoapps/notifications/views.py:436
 msgid "Invalid app_name or notification_id."
 msgstr ""
 
@@ -8236,7 +8281,6 @@ msgid "Experience"
 msgstr ""
 
 #: openedx/core/djangoapps/schedules/admin.py:159
-#: cms/templates/maintenance/_force_publish_course.html:15
 #: lms/templates/instructor/instructor_dashboard_2/add_coupon_modal.html:51
 #: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html:47
 #: lms/templates/support/feature_based_enrollments.html:31
@@ -8677,121 +8721,6 @@ msgstr ""
 msgid "Enter a valid name"
 msgstr ""
 
-#. Translators: This label appears above a field which allows the
-#. user to input the First Name
-#. Translators: This label appears above a field on the registration form
-#. which allows the user to input the First Name
-#: openedx/core/djangoapps/user_api/accounts/settings_views.py:259
-#: openedx/core/djangoapps/user_authn/api/form_fields.py:226
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:929
-msgid "First Name"
-msgstr ""
-
-#. Translators: This label appears above a field which allows the
-#. user to input the Last Name
-#. Translators: This label appears above a field on the registration form
-#. which allows the user to input the First Name
-#: openedx/core/djangoapps/user_api/accounts/settings_views.py:260
-#: openedx/core/djangoapps/user_authn/api/form_fields.py:242
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:946
-msgid "Last Name"
-msgstr ""
-
-#. Translators: This label appears above a field
-#. which allows the user to input the State/Province/Region in which they
-#. live.
-#. Translators: This label appears above a field on the registration form
-#. which allows the user to input the State/Province/Region in which they
-#. live.
-#: openedx/core/djangoapps/user_api/accounts/settings_views.py:262
-#: openedx/core/djangoapps/user_authn/api/form_fields.py:274
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:861
-msgid "State/Province/Region"
-msgstr ""
-
-#. Translators: This label appears above a field which allows the
-#. user to input the Company
-#. Translators: This label appears above a field on the registration form
-#. which allows the user to input the Company
-#: openedx/core/djangoapps/user_api/accounts/settings_views.py:263
-#: openedx/core/djangoapps/user_authn/api/form_fields.py:196
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:878
-msgid "Company"
-msgstr ""
-
-#. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
-#. Translators: This label appears above a field which allows the
-#. user to input the Title
-#. Translators: This label appears above a field on the registration form
-#. which allows the user to input the Title
-#: openedx/core/djangoapps/user_api/accounts/settings_views.py:264
-#: openedx/core/djangoapps/user_authn/api/form_fields.py:206
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:895
-#: wiki/forms.py:37 wiki/forms.py:45 wiki/forms.py:206
-#: wiki/templates/wiki/dir.html:54
-msgid "Title"
-msgstr ""
-
-#. Translators: This label appears above a field which allows the
-#. user to input the Job Title
-#. Translators: This label appears above a field on the registration form
-#. which allows the user to input the Job Title
-#: openedx/core/djangoapps/user_api/accounts/settings_views.py:265
-#: openedx/core/djangoapps/user_authn/api/form_fields.py:216
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:912
-msgid "Job Title"
-msgstr ""
-
-#. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
-#. Translators: This label appears above a field
-#. meant to hold the user's mailing address.
-#. Translators: This label appears above a field on the registration form
-#. meant to hold the user's mailing address.
-#: openedx/core/djangoapps/user_api/accounts/settings_views.py:266
-#: openedx/core/djangoapps/user_authn/api/form_fields.py:258
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:794
-#: lms/templates/signup_modal.html:122
-msgid "Mailing address"
-msgstr ""
-
-#. Translators: This phrase appears above a field meant to hold
-#. the user's reasons for registering with edX.
-#. Translators: This phrase appears above a field on the registration form
-#. meant to hold the user's reasons for registering with edX.
-#: openedx/core/djangoapps/user_api/accounts/settings_views.py:267
-#: openedx/core/djangoapps/user_authn/api/form_fields.py:154
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:816
-#, python-brace-format
-msgid "Tell us why you're interested in {platform_name}"
-msgstr ""
-
-#. Translators: This label appears above a dropdown menu to select
-#. the user's profession
-#. Translators: This label appears above a dropdown menu on the registration
-#. form used to select the user's profession
-#: openedx/core/djangoapps/user_api/accounts/settings_views.py:270
-#: openedx/core/djangoapps/user_authn/api/form_fields.py:172
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:765
-msgid "Profession"
-msgstr ""
-
-#. Translators: This label appears above a dropdown menu to select
-#. the user's specialty
-#. Translators: This label appears above a dropdown menu on the registration
-#. form used to select the user's specialty
-#: openedx/core/djangoapps/user_api/accounts/settings_views.py:271
-#: openedx/core/djangoapps/user_authn/api/form_fields.py:184
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:781
-msgid "Specialty"
-msgstr ""
-
-#. Translators: This label appears above a dropdown menu to select
-#. the user's work experience
-#: openedx/core/djangoapps/user_api/accounts/settings_views.py:272
-#: openedx/core/djangoapps/user_authn/api/form_fields.py:376
-msgid "Work experience"
-msgstr ""
-
 #: openedx/core/djangoapps/user_api/accounts/utils.py:45
 #, python-brace-format
 msgid ""
@@ -8807,7 +8736,7 @@ msgid ""
 msgstr ""
 
 #: openedx/core/djangoapps/user_api/accounts/views.py:654
-#: openedx/core/djangoapps/user_authn/views/login.py:307
+#: openedx/core/djangoapps/user_authn/views/login.py:311
 #: lms/templates/provider_login.html:43
 msgid "Email or password is incorrect."
 msgstr ""
@@ -8827,13 +8756,13 @@ msgid "Success"
 msgstr ""
 
 #: openedx/core/djangoapps/user_api/admin.py:118
-#: cms/templates/studio_xblock_wrapper.html:129
-#: cms/templates/studio_xblock_wrapper.html:131
+#: cms/templates/studio_xblock_wrapper.html:162
+#: cms/templates/studio_xblock_wrapper.html:164
 #: lms/templates/staff_problem_info.html:66
 msgid "Actions"
 msgstr ""
 
-#: openedx/core/djangoapps/user_api/models.py:435
+#: openedx/core/djangoapps/user_api/models.py:437
 msgid ""
 "Comma separated file that have username and user_email of the users that "
 "needs to be retired"
@@ -8922,7 +8851,7 @@ msgstr ""
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the user's highest completed level of education.
 #: openedx/core/djangoapps/user_authn/api/form_fields.py:94
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:625
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:628
 msgid "Highest level of education completed"
 msgstr ""
 
@@ -8932,9 +8861,113 @@ msgstr ""
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the user's year of birth.
 #: openedx/core/djangoapps/user_authn/api/form_fields.py:136
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:678
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:681
 #: lms/templates/signup_modal.html:108
 msgid "Year of birth"
+msgstr ""
+
+#. Translators: This phrase appears above a field meant to hold
+#. the user's reasons for registering with edX.
+#. Translators: This phrase appears above a field on the registration form
+#. meant to hold the user's reasons for registering with edX.
+#: openedx/core/djangoapps/user_authn/api/form_fields.py:154
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:819
+#, python-brace-format
+msgid "Tell us why you're interested in {platform_name}"
+msgstr ""
+
+#. Translators: This label appears above a dropdown menu to select
+#. the user's profession
+#. Translators: This label appears above a dropdown menu on the registration
+#. form used to select the user's profession
+#: openedx/core/djangoapps/user_authn/api/form_fields.py:172
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:768
+msgid "Profession"
+msgstr ""
+
+#. Translators: This label appears above a dropdown menu to select
+#. the user's specialty
+#. Translators: This label appears above a dropdown menu on the registration
+#. form used to select the user's specialty
+#: openedx/core/djangoapps/user_authn/api/form_fields.py:184
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:784
+msgid "Specialty"
+msgstr ""
+
+#. Translators: This label appears above a field which allows the
+#. user to input the Company
+#. Translators: This label appears above a field on the registration form
+#. which allows the user to input the Company
+#: openedx/core/djangoapps/user_authn/api/form_fields.py:196
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:881
+msgid "Company"
+msgstr ""
+
+#. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
+#. Translators: This label appears above a field which allows the
+#. user to input the Title
+#. Translators: This label appears above a field on the registration form
+#. which allows the user to input the Title
+#: openedx/core/djangoapps/user_authn/api/form_fields.py:206
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:898
+#: wiki/forms.py:37 wiki/forms.py:45 wiki/forms.py:206
+#: wiki/templates/wiki/dir.html:54
+msgid "Title"
+msgstr ""
+
+#. Translators: This label appears above a field which allows the
+#. user to input the Job Title
+#. Translators: This label appears above a field on the registration form
+#. which allows the user to input the Job Title
+#: openedx/core/djangoapps/user_authn/api/form_fields.py:216
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:915
+msgid "Job Title"
+msgstr ""
+
+#. Translators: This label appears above a field which allows the
+#. user to input the First Name
+#. Translators: This label appears above a field on the registration form
+#. which allows the user to input the First Name
+#: openedx/core/djangoapps/user_authn/api/form_fields.py:226
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:932
+msgid "First Name"
+msgstr ""
+
+#. Translators: This label appears above a field which allows the
+#. user to input the Last Name
+#. Translators: This label appears above a field on the registration form
+#. which allows the user to input the First Name
+#: openedx/core/djangoapps/user_authn/api/form_fields.py:242
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:949
+msgid "Last Name"
+msgstr ""
+
+#. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
+#. Translators: This label appears above a field
+#. meant to hold the user's mailing address.
+#. Translators: This label appears above a field on the registration form
+#. meant to hold the user's mailing address.
+#: openedx/core/djangoapps/user_authn/api/form_fields.py:258
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:797
+#: lms/templates/signup_modal.html:122
+msgid "Mailing address"
+msgstr ""
+
+#. Translators: This label appears above a field
+#. which allows the user to input the State/Province/Region in which they
+#. live.
+#. Translators: This label appears above a field on the registration form
+#. which allows the user to input the State/Province/Region in which they
+#. live.
+#: openedx/core/djangoapps/user_authn/api/form_fields.py:274
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:864
+msgid "State/Province/Region"
+msgstr ""
+
+#. Translators: This label appears above a dropdown menu to select
+#. the user's work experience
+#: openedx/core/djangoapps/user_authn/api/form_fields.py:376
+msgid "Work experience"
 msgstr ""
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html:10
@@ -9011,11 +9044,11 @@ msgid "Account modification not allowed."
 msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/auto_auth.py:125
-#: openedx/core/djangoapps/user_authn/views/register.py:702
+#: openedx/core/djangoapps/user_authn/views/register.py:709
 msgid "Account creation not allowed."
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/login.py:88
+#: openedx/core/djangoapps/user_authn/views/login.py:91
 #, python-brace-format
 msgid ""
 "You've successfully signed in to your {provider_name} account, but this "
@@ -9026,17 +9059,17 @@ msgid ""
 "yet, click {register_label_strong} at the top of the page."
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/login.py:99
+#: openedx/core/djangoapps/user_authn/views/login.py:102
 #: lms/templates/navigation/navbar-not-authenticated.html:38
 #: themes/stanford-style/lms/templates/register-form.html:272
 msgid "Register"
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/login.py:136
+#: openedx/core/djangoapps/user_authn/views/login.py:138
 msgid "There was an error receiving your login information. Please email us."
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/login.py:168
+#: openedx/core/djangoapps/user_authn/views/login.py:172
 #, python-brace-format
 msgid ""
 "To protect your account, it’s been temporarily locked. Try again in "
@@ -9044,11 +9077,11 @@ msgid ""
 "your password {link_start}here{link_end} before you try again."
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/login.py:239
+#: openedx/core/djangoapps/user_authn/views/login.py:243
 msgid "Too many failed login attempts. Try again later."
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/login.py:282
+#: openedx/core/djangoapps/user_authn/views/login.py:285
 #, python-brace-format
 msgid ""
 "Email or password is incorrect.{li_start}You have {remaining_attempts} more "
@@ -9057,7 +9090,7 @@ msgid ""
 "{li_end}"
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/login.py:384
+#: openedx/core/djangoapps/user_authn/views/login.py:392
 #, python-brace-format
 msgid ""
 "As {allowed_domain} user, You must login with your {allowed_domain} "
@@ -9162,84 +9195,90 @@ msgstr ""
 msgid "Your legal name must be a minimum of one character long"
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:162
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:151
+#, python-format
+msgid ""
+"Your legal name is too long. It must not exceed %(max_length)s characters"
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:163
 #, python-format
 msgid "Email cannot be more than %(limit_value)s characters long"
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:192
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:195
 msgid "You must accept the terms of service."
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:196
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:199
 msgid "A level of education is required"
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:197
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:200
 msgid "Your gender is required"
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:198
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:201
 msgid "Your year of birth is required"
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:199
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:202
 msgid "Your mailing address is required"
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:200
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:203
 msgid "A description of your goals is required"
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:201
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:204
 msgid "A city is required"
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:202
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:205
 msgid "A country is required"
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:210
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:213
 msgid "To enroll, you must follow the honor code."
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:218
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:221
 msgid "You are missing one or more required fields"
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:270
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:273
 msgid "Unauthorized email address."
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:274
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:277
 #, python-brace-format
 msgid ""
 "It looks like {email} belongs to an existing account. Try again with a "
 "different email address."
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:307
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:310
 msgid "Registration from this country is not allowed due to restrictions."
 msgstr ""
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's email address.
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:506
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:509
 msgid "This is what you will use to login."
 msgstr ""
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's full name.
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:556
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:559
 msgid "This name will be used on any certificates that you earn."
 msgstr ""
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's public username.
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:577
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:580
 #: lms/templates/signup_modal.html:47 lms/templates/signup_modal.html:59
 #: themes/stanford-style/lms/templates/register-form.html:93
 #: themes/stanford-style/lms/templates/register-shib.html:126
@@ -9249,36 +9288,36 @@ msgstr ""
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's public username.
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:582
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:585
 msgid ""
 "The name that will identify you in your courses. It cannot be changed later."
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:698
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:701
 #, python-brace-format
 msgid "I agree that {platform_name} may send me marketing messages."
 msgstr ""
 
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the country in which the user lives.
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:963
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:966
 msgid "Country or Region of Residence"
 msgstr ""
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's country.
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:974
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:977
 msgid "The country or region where you live."
 msgstr ""
 
 #. Translators: This is a legal document users must agree to
 #. in order to register a new account.
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:1013
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:1016
 msgid "Terms of Service and Honor Code"
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:1019
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:1022
 #, python-brace-format
 msgid ""
 "I agree to the {platform_name} {terms_of_service_link_start}"
@@ -9289,13 +9328,13 @@ msgstr ""
 #. in order to register a new account.
 #. Translators: "Terms of service" is a legal document users must agree to
 #. in order to register a new account.
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:1031
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:1095
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:1034
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:1098
 #, python-brace-format
 msgid "You must agree to the {platform_name} {terms_of_service}"
 msgstr ""
 
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:1042
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:1045
 #, python-brace-format
 msgid ""
 "By creating an account, you agree to the                   "
@@ -9308,7 +9347,7 @@ msgstr ""
 
 #. Translators: "Terms of service" is a legal document users must agree to
 #. in order to register a new account.
-#: openedx/core/djangoapps/user_authn/views/registration_form.py:1084
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:1087
 #, python-brace-format
 msgid ""
 "I agree to the {platform_name} {tos_link_start}{terms_of_service}"
@@ -9330,7 +9369,7 @@ msgid "{header_open}{title}{header_close}"
 msgstr ""
 
 #: openedx/core/djangoapps/util/user_messages.py:256
-#: cms/templates/course_outline.html:61 cms/templates/course_outline.html:95
+#: cms/templates/course_outline.html:61 cms/templates/course_outline.html:99
 #: cms/templates/index.html:319
 msgid "Dismiss"
 msgstr ""
@@ -9570,7 +9609,7 @@ msgid "Deadlines successfully reset."
 msgstr ""
 
 #: openedx/features/course_experience/plugins.py:34
-#: cms/templates/widgets/header.html:108 cms/templates/widgets/header.html:113
+#: cms/templates/widgets/header.html:115 cms/templates/widgets/header.html:120
 #: lms/templates/api_admin/terms_of_service.html:66
 #: openedx/features/course_experience/templates/course_experience/course-updates-fragment.html:18
 #: openedx/features/course_experience/templates/course_experience/course-updates-fragment.html:25
@@ -9722,7 +9761,7 @@ msgid "You have used {attempts} of unlimited attempts for this problem."
 msgstr ""
 
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:70
-#: cms/templates/widgets/header.html:374
+#: cms/templates/widgets/header.html:386
 msgid "Sign In"
 msgstr ""
 
@@ -9730,21 +9769,21 @@ msgstr ""
 msgid "Our mailing address is"
 msgstr ""
 
-#: xmodule/annotatable_block.py:44
+#: xmodule/annotatable_block.py:48
 msgid "XML data for the annotation"
 msgstr ""
 
-#: xmodule/annotatable_block.py:66 xmodule/capa_block.py:178
-#: xmodule/conditional_block.py:89 xmodule/discussion_block.py:48
-#: xmodule/html_block.py:55 xmodule/html_block.py:365 xmodule/html_block.py:391
-#: xmodule/library_content_block.py:123 xmodule/library_root_xblock.py:30
-#: xmodule/poll_block.py:49 xmodule/unit_block.py:39
-#: xmodule/video_block/video_xfields.py:20 xmodule/word_cloud_block.py:58
-#: xmodule/x_module.py:227
+#: xmodule/annotatable_block.py:70 xmodule/capa_block.py:179
+#: xmodule/conditional_block.py:89 xmodule/discussion_block.py:50
+#: xmodule/html_block.py:57 xmodule/html_block.py:368 xmodule/html_block.py:394
+#: xmodule/item_bank_block.py:455 xmodule/library_content_block.py:78
+#: xmodule/library_root_xblock.py:30 xmodule/poll_block.py:52
+#: xmodule/unit_block.py:39 xmodule/video_block/video_xfields.py:20
+#: xmodule/word_cloud_block.py:64 xmodule/x_module.py:227
 msgid "The display name for this component."
 msgstr ""
 
-#: xmodule/annotatable_block.py:68
+#: xmodule/annotatable_block.py:72
 msgid "Annotation"
 msgstr ""
 
@@ -9756,11 +9795,11 @@ msgstr ""
 msgid "Question {}"
 msgstr ""
 
-#: xmodule/capa/capa_problem.py:745 xmodule/capa_block.py:1392
+#: xmodule/capa/capa_problem.py:745 xmodule/capa_block.py:1393
 msgid "Incorrect"
 msgstr ""
 
-#: xmodule/capa/capa_problem.py:750 xmodule/capa_block.py:1401
+#: xmodule/capa/capa_problem.py:750 xmodule/capa_block.py:1402
 msgid "Correct"
 msgstr ""
 
@@ -9917,8 +9956,8 @@ msgstr ""
 msgid "Incorrect:"
 msgstr ""
 
-#: xmodule/capa/responsetypes.py:407 xmodule/capa_block.py:782
-#: xmodule/capa_block.py:798
+#: xmodule/capa/responsetypes.py:407 xmodule/capa_block.py:783
+#: xmodule/capa_block.py:799
 msgid "Answer"
 msgstr ""
 
@@ -10032,8 +10071,6 @@ msgstr ""
 #. Translators: this is the last choice of a number of choices of how to log in
 #. to the site.
 #: xmodule/capa/responsetypes.py:1781 xmodule/capa/responsetypes.py:2069
-#: lms/templates/course_modes/choose.html:178
-#: lms/templates/course_modes/choose.html:198
 #: themes/stanford-style/lms/templates/register-form.html:45
 msgid "or"
 msgstr ""
@@ -10186,247 +10223,247 @@ msgstr ""
 msgid "Invalid JSON response received from codejail api service."
 msgstr ""
 
-#: xmodule/capa_block.py:185
+#: xmodule/capa_block.py:186
 msgid "Number of attempts taken by the student on this problem"
 msgstr ""
 
-#: xmodule/capa_block.py:190 xmodule/modulestore/inheritance.py:146
+#: xmodule/capa_block.py:191 xmodule/modulestore/inheritance.py:146
 msgid "Maximum Attempts"
 msgstr ""
 
-#: xmodule/capa_block.py:191
+#: xmodule/capa_block.py:192
 msgid ""
 "Defines the number of times a student can try to answer this problem. If the "
 "value is not set, infinite attempts are allowed."
 msgstr ""
 
-#: xmodule/capa_block.py:196
+#: xmodule/capa_block.py:197
 msgid "Grading Method"
 msgstr ""
 
-#: xmodule/capa_block.py:198
+#: xmodule/capa_block.py:199
 msgid ""
 "Define the grading method for this problem. By default, it's the score of "
 "the last submission made by the student."
 msgstr ""
 
-#: xmodule/capa_block.py:204 xmodule/capa_block.py:501
+#: xmodule/capa_block.py:205 xmodule/capa_block.py:502
 msgid "Last Score"
 msgstr ""
 
-#: xmodule/capa_block.py:205 xmodule/capa_block.py:502
+#: xmodule/capa_block.py:206 xmodule/capa_block.py:503
 msgid "First Score"
 msgstr ""
 
-#: xmodule/capa_block.py:206 xmodule/capa_block.py:503
+#: xmodule/capa_block.py:207 xmodule/capa_block.py:504
 msgid "Highest Score"
 msgstr ""
 
-#: xmodule/capa_block.py:207 xmodule/capa_block.py:504
+#: xmodule/capa_block.py:208 xmodule/capa_block.py:505
 msgid "Average Score"
 msgstr ""
 
-#: xmodule/capa_block.py:210
+#: xmodule/capa_block.py:211
 msgid "Date that this problem is due by"
 msgstr ""
 
-#: xmodule/capa_block.py:212
+#: xmodule/capa_block.py:213
 msgid "Amount of time after the due date that submissions will be accepted"
 msgstr ""
 
-#: xmodule/capa_block.py:216 xmodule/modulestore/inheritance.py:103
+#: xmodule/capa_block.py:217 xmodule/modulestore/inheritance.py:103
 msgid "Show Results"
 msgstr ""
 
-#: xmodule/capa_block.py:217
+#: xmodule/capa_block.py:218
 msgid ""
 "Defines when to show whether a learner's answer to the problem is correct. "
 "Configured on the subsection."
 msgstr ""
 
-#: xmodule/capa_block.py:222 xmodule/capa_block.py:234
-#: xmodule/capa_block.py:278
+#: xmodule/capa_block.py:223 xmodule/capa_block.py:235
+#: xmodule/capa_block.py:279
 msgid "Always"
 msgstr ""
 
-#: xmodule/capa_block.py:224 xmodule/capa_block.py:240
+#: xmodule/capa_block.py:225 xmodule/capa_block.py:241
 msgid "Past Due"
 msgstr ""
 
-#: xmodule/capa_block.py:228 xmodule/modulestore/inheritance.py:89
+#: xmodule/capa_block.py:229 xmodule/modulestore/inheritance.py:89
 msgid "Show Answer"
 msgstr ""
 
-#: xmodule/capa_block.py:229
+#: xmodule/capa_block.py:230
 msgid ""
 "Defines when to show the answer to the problem. A default value can be set "
 "in Advanced Settings."
 msgstr ""
 
-#: xmodule/capa_block.py:235
+#: xmodule/capa_block.py:236
 msgid "Answered"
 msgstr ""
 
-#: xmodule/capa_block.py:236
+#: xmodule/capa_block.py:237
 msgid "Attempted or Past Due"
 msgstr ""
 
-#: xmodule/capa_block.py:237
+#: xmodule/capa_block.py:238
 msgid "Closed"
 msgstr ""
 
-#: xmodule/capa_block.py:238
+#: xmodule/capa_block.py:239
 msgid "Finished"
 msgstr ""
 
-#: xmodule/capa_block.py:239
+#: xmodule/capa_block.py:240
 msgid "Correct or Past Due"
 msgstr ""
 
-#: xmodule/capa_block.py:242
+#: xmodule/capa_block.py:243
 msgid "After Some Number of Attempts"
 msgstr ""
 
-#: xmodule/capa_block.py:243
+#: xmodule/capa_block.py:244
 msgid "After All Attempts"
 msgstr ""
 
-#: xmodule/capa_block.py:244
+#: xmodule/capa_block.py:245
 msgid "After All Attempts or Correct"
 msgstr ""
 
-#: xmodule/capa_block.py:245
+#: xmodule/capa_block.py:246
 msgid "Attempted"
 msgstr ""
 
-#: xmodule/capa_block.py:249
+#: xmodule/capa_block.py:250
 msgid "Show Answer: Number of Attempts"
 msgstr ""
 
-#: xmodule/capa_block.py:251
+#: xmodule/capa_block.py:252
 msgid ""
 "Number of times the student must attempt to answer the question before the "
 "Show Answer button appears."
 msgstr ""
 
-#: xmodule/capa_block.py:258
+#: xmodule/capa_block.py:259
 msgid "Whether to force the save button to appear on the page"
 msgstr ""
 
-#: xmodule/capa_block.py:263 xmodule/library_content_block.py:170
+#: xmodule/capa_block.py:264 xmodule/item_bank_block.py:80
 msgid "Show Reset Button"
 msgstr ""
 
-#: xmodule/capa_block.py:264
+#: xmodule/capa_block.py:265
 msgid ""
 "Determines whether a 'Reset' button is shown so the user may reset their "
 "answer. A default value can be set in Advanced Settings."
 msgstr ""
 
-#: xmodule/capa_block.py:270 xmodule/modulestore/inheritance.py:115
+#: xmodule/capa_block.py:271 xmodule/modulestore/inheritance.py:115
 msgid "Randomization"
 msgstr ""
 
-#: xmodule/capa_block.py:272
+#: xmodule/capa_block.py:273
 msgid ""
 "Defines when to randomize the variables specified in the associated Python "
 "script. For problems that do not randomize values, specify \"Never\". "
 msgstr ""
 
-#: xmodule/capa_block.py:279
+#: xmodule/capa_block.py:280
 msgid "On Reset"
 msgstr ""
 
-#: xmodule/capa_block.py:281
+#: xmodule/capa_block.py:282
 msgid "Per Student"
 msgstr ""
 
-#: xmodule/capa_block.py:285
+#: xmodule/capa_block.py:286
 msgid "XML data for the problem"
 msgstr ""
 
-#: xmodule/capa_block.py:290
+#: xmodule/capa_block.py:291
 msgid "Dictionary with the correctness of current student answers"
 msgstr ""
 
-#: xmodule/capa_block.py:293
+#: xmodule/capa_block.py:294
 msgid "List of correctness maps for each attempt"
 msgstr ""
 
-#: xmodule/capa_block.py:295
+#: xmodule/capa_block.py:296
 msgid "Dictionary for maintaining the state of inputtypes"
 msgstr ""
 
-#: xmodule/capa_block.py:296
+#: xmodule/capa_block.py:297
 msgid "Dictionary with the current student responses"
 msgstr ""
 
-#: xmodule/capa_block.py:298
+#: xmodule/capa_block.py:299
 msgid "List of student answers for each attempt"
 msgstr ""
 
-#: xmodule/capa_block.py:302
+#: xmodule/capa_block.py:303
 msgid "Dictionary with the current student score"
 msgstr ""
 
-#: xmodule/capa_block.py:304
+#: xmodule/capa_block.py:305
 msgid "List of scores for each attempt"
 msgstr ""
 
-#: xmodule/capa_block.py:306
+#: xmodule/capa_block.py:307
 msgid "Whether or not the answers have been saved since last submit"
 msgstr ""
 
-#: xmodule/capa_block.py:308
+#: xmodule/capa_block.py:309
 msgid "Whether the student has answered the problem"
 msgstr ""
 
-#: xmodule/capa_block.py:309
+#: xmodule/capa_block.py:310
 msgid "Random seed for this student"
 msgstr ""
 
-#: xmodule/capa_block.py:310
+#: xmodule/capa_block.py:311
 msgid "Last submission time"
 msgstr ""
 
-#: xmodule/capa_block.py:312
+#: xmodule/capa_block.py:313
 msgid "Timer Between Attempts"
 msgstr ""
 
-#: xmodule/capa_block.py:313
+#: xmodule/capa_block.py:314
 msgid ""
 "Seconds a student must wait between submissions for a problem with multiple "
 "attempts."
 msgstr ""
 
-#: xmodule/capa_block.py:317
+#: xmodule/capa_block.py:318
 msgid "Problem Weight"
 msgstr ""
 
-#: xmodule/capa_block.py:318
+#: xmodule/capa_block.py:319
 msgid ""
 "Defines the number of points each problem is worth. If the value is not set, "
 "each response field in the problem is worth one point."
 msgstr ""
 
-#: xmodule/capa_block.py:323
+#: xmodule/capa_block.py:324
 msgid "Markdown source of this module"
 msgstr ""
 
-#: xmodule/capa_block.py:325
+#: xmodule/capa_block.py:326
 msgid ""
 "Source code for LaTeX and Word problems. This feature is not well-supported."
 msgstr ""
 
-#: xmodule/capa_block.py:329 xmodule/html_block.py:67
+#: xmodule/capa_block.py:330 xmodule/html_block.py:69
 msgid "Enable LaTeX templates?"
 msgstr ""
 
-#: xmodule/capa_block.py:334 xmodule/modulestore/inheritance.py:151
+#: xmodule/capa_block.py:335 xmodule/modulestore/inheritance.py:151
 msgid "Matlab API key"
 msgstr ""
 
-#: xmodule/capa_block.py:335
+#: xmodule/capa_block.py:336
 msgid ""
 "Enter the API key provided by MathWorks for accessing the MATLAB Hosted "
 "Service. This key is granted for exclusive use by this course for the "
@@ -10436,47 +10473,47 @@ msgid ""
 "contact moocsupport@mathworks.com"
 msgstr ""
 
-#: xmodule/capa_block.py:429
+#: xmodule/capa_block.py:430
 msgid ""
 "We're sorry, there was an error with processing your request. Please try "
 "reloading your page and trying again."
 msgstr ""
 
-#: xmodule/capa_block.py:434
+#: xmodule/capa_block.py:435
 msgid ""
 "The state of this problem has changed since you loaded this page. Please "
 "refresh your page."
 msgstr ""
 
-#: xmodule/capa_block.py:780 xmodule/capa_block.py:796
+#: xmodule/capa_block.py:781 xmodule/capa_block.py:797
 msgid "Answer ID"
 msgstr ""
 
-#: xmodule/capa_block.py:781 xmodule/capa_block.py:797
+#: xmodule/capa_block.py:782 xmodule/capa_block.py:798
 msgid "Question"
 msgstr ""
 
-#: xmodule/capa_block.py:785
+#: xmodule/capa_block.py:786
 msgid "Correct Answer"
 msgstr ""
 
-#: xmodule/capa_block.py:1031
+#: xmodule/capa_block.py:1032
 msgid "Submitting"
 msgstr ""
 
-#: xmodule/capa_block.py:1161
+#: xmodule/capa_block.py:1162
 msgid "Warning: The problem has been reset to its initial state!"
 msgstr ""
 
 #. Translators: Following this message, there will be a bulleted list of
 #. items.
-#: xmodule/capa_block.py:1165
+#: xmodule/capa_block.py:1166
 msgid ""
 "The problem's state was corrupted by an invalid submission. The submission "
 "consisted of:"
 msgstr ""
 
-#: xmodule/capa_block.py:1172
+#: xmodule/capa_block.py:1173
 msgid "If this error persists, please contact the course staff."
 msgstr ""
 
@@ -10485,7 +10522,7 @@ msgstr ""
 #. is a header for this hint, and {hint_text} is the text of the hint itself.
 #. This string is being passed to translation only for possible reordering of
 #. the placeholders.
-#: xmodule/capa_block.py:1227
+#: xmodule/capa_block.py:1228
 #, python-brace-format
 msgid "{previous_hints}{list_start_tag}{strong_text}{hint_text}</li>"
 msgstr ""
@@ -10493,98 +10530,98 @@ msgstr ""
 #. Translators: e.g. "Hint 1 of 3: " meaning we are showing the first of three
 #. hints.
 #. This text is shown in bold before the accompanying hint text.
-#: xmodule/capa_block.py:1233
+#: xmodule/capa_block.py:1234
 #, python-brace-format
 msgid "Hint ({hint_num} of {hints_count}): "
 msgstr ""
 
-#: xmodule/capa_block.py:1312
+#: xmodule/capa_block.py:1313
 #, python-brace-format
 msgid ""
 "Your answers were previously saved. Click '{button_name}' to grade them."
 msgstr ""
 
-#: xmodule/capa_block.py:1387
+#: xmodule/capa_block.py:1388
 #, python-brace-format
 msgid "Incorrect ({progress} point)"
 msgid_plural "Incorrect ({progress} points)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: xmodule/capa_block.py:1396
+#: xmodule/capa_block.py:1397
 #, python-brace-format
 msgid "Correct ({progress} point)"
 msgid_plural "Correct ({progress} points)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: xmodule/capa_block.py:1405
+#: xmodule/capa_block.py:1406
 #, python-brace-format
 msgid "Partially correct ({progress} point)"
 msgid_plural "Partially correct ({progress} points)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: xmodule/capa_block.py:1410
+#: xmodule/capa_block.py:1411
 msgid "Partially Correct"
 msgstr ""
 
-#: xmodule/capa_block.py:1412
+#: xmodule/capa_block.py:1413
 msgid "Answer submitted."
 msgstr ""
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
-#: xmodule/capa_block.py:1796 xmodule/capa_block.py:2124
+#: xmodule/capa_block.py:1797 xmodule/capa_block.py:2125
 msgid "Problem is closed."
 msgstr ""
 
-#: xmodule/capa_block.py:1802
+#: xmodule/capa_block.py:1803
 msgid "Problem must be reset before it can be submitted again."
 msgstr ""
 
-#: xmodule/capa_block.py:1812
+#: xmodule/capa_block.py:1813
 #, python-brace-format
 msgid "You must wait at least {wait} seconds between submissions."
 msgstr ""
 
-#: xmodule/capa_block.py:1821
+#: xmodule/capa_block.py:1822
 #, python-brace-format
 msgid ""
 "You must wait at least {wait_secs} between submissions. {remaining_secs} "
 "remaining."
 msgstr ""
 
-#: xmodule/capa_block.py:2004
+#: xmodule/capa_block.py:2005
 #, python-brace-format
 msgid "{num_hour} hour"
 msgid_plural "{num_hour} hours"
 msgstr[0] ""
 msgstr[1] ""
 
-#: xmodule/capa_block.py:2009
+#: xmodule/capa_block.py:2010
 #, python-brace-format
 msgid "{num_minute} minute"
 msgid_plural "{num_minute} minutes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: xmodule/capa_block.py:2015
+#: xmodule/capa_block.py:2016
 #, python-brace-format
 msgid "{num_second} second"
 msgid_plural "{num_second} seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: xmodule/capa_block.py:2135
+#: xmodule/capa_block.py:2136
 msgid "Problem needs to be reset prior to save."
 msgstr ""
 
-#: xmodule/capa_block.py:2145
+#: xmodule/capa_block.py:2146
 msgid "Your answers have been saved."
 msgstr ""
 
-#: xmodule/capa_block.py:2148
+#: xmodule/capa_block.py:2149
 #, python-brace-format
 msgid ""
 "Your answers have been saved but not graded. Click '{button_name}' to grade "
@@ -10593,21 +10630,21 @@ msgstr ""
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
-#: xmodule/capa_block.py:2180
+#: xmodule/capa_block.py:2181
 msgid "You cannot select Reset for a problem that is closed."
 msgstr ""
 
-#: xmodule/capa_block.py:2189
+#: xmodule/capa_block.py:2190
 msgid "You must submit an answer before you can select Reset."
 msgstr ""
 
 #. Translators: 'rescoring' refers to the act of re-submitting a student's
 #. solution so it can get a new score.
-#: xmodule/capa_block.py:2244
+#: xmodule/capa_block.py:2245
 msgid "Problem's definition does not support rescoring."
 msgstr ""
 
-#: xmodule/capa_block.py:2250
+#: xmodule/capa_block.py:2251
 msgid "Problem must be answered before it can be graded again."
 msgstr ""
 
@@ -11506,31 +11543,31 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: xmodule/discussion_block.py:53
+#: xmodule/discussion_block.py:55
 msgid "Category"
 msgstr ""
 
-#: xmodule/discussion_block.py:54
+#: xmodule/discussion_block.py:56
 msgid "Week 1"
 msgstr ""
 
-#: xmodule/discussion_block.py:56
+#: xmodule/discussion_block.py:58
 msgid ""
 "A category name for the discussion. This name appears in the left pane of "
 "the discussion forum for the course."
 msgstr ""
 
-#: xmodule/discussion_block.py:62
+#: xmodule/discussion_block.py:64
 msgid "Subcategory"
 msgstr ""
 
-#: xmodule/discussion_block.py:65
+#: xmodule/discussion_block.py:67
 msgid ""
 "A subcategory name for the discussion. This name appears in the left pane of "
 "the discussion forum for the course."
 msgstr ""
 
-#: xmodule/discussion_block.py:182
+#: xmodule/discussion_block.py:184
 #, python-brace-format
 msgid ""
 "You are not signed in. To view the discussion content, {sign_in_link} or "
@@ -11577,179 +11614,189 @@ msgid ""
 "hidden in LMS."
 msgstr ""
 
-#: xmodule/html_block.py:61 xmodule/html_block.py:370 xmodule/html_block.py:430
+#: xmodule/html_block.py:63 xmodule/html_block.py:373 xmodule/html_block.py:433
 msgid "Html contents to display for this block"
 msgstr ""
 
-#: xmodule/html_block.py:63
+#: xmodule/html_block.py:65
 msgid "Source code for LaTeX documents. This feature is not well-supported."
 msgstr ""
 
-#: xmodule/html_block.py:73
+#: xmodule/html_block.py:75
 msgid ""
 "Select Visual to enter content and have the editor automatically create the "
 "HTML. Select Raw to edit HTML directly. If you change this setting, you must "
 "save the component and then re-open it for editing."
 msgstr ""
 
-#: xmodule/html_block.py:76
+#: xmodule/html_block.py:78
 msgid "Editor"
 msgstr ""
 
-#: xmodule/html_block.py:79
+#: xmodule/html_block.py:81
 msgid "Visual"
 msgstr ""
 
-#: xmodule/html_block.py:80
+#: xmodule/html_block.py:82
 msgid "Raw"
 msgstr ""
 
-#: xmodule/html_block.py:396
+#: xmodule/html_block.py:399
 msgid "Hide Page From Learners"
 msgstr ""
 
-#: xmodule/html_block.py:397
+#: xmodule/html_block.py:400
 msgid ""
 "If you select this option, only course team members with the Staff or Admin "
 "role see this page."
 msgstr ""
 
-#: xmodule/html_block.py:407
+#: xmodule/html_block.py:410
 msgid "HTML for the additional pages"
 msgstr ""
 
-#: xmodule/html_block.py:425
+#: xmodule/html_block.py:428
 msgid "List of course update items"
 msgstr ""
 
-#: xmodule/library_content_block.py:63
-msgid "Any Type"
-msgstr ""
-
-#: xmodule/library_content_block.py:128 cms/templates/widgets/header.html:285
-msgid "Library"
-msgstr ""
-
-#: xmodule/library_content_block.py:129
-msgid "Select the library from which you want to draw content."
-msgstr ""
-
-#: xmodule/library_content_block.py:135
-msgid "Library Version"
-msgstr ""
-
-#: xmodule/library_content_block.py:140
-msgid "Determines how content is drawn from the library"
-msgstr ""
-
-#: xmodule/library_content_block.py:143
-msgid "Choose n at random"
-msgstr ""
-
-#: xmodule/library_content_block.py:150
+#: xmodule/item_bank_block.py:67 xmodule/library_content_block.py:94
 msgid "Count"
 msgstr ""
 
-#: xmodule/library_content_block.py:151
+#: xmodule/item_bank_block.py:68 xmodule/library_content_block.py:95
 msgid ""
 "Enter the number of components to display to each student. Set it to -1 to "
 "display all components."
 msgstr ""
 
-#: xmodule/library_content_block.py:156
-msgid "Problem Type"
-msgstr ""
-
-#: xmodule/library_content_block.py:157
-msgid ""
-"Choose a problem type to fetch from the library. If \"Any Type\" is selected "
-"no filtering is applied."
-msgstr ""
-
-#: xmodule/library_content_block.py:171
+#: xmodule/item_bank_block.py:81
 msgid ""
 "Determines whether a 'Reset Problems' button is shown, so users may reset "
 "their answers and reshuffle selected items."
 msgstr ""
 
-#: xmodule/library_content_block.py:539
+#: xmodule/item_bank_block.py:474
+#, python-brace-format
+msgid ""
+"The problem bank has been configured to show {count} problems. Please "
+"specify a positive number of problems, or specify -1 to show all problems."
+msgstr ""
+
+#: xmodule/item_bank_block.py:478 xmodule/item_bank_block.py:490
+msgid "Edit the problem bank configuration."
+msgstr ""
+
+#: xmodule/item_bank_block.py:486
+#, python-brace-format
+msgid ""
+"The problem bank has been configured to show {count} problems, but only "
+"{actual} have been selected."
+msgstr ""
+
+#: xmodule/library_content_block.py:51
+msgid "Any Type"
+msgstr ""
+
+#: xmodule/library_content_block.py:83 cms/templates/widgets/header.html:297
+msgid "Library"
+msgstr ""
+
+#: xmodule/library_content_block.py:84
+msgid "Select the library from which you want to draw content."
+msgstr ""
+
+#: xmodule/library_content_block.py:90
+msgid "Library Version"
+msgstr ""
+
+#: xmodule/library_content_block.py:100
+msgid "Problem Type"
+msgstr ""
+
+#: xmodule/library_content_block.py:101
+msgid ""
+"Choose a problem type to fetch from the library. If \"Any Type\" is selected "
+"no filtering is applied."
+msgstr ""
+
+#: xmodule/library_content_block.py:200
 msgid "Source content library has not been specified."
 msgstr ""
 
-#: xmodule/library_content_block.py:543
+#: xmodule/library_content_block.py:204
 msgid "Content libraries are not available in the current runtime."
 msgstr ""
 
-#: xmodule/library_content_block.py:546
+#: xmodule/library_content_block.py:207
 #, python-brace-format
 msgid "Source content library does not exist: {source_library_id}"
 msgstr ""
 
-#: xmodule/library_content_block.py:628
+#: xmodule/library_content_block.py:273
 msgid "This component is out of date. The library has new content."
 msgstr ""
 
 #. Translators: {refresh_icon} placeholder is substituted to "↻" (without
 #. double quotes)
-#: xmodule/library_content_block.py:633
+#: xmodule/library_content_block.py:278
 #, python-brace-format
 msgid "{refresh_icon} Update now."
 msgstr ""
 
-#: xmodule/library_content_block.py:641
+#: xmodule/library_content_block.py:286
 msgid "Library is invalid, corrupt, or has been deleted."
 msgstr ""
 
-#: xmodule/library_content_block.py:643
+#: xmodule/library_content_block.py:288
 msgid "Edit Library List."
 msgstr ""
 
-#: xmodule/library_content_block.py:670
+#: xmodule/library_content_block.py:315
 msgid ""
 "This course does not support content libraries. Contact your system "
 "administrator for more information."
 msgstr ""
 
-#: xmodule/library_content_block.py:680
+#: xmodule/library_content_block.py:325
 msgid "A library has not yet been selected."
 msgstr ""
 
-#: xmodule/library_content_block.py:682
+#: xmodule/library_content_block.py:327
 msgid "Select a Library."
 msgstr ""
 
-#: xmodule/library_content_block.py:696
+#: xmodule/library_content_block.py:341
 #, python-brace-format
 msgid "There are no problems in the specified library of type {capa_type}."
 msgstr ""
 
-#: xmodule/library_content_block.py:699
+#: xmodule/library_content_block.py:344
 msgid "Select another problem type."
 msgstr ""
 
-#: xmodule/library_content_block.py:710
+#: xmodule/library_content_block.py:355
 #, python-brace-format
 msgid "The specified library is configured to fetch {count} problem, "
 msgid_plural "The specified library is configured to fetch {count} problems, "
 msgstr[0] ""
 msgstr[1] ""
 
-#: xmodule/library_content_block.py:715
+#: xmodule/library_content_block.py:360
 #, python-brace-format
 msgid "but there is only {actual} matching problem."
 msgid_plural "but there are only {actual} matching problems."
 msgstr[0] ""
 msgstr[1] ""
 
-#: xmodule/library_content_block.py:721
+#: xmodule/library_content_block.py:366
 msgid "Edit the library configuration."
 msgstr ""
 
-#: xmodule/library_content_block.py:739
+#: xmodule/library_content_block.py:384
 msgid "Invalid Library"
 msgstr ""
 
-#: xmodule/library_content_block.py:740
+#: xmodule/library_content_block.py:385
 msgid "No Library Selected"
 msgstr ""
 
@@ -11761,17 +11808,17 @@ msgstr ""
 msgid "Enter the names of the advanced components to use in your library."
 msgstr ""
 
-#: xmodule/lti_block.py:133
+#: xmodule/lti_block.py:132
 msgid ""
 "The display name for this component. Analytics reports may also use the "
 "display name to identify this component."
 msgstr ""
 
-#: xmodule/lti_block.py:140
+#: xmodule/lti_block.py:139
 msgid "LTI ID"
 msgstr ""
 
-#: xmodule/lti_block.py:142
+#: xmodule/lti_block.py:141
 #, python-brace-format
 msgid ""
 "Enter the LTI ID for the external LTI provider.  This value must be the same "
@@ -11780,11 +11827,11 @@ msgid ""
 "documentation{anchor_close} for more details on this setting."
 msgstr ""
 
-#: xmodule/lti_block.py:155
+#: xmodule/lti_block.py:154
 msgid "LTI URL"
 msgstr ""
 
-#: xmodule/lti_block.py:157
+#: xmodule/lti_block.py:156
 #, python-brace-format
 msgid ""
 "Enter the URL of the external tool that this component launches. This "
@@ -11793,11 +11840,11 @@ msgid ""
 "on this setting."
 msgstr ""
 
-#: xmodule/lti_block.py:168
+#: xmodule/lti_block.py:167
 msgid "Custom Parameters"
 msgstr ""
 
-#: xmodule/lti_block.py:170
+#: xmodule/lti_block.py:169
 #, python-brace-format
 msgid ""
 "Add the key/value pair for any custom parameters, such as the page your e-"
@@ -11806,11 +11853,11 @@ msgid ""
 "details on this setting."
 msgstr ""
 
-#: xmodule/lti_block.py:180
+#: xmodule/lti_block.py:179
 msgid "Open in New Page"
 msgstr ""
 
-#: xmodule/lti_block.py:182
+#: xmodule/lti_block.py:181
 msgid ""
 "Select True if you want students to click a link that opens the LTI tool in "
 "a new window. Select False if you want the LTI content to open in an IFrame "
@@ -11818,92 +11865,92 @@ msgid ""
 "set to False.  "
 msgstr ""
 
-#: xmodule/lti_block.py:190
+#: xmodule/lti_block.py:189
 msgid "Scored"
 msgstr ""
 
-#: xmodule/lti_block.py:192
+#: xmodule/lti_block.py:191
 msgid ""
 "Select True if this component will receive a numerical score from the "
 "external LTI system."
 msgstr ""
 
-#: xmodule/lti_block.py:198
+#: xmodule/lti_block.py:197
 msgid "Weight"
 msgstr ""
 
-#: xmodule/lti_block.py:200
+#: xmodule/lti_block.py:199
 msgid ""
 "Enter the number of points possible for this component.  The default value "
 "is 1.0.  This setting is only used when Scored is set to True."
 msgstr ""
 
-#: xmodule/lti_block.py:209
+#: xmodule/lti_block.py:208
 msgid ""
 "The score kept in the xblock KVS -- duplicate of the published score in "
 "django DB"
 msgstr ""
 
-#: xmodule/lti_block.py:214
+#: xmodule/lti_block.py:213
 msgid "Comment as returned from grader, LTI2.0 spec"
 msgstr ""
 
-#: xmodule/lti_block.py:219
+#: xmodule/lti_block.py:218
 msgid "Hide External Tool"
 msgstr ""
 
-#: xmodule/lti_block.py:221
+#: xmodule/lti_block.py:220
 msgid ""
 "Select True if you want to use this component as a placeholder for syncing "
 "with an external grading  system rather than launch an external tool.  This "
 "setting hides the Launch button and any IFrames for this component."
 msgstr ""
 
-#: xmodule/lti_block.py:232
+#: xmodule/lti_block.py:231
 msgid "Request user's username"
 msgstr ""
 
 #. Translators: This is used to request the user's username for a third party
 #. service.
-#: xmodule/lti_block.py:234
+#: xmodule/lti_block.py:233
 msgid "Select True to request the user's username."
 msgstr ""
 
-#: xmodule/lti_block.py:239
+#: xmodule/lti_block.py:238
 msgid "Request user's email"
 msgstr ""
 
 #. Translators: This is used to request the user's email for a third party
 #. service.
-#: xmodule/lti_block.py:241
+#: xmodule/lti_block.py:240
 msgid "Select True to request the user's email address."
 msgstr ""
 
-#: xmodule/lti_block.py:247
+#: xmodule/lti_block.py:246
 msgid "LTI Application Information"
 msgstr ""
 
-#: xmodule/lti_block.py:249
+#: xmodule/lti_block.py:248
 msgid ""
 "Enter a description of the third party application. If requesting username "
 "and/or email, use this text box to inform users why their username and/or "
 "email will be forwarded to a third party application."
 msgstr ""
 
-#: xmodule/lti_block.py:257
+#: xmodule/lti_block.py:256
 msgid "Button Text"
 msgstr ""
 
-#: xmodule/lti_block.py:259
+#: xmodule/lti_block.py:258
 msgid ""
 "Enter the text on the button used to launch the third party application."
 msgstr ""
 
-#: xmodule/lti_block.py:266
+#: xmodule/lti_block.py:265
 msgid "Accept grades past deadline"
 msgstr ""
 
-#: xmodule/lti_block.py:267
+#: xmodule/lti_block.py:266
 msgid ""
 "Select True to allow third party systems to post grades past the deadline."
 msgstr ""
@@ -12045,7 +12092,7 @@ msgstr ""
 #: cms/templates/group_configurations.html:46 cms/templates/settings.html:709
 #: cms/templates/settings_advanced.html:149
 #: cms/templates/settings_graders.html:171
-#: cms/templates/widgets/header.html:193
+#: cms/templates/widgets/header.html:200
 msgid "Group Configurations"
 msgstr ""
 
@@ -12133,11 +12180,11 @@ msgid ""
 "Contents."
 msgstr ""
 
-#: xmodule/modulestore/xml_importer.py:79
+#: xmodule/modulestore/xml_importer.py:82
 msgid "Error while reading {}. Check file for XML errors."
 msgstr ""
 
-#: xmodule/modulestore/xml_importer.py:91
+#: xmodule/modulestore/xml_importer.py:94
 msgid "Failed to import block: {} at location: {}"
 msgstr ""
 
@@ -12150,23 +12197,23 @@ msgstr ""
 msgid "Partition for segmenting users by enrollment track"
 msgstr ""
 
-#: xmodule/poll_block.py:54
+#: xmodule/poll_block.py:57
 msgid "Whether this student has voted on the poll"
 msgstr ""
 
-#: xmodule/poll_block.py:59
+#: xmodule/poll_block.py:62
 msgid "Student answer"
 msgstr ""
 
-#: xmodule/poll_block.py:64
+#: xmodule/poll_block.py:67
 msgid "Poll answers from all students"
 msgstr ""
 
-#: xmodule/poll_block.py:70
+#: xmodule/poll_block.py:73
 msgid "Poll answers from xml"
 msgstr ""
 
-#: xmodule/poll_block.py:76
+#: xmodule/poll_block.py:79
 msgid "Poll question"
 msgstr ""
 
@@ -12318,41 +12365,41 @@ msgstr ""
 msgid "{group_name} (inactive)"
 msgstr ""
 
-#: xmodule/split_test_block.py:636
+#: xmodule/split_test_block.py:635
 msgid "The experiment is not associated with a group configuration."
 msgstr ""
 
-#: xmodule/split_test_block.py:638
+#: xmodule/split_test_block.py:637
 msgid "Select a Group Configuration"
 msgstr ""
 
-#: xmodule/split_test_block.py:647
+#: xmodule/split_test_block.py:646
 msgid ""
 "The experiment uses a deleted group configuration. Select a valid group "
 "configuration or delete this experiment."
 msgstr ""
 
-#: xmodule/split_test_block.py:657
+#: xmodule/split_test_block.py:656
 msgid ""
 "The experiment uses a group configuration that is not supported for "
 "experiments. Select a valid group configuration or delete this experiment."
 msgstr ""
 
-#: xmodule/split_test_block.py:667
+#: xmodule/split_test_block.py:666
 msgid "The experiment does not contain all of the groups in the configuration."
 msgstr ""
 
-#: xmodule/split_test_block.py:669
+#: xmodule/split_test_block.py:668
 msgid "Add Missing Groups"
 msgstr ""
 
-#: xmodule/split_test_block.py:676
+#: xmodule/split_test_block.py:675
 msgid ""
 "The experiment has an inactive group. Move content into active groups, then "
 "delete the inactive group."
 msgstr ""
 
-#: xmodule/split_test_block.py:695
+#: xmodule/split_test_block.py:694
 msgid "This content experiment has issues that affect content visibility."
 msgstr ""
 
@@ -12360,11 +12407,51 @@ msgstr ""
 msgid "External Discussion"
 msgstr ""
 
-#: xmodule/vertical_block.py:44
-msgid "Enable in-context discussions for the Unit"
+#: xmodule/templates/item_bank/author_view.html:8
+#: xmodule/templates/item_bank/author_view.html:18
+#, python-format
+msgid ""
+"\n"
+"                Learners will see the selected component:\n"
+"                "
+msgid_plural ""
+"\n"
+"                Learners will see all of the %(num_selected)s selected "
+"components, in random order:\n"
+"                "
+msgstr[0] ""
+msgstr[1] ""
+
+#: xmodule/templates/item_bank/author_view.html:32
+#, python-brace-format
+msgid ""
+"Press {link_start}View{link_end} to preview, sync/update, and/or remove the "
+"selected components."
+msgstr ""
+
+#: xmodule/templates/item_bank/author_view.html:38
+#, python-brace-format
+msgid ""
+"Press {link_start}Edit{link_end} to configure how many will be shown and "
+"other settings."
+msgstr ""
+
+#: xmodule/templates/item_bank/author_view.html:44
+msgid "You have not selected any components yet."
+msgstr ""
+
+#: xmodule/templates/item_bank/author_view_add.html:11
+#, python-brace-format
+msgid ""
+"{button_start}Add components{button_end} from a content library to this "
+"problem bank."
 msgstr ""
 
 #: xmodule/vertical_block.py:45
+msgid "Enable in-context discussions for the Unit"
+msgstr ""
+
+#: xmodule/vertical_block.py:46
 msgid "Add discussion for the Unit."
 msgstr ""
 
@@ -12397,43 +12484,43 @@ msgid ""
 "\n"
 msgstr ""
 
-#: xmodule/video_block/transcripts_utils.py:211
+#: xmodule/video_block/transcripts_utils.py:214
 #, python-brace-format
 msgid "Can't get transcript link from Youtube for {youtube_id}."
 msgstr ""
 
-#: xmodule/video_block/transcripts_utils.py:233
+#: xmodule/video_block/transcripts_utils.py:236
 #, python-brace-format
 msgid ""
 "Can't receive transcripts from Youtube for {youtube_id}. Status code: "
 "{status_code}."
 msgstr ""
 
-#: xmodule/video_block/transcripts_utils.py:305
+#: xmodule/video_block/transcripts_utils.py:308
 msgid "We support only SubRip (*.srt) transcripts format."
 msgstr ""
 
-#: xmodule/video_block/transcripts_utils.py:309
+#: xmodule/video_block/transcripts_utils.py:312
 #, python-brace-format
 msgid ""
 "Something wrong with SubRip transcripts file during parsing. Inner message "
 "is {error_message}"
 msgstr ""
 
-#: xmodule/video_block/transcripts_utils.py:314
+#: xmodule/video_block/transcripts_utils.py:317
 msgid "Something wrong with SubRip transcripts file during parsing."
 msgstr ""
 
-#: xmodule/video_block/transcripts_utils.py:542
+#: xmodule/video_block/transcripts_utils.py:545
 #, python-brace-format
 msgid "{exception_message}: Can't find uploaded transcripts: {user_filename}"
 msgstr ""
 
-#: xmodule/video_block/video_block.py:147
+#: xmodule/video_block/video_block.py:148
 msgid "Basic"
 msgstr ""
 
-#: xmodule/video_block/video_block.py:599
+#: xmodule/video_block/video_block.py:600
 #, python-brace-format
 msgid "There is no transcript file associated with the {lang} language."
 msgid_plural ""
@@ -12441,17 +12528,17 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: xmodule/video_block/video_block.py:922
+#: xmodule/video_block/video_block.py:923
 msgid ""
 "The URL for your video. This can be a YouTube URL or a link to an .mp4, ."
 "ogg, or .webm video file hosted elsewhere on the Internet."
 msgstr ""
 
-#: xmodule/video_block/video_block.py:924
+#: xmodule/video_block/video_block.py:925
 msgid "Default Video URL"
 msgstr ""
 
-#: xmodule/video_block/video_handlers.py:582
+#: xmodule/video_block/video_handlers.py:587
 msgid "Language is required."
 msgstr ""
 
@@ -12692,56 +12779,56 @@ msgstr ""
 msgid "Thumbnail"
 msgstr ""
 
-#: xmodule/word_cloud_block.py:63 lms/templates/annotatable.html:13
+#: xmodule/word_cloud_block.py:69 lms/templates/annotatable.html:13
 #: lms/templates/peer_grading/peer_grading.html:25
 msgid "Instructions"
 msgstr ""
 
-#: xmodule/word_cloud_block.py:64
+#: xmodule/word_cloud_block.py:70
 msgid ""
 "Add instructions to help learners understand how to use the word cloud. "
 "Clear instructions are important, especially for learners who have "
 "accessibility requirements."
 msgstr ""
 
-#: xmodule/word_cloud_block.py:68
+#: xmodule/word_cloud_block.py:74
 msgid "Inputs"
 msgstr ""
 
-#: xmodule/word_cloud_block.py:69
+#: xmodule/word_cloud_block.py:75
 msgid ""
 "The number of text boxes available for learners to add words and sentences."
 msgstr ""
 
-#: xmodule/word_cloud_block.py:75
+#: xmodule/word_cloud_block.py:81
 msgid "Maximum Words"
 msgstr ""
 
-#: xmodule/word_cloud_block.py:76
+#: xmodule/word_cloud_block.py:82
 msgid "The maximum number of words displayed in the generated word cloud."
 msgstr ""
 
-#: xmodule/word_cloud_block.py:82
+#: xmodule/word_cloud_block.py:88
 msgid "Show Percents"
 msgstr ""
 
-#: xmodule/word_cloud_block.py:83
+#: xmodule/word_cloud_block.py:89
 msgid "Statistics are shown for entered words near that word."
 msgstr ""
 
-#: xmodule/word_cloud_block.py:90
+#: xmodule/word_cloud_block.py:96
 msgid "Whether this learner has posted words to the cloud."
 msgstr ""
 
-#: xmodule/word_cloud_block.py:95
+#: xmodule/word_cloud_block.py:101
 msgid "Student answer."
 msgstr ""
 
-#: xmodule/word_cloud_block.py:100
+#: xmodule/word_cloud_block.py:106
 msgid "All possible words from all learners."
 msgstr ""
 
-#: xmodule/word_cloud_block.py:104
+#: xmodule/word_cloud_block.py:110
 msgid "Top num_top_words words for word cloud."
 msgstr ""
 
@@ -13317,8 +13404,8 @@ msgstr ""
 msgid "Your search did not return any results"
 msgstr ""
 
-#: wiki/plugins/help/wiki_plugin.py:13 cms/templates/widgets/header.html:350
-#: cms/templates/widgets/header.html:365
+#: wiki/plugins/help/wiki_plugin.py:13 cms/templates/widgets/header.html:362
+#: cms/templates/widgets/header.html:377
 #: lms/templates/header/navbar-authenticated.html:59
 #: lms/templates/navigation/bootstrap/navbar-authenticated.html:58
 #: lms/templates/navigation/navbar-authenticated.html:42
@@ -13708,8 +13795,8 @@ msgstr ""
 #: cms/templates/group_configurations.html:45
 #: cms/templates/manage_users.html:27 cms/templates/manage_users_lib.html:28
 #: cms/templates/settings.html:54 cms/templates/settings_advanced.html:78
-#: cms/templates/settings_graders.html:49 cms/templates/widgets/header.html:157
-#: cms/templates/widgets/header.html:285
+#: cms/templates/settings_graders.html:49 cms/templates/widgets/header.html:164
+#: cms/templates/widgets/header.html:297
 #: lms/templates/wiki/includes/article_menu.html:57
 msgid "Settings"
 msgstr ""
@@ -13969,15 +14056,15 @@ msgid "Studio Accessibility Policy"
 msgstr ""
 
 #: cms/templates/asset_index.html:10 cms/templates/asset_index.html:28
-#: cms/templates/widgets/header.html:128 cms/templates/widgets/header.html:133
+#: cms/templates/widgets/header.html:135 cms/templates/widgets/header.html:140
 msgid "Files"
 msgstr ""
 
 #: cms/templates/asset_index.html:27 cms/templates/course_info.html:39
-#: cms/templates/course_outline.html:200 cms/templates/edit-tabs.html:44
+#: cms/templates/course_outline.html:204 cms/templates/edit-tabs.html:44
 #: cms/templates/edit-tabs.html:60 cms/templates/textbooks.html:53
 #: cms/templates/textbooks.html:69 cms/templates/videos_index.html:57
-#: cms/templates/widgets/header.html:91 lms/templates/static_htmlbook.html:109
+#: cms/templates/widgets/header.html:93 lms/templates/static_htmlbook.html:109
 #: lms/templates/static_pdfbook.html:35 lms/templates/staticbook.html:79
 msgid "Content"
 msgstr ""
@@ -14055,8 +14142,8 @@ msgstr ""
 #: cms/templates/certificates.html:116
 #: cms/templates/group_configurations.html:127 cms/templates/settings.html:707
 #: cms/templates/settings_advanced.html:147
-#: cms/templates/settings_graders.html:50 cms/templates/widgets/header.html:174
-#: cms/templates/widgets/header.html:179
+#: cms/templates/settings_graders.html:50 cms/templates/widgets/header.html:181
+#: cms/templates/widgets/header.html:186
 msgid "Grading"
 msgstr ""
 
@@ -14065,7 +14152,7 @@ msgstr ""
 #: cms/templates/manage_users.html:28 cms/templates/settings.html:708
 #: cms/templates/settings_advanced.html:148
 #: cms/templates/settings_graders.html:170
-#: cms/templates/widgets/header.html:184 cms/templates/widgets/header.html:189
+#: cms/templates/widgets/header.html:191 cms/templates/widgets/header.html:196
 msgid "Course Team"
 msgstr ""
 
@@ -14074,7 +14161,7 @@ msgstr ""
 #: cms/templates/settings_advanced.html:14
 #: cms/templates/settings_advanced.html:79
 #: cms/templates/settings_graders.html:173
-#: cms/templates/widgets/header.html:202 cms/templates/widgets/header.html:207
+#: cms/templates/widgets/header.html:209 cms/templates/widgets/header.html:214
 msgid "Advanced Settings"
 msgstr ""
 
@@ -14082,22 +14169,22 @@ msgstr ""
 #: cms/templates/group_configurations.html:131 cms/templates/settings.html:714
 #: cms/templates/settings_advanced.html:151
 #: cms/templates/settings_graders.html:176
-#: cms/templates/widgets/header.html:197
+#: cms/templates/widgets/header.html:204
 msgid "Proctored Exam Settings"
 msgstr ""
 
 #: cms/templates/checklists.html:13 cms/templates/checklists.html:31
-#: cms/templates/widgets/header.html:256
+#: cms/templates/widgets/header.html:263
 msgid "Checklists"
 msgstr ""
 
 #: cms/templates/checklists.html:30 cms/templates/export.html:43
 #: cms/templates/export_git.html:16 cms/templates/import.html:32
-#: cms/templates/widgets/header.html:226 cms/templates/widgets/header.html:297
+#: cms/templates/widgets/header.html:233 cms/templates/widgets/header.html:309
 msgid "Tools"
 msgstr ""
 
-#: cms/templates/component.html:17 cms/templates/studio_xblock_wrapper.html:163
+#: cms/templates/component.html:17 cms/templates/studio_xblock_wrapper.html:196
 msgid "Duplicate"
 msgstr ""
 
@@ -14106,7 +14193,7 @@ msgid "Duplicate this component"
 msgstr ""
 
 #: cms/templates/component.html:23 cms/templates/component.html:28
-#: cms/templates/studio_xblock_wrapper.html:144
+#: cms/templates/studio_xblock_wrapper.html:177
 msgid "Move"
 msgstr ""
 
@@ -14116,15 +14203,15 @@ msgstr ""
 
 #: cms/templates/component.html:39 cms/templates/edit-tabs.html:146
 #: cms/templates/edit-tabs.html:147
-#: cms/templates/studio_xblock_wrapper.html:179
+#: cms/templates/studio_xblock_wrapper.html:211
 msgid "Drag to reorder"
 msgstr ""
 
-#: cms/templates/container.html:173 cms/templates/container.html:182
+#: cms/templates/container.html:174 cms/templates/container.html:183
 #: cms/templates/course-create-rerun.html:32
 #: cms/templates/course-create-rerun.html:33 cms/templates/course_info.html:43
-#: cms/templates/course_info.html:44 cms/templates/course_outline.html:204
-#: cms/templates/course_outline.html:205 cms/templates/edit-tabs.html:66
+#: cms/templates/course_info.html:44 cms/templates/course_outline.html:208
+#: cms/templates/course_outline.html:209 cms/templates/edit-tabs.html:66
 #: cms/templates/edit-tabs.html:67 cms/templates/index.html:30
 #: cms/templates/index.html:31 cms/templates/library.html:56
 #: cms/templates/library.html:57 cms/templates/manage_users.html:31
@@ -14135,83 +14222,83 @@ msgstr ""
 msgid "Page Actions"
 msgstr ""
 
-#: cms/templates/container.html:187
+#: cms/templates/container.html:188
 msgid "Open the courseware in the LMS"
 msgstr ""
 
-#: cms/templates/container.html:188
+#: cms/templates/container.html:189
 msgid "View Live Version"
 msgstr ""
 
-#: cms/templates/container.html:192
+#: cms/templates/container.html:193
 msgid "Preview the courseware in the LMS"
 msgstr ""
 
-#: cms/templates/container.html:207
+#: cms/templates/container.html:208
 msgid "Collapse All"
 msgstr ""
 
-#: cms/templates/container.html:237
+#: cms/templates/container.html:238
 msgid "Adding components"
 msgstr ""
 
-#: cms/templates/container.html:238
+#: cms/templates/container.html:239
 msgid ""
 "Select a component type under {strong_start}Add New Component{strong_end}. "
 "Then select a template."
 msgstr ""
 
-#: cms/templates/container.html:242
+#: cms/templates/container.html:243
 msgid ""
 "The new component is added at the bottom of the page or group. You can then "
 "edit and move the component."
 msgstr ""
 
-#: cms/templates/container.html:243
+#: cms/templates/container.html:244
 msgid "Editing components"
 msgstr ""
 
-#: cms/templates/container.html:244
+#: cms/templates/container.html:245
 msgid ""
 "Click the {strong_start}Edit{strong_end} icon in a component to edit its "
 "content."
 msgstr ""
 
-#: cms/templates/container.html:248
+#: cms/templates/container.html:249
 msgid "Reorganizing components"
 msgstr ""
 
-#: cms/templates/container.html:249
+#: cms/templates/container.html:250
 msgid "Drag components to new locations within this component."
 msgstr ""
 
-#: cms/templates/container.html:250
+#: cms/templates/container.html:251
 msgid "For content experiments, you can drag components to other groups."
 msgstr ""
 
-#: cms/templates/container.html:251
+#: cms/templates/container.html:252
 msgid "Working with content experiments"
 msgstr ""
 
-#: cms/templates/container.html:252
+#: cms/templates/container.html:253
 msgid ""
 "Confirm that you have properly configured content in each of your experiment "
 "groups."
 msgstr ""
 
-#: cms/templates/container.html:255
+#: cms/templates/container.html:256
 msgid "Learn more about component containers"
 msgstr ""
 
-#: cms/templates/container.html:261
+#: cms/templates/container.html:262
 msgid "Unit Location"
 msgstr ""
 
-#: cms/templates/container.html:263
+#: cms/templates/container.html:264
 msgid "Location ID"
 msgstr ""
 
-#: cms/templates/container.html:266
+#: cms/templates/container.html:267
 msgid ""
 "To create a link to this unit from an HTML component in this course, enter "
 "{unit_link} as the URL value."
@@ -14370,8 +14457,8 @@ msgid ""
 "to student questions. You add or edit updates in HTML."
 msgstr ""
 
-#: cms/templates/course_outline.html:15 cms/templates/course_outline.html:201
-#: cms/templates/course_outline.html:284
+#: cms/templates/course_outline.html:15 cms/templates/course_outline.html:205
+#: cms/templates/course_outline.html:288
 msgid "Course Outline"
 msgstr ""
 
@@ -14395,36 +14482,36 @@ msgid ""
 "be visible to learners."
 msgstr ""
 
-#: cms/templates/course_outline.html:80
+#: cms/templates/course_outline.html:81
 msgid " Learn more"
 msgstr ""
 
-#: cms/templates/course_outline.html:84
+#: cms/templates/course_outline.html:87
 msgid "Share feedback"
 msgstr ""
 
-#: cms/templates/course_outline.html:107
+#: cms/templates/course_outline.html:111
 #: cms/templates/widgets/deprecated-course-key-warning.html:34
 msgid "Warning"
 msgstr ""
 
-#: cms/templates/course_outline.html:110
+#: cms/templates/course_outline.html:114
 msgid "This course uses features that are no longer supported."
 msgstr ""
 
-#: cms/templates/course_outline.html:114
+#: cms/templates/course_outline.html:118
 msgid "You must delete or replace the following components."
 msgstr ""
 
-#: cms/templates/course_outline.html:115
+#: cms/templates/course_outline.html:119
 msgid "Unsupported Components"
 msgstr ""
 
-#: cms/templates/course_outline.html:122
+#: cms/templates/course_outline.html:126
 msgid "Deprecated Component"
 msgstr ""
 
-#: cms/templates/course_outline.html:134
+#: cms/templates/course_outline.html:138
 msgid ""
 "To avoid errors, {platform_name} strongly recommends that you remove "
 "unsupported features from the course advanced settings. To do this, go to "
@@ -14432,116 +14519,116 @@ msgid ""
 "Module List\" setting, and then delete the following modules from the list."
 msgstr ""
 
-#: cms/templates/course_outline.html:140
+#: cms/templates/course_outline.html:144
 msgid "Unsupported Advance Modules"
 msgstr ""
 
-#: cms/templates/course_outline.html:160
+#: cms/templates/course_outline.html:164
 #: cms/templates/settings_advanced.html:42
 msgid "This course has proctored exam settings that are incomplete or invalid."
 msgstr ""
 
-#: cms/templates/course_outline.html:164
+#: cms/templates/course_outline.html:168
 msgid ""
 "To update these settings go to the {link_start}Proctored Exam Settings "
 "page{link_end}."
 msgstr ""
 
-#: cms/templates/course_outline.html:171
+#: cms/templates/course_outline.html:175
 msgid ""
 "To update these settings go to the {link_start}Advanced Settings "
 "page{link_end}."
 msgstr ""
 
-#: cms/templates/course_outline.html:178
+#: cms/templates/course_outline.html:182
 #: cms/templates/settings_advanced.html:57
 msgid "Proctoring Settings Errors"
 msgstr ""
 
-#: cms/templates/course_outline.html:208
+#: cms/templates/course_outline.html:212
 msgid "Click to add a new section"
 msgstr ""
 
-#: cms/templates/course_outline.html:209
+#: cms/templates/course_outline.html:213
 msgid "New Section"
 msgstr ""
 
-#: cms/templates/course_outline.html:214
+#: cms/templates/course_outline.html:218
 msgid "Reindex current course"
 msgstr ""
 
-#: cms/templates/course_outline.html:215
+#: cms/templates/course_outline.html:219
 msgid "Reindex"
 msgstr ""
 
-#: cms/templates/course_outline.html:221
+#: cms/templates/course_outline.html:225
 msgid "Collapse All Sections"
 msgstr ""
 
-#: cms/templates/course_outline.html:222
+#: cms/templates/course_outline.html:226
 msgid "Expand All Sections"
 msgstr ""
 
-#: cms/templates/course_outline.html:227
+#: cms/templates/course_outline.html:231
 msgid "Click to open the courseware in the LMS in a new tab"
 msgstr ""
 
-#: cms/templates/course_outline.html:227 cms/templates/edit-tabs.html:73
+#: cms/templates/course_outline.html:231 cms/templates/edit-tabs.html:73
 msgid "View Live"
 msgstr ""
 
-#: cms/templates/course_outline.html:294
+#: cms/templates/course_outline.html:298
 msgid "Creating your course organization"
 msgstr ""
 
-#: cms/templates/course_outline.html:295
+#: cms/templates/course_outline.html:299
 msgid "You add sections, subsections, and units directly in the outline."
 msgstr ""
 
-#: cms/templates/course_outline.html:296
+#: cms/templates/course_outline.html:300
 msgid ""
 "Create a section, then add subsections and units. Open a unit to add course "
 "components."
 msgstr ""
 
-#: cms/templates/course_outline.html:299
+#: cms/templates/course_outline.html:303
 msgid "Reorganizing your course"
 msgstr ""
 
-#: cms/templates/course_outline.html:300
+#: cms/templates/course_outline.html:304
 msgid "Drag sections, subsections, and units to new locations in the outline."
 msgstr ""
 
-#: cms/templates/course_outline.html:302
+#: cms/templates/course_outline.html:306
 msgid "Learn more about the course outline"
 msgstr ""
 
-#: cms/templates/course_outline.html:306
+#: cms/templates/course_outline.html:310
 msgid "Setting release dates and grading policies"
 msgstr ""
 
-#: cms/templates/course_outline.html:307
+#: cms/templates/course_outline.html:311
 msgid ""
 "Select the Configure icon for a section or subsection to set its release "
 "date. When you configure a subsection, you can also set the grading policy "
 "and due date."
 msgstr ""
 
-#: cms/templates/course_outline.html:309
+#: cms/templates/course_outline.html:313
 msgid "Learn more about grading policy settings"
 msgstr ""
 
-#: cms/templates/course_outline.html:313
+#: cms/templates/course_outline.html:317
 msgid "Changing the content learners see"
 msgstr ""
 
-#: cms/templates/course_outline.html:314
+#: cms/templates/course_outline.html:318
 msgid ""
 "To publish draft content, select the Publish icon for a section, subsection, "
 "or unit."
 msgstr ""
 
-#: cms/templates/course_outline.html:315
+#: cms/templates/course_outline.html:319
 msgid ""
 "To make a section, subsection, or unit unavailable to learners, select the "
 "Configure icon for that level, then select the appropriate {em_start}"
@@ -14549,7 +14636,7 @@ msgid ""
 "not included in grade calculations."
 msgstr ""
 
-#: cms/templates/course_outline.html:316
+#: cms/templates/course_outline.html:320
 msgid ""
 "To hide the content of a subsection from learners after the subsection due "
 "date has passed, select the Configure icon for a subsection, then select "
@@ -14557,19 +14644,19 @@ msgid ""
 "remain included in grade calculations."
 msgstr ""
 
-#: cms/templates/course_outline.html:318
+#: cms/templates/course_outline.html:322
 msgid "Learn more about content visibility settings"
 msgstr ""
 
 #: cms/templates/edit-tabs.html:48 cms/templates/textbooks.html:57
-#: cms/templates/widgets/header.html:123
+#: cms/templates/widgets/header.html:130
 msgid "Pages & Resources"
 msgstr ""
 
 #. Translators: Custom Pages refer to the tabs that appear in the top
 #. navigation of each course.
 #: cms/templates/edit-tabs.html:62 cms/templates/export.html:201
-#: cms/templates/widgets/header.html:118
+#: cms/templates/widgets/header.html:125
 msgid "Pages"
 msgstr ""
 
@@ -14960,7 +15047,7 @@ msgid "Export Course to Git"
 msgstr ""
 
 #: cms/templates/export_git.html:17 cms/templates/export_git.html:44
-#: cms/templates/widgets/header.html:252
+#: cms/templates/widgets/header.html:259
 msgid "Export to Git"
 msgstr ""
 
@@ -15690,38 +15777,38 @@ msgstr ""
 msgid "Archived Courses"
 msgstr ""
 
-#: cms/templates/index.html:352 cms/templates/index.html:356
-#: cms/templates/index.html:358
+#: cms/templates/index.html:353 cms/templates/index.html:355
+#: cms/templates/widgets/header.html:110
 msgid "Libraries"
 msgstr ""
 
-#: cms/templates/index.html:364
+#: cms/templates/index.html:360
 msgid "Taxonomies"
 msgstr ""
 
-#: cms/templates/index.html:387
+#: cms/templates/index.html:383
 msgid "Are you staff on an existing {studio_name} course?"
 msgstr ""
 
-#: cms/templates/index.html:389
+#: cms/templates/index.html:385
 msgid ""
 "The course creator must give you access to the course. Contact the course "
 "creator or administrator for the course you are helping to author."
 msgstr ""
 
-#: cms/templates/index.html:397 cms/templates/index.html:405
+#: cms/templates/index.html:393 cms/templates/index.html:401
 msgid "Create Your First Course"
 msgstr ""
 
-#: cms/templates/index.html:399
+#: cms/templates/index.html:395
 msgid "Your new course is just a click away!"
 msgstr ""
 
-#: cms/templates/index.html:418
+#: cms/templates/index.html:414
 msgid "Becoming a Course Creator in {studio_name}"
 msgstr ""
 
-#: cms/templates/index.html:423
+#: cms/templates/index.html:419
 msgid ""
 "{studio_name} is a hosted solution for our xConsortium partners and selected "
 "guests. Courses for which you are a team member appear above for you to "
@@ -15730,20 +15817,20 @@ msgid ""
 "during the work week."
 msgstr ""
 
-#: cms/templates/index.html:428 cms/templates/index.html:453
-#: cms/templates/index.html:481
+#: cms/templates/index.html:424 cms/templates/index.html:449
+#: cms/templates/index.html:477
 msgid "Your Course Creator Request Status:"
 msgstr ""
 
-#: cms/templates/index.html:432
+#: cms/templates/index.html:428
 msgid "Request the Ability to Create Courses"
 msgstr ""
 
-#: cms/templates/index.html:442 cms/templates/index.html:470
+#: cms/templates/index.html:438 cms/templates/index.html:466
 msgid "Your Course Creator Request Status"
 msgstr ""
 
-#: cms/templates/index.html:447
+#: cms/templates/index.html:443
 msgid ""
 "{studio_name} is a hosted solution for our xConsortium partners and selected "
 "guests. Courses for which you are a team member appear above for you to "
@@ -15751,17 +15838,17 @@ msgid ""
 "team is has completed evaluating your request."
 msgstr ""
 
-#: cms/templates/index.html:456 cms/templates/index.html:484
+#: cms/templates/index.html:452 cms/templates/index.html:480
 msgid "Your Course Creator request is:"
 msgstr ""
 
-#: cms/templates/index.html:460
+#: cms/templates/index.html:456
 msgid ""
 "Your request did not meet the criteria/guidelines specified by "
 "{platform_name} Staff."
 msgstr ""
 
-#: cms/templates/index.html:475
+#: cms/templates/index.html:471
 msgid ""
 "{studio_name} is a hosted solution for our xConsortium partners and selected "
 "guests. Courses for which you are a team member appear above for you to "
@@ -15769,37 +15856,37 @@ msgid ""
 "team is currently  evaluating your request."
 msgstr ""
 
-#: cms/templates/index.html:489
+#: cms/templates/index.html:485
 msgid ""
 "Your request is currently being reviewed by {platform_name} staff and should "
 "be updated shortly."
 msgstr ""
 
-#: cms/templates/index.html:533
+#: cms/templates/index.html:529
 msgid "Were you expecting to see a particular library here?"
 msgstr ""
 
-#: cms/templates/index.html:535
+#: cms/templates/index.html:531
 msgid ""
 "The library creator must give you access to the library. Contact the library "
 "creator or administrator for the library you are helping to author."
 msgstr ""
 
-#: cms/templates/index.html:542 cms/templates/index.html:550
+#: cms/templates/index.html:538 cms/templates/index.html:546
 msgid "Create Your First Library"
 msgstr ""
 
-#: cms/templates/index.html:544
+#: cms/templates/index.html:540
 msgid ""
 "Libraries hold a pool of components that can be re-used across multiple "
 "courses. Create your first library with the click of a button!"
 msgstr ""
 
-#: cms/templates/index.html:561
+#: cms/templates/index.html:557
 msgid "New to {studio_name}?"
 msgstr ""
 
-#: cms/templates/index.html:562
+#: cms/templates/index.html:558
 msgid ""
 "Click Help in the upper-right corner to get more information about the "
 "{studio_name} page you are viewing. You can also use the links at the bottom "
@@ -15807,53 +15894,53 @@ msgid ""
 "{studio_name} resources."
 msgstr ""
 
-#: cms/templates/index.html:567
+#: cms/templates/index.html:563
 msgid "Getting Started with {studio_name}"
 msgstr ""
 
-#: cms/templates/index.html:574 cms/templates/index.html:586
-#: cms/templates/index.html:592
+#: cms/templates/index.html:570 cms/templates/index.html:582
+#: cms/templates/index.html:588
 msgid "Can I create courses in {studio_name}?"
 msgstr ""
 
-#: cms/templates/index.html:575
+#: cms/templates/index.html:571
 msgid ""
 "In order to create courses in {studio_name}, you must {link_start}contact "
 "{platform_name} staff to help you create a course{link_end}."
 msgstr ""
 
-#: cms/templates/index.html:587
+#: cms/templates/index.html:583
 msgid ""
 "In order to create courses in {studio_name}, you must have course creator "
 "privileges to create your own course."
 msgstr ""
 
-#: cms/templates/index.html:593
+#: cms/templates/index.html:589
 msgid ""
 "Your request to author courses in {studio_name} has been denied. Please "
 "{link_start}contact {platform_name} Staff with further questions{link_end}."
 msgstr ""
 
-#: cms/templates/index.html:610
+#: cms/templates/index.html:606
 msgid "Thanks for signing up, {name}!"
 msgstr ""
 
-#: cms/templates/index.html:615
+#: cms/templates/index.html:611
 msgid "We need to verify your email address"
 msgstr ""
 
-#: cms/templates/index.html:617
+#: cms/templates/index.html:613
 msgid ""
 "Almost there! In order to complete your sign up we need you to verify your "
 "email address ({email}). An activation message and next steps should be "
 "waiting for you there."
 msgstr ""
 
-#: cms/templates/index.html:625
+#: cms/templates/index.html:621
 msgid "Need help?"
 msgstr ""
 
-#: cms/templates/index.html:626
+#: cms/templates/index.html:622
 msgid ""
 "Please check your Junk or Spam folders in case our email isn't in your "
 "INBOX. Still can't find the verification email? Request help via the link "
@@ -16001,7 +16088,7 @@ msgstr ""
 msgid "Library User Access"
 msgstr ""
 
-#: cms/templates/manage_users_lib.html:29 cms/templates/widgets/header.html:290
+#: cms/templates/manage_users_lib.html:29 cms/templates/widgets/header.html:302
 msgid "User Access"
 msgstr ""
 
@@ -16058,8 +16145,8 @@ msgstr ""
 msgid "Schedule & Details Settings"
 msgstr ""
 
-#: cms/templates/settings.html:55 cms/templates/widgets/header.html:164
-#: cms/templates/widgets/header.html:169
+#: cms/templates/settings.html:55 cms/templates/widgets/header.html:171
+#: cms/templates/widgets/header.html:176
 msgid "Schedule & Details"
 msgstr ""
 
@@ -16759,38 +16846,56 @@ msgid ""
 "worth."
 msgstr ""
 
-#: cms/templates/studio_xblock_wrapper.html:72
+#: cms/templates/studio_xblock_wrapper.html:75
 msgid "Importing components"
 msgstr ""
 
-#: cms/templates/studio_xblock_wrapper.html:92
-#: cms/templates/studio_xblock_wrapper.html:94
+#: cms/templates/studio_xblock_wrapper.html:99
+#: cms/templates/studio_xblock_wrapper.html:101
 msgid "Expand or Collapse"
 msgstr ""
 
-#: cms/templates/studio_xblock_wrapper.html:102
+#: cms/templates/studio_xblock_wrapper.html:109
 msgid "Select this problem"
 msgstr ""
 
-#: cms/templates/studio_xblock_wrapper.html:139
+#: cms/templates/studio_xblock_wrapper.html:116
+#: cms/templates/studio_xblock_wrapper.html:119
+msgid "Sourced from a library - but the upstream link is broken/invalid."
+msgstr ""
+
+#: cms/templates/studio_xblock_wrapper.html:122
+#: cms/templates/studio_xblock_wrapper.html:125
+msgid "Sourced from a library."
+msgstr ""
+
+#: cms/templates/studio_xblock_wrapper.html:143
+msgid "Update available - click to sync"
+msgstr ""
+
+#: cms/templates/studio_xblock_wrapper.html:146
+msgid "Update available"
+msgstr ""
+
+#: cms/templates/studio_xblock_wrapper.html:172
 msgid "Manage Access"
 msgstr ""
 
-#: cms/templates/studio_xblock_wrapper.html:149
+#: cms/templates/studio_xblock_wrapper.html:182
 msgid "Manage Tags"
 msgstr ""
 
-#: cms/templates/studio_xblock_wrapper.html:158
+#: cms/templates/studio_xblock_wrapper.html:191
 msgid "Copy to Clipboard"
 msgstr ""
 
-#: cms/templates/studio_xblock_wrapper.html:185
+#: cms/templates/studio_xblock_wrapper.html:217
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:169
 #: lms/templates/module-error.html:20
 msgid "Details"
 msgstr ""
 
-#: cms/templates/studio_xblock_wrapper.html:197
+#: cms/templates/studio_xblock_wrapper.html:229
 msgid "This block contains multiple components."
 msgstr ""
 
@@ -16826,7 +16931,7 @@ msgid "Learn more about textbooks"
 msgstr ""
 
 #: cms/templates/videos_index.html:13 cms/templates/videos_index.html:58
-#: cms/templates/widgets/header.html:143
+#: cms/templates/widgets/header.html:150
 msgid "Video Uploads"
 msgstr ""
 
@@ -16987,66 +17092,6 @@ msgstr ""
 msgid "{platform_name} {studio_name}: Task Status Update"
 msgstr ""
 
-#: cms/templates/maintenance/_announcement_delete.html:8
-#: cms/templates/maintenance/_announcement_delete.html:11
-msgid "Delete Announcement"
-msgstr ""
-
-#: cms/templates/maintenance/_announcement_delete.html:22
-msgid "Are you sure you want to delete this Announcement?"
-msgstr ""
-
-#: cms/templates/maintenance/_announcement_delete.html:35
-msgid "Confirm"
-msgstr ""
-
-#: cms/templates/maintenance/_announcement_edit.html:8
-#: cms/templates/maintenance/_announcement_edit.html:11
-msgid "Edit Announcement"
-msgstr ""
-
-#: cms/templates/maintenance/_announcement_edit.html:26
-#: lms/templates/problem.html:37 lms/templates/problem.html:38
-#: lms/templates/word_cloud.html:40
-msgid "Save"
-msgstr ""
-
-#: cms/templates/maintenance/_announcement_index.html:42
-msgid "Create New"
-msgstr ""
-
-#: cms/templates/maintenance/_announcement_index.html:47
-msgid "previous"
-msgstr ""
-
-#: cms/templates/maintenance/_announcement_index.html:53
-msgid "next"
-msgstr ""
-
-#: cms/templates/maintenance/_force_publish_course.html:12
-msgid "Required data to force publish course."
-msgstr ""
-
-#: cms/templates/maintenance/_force_publish_course.html:17
-msgid "course-v1:edX+DemoX+Demo_Course"
-msgstr ""
-
-#: cms/templates/maintenance/_force_publish_course.html:27
-#: lms/templates/problem.html:45
-#: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html:33
-#: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:41
-msgid "Reset"
-msgstr ""
-
-#: cms/templates/maintenance/_force_publish_course.html:28
-msgid "Reset values"
-msgstr ""
-
-#: cms/templates/maintenance/base.html:14
-#: cms/templates/maintenance/index.html:8
-msgid "Maintenance Dashboard"
-msgstr ""
-
 #: cms/templates/registration/activation_complete.html:22
 msgid "Thanks for activating your account."
 msgstr ""
@@ -17122,65 +17167,69 @@ msgid ""
 "{link_start}edX Inc.{link_end}"
 msgstr ""
 
-#: cms/templates/widgets/header.html:72
+#: cms/templates/widgets/header.html:74
 msgid "Current Course:"
 msgstr ""
 
-#: cms/templates/widgets/header.html:88 cms/templates/widgets/header.html:281
+#: cms/templates/widgets/header.html:90 cms/templates/widgets/header.html:293
 msgid "Course Navigation"
 msgstr ""
 
-#: cms/templates/widgets/header.html:98 cms/templates/widgets/header.html:103
+#: cms/templates/widgets/header.html:100 cms/templates/widgets/header.html:105
 msgid "Outline"
 msgstr ""
 
-#: cms/templates/widgets/header.html:148
+#: cms/templates/widgets/header.html:155
 msgid "Videos"
 msgstr ""
 
-#: cms/templates/widgets/header.html:217
+#: cms/templates/widgets/header.html:224
 msgid "Publisher"
 msgstr ""
 
-#: cms/templates/widgets/header.html:232 cms/templates/widgets/header.html:237
-#: cms/templates/widgets/header.html:303
+#: cms/templates/widgets/header.html:239 cms/templates/widgets/header.html:244
+#: cms/templates/widgets/header.html:315
 msgid "Import"
 msgstr ""
 
-#: cms/templates/widgets/header.html:242 cms/templates/widgets/header.html:247
-#: cms/templates/widgets/header.html:306
+#: cms/templates/widgets/header.html:249 cms/templates/widgets/header.html:254
+#: cms/templates/widgets/header.html:318
 msgid "Export"
 msgstr ""
 
-#: cms/templates/widgets/header.html:273
+#: cms/templates/widgets/header.html:267
+msgid "Optimize Course"
+msgstr ""
+
+#: cms/templates/widgets/header.html:285
 msgid "Current Library:"
 msgstr ""
 
-#: cms/templates/widgets/header.html:321
+#: cms/templates/widgets/header.html:333
 msgid "Language preference"
 msgstr ""
 
-#: cms/templates/widgets/header.html:329 lms/templates/header/header.html:95
+#: cms/templates/widgets/header.html:341 lms/templates/header/header.html:95
 #: lms/templates/navigation/navigation.html:63
 #: lms/templates/widgets/footer-language-selector.html:24
 msgid "Choose Language"
 msgstr ""
 
-#: cms/templates/widgets/header.html:345 cms/templates/widgets/header.html:360
+#: cms/templates/widgets/header.html:357 cms/templates/widgets/header.html:372
 #: lms/templates/header/user_dropdown.html:48
 #: lms/templates/user_dropdown.html:31 lms/templates/user_dropdown.html:39
 msgid "Account"
 msgstr ""
 
-#: cms/templates/widgets/header.html:346 cms/templates/widgets/header.html:361
+#: cms/templates/widgets/header.html:358 cms/templates/widgets/header.html:373
 msgid "Account Navigation"
 msgstr ""
 
-#: cms/templates/widgets/header.html:350 cms/templates/widgets/header.html:365
+#: cms/templates/widgets/header.html:362 cms/templates/widgets/header.html:377
 msgid "Contextual Online Help"
 msgstr ""
 
-#: cms/templates/widgets/header.html:370
+#: cms/templates/widgets/header.html:382
 msgid "Sign Up"
 msgstr ""
 
@@ -17305,11 +17354,7 @@ msgstr ""
 msgid "Currently signed in as:"
 msgstr ""
 
-#: cms/templates/widgets/user_dropdown.html:26
-msgid "Maintenance"
-msgstr ""
-
-#: cms/templates/widgets/user_dropdown.html:30
+#: cms/templates/widgets/user_dropdown.html:25
 #: lms/templates/header/user_dropdown.html:52
 #: lms/templates/user_dropdown.html:32 lms/templates/user_dropdown.html:40
 #: lms/templates/user_dropdown.html:59
@@ -17882,8 +17927,19 @@ msgstr ""
 msgid "Hint"
 msgstr ""
 
+#: lms/templates/problem.html:37 lms/templates/problem.html:38
+#: lms/templates/word_cloud.html:40
+msgid "Save"
+msgstr ""
+
 #: lms/templates/problem.html:39
 msgid "Save your answer"
+msgstr ""
+
+#: lms/templates/problem.html:45
+#: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html:33
+#: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:41
+msgid "Reset"
 msgstr ""
 
 #: lms/templates/problem.html:45
@@ -18011,10 +18067,6 @@ msgstr ""
 
 #: lms/templates/seq_block.html:39
 msgid "Sequence"
-msgstr ""
-
-#: lms/templates/seq_block.html:76 lms/templates/vert_module.html:28
-msgid "Completed"
 msgstr ""
 
 #: lms/templates/seq_block.html:91
@@ -18349,35 +18401,35 @@ msgstr ""
 msgid "Share this video"
 msgstr ""
 
-#: lms/templates/video.html:97
+#: lms/templates/video.html:110
 msgid "Share on {site}"
 msgstr ""
 
-#: lms/templates/video.html:115
+#: lms/templates/video.html:127
 msgid "Copy"
 msgstr ""
 
-#: lms/templates/video.html:126
+#: lms/templates/video.html:138
 msgid "Transcripts"
 msgstr ""
 
-#: lms/templates/video.html:132
+#: lms/templates/video.html:144
 msgid "Download {file}"
 msgstr ""
 
-#: lms/templates/video.html:138
+#: lms/templates/video.html:150
 msgid "Download transcript"
 msgstr ""
 
-#: lms/templates/video.html:144
+#: lms/templates/video.html:156
 msgid "Handouts"
 msgstr ""
 
-#: lms/templates/video.html:145
+#: lms/templates/video.html:157
 msgid "Download Handout"
 msgstr ""
 
-#: lms/templates/video.html:158
+#: lms/templates/video.html:170
 msgid "How is the transcript quality ?"
 msgstr ""
 
@@ -19498,160 +19550,6 @@ msgid ""
 "else's certificate, please contact them to get an updated link."
 msgstr ""
 
-#: lms/templates/course_modes/_upgrade_button.html:14
-#: lms/templates/course_modes/choose.html:132
-msgid "Pursue the Verified Track"
-msgstr ""
-
-#: lms/templates/course_modes/_upgrade_button.html:17
-#: lms/templates/course_modes/choose.html:134
-msgid "Pursue a Verified Certificate"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:12
-msgid "Enroll In {course_name} | Choose Your Track"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:62
-msgid "Sorry, there was an error when trying to enroll you"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:91
-msgid "Pursue Academic Credit with the Verified Track"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:93
-msgid "Pursue Academic Credit with a Verified Certificate"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:97
-msgid ""
-"Become eligible for academic credit and highlight your new skills and "
-"knowledge with a verified certificate. Use this valuable credential to "
-"qualify for academic credit, advance your career, or strengthen your school "
-"applications."
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:102
-#: lms/templates/course_modes/choose.html:144
-msgid "Benefits of the Verified Track"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:104
-#: lms/templates/course_modes/choose.html:116
-msgid ""
-"{b_start}Eligible for credit:{b_end} Receive academic credit after "
-"successfully completing the course"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:106
-#: lms/templates/course_modes/choose.html:147
-msgid ""
-"{b_start}Unlimited Course Access: {b_end}Learn at your own pace, and access "
-"materials anytime to brush up on what you've learned."
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:109
-#: lms/templates/course_modes/choose.html:150
-msgid ""
-"{b_start}Graded Assignments: {b_end}Build your skills through graded "
-"assignments and projects."
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:111
-#: lms/templates/course_modes/choose.html:152
-msgid ""
-"{b_start}Easily Sharable: {b_end}Add the certificate to your CV or resumé, "
-"or post it directly on LinkedIn."
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:114
-#: lms/templates/course_modes/choose.html:155
-msgid "Benefits of a Verified Certificate"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:117
-msgid ""
-"{b_start}Official:{b_end} Receive an instructor-signed certificate with the "
-"institution's logo"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:118
-msgid ""
-"{b_start}Easily shareable:{b_end} Add the certificate to your CV or resumé, "
-"or post it directly on LinkedIn"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:139
-msgid ""
-"Highlight your new knowledge and skills with a verified certificate. Use "
-"this valuable credential to improve your job prospects and advance your "
-"career, or highlight your certificate in school applications."
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:157
-msgid ""
-"{b_start}Official: {b_end}Receive an instructor-signed certificate with the "
-"institution's logo"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:158
-msgid ""
-"{b_start}Easily shareable: {b_end}Add the certificate to your CV or resumé, "
-"or post it directly on LinkedIn"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:159
-msgid ""
-"{b_start}Motivating: {b_end}Give yourself an additional incentive to "
-"complete the course"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:184
-#: lms/templates/course_modes/choose.html:192
-#: lms/templates/course_modes/choose.html:221
-msgid "Audit This Course"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:186
-msgid ""
-"Audit this course for free and have complete access to all the course "
-"material, activities, tests, and forums."
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:204
-msgid "Audit This Course (No Certificate)"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:208
-msgid ""
-"Audit this course for free and have access to course materials and "
-"discussions forums. {b_start}This track does not include graded assignments, "
-"or unlimited course access.{b_end}"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:210
-msgid ""
-"Audit this course for free and have access to course materials and "
-"discussions forums. {b_start}This track does not include graded assignments."
-"{b_end}"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:212
-msgid ""
-"Audit this course for free and have access to course materials and "
-"discussions forums. {b_start}This track does not include unlimited course "
-"access.{b_end}"
-msgstr ""
-
-#: lms/templates/course_modes/choose.html:214
-msgid ""
-"Audit this course for free and have complete access to all the course "
-"material, activities, tests, and forums.  {b_start}Please note that this "
-"track does not offer a certificate for learners who earn a passing grade."
-"{b_end}"
-msgstr ""
-
 #: lms/templates/course_modes/error.html:13
 msgid "Unable to enroll in {course_name}"
 msgstr ""
@@ -20570,22 +20468,6 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_show_consent.html:19
 msgid "View Consent"
-msgstr ""
-
-#: lms/templates/dashboard/_dashboard_third_party_error.html:7
-msgid "Could Not Link Accounts"
-msgstr ""
-
-#. Translators: this message is displayed when a user tries to link their
-#. account with a third-party authentication provider (for example, Google or
-#. LinkedIn) with a given edX account, but their third-party account is already
-#. associated with another edX account. provider_name is the name of the
-#. third-party authentication provider, and platform_name is the name of the
-#. edX deployment.
-#: lms/templates/dashboard/_dashboard_third_party_error.html:10
-msgid ""
-"The {provider_name} account you selected is already linked to another "
-"{platform_name} account."
 msgstr ""
 
 #: lms/templates/dashboard/_entitlement_reason_survey.html:7
@@ -23035,16 +22917,6 @@ msgstr ""
 msgid "Currently the {platform_name} servers are overloaded"
 msgstr ""
 
-#: lms/templates/student_account/account_settings.html:20
-msgid "Account Settings"
-msgstr ""
-
-#: lms/templates/student_account/account_settings.html:82
-msgid ""
-" and access to private sites offered by MIT Open Learning, Wharton Executive "
-"Education, and Harvard Medical School"
-msgstr ""
-
 #: lms/templates/student_account/finish_auth.html:6
 msgid "Please Wait"
 msgstr ""
@@ -23398,71 +23270,6 @@ msgstr ""
 
 #: openedx/features/course_experience/templates/course_experience/course-updates-fragment.html:49
 msgid "This course does not have any updates."
-msgstr ""
-
-#. Translators: this section lists all the third-party authentication providers
-#. (for example, Google and LinkedIn) the user can link with or unlink from
-#. their edX account.
-#: openedx/features/learner_profile/static/learner_profile/templates/third_party_auth.html:10
-msgid "Connected Accounts"
-msgstr ""
-
-#: openedx/features/learner_profile/static/learner_profile/templates/third_party_auth.html:18
-msgid "Linked"
-msgstr ""
-
-#: openedx/features/learner_profile/static/learner_profile/templates/third_party_auth.html:20
-msgid "Not Linked"
-msgstr ""
-
-#. Translators: clicking on this removes the link between a user's edX account
-#. and their account with an external authentication provider (like Google or
-#. LinkedIn).
-#: openedx/features/learner_profile/static/learner_profile/templates/third_party_auth.html:34
-msgid "Unlink"
-msgstr ""
-
-#. Translators: clicking on this creates a link between a user's edX account
-#. and their account with an external authentication provider (like Google or
-#. LinkedIn).
-#: openedx/features/learner_profile/static/learner_profile/templates/third_party_auth.html:39
-msgid "Link"
-msgstr ""
-
-#: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:20
-msgid "Completed {completion_date_html}"
-msgstr ""
-
-#: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:39
-msgid "{course_mode} certificate"
-msgstr ""
-
-#: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:53
-msgid "You haven't earned any certificates yet."
-msgstr ""
-
-#: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html:58
-msgid "Explore New Courses"
-msgstr ""
-
-#: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:16
-msgid "Learner Profile"
-msgstr ""
-
-#: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:32
-msgid "View My Records"
-msgstr ""
-
-#: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:39
-msgid "My Profile"
-msgstr ""
-
-#: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:41
-msgid "Build out your profile to personalize your identity on {platform_name}."
-msgstr ""
-
-#: openedx/features/learner_profile/templates/learner_profile/learner_profile.html:60
-msgid "An error occurred. Try loading the page again."
 msgstr ""
 
 #: themes/red-theme/lms/templates/footer.html:87
