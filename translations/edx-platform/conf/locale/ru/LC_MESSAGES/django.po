@@ -73,6 +73,7 @@ msgstr "Зарегистрироваться"
 msgid "Discover courses"
 msgstr "Наши курсы"
 
+#: lms/templates/static_templates/competition.html
 msgid "MOOC Competition for transfer"
 msgstr "Каталог МООК для перезачета"
 
