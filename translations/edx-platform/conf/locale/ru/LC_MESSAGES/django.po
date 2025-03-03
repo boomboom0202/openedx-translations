@@ -70,6 +70,12 @@ msgstr "Конкурс МООК"
 msgid "Register for free"
 msgstr "Зарегистрироваться"
 
+msgid "My courses"
+msgstr "Мой курсы"
+
+msgid "Discover"
+msgstr "Каталог"
+
 msgid "Discover courses"
 msgstr "Наши курсы"
 
