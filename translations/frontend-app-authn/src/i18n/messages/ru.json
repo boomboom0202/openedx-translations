@@ -136,6 +136,7 @@
   "empty.username.field.error": "Имя пользователя должно содержать от 2 до 30 символов.",
   "empty.password.field.error": "Критерии пароля не соблюдены",
   "empty.country.field.error": "Выберите страну или регион проживания",
+  "empty.gender.field.error": "Выберите пол",
   "invalid.country.field.error": "Страна должна совпадать с опцией, доступной в раскрывающемся списке.",
   "email.do.not.match": "Адреса электронной почты не совпадают.",
   "email.invalid.format.error": "Введите корректный адрес эл. почты",
