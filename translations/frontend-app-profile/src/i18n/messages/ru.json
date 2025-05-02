@@ -1,4 +1,13 @@
 {
+  "nav.courses": "Курсы",
+  "nav.competition": "Конкурсы",
+  "nav.catalog": "Каталог МООК для перезачёта",
+  "nav.authors": "Авторам",
+  "nav.checking": "Система проверки",
+  "nav.my_courses": "Мои курсы",
+  "nav.profile": "Профиль",
+  "nav.account": "Аккаунт",
+  "nav.sign_out": "Выйти",
   "profile.page.title": "Профиль | {siteName}",
   "profile.age.details": "Чтобы поделиться своим профилем с другими учащимися {siteName}, вы должны подтвердить, что вам исполнилось 13 лет.",
   "profile.age.set.date": "Установите дату своего рождения",
