@@ -1,4 +1,13 @@
 {
+  "nav.courses": "Courses",
+  "nav.competition": "Competition",
+  "nav.catalog": "Catalog MOOC for Transfer",
+  "nav.authors": "For Authors",
+  "nav.checking": "The System of Checking",
+  "nav.my_courses": "My Courses",
+  "nav.profile": "Profile",
+  "nav.account": "Account",
+  "nav.sign_out": "Sign out",
   "profile.page.title": "Profile | {siteName}",
   "profile.age.cannotShare": "Your profile cannot be shared.",
   "profile.age.details": "To share your profile with other {siteName} learners, you must confirm that you are over the age of 13.",
