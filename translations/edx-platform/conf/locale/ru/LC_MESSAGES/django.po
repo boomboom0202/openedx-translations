@@ -42,6 +42,48 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
+msgid "Almaty"
+msgstr "Алматы"
+
+msgid "Al-Farabi"
+msgstr "Аль-Фараби"
+
+msgid "Quick Links"
+msgstr "Быстрые ссылки"
+
+msgid "About the platform"
+msgstr "О платформе"
+
+msgid "Courses"
+msgstr "Курсы"
+
+msgid "Instructors"
+msgstr "Преподаватели"
+
+msgid "News"
+msgstr "Новости"
+
+msgid "FAQ"
+msgstr "Часто задаваемые вопросы"
+
+msgid "Statistics"
+msgstr "Статистика"
+
+msgid "Students"
+msgstr "Студенты"
+
+msgid "Certificates"
+msgstr "Сертификаты"
+
+msgid "We are on social media"
+msgstr "Мы в социальных сетях"
+
+msgid "All rights reserved"
+msgstr "Все права защищены"
+
+msgid "Developed by the Office of OAICI"
+msgstr "Разработано офисом ОАиЦИ"
+
 msgid "Our courses"
 msgstr "Наши курсы"
 
@@ -49,7 +91,8 @@ msgid "Competition"
 msgstr "Конкурс"
 
 msgid "Catalog MOOC for Transfer"
-msgstr "Каталог МООК для трансфера"
+msgstr "Каталог МООК для перезачёта"
+
 
 msgid "For Authors"
 msgstr "Для авторов"
