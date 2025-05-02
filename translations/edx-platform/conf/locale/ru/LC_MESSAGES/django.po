@@ -45,8 +45,11 @@ msgstr ""
 msgid "Almaty"
 msgstr "Алматы"
 
-msgid "Al-Farabi"
-msgstr "Аль-Фараби"
+msgid "Al"
+msgstr "Аль"
+
+msgid "Farabi"
+msgstr "Фараби"
 
 msgid "Quick Links"
 msgstr "Быстрые ссылки"
@@ -56,7 +59,6 @@ msgstr "О платформе"
 
 msgid "Courses"
 msgstr "Курсы"
-
 
 msgid "Statistics"
 msgstr "Статистика"
