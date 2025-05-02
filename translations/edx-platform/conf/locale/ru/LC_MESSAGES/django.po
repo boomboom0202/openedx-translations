@@ -67,9 +67,6 @@ msgstr "Студенты"
 msgid "We are on social media"
 msgstr "Мы в социальных сетях"
 
-msgid "All rights reserved"
-msgstr "Все права защищены"
-
 msgid "Developed by the Office of OAICI"
 msgstr "Разработано офисом ОАиЦИ"
 
