@@ -57,23 +57,12 @@ msgstr "О платформе"
 msgid "Courses"
 msgstr "Курсы"
 
-msgid "Instructors"
-msgstr "Преподаватели"
-
-msgid "News"
-msgstr "Новости"
-
-msgid "FAQ"
-msgstr "Часто задаваемые вопросы"
 
 msgid "Statistics"
 msgstr "Статистика"
 
 msgid "Students"
 msgstr "Студенты"
-
-msgid "Certificates"
-msgstr "Сертификаты"
 
 msgid "We are on social media"
 msgstr "Мы в социальных сетях"
