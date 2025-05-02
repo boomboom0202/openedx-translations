@@ -1,4 +1,13 @@
 {
+  "nav.courses": "Courses",
+  "nav.competition": "Competition",
+  "nav.catalog": "Catalog MOOC for Transfer",
+  "nav.authors": "For Authors",
+  "nav.checking": "The System of Checking",
+  "nav.my_courses": "My Courses",
+  "nav.profile": "Profile",
+  "nav.account": "Account",
+  "nav.sign_out": "Sign out",
   "account.settings.message.duplicate.tpa.provider": "The {provider} account you selected is already linked to another {siteName} account.",
   "account.settings.message.managed.settings": "Your profile settings are managed by {managerTitle}. Contact your administrator or {support} for help.",
   "account.settings.message.managed.settings.support": "support",
