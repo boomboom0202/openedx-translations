@@ -7,7 +7,7 @@
   "nav.my_courses": "Мои курсы",
   "nav.profile": "Профиль",
   "nav.account": "Аккаунт",
-  "nav.sign_out": "Выйти"
+  "nav.sign_out": "Выйти",
   "learner-dash.loadingSR": "Идет загрузка...",
   "learner-dash.error-page-message": "Если у вас возникают повторяющиеся сбои, отправьте электронное письмо в службу поддержки по адресу {supportEmail}",
   "learner-dash.title": "Домашняя страница учащегося",
