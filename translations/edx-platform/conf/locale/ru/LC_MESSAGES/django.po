@@ -82,7 +82,6 @@ msgstr "Конкурс"
 msgid "Catalog MOOC for Transfer"
 msgstr "Каталог МООК для перезачёта"
 
-
 msgid "For Authors"
 msgstr "Для авторов"
 
