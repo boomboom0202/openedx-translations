@@ -87,6 +87,24 @@ msgstr "Для авторов"
 msgid "The System of Checking"
 msgstr "Система проверки"
 
+msgid "MOOC Online Courses"
+msgstr "Онлайн курсы МООК"
+
+msgid "Learn from top instructors at your convenience"
+msgstr "Учитесь у ведущих преподавателей в удобное для вас время"
+
+msgid "access to learning materials"
+msgstr "доступ к учебным материалам"
+
+msgid "Certificates upon course completion"
+msgstr "Сертификаты по завершению курсов"
+
+msgid "Video lectures, assignments, and quizzes"
+msgstr "Видеолекции, задания и тесты"
+
+msgid "Instructor and community support"
+msgstr "Поддержка преподавателей и сообщества"
+
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
 msgstr "Такого участника команды курса не существует"
