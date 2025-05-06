@@ -87,32 +87,6 @@ msgstr "Для авторов"
 msgid "The System of Checking"
 msgstr "Система проверки"
 
-
-msgid "Our Advantages"
-msgstr "Наши преимущества"
-
-msgid "Quality Education"
-msgstr "Качественное образование"
-
-msgid "Educational programs from leading instructors and industry experts."
-msgstr "Образовательные программы от ведущих преподавателей и экспертов отрасли."
-
-msgid "Access from Any Device"
-msgstr "Доступ с любого устройства"
-
-msgid "Study anytime and anywhere — from your phone, tablet, or PC."
-msgstr "Проходите обучение в любое время и в любом месте — с телефона, планшета или ПК."
-
-
-msgid "Get official certificates to validate your knowledge and skills."
-msgstr "Получайте подтверждение ваших знаний и навыков с официальными сертификатами."
-
-msgid "Welcome to Open KazNU"
-msgstr "Добро пожаловать в Open KazNU"
-
-msgid "A platform for online MOOCs where modern technology and quality education are open to everyone"
-msgstr "Платформа для онлайн-курсов МООК, где современные технологии и качественное образование открыты для каждого"
-
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
 msgstr "Такого участника команды курса не существует"
