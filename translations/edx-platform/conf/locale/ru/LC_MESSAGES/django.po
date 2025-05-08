@@ -105,6 +105,9 @@ msgstr "Видеолекции, задания и тесты"
 msgid "Instructor and community support"
 msgstr "Поддержка преподавателей и сообщества"
 
+msgid "Register for free"
+msgstr "Зарегистрироваться"
+
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
 msgstr "Такого участника команды курса не существует"
