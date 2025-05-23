@@ -90,21 +90,6 @@ msgstr "Система проверки"
 msgid "MOOC Online Courses"
 msgstr "Онлайн курсы МООК"
 
-msgid "Learn from top instructors at your convenience"
-msgstr "Учитесь у ведущих преподавателей в удобное для вас время"
-
-msgid "access to learning materials"
-msgstr "доступ к учебным материалам"
-
-msgid "Certificates upon course completion"
-msgstr "Сертификаты по завершению курсов"
-
-msgid "Video lectures, assignments, and quizzes"
-msgstr "Видеолекции, задания и тесты"
-
-msgid "Instructor and community support"
-msgstr "Поддержка преподавателей и сообщества"
-
 msgid "Register for free"
 msgstr "Зарегистрироваться"
 
