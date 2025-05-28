@@ -16507,7 +16507,7 @@ msgstr "Начало курса"
 
 #: lms/templates/courseware/course_about.html:193
 msgid "Classes End"
-msgstr "Занятия заканчиваются"
+msgstr "Конец курса"
 
 #: lms/templates/courseware/course_about.html:206
 msgid "Estimated Effort"
