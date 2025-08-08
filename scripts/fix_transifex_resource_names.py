@@ -39,7 +39,7 @@ from transifex.api import transifex_api
 # Use random suffix to avoid slug collisions across projects
 # See the AI Transifex translations postmortem for more details:
 #   - https://github.com/openedx/openedx-translations/issues/41695
-RESOURCE_SLUG_REGEXP = re.compile(r'-r[0-9]{6}$')
+RESOURCE_SLUG_REGEXP = re.compile(r'^[a-z0-9-]*-r[0-9]{6}$')
 
 # Slugs are just hashes (e.g. "b8933764bdb3063ca09d6aa20341102f") should be made readable
 RESOURCE_SLUG_IS_JUST_HASH_REGEXP = re.compile(r'^[a-z0-9]{32}$')
@@ -201,18 +201,18 @@ def main():
             or force_slug
         ):
             if new_slug:
+                force_slug_note = ' (force suffix)' if force_slug else ''
                 if resource.slug != new_slug:
                     resource.slug = new_slug
-                    force_slug_note = ' (force suffix)' if force_slug else ''
                     if args.dry_run:
                         print(f'\n### Would save new slug "{new_slug}"{force_slug_note} (dry-run) ###', '\n')
-                else:
-                    print(f'\n### Saving new slug "{new_slug}"{force_slug_note} ###', '\n')
-                    try:
-                        resource.save('slug')
-                    except Exception as e:
-                        # Slug is unique, so if it already exists, we get an error.
-                        print(f'Error: {e}')
+                    else:
+                        print(f'\n### Saving new slug "{new_slug}"{force_slug_note} ###', '\n')
+                        try:
+                            resource.save('slug')
+                        except Exception as e:
+                            # Slug is unique, so if it already exists, we get an error.
+                            print(f'Error: {e}')
             else:
                 print(f'Error: Unrecognized slug pattern or categories to infer resource slug from.')
 

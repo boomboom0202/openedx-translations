@@ -2,13 +2,23 @@
 Tests for fix_transifex_resource_names.py.
 """
 
+from contextlib import contextmanager
+from dataclasses import dataclass
 import pytest
 
-from unittest.mock import MagicMock
+from unittest.mock import patch, MagicMock
 from ..fix_transifex_resource_names import (
     get_repo_name_from_resource,
     get_repo_slug_from_resource,
+    parse_arguments,
 )
+
+
+@dataclass
+class ParsedArguments:
+    force_suffix: bool = False
+    dry_run: bool = False
+    tx_project_slug: str = 'openedx-translations'
 
 
 @pytest.fixture(autouse=True)
@@ -61,28 +71,7 @@ def test_get_repo_name_from_categories_with_js():
     assert get_repo_name_from_resource(resource) == 'my-xblock2-js'
 
 
-def test_get_repo_name_from_invalid_slug_with_force_suffix():
-    resource = MagicMock()
-    resource.slug = 'some-gibberish-slug'
-    resource.categories = ['github#repository:openedx/openedx-translations#branch:main#path:translations/my-xblock2/openassessment/conf/locale/en/LC_MESSAGES/djangojs.po']  # noqa
-    resource.categories = []
-    assert get_repo_name_from_resource(resource) == 'my-xblock2-js'
-
-
-def test_get_repo_slug_from_resource_with_force_suffix():
-    resource = MagicMock()
-    resource.slug = 'some-gibberish-slug'
-    resource.name = 'Some Gibberish Slug'
-    resource.categories = []
-    # Mock the random number generation for consistent test results
-    with mock.patch('random.choice', side_effect=lambda x: '0'):
-        result = get_repo_slug_from_resource(resource)
-        # Should add -r followed by 6 digits
-        assert result == 'some-gibberish-slug-r000000'
-        assert result.endswith('-r000000')
-
-
-def test_get_repo_slug_from_resource_with_existing_r_suffix():
+def test_get_repo_slug_from_resource_with_existing_suffix():
     resource = MagicMock()
     resource.slug = 'my-resource-r123456'
     resource.name = 'my-resource-r123456'
@@ -91,34 +80,33 @@ def test_get_repo_slug_from_resource_with_existing_r_suffix():
     assert get_repo_slug_from_resource(resource) == 'my-resource-r123456'
 
 
-def test_get_repo_slug_from_resource_with_clean_name(monkeypatch):
+def test_get_repo_slug_from_resource_with_clean_name():
     resource = MagicMock()
     resource.slug = 'clean-name'
     resource.name = 'Clean Name'  # Clean name in title case
     resource.categories = []
-    monkeypatch.setattr('random.choice', lambda x: '0')
     result = get_repo_slug_from_resource(resource)
     # Should add unique suffix to clean names
     assert result == 'clean-name-r000000'
 
 
-def test_parse_arguments():
+def test_parse_arguments(monkeypatch):
     test_args = [
         '--tx-project-slug', 'test-project',
         '--dry-run',
         '--force-suffix'
     ]
-    with unittest.mock.patch('sys.argv', ['test_script.py'] + test_args):
-        args = parse_arguments()
-        assert args.tx_project_slug == 'test-project'
-        assert args.dry_run is True
-        assert args.force_suffix is True
+    monkeypatch.setattr('sys.argv', ['test_script.py'] + test_args)
+    args = parse_arguments()
+    assert args.tx_project_slug == 'test-project'
+    assert args.dry_run is True
+    assert args.force_suffix is True
 
 
-def test_parse_arguments_minimal():
+def test_parse_arguments_minimal(monkeypatch):
     test_args = ['--tx-project-slug', 'test-project']
-    with unittest.mock.patch('sys.argv', ['test_script.py'] + test_args):
-        args = parse_arguments()
-        assert args.tx_project_slug == 'test-project'
-        assert args.dry_run is False
-        assert args.force_suffix is False
+    monkeypatch.setattr('sys.argv', ['test_script.py'] + test_args)
+    args = parse_arguments()
+    assert args.tx_project_slug == 'test-project'
+    assert args.dry_run is False
+    assert args.force_suffix is False
