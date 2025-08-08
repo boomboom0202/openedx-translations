@@ -22,7 +22,11 @@ on:
         required: false
         default: true
         type: boolean
-
+      force_suffix:
+        description: 'If true, will force suffix to be added to the resource Transifex slug'
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   resource-names:
@@ -48,7 +52,15 @@ jobs:
           make translations_scripts_requirements
 
           if [[ "${{ inputs.dry_run }}" == "true" ]]; then
-            make fix_transifex_resource_names_dry_run;
+            if [[ "${{ inputs.force_suffix }}" == "true" ]]; then
+              make fix_force_suffix_dry_run_transifex_resource_names;
+            else
+              make fix_dry_run_transifex_resource_names;
+            fi
           else
-            make fix_transifex_resource_names;
+            if [[ "${{ inputs.force_suffix }}" == "true" ]]; then
+              make fix_force_suffix_transifex_resource_names;
+            else
+              make fix_transifex_resource_names;
+            fi
           fi
