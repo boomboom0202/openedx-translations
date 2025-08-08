@@ -33,6 +33,14 @@ from os.path import expanduser
 from slugify import slugify
 from transifex.api import transifex_api
 
+# Use random suffix to avoid slug collisions across projects
+# See the AI Transifex translations postmortem for more details:
+#   - https://github.com/openedx/openedx-translations/issues/41695
+RESOURCE_SLUG_REGEXP = re.compile(r'-r[0-9]{6}$')
+
+# Slugs are just hashes (e.g. "b8933764bdb3063ca09d6aa20341102f") should be made readable
+RESOURCE_SLUG_IS_JUST_HASH_REGEXP = re.compile(r'^[a-z0-9]{32}$')
+
 
 def is_dry_run():
     """
@@ -79,7 +87,11 @@ def get_transifex_project():
     return openedx_org.fetch('projects').get(slug=get_transifex_project_slug())
 
 
-def get_repo_slug_from_resource(resource):
+def generate_short_random_suffix(length=6):
+    return ''.join(random.choice(string.digits) for i in range(length))
+
+
+def get_repo_name_from_resource(resource):
     if resource.categories:
         github_repo_categories = [
             category for category in resource.categories if 'github#repository' in category
@@ -113,6 +125,16 @@ def get_repo_slug_from_resource(resource):
                     return new_name
 
 
+def get_repo_slug_from_resource(resource):
+    new_name = get_repo_name_from_resource(resource)
+    if new_name:
+        if RESOURCE_SLUG_REGEXP.match(new_name):
+            return new_name
+        else:
+            return f'{new_name}-{generate_short_random_suffix()}'
+
+
+
 def main(argv):
     if '--help' in argv:
         # Print help document.
@@ -130,7 +152,7 @@ def main(argv):
         print('Resource name:', resource.name)
         print('Resource categories:', ', '.join(resource.categories))
 
-        new_name = get_repo_slug_from_resource(resource)
+        new_name = get_repo_name_from_resource(resource)
         new_slug = get_repo_slug_from_resource(resource)
 
         if resource.name.startswith('translations..'):
@@ -144,7 +166,10 @@ def main(argv):
             else:
                 print(f'Error: Unrecognized slug pattern or categories to infer resource resource name from.')
 
-        if re.match('^[a-z0-9]{32}$', resource.slug) or resource.slug.startswith('translations-'):
+        if (
+            RESOURCE_SLUG_IS_JUST_HASH_REGEXP.match(resource.slug)
+            or resource.slug.startswith('translations-')
+        ):
             if new_slug and resource.slug != new_slug:
                 resource.slug = new_slug
                 if is_dry_run():
