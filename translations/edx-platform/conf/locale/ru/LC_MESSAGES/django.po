@@ -3344,8 +3344,8 @@ msgstr "Уровень образования"
 
 #: lms/djangoapps/instructor/views/api.py:1512
 #: themes/stanford-style/lms/templates/register-form.html:223
-msgid "Educational institution"
-msgstr "Учебное заведение"
+msgid "Educational Institution"
+msgstr "Учебное Заведение"
 
 #: lms/djangoapps/instructor/views/api.py:1513
 msgid "Goals"
