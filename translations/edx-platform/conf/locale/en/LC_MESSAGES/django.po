@@ -4781,7 +4781,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:1512
 #: themes/stanford-style/lms/templates/register-form.html:223
-msgid "Mailing Address"
+msgid "Educational institution"
 msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:1513
@@ -7286,7 +7286,7 @@ msgid "%(platform_name)s on Google Plus"
 msgstr ""
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:233
-msgid "Our mailing address is:"
+msgid "Our educational institution is:"
 msgstr ""
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_head.html:7
@@ -9280,7 +9280,7 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/api/form_fields.py:258
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:798
 #: lms/templates/signup_modal.html:122
-msgid "Mailing address"
+msgid "Educational institution"
 msgstr ""
 
 #. Translators: This label appears above a field
@@ -9553,7 +9553,7 @@ msgid "Your year of birth is required"
 msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:200
-msgid "Your mailing address is required"
+msgid "Your educational institution is required"
 msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:201
@@ -10088,7 +10088,7 @@ msgid "Sign In"
 msgstr ""
 
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:176
-msgid "Our mailing address is"
+msgid "Our educational institution is"
 msgstr ""
 
 #: xmodule/annotatable_block.py:48
