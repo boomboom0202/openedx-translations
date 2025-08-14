@@ -14853,6 +14853,18 @@ msgstr "Добавлены новые слушатели:"
 msgid "Students rejected: "
 msgstr "Слушатели, получившие отказ:"
 
+msgid "Select your year of birth"
+msgstr "Выберите год своего рождения" 
+
+msgid "Select the highest level of education you have completed"
+msgstr "Выберите наивысший уровень полученного вами образования"
+
+msgid "Select your gender"
+msgstr "Выберите свой пол"
+
+msgid "Tell us your goals"
+msgstr "Расскажите нам о своей цели"
+
 #: lms/templates/enroll_students.html:26
 msgid "Debug: "
 msgstr "Отладка:"
