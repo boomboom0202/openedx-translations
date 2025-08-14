@@ -14861,6 +14861,9 @@ msgstr "Отладка:"
 msgid "External Authentication failed"
 msgstr "Ошибка внешней аутентификации"
 
+msgid "Enter your educational institution"
+msgstr "Введите ваше учебное заведение"
+
 #: lms/templates/forgot_password_modal.html:10
 #: lms/templates/forgot_password_modal.html:22
 msgid "Password Reset"
