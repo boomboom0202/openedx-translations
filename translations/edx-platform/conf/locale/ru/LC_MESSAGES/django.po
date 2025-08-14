@@ -3344,8 +3344,8 @@ msgstr "Уровень образования"
 
 #: lms/djangoapps/instructor/views/api.py:1512
 #: themes/stanford-style/lms/templates/register-form.html:223
-msgid "Mailing Address"
-msgstr "Почтовый адрес"
+msgid "Educational institution"
+msgstr "Учебное заведение"
 
 #: lms/djangoapps/instructor/views/api.py:1513
 msgid "Goals"
@@ -6555,8 +6555,8 @@ msgstr "Фамилия"
 #: openedx/core/djangoapps/user_authn/api/form_fields.py:258
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:798
 #: lms/templates/signup_modal.html:122
-msgid "Mailing address"
-msgstr "Почтовый адрес"
+msgid "Educational institution"
+msgstr "Учебное заведение"
 
 #. Translators: This label appears above a field
 #. which allows the user to input the State/Province/Region in which they
@@ -6734,8 +6734,8 @@ msgid "Your year of birth is required"
 msgstr "Необходимо указать ваш год рождения"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:200
-msgid "Your mailing address is required"
-msgstr "Необходимо указать ваш почтовый адрес"
+msgid "Your educational institution is required"
+msgstr "Необходимо указать ваше учебное заведение"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:201
 msgid "A description of your goals is required"
@@ -7074,8 +7074,8 @@ msgid "Sign In"
 msgstr "Вход"
 
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html:176
-msgid "Our mailing address is"
-msgstr "Наш почтовый адрес это"
+msgid "Our educational institution is"
+msgstr "Наше учебное заведение это"
 
 #: xmodule/annotatable_block.py:48
 msgid "XML data for the annotation"
