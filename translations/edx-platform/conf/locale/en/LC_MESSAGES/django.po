@@ -9022,7 +9022,7 @@ msgid "Select your gender"
 msgstr ""
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:112
-msgid "Enter your mailing address"
+msgid "Enter your educational institution"
 msgstr ""
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:116
