@@ -4781,7 +4781,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:1512
 #: themes/stanford-style/lms/templates/register-form.html:223
-msgid "Educational institution"
+msgid "Educational Institution"
 msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:1513
