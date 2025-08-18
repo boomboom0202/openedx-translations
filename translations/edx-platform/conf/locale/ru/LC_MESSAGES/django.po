@@ -44,6 +44,12 @@ msgstr ""
 
 #Мой переводы
 
+msgid "Login for external users"
+msgstr "Вход для внешних слушателей"
+
+msgid "Login via Univer"
+msgstr "Вход с помощью Univer"
+
 msgid "Competition"
 msgstr "Конкурсы"
 
