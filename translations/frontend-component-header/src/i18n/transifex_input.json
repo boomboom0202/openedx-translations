@@ -1,4 +1,15 @@
 {
+  "nav.my_courses": "My Courses",
+  "nav.profile": "Profile",
+  "nav.account": "Account",
+  "nav.sign_out": "Sign out",
+
+  "nav.courses": "Courses",
+  "nav.competition": "Competition",
+  "nav.catalog": "Catalog MOOC for Transfer",
+  "nav.authors": "For Authors",
+  "nav.checking": "The System of Checking"
+  
   "header.links.courses": "Courses",
   "header.links.programs": "Programs",
   "header.links.content.search": "Discover New",
