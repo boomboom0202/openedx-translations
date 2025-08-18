@@ -43,6 +43,37 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #Мой переводы
+msgid "Developed by the Office of OAICI"
+msgstr "Разработано Офисом ОАиЦИ"
+
+msgid "About Us"
+msgstr "О Нас"
+
+msgid "Quick Links"
+msgstr "Быстрые Ссылки"
+
+msgid "Statistics"
+msgstr "Статистика"
+
+msgid "We are on social media"
+msgstr "Мы в социальных стилях"
+
+msgid ""
+
+msgid "Almaty"
+msgstr "Алматы"
+
+msgid "аl"
+msgstr "аль"
+
+msgid "Farabi"
+msgstr "Фараби"
+
+msgid "Terms of service"
+msgstr "Пользовательское соглашение"
+
+msgid "Privacy policy"
+msgstr "Политика конфиденциальности"
 
 msgid "Login for external users"
 msgstr "Вход для внешних слушателей"
@@ -61,7 +92,6 @@ msgstr "Для авторов"
 
 msgid "The System of Checking"
 msgstr "Система проверки"
-
 
 msgid "ONLINE COURSES FROM LEADING PROFESSORS OF Al-Farabi KazNU"
 msgstr "ОНЛАЙН-КУРСЫ ОТ ВЕДУЩИХ ПРОФЕССОРОВ КазНУ имени аль-Фараби"
