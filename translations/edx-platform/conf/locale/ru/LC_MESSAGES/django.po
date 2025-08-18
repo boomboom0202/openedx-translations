@@ -48,13 +48,13 @@ msgid "Login for external users"
 msgstr "Вход для внешних слушателей"
 
 msgid "Login via Univer"
-msgstr "Вход с помощью Univer"
+msgstr "Вход через Univer"
 
 msgid "Competition"
 msgstr "Конкурсы"
 
 msgid "Catalog MOOC for Transfer"
-msgstr "Каталог МООК для трансфера"
+msgstr "Каталог МООК для перезачета"
 
 msgid "For Authors"
 msgstr "Для авторов"
