@@ -1,5 +1,14 @@
 {
-  
+  "nav.my_courses": "Мои курсы",
+  "nav.profile": "Профиль",
+  "nav.account": "Аккаунт",
+  "nav.sign_out": "Выйти",
+
+  "nav.courses": "Курсы",
+  "nav.competition": "Соревнование",
+  "nav.catalog": "Каталог MOOC для перевода",
+  "nav.authors": "Для авторов",
+  "nav.checking": "Система проверки",
   "learner-dash.loadingSR": "Идет загрузка...",
   "learner-dash.error-page-message": "Если у вас возникают повторяющиеся сбои, отправьте электронное письмо в службу поддержки по адресу {supportEmail}",
   "learner-dash.title": "Домашняя страница учащегося",
