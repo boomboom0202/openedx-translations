@@ -44,6 +44,18 @@ msgstr ""
 
 #Мой переводы
 
+msgid "Competition"
+msgstr "Конкурсы"
+
+msgid "Catalog MOOC for Transfer"
+msgstr "Каталог МООК для трансфера"
+
+msgid "For Authors"
+msgstr "Для авторов"
+
+msgid "The System of Checking"
+msgstr "Система проверки"
+
 
 msgid "ONLINE COURSES FROM LEADING PROFESSORS OF Al-Farabi KazNU"
 msgstr "ОНЛАЙН-КУРСЫ ОТ ВЕДУЩИХ ПРОФЕССОРОВ КазНУ имени аль-Фараби"
