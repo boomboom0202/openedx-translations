@@ -124,8 +124,8 @@ msgstr "Миллионы людей по всему миру использую�
 msgid "MOOCs have fundamentally changed the way people learn around the world. Ready to get started?"
 msgstr "МООК кардинально изменили способ обучения во всем мире. Готовы начать?"
 
-msgid "Our  News!"
-msgstr "Наши новости!"
+msgid "Our  News"
+msgstr "Наши новости"
 
 msgid "Check out our latest updates on the platform"
 msgstr "Ознакомьтесь с последними обновлениями на платформе"
