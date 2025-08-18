@@ -42,6 +42,115 @@ msgstr ""
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
+#Мой переводы
+
+
+msgid "ONLINE COURSES FROM LEADING PROFESSORS OF Al-Farabi KazNU"
+msgstr "ОНЛАЙН-КУРСЫ ОТ ВЕДУЩИХ ПРОФЕССОРОВ КазНУ имени аль-Фараби"
+
+msgid "Leader of higher education in Kazakhstan in implementing MOOCs on the Open edX platform"
+msgstr "Лидер высшего образования в Казахстане по внедрению массовых открытых онлайн-курсов (MOOCs) на платформе Open edX"
+
+msgid "MOOC"
+msgstr "MOOC"
+
+msgid "Online"
+msgstr "Онлайн"
+
+msgid "Courses"
+msgstr "Курсы"
+
+msgid "Open"
+msgstr "Открытые"
+
+msgid "Massive"
+msgstr "Массовые"
+
+msgid "About MOOC"
+msgstr "О МОК"
+
+msgid "Massive Open Online Courses (MOOCs) are free online courses available to everyone. MOOCs provide a flexible and accessible way to gain new skills, advance your career, and deliver quality education at scale."
+msgstr "Массовые открытые онлайн-курсы (МООК) — это бесплатные онлайн-курсы, доступные каждому. МООК предоставляют гибкий и доступный способ приобрести новые навыки, продвинуться в карьере и обеспечить качественное образование в масштабах."
+
+msgid "Millions of people worldwide use MOOCs for various reasons, including career advancement, career change, college preparation, additional education, lifelong learning, corporate e-learning, training, and much more."
+msgstr "Миллионы людей по всему миру используют МООК по различным причинам: для продвижения по карьерной лестнице, смены профессии, подготовки к поступлению в университет, получения дополнительного образования, обучения на протяжении всей жизни, корпоративного электронного обучения, тренингов и многого другого."
+
+msgid "MOOCs have fundamentally changed the way people learn around the world. Ready to get started?"
+msgstr "МООК кардинально изменили способ обучения во всем мире. Готовы начать?"
+
+msgid "Our  News!"
+msgstr "Наши новости!"
+
+msgid "Check out our latest updates on the platform"
+msgstr "Ознакомьтесь с последними обновлениями на платформе"
+
+msgid "Guide"
+msgstr "Инструкция"
+
+msgid "Follow the step-by-step guide to quickly and easily start learning."
+msgstr "Следуйте пошаговой инструкции, чтобы быстро и легко начать обучение."
+
+msgid "Learn more"
+msgstr "Узнать больше"
+
+msgid "Popular Topics"
+msgstr "Популярные темы"
+
+msgid "Artificial Intelligence, Digital Marketing, Web Development, Project Management, and Personal Growth."
+msgstr "Искусственный интеллект, цифровой маркетинг, веб-разработка, управление проектами и личностный рост."
+
+msgid "Browse courses"
+msgstr "Просмотреть курсы"
+
+msgid "Join us!"
+msgstr "Присоединяйтесь к нам!"
+
+msgid "Become part of a community of 2 million students. Connect, share projects, and find like-minded people."
+msgstr "Станьте частью сообщества из 2 миллионов студентов. Общайтесь, делитесь проектами и находите единомышленников."
+
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+msgid "Advantages of Online Courses"
+msgstr "Преимущества онлайн-курсов"
+
+msgid "Flexible Schedule"
+msgstr "Гибкий график"
+
+msgid "Learn at your own pace and at a convenient time, balancing studies with work or other commitments."
+msgstr "Учитесь в удобное для вас время и в своем темпе, совмещая обучение с работой или другими обязанностями."
+
+msgid "Accessibility"
+msgstr "Доступность"
+
+msgid "Get access to high-quality courses from anywhere in the world, without leaving your home."
+msgstr "Получайте доступ к качественным курсам из любой точки мира, не выходя из дома."
+
+msgid "Variety of Courses"
+msgstr "Разнообразие курсов"
+
+msgid "Choose from a wide range of programs: from programming to personal development."
+msgstr "Выбирайте из широкого спектра программ: от программирования до личностного развития."
+
+msgid "Certificates"
+msgstr "Сертификаты"
+
+msgid "Earn official certificates upon course completion to strengthen your resume."
+msgstr "Получайте официальные сертификаты по завершении курсов, чтобы укрепить своё резюме."
+
+msgid "Community"
+msgstr "Сообщество"
+
+msgid "Connect with instructors and students, share experiences, and exchange ideas."
+msgstr "Общайтесь с преподавателями и студентами, делитесь опытом и обменивайтесь идеями."
+
+msgid "Free Learning"
+msgstr "Бесплатное обучение"
+
+msgid "Many courses are available for free, making education accessible to everyone."
+msgstr "Многие курсы доступны бесплатно, делая образование доступным для каждого."
+
+#Начались переводы Openedx
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
 msgstr "Такого участника команды курса не существует"
