@@ -1,4 +1,21 @@
 {
+  "footer.quick_links": "Quick Links",
+  "footer.about_platform": "About Us",
+  "footer.courses": "Courses",
+  "footer.instructors": "For Authors",
+  "footer.news": "News",
+  "footer.faq": "Honor Code",
+  "footer.terms": "Terms of service",
+  "footer.privacy": "Privacy policy",
+
+  "footer.statistics": "Statistics",
+  "footer.stats.courses": "Courses",
+  "footer.stats.students": "Students",
+  "footer.stats.certificates": "Certificates",
+
+  "footer.social": "We are on social media",
+  "footer.rights": "All rights reserved",
+  "footer.developed": "Developed by the Office of OAICI",
   
   "footer.socialLinks.srText.facebook": "Like edX on Facebook",
   "footer.socialLinks.srText.twitter": "Follow edX on Twitter",
