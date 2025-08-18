@@ -58,7 +58,6 @@ msgstr "Статистика"
 msgid "We are on social media"
 msgstr "Мы в социальных стилях"
 
-
 msgid "Almaty"
 msgstr "Алматы"
 
