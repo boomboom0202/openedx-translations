@@ -1,5 +1,21 @@
 {
-  
+  "footer.quick_links": "Быстрые ссылки",
+  "footer.about_platform": "О нас",
+  "footer.courses": "Курсы",
+  "footer.instructors": "Для авторов",
+  "footer.news": "Новости",
+  "footer.faq": "Код чести",
+  "footer.terms": "Условия использования",
+  "footer.privacy": "Политика конфиденциальности",
+
+  "footer.statistics": "Статистика",
+  "footer.stats.courses": "Курсы",
+  "footer.stats.students": "Студенты",
+  "footer.stats.certificates": "Сертификаты",
+
+  "footer.social": "Мы в социальных сетях",
+  "footer.rights": "Все права защищены",
+  "footer.developed": "Разработано офисом ОАиЦИ",
   
   "footer.socialLinks.srText.facebook": "Поставить \"Нравится\" edX на Facebook",
   "footer.socialLinks.srText.twitter": "Подписаться на edX в Твиттере",
