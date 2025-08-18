@@ -108,8 +108,6 @@ msgstr "Инструкция"
 msgid "Follow the step-by-step guide to quickly and easily start learning."
 msgstr "Следуйте пошаговой инструкции, чтобы быстро и легко начать обучение."
 
-msgid "Learn more"
-msgstr "Узнать больше"
 
 msgid "Popular Topics"
 msgstr "Популярные темы"
@@ -150,8 +148,6 @@ msgstr "Разнообразие курсов"
 msgid "Choose from a wide range of programs: from programming to personal development."
 msgstr "Выбирайте из широкого спектра программ: от программирования до личностного развития."
 
-msgid "Certificates"
-msgstr "Сертификаты"
 
 msgid "Earn official certificates upon course completion to strengthen your resume."
 msgstr "Получайте официальные сертификаты по завершении курсов, чтобы укрепить своё резюме."
