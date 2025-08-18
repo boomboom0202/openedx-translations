@@ -1,4 +1,19 @@
 {
+  "footer.quick_links": "Quick Links",
+  "footer.about_platform": "About Us",
+  "footer.courses": "Courses",
+  "footer.instructors": "For Authors",
+  "footer.news": "News",
+  "footer.faq": "Honor Code",
+  "footer.terms": "Terms of service",
+  "footer.privacy": "Privacy policy",
+
+  "footer.statistics": "Statistics",
+  "footer.stats.courses": "Courses",
+  "footer.stats.students": "Students",
+  "footer.stats.certificates": "Certificates",
+
+  
   "learner-dash.loadingSR": "Loading...",
   "learner-dash.error-page-message": "If you experience repeated failures, please email support at {supportEmail}",
   "learner-dash.title": "Learner Home",
