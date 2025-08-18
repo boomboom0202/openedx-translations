@@ -70,7 +70,7 @@ msgid "Farabi"
 msgstr "Фараби"
 
 msgid "Terms of service"
-msgstr "Пользовательское соглашение"
+msgstr "Договор публичной оферты"
 
 msgid "Privacy policy"
 msgstr "Политика конфиденциальности"
