@@ -113,7 +113,7 @@ msgid "Massive"
 msgstr "Массовые"
 
 msgid "About MOOC"
-msgstr "О МОК"
+msgstr "О МООК"
 
 msgid "Massive Open Online Courses (MOOCs) are free online courses available to everyone. MOOCs provide a flexible and accessible way to gain new skills, advance your career, and deliver quality education at scale."
 msgstr "Массовые открытые онлайн-курсы (МООК) — это бесплатные онлайн-курсы, доступные каждому. МООК предоставляют гибкий и доступный способ приобрести новые навыки, продвинуться в карьере и обеспечить качественное образование в масштабах."
