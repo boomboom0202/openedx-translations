@@ -1,4 +1,15 @@
 {
+  "nav.my_courses": "Мои курсы",
+  "nav.profile": "Профиль",
+  "nav.account": "Аккаунт",
+  "nav.sign_out": "Выйти",
+
+  "nav.courses": "Курсы",
+  "nav.competition": "Конкурсы",
+  "nav.catalog": "Каталог MOOК для перевода",
+  "nav.authors": "Для авторов",
+  "nav.checking": "Система проверки"
+  
   "header.links.courses": "Курсы",
   "header.links.programs": "Программы",
   "header.links.content.search": "Каталог курсов",
