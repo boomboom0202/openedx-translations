@@ -43,15 +43,101 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #Мой переводы
+msgid "Competition for the Selection of Pedagogical Scenarios for Online Courses"
+msgstr "Конкурс на отбор педагогических сценариев для онлайн-курсов"
+
+msgid "Al-Farabi Kazakh National University"
+msgstr "Казахский национальный университет имени аль-Фараби"
+
+msgid "About the Competition"
+msgstr "О конкурсе"
+
+msgid "The Office of Academic and Digital Innovations is accepting applications for participation in the competition of pedagogical scenarios for the creation and publication of online courses (MOOC/SPOC)"
+msgstr "Офис академических и цифровых инноваций принимает заявки для участия в конкурсе педагогических сценариев по созданию и публикации онлайн-курсов (MOOC/SPOC)"
+
+msgid "MOOC Competition Regulations"
+msgstr "Положение о конкурсе MOOC"
+
+msgid "Both creative teams of university departments and individual teaching or research staff of the university can participate in the competition"
+msgstr "В конкурсе могут участвовать как творческие коллективы университетских кафедр, так и отдельные преподаватели или научные сотрудники университета"
+
+msgid "Based on the results of the competition, the commission will approve and release 5 MOOC and 5 SPOC"
+msgstr "По результатам конкурса комиссия утвердит и выпустит 5 MOOC и 5 SPOC"
+
+msgid "Competition Stages"
+msgstr "Этапы конкурса"
+
+msgid "Stage"
+msgstr "Этап"
+
+msgid "Registration and Submission of Applications"
+msgstr "Регистрация и подача заявок"
+
+msgid "Until"
+msgstr "До"
+
+msgid "Public Defense of Pedagogical Scenarios"
+msgstr "Публичная защита педагогических сценариев"
+
+msgid "Evaluation of Applications and Selection of Winners"
+msgstr "Оценка заявок и определение победителей"
+
+msgid "Approval of Competition Results"
+msgstr "Утверждение результатов конкурса"
+
+msgid "Application Requirements"
+msgstr "Требования к заявкам"
+
+msgid "Cover Letter"
+msgstr "Сопроводительное письмо"
+
+msgid "Pedagogical Scenario of an Online Course"
+msgstr "Педагогический сценарий онлайн-курса"
+
+msgid "Lecture Video Recording"
+msgstr "Видеозапись лекции"
+
+msgid "Online Course Certificate"
+msgstr "Сертификат онлайн-курса"
+
+msgid "Author Information"
+msgstr "Информация об авторе"
+
+msgid "Competition Announcement"
+msgstr "Объявление конкурса"
+
+msgid "The Office of Academic and Digital Innovations"
+msgstr "Офис академических и цифровых инноваций"
+
+msgid "is pleased to announce the launch of the competition for the selection of pedagogical scenarios for online courses."
+msgstr "объявляет о запуске конкурса на отбор педагогических сценариев для онлайн-курсов."
+
+msgid "Application submission"
+msgstr "Подача заявок"
+
+msgid "Selection of applications for participation"
+msgstr "Отбор заявок для участия"
+
+msgid "Public defense of projects"
+msgstr "Публичная защита проектов"
+
+msgid "Announcement of winners"
+msgstr "Объявление победителей"
 
 msgid "Applications are accepted online via the form on the Open Kaznu website. Details and application templates can be found on the competition page"
 msgstr "Заявки принимаются онлайн через форму на сайте Open Kaznu. Подробности и шаблоны заявок доступны на странице конкурса"
 
-msgid "For all inquiries, please contact the Office of Academic and Digital Innovations: Building - Rectorate, Office 207, phone"
-msgstr "По всем вопросам обращайтесь в Управление академических и цифровых инноваций: Здание – Ректорат, кабинет 207, телефон"
+msgid "Submit Application"
+msgstr "Подать заявку"
 
-msgid "The Office of Academic and Digital Innovations is accepting applications for participation in the competition of pedagogical scenarios for the creation and publication of online courses (MOOC/SPOC)"
-msgstr "Управление академических и цифровых инноваций принимает заявки на участие в конкурсе педагогических сценариев для создания и публикации онлайн-курсов (MOOК/SPOC)"
+msgid "Contacts"
+msgstr "Контакты"
+
+msgid "For all inquiries, please contact the Office of Academic and Digital Innovations: Building - Rectorate, Office 207, phone"
+msgstr "По всем вопросам обращаться в Офис академических и цифровых инноваций: Здание - Ректорат, кабинет 207, телефон"
+
+msgid "(ext."
+msgstr "(доб."
 
 msgid "Developed by the Office of OAICI"
 msgstr "Разработано Офисом ОАиЦИ"
