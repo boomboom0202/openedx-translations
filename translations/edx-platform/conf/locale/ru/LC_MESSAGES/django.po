@@ -130,9 +130,6 @@ msgstr "Видеолекция – 3–9 минут"
 msgid "Weekly video duration – at least 15 and no more than 30 minutes"
 msgstr "Продолжительность видео в неделю – не менее 15 и не более 30 минут"
 
-msgid "Technical Requirements"
-msgstr "Технические требования"
-
 msgid "File format (container) – MP4"
 msgstr "Формат файла (контейнер) – MP4"
 
@@ -19861,7 +19858,7 @@ msgstr "Записаться на курс {course_name}"
 
 #: lms/templates/verify_student/pay_and_verify.html:106
 msgid "Technical Requirements"
-msgstr "Необходимые технические приспособления"
+msgstr "Необходимые технические требования"
 
 #: lms/templates/verify_student/pay_and_verify.html:108
 #, python-brace-format
