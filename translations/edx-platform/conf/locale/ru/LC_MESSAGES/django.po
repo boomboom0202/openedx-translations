@@ -51,7 +51,7 @@ msgid "For all inquiries, please contact the Office of Academic and Digital Inno
 msgstr "По всем вопросам обращайтесь в Управление академических и цифровых инноваций: Здание – Ректорат, кабинет 207, телефон"
 
 msgid "The Office of Academic and Digital Innovations is accepting applications for participation in the competition of pedagogical scenarios for the creation and publication of online courses (MOOC/SPOC)"
-msgstr "Управление академических и цифровых инноваций принимает заявки на участие в конкурсе педагогических сценариев для создания и публикации онлайн-курсов (MOOC/SPOC)"
+msgstr "Управление академических и цифровых инноваций принимает заявки на участие в конкурсе педагогических сценариев для создания и публикации онлайн-курсов (MOOК/SPOC)"
 
 msgid "Developed by the Office of OAICI"
 msgstr "Разработано Офисом ОАиЦИ"
