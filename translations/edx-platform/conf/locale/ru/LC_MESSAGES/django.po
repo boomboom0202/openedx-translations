@@ -43,6 +43,16 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #Мой переводы
+
+msgid "Applications are accepted online via the form on the Open Kaznu website. Details and application templates can be found on the competition page"
+msgstr "Заявки принимаются онлайн через форму на сайте Open Kaznu. Подробности и шаблоны заявок доступны на странице конкурса"
+
+msgid "For all inquiries, please contact the Office of Academic and Digital Innovations: Building - Rectorate, Office 207, phone"
+msgstr "По всем вопросам обращайтесь в Управление академических и цифровых инноваций: Здание – Ректорат, кабинет 207, телефон"
+
+msgid "The Office of Academic and Digital Innovations is accepting applications for participation in the competition of pedagogical scenarios for the creation and publication of online courses (MOOC/SPOC)"
+msgstr "Управление академических и цифровых инноваций принимает заявки на участие в конкурсе педагогических сценариев для создания и публикации онлайн-курсов (MOOC/SPOC)"
+
 msgid "Developed by the Office of OAICI"
 msgstr "Разработано Офисом ОАиЦИ"
 
