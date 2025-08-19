@@ -98,7 +98,7 @@ msgid "Leader of higher education in Kazakhstan in implementing MOOCs on the Ope
 msgstr "Лидер высшего образования в Казахстане по внедрению массовых открытых онлайн-курсов (MOOCs) на платформе Open edX"
 
 msgid "MOOC"
-msgstr "MOOC"
+msgstr "MOOК"
 
 msgid "Online"
 msgstr "Онлайн"
@@ -124,7 +124,7 @@ msgstr "Миллионы людей по всему миру использую�
 msgid "MOOCs have fundamentally changed the way people learn around the world. Ready to get started?"
 msgstr "МООК кардинально изменили способ обучения во всем мире. Готовы начать?"
 
-msgid "Our  News"
+msgid "Our News"
 msgstr "Наши новости"
 
 msgid "Check out our latest updates on the platform"
