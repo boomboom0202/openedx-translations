@@ -43,6 +43,255 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #Мой переводы
+msgid "Creating an Online Course for Authors"
+msgstr "Создание онлайн-курса для авторов"
+
+msgid "Methodological Requirements"
+msgstr "Методические требования"
+
+msgid "Requirements for Online Course Design"
+msgstr "Требования к разработке онлайн-курса"
+
+msgid "Electronic UMKD (e-UMKD)"
+msgstr "Электронный УМКД (e-УМКД)"
+
+msgid "Electronic syllabus"
+msgstr "Электронная силлабус"
+
+msgid "Announcements for students – 1 per module"
+msgstr "Объявления для студентов – по 1 на модуль"
+
+msgid "Questionnaires at the beginning and end of the course"
+msgstr "Анкетирование в начале и в конце курса"
+
+msgid "Lecture notes with a list of sources – 1 per topic"
+msgstr "Конспекты лекций со списком источников – по 1 на тему"
+
+msgid "Presentation – 1 per topic"
+msgstr "Презентация – по 1 на тему"
+
+msgid "Additional course materials with active links for online reading and viewing"
+msgstr "Дополнительные материалы курса с активными ссылками для онлайн-просмотра и чтения"
+
+msgid "Study questions – at least 10 per module"
+msgstr "Учебные вопросы – не менее 10 на модуль"
+
+msgid "Discussion questions – at least 1 per module"
+msgstr "Вопросы для обсуждения – не менее 1 на модуль"
+
+msgid "Test tasks – at least 3 practice and 10 graded per module"
+msgstr "Тестовые задания – минимум 3 тренировочных и 10 зачётных на модуль"
+
+msgid "Peer review assignments – no more than 1–2 per course"
+msgstr "Задания на взаимное рецензирование – не более 1–2 на курс"
+
+msgid "Academic Presentation of the Online Course"
+msgstr "Академическое представление онлайн-курса"
+
+msgid "Measurable learning objectives"
+msgstr "Измеримые учебные цели"
+
+msgid "Expected Learning Outcomes (LO)"
+msgstr "Ожидаемые результаты обучения (РО)"
+
+msgid "Indicators of LO achievement"
+msgstr "Индикаторы достижения РО"
+
+msgid "Course language – student-oriented, accessible to a diverse audience"
+msgstr "Язык курса – ориентированный на студентов, доступный для широкой аудитории"
+
+msgid "Course duration – at least 4 and no more than 15 weeks"
+msgstr "Продолжительность курса – не менее 4 и не более 15 недель"
+
+msgid "Student workload per week – no less than 2 and no more than 5 hours"
+msgstr "Нагрузка студента в неделю – не менее 2 и не более 5 часов"
+
+msgid "Technical Requirements for Video"
+msgstr "Технические требования к видео"
+
+msgid "Video recording must be carried out with professional equipment with track parameters not lower than the following:"
+msgstr "Видеозапись должна осуществляться на профессиональное оборудование с параметрами дорожек не ниже следующих:"
+
+msgid "Video"
+msgstr "Видео"
+
+msgid "Timing"
+msgstr "Хронометраж"
+
+msgid "Welcome/Promo video – no more than 3 minutes"
+msgstr "Приветственное/промо-видео – не более 3 минут"
+
+msgid "Course introduction (purpose, objectives, structure, assignments) – 3 minutes"
+msgstr "Введение в курс (цель, задачи, структура, задания) – 3 минуты"
+
+msgid "Video lecture – 3–9 minutes"
+msgstr "Видеолекция – 3–9 минут"
+
+msgid "Weekly video duration – at least 15 and no more than 30 minutes"
+msgstr "Продолжительность видео в неделю – не менее 15 и не более 30 минут"
+
+msgid "Technical Requirements"
+msgstr "Технические требования"
+
+msgid "File format (container) – MP4"
+msgstr "Формат файла (контейнер) – MP4"
+
+msgid "Codec – H264"
+msgstr "Кодек – H264"
+
+msgid "Resolution: 1920 x 1080 (1080p)"
+msgstr "Разрешение: 1920 x 1080 (1080p)"
+
+msgid "Aspect ratio – 16:9"
+msgstr "Соотношение сторон – 16:9"
+
+msgid "Frame rate – 25 or 30 fps"
+msgstr "Частота кадров – 25 или 30 fps"
+
+msgid "Progressive scan (25p/30p)"
+msgstr "Прогрессивная развертка (25p/30p)"
+
+msgid "Bitrate – not less than 10,000 kbps and not more than 30,000 kbps"
+msgstr "Битрейт – не менее 10 000 и не более 30 000 кбит/с"
+
+msgid "Audio"
+msgstr "Аудио"
+
+msgid "Codec: AAC, AC3, OGG, mp3"
+msgstr "Кодек: AAC, AC3, OGG, mp3"
+
+msgid "Channels: 2 (stereo)"
+msgstr "Каналы: 2 (стерео)"
+
+msgid "Sample rate: 48 kHz"
+msgstr "Частота дискретизации: 48 кГц"
+
+msgid "Audio stream: CBR not less than 192 kbps, VBR 160–320 kbps"
+msgstr "Аудиопоток: CBR не менее 192 кбит/с, VBR 160–320 кбит/с"
+
+msgid "Audio Quality Characteristics"
+msgstr "Характеристики качества аудио"
+
+msgid "Audio track must be true stereo, with the lecturer’s voice localized strictly between the left and right channels"
+msgstr "Аудиодорожка должна быть настоящим стерео, с голосом лектора строго по центру между левым и правым каналами"
+
+msgid "Stereo track must be playable on monophonic equipment"
+msgstr "Стереодорожка должна воспроизводиться на монооборудовании"
+
+msgid "Signal-to-noise ratio – at least 40 dB"
+msgstr "Отношение сигнал/шум – не менее 40 дБ"
+
+msgid "Dynamic range of useful signal – no more than 16 dB"
+msgstr "Динамический диапазон полезного сигнала – не более 16 дБ"
+
+msgid "Average RMS loudness – from -14 dB to -12 dB"
+msgstr "Средняя громкость RMS – от -14 дБ до -12 дБ"
+
+msgid "Peak loudness – limited to -2 dB"
+msgstr "Пиковая громкость – не выше -2 дБ"
+
+msgid "Presentation Design Quality for Video"
+msgstr "Качество оформления презентаций для видео"
+
+msgid "Sans-serif font is recommended"
+msgstr "Рекомендуется шрифт без засечек"
+
+msgid "No more than 2 fonts per course"
+msgstr "Не более 2 шрифтов на курс"
+
+msgid "Bullet points must be consistent throughout the course"
+msgstr "Маркированные списки должны быть единообразными по всему курсу"
+
+msgid "Use contrasting text and background colors for readability"
+msgstr "Использовать контрастные цвета текста и фона для читаемости"
+
+msgid "No more than 3 font colors per course"
+msgstr "Не более 3 цветов шрифта на курс"
+
+msgid "Avoid mixing contrasting colors within one sentence, paragraph, or table"
+msgstr "Избегать смешения контрастных цветов в одном предложении, абзаце или таблице"
+
+msgid "Line thickness for borders, tables, and arrows should match font line thickness"
+msgstr "Толщина линий в рамках, таблицах и стрелках должна соответствовать толщине линий шрифта"
+
+msgid "Use photos, drawings, and animations in a consistent color scheme"
+msgstr "Использовать фото, рисунки и анимации в единой цветовой гамме"
+
+msgid "Icons and infographics are recommended"
+msgstr "Рекомендуется использование иконок и инфографики"
+
+msgid "Avoid merging same-sized scenes for natural perception"
+msgstr "Избегать слияния одноразмерных сцен для естественного восприятия"
+
+msgid "Avoid distracting clothing and makeup during recording"
+msgstr "Избегать отвлекающей одежды и макияжа при записи"
+
+msgid "Slides: heading font – 20 pt, body text – 18 pt"
+msgstr "Слайды: шрифт заголовка – 20 pt, основной текст – 18 pt"
+
+msgid "Image size – at least 1280x720p (HD)"
+msgstr "Размер изображения – не менее 1280x720p (HD)"
+
+msgid "Image format – PNG"
+msgstr "Формат изображения – PNG"
+
+msgid "All external materials must have a CC Attribution license"
+msgstr "Все внешние материалы должны иметь лицензию CC Attribution"
+
+msgid "Each borrowed image must include a source link"
+msgstr "Каждое заимствованное изображение должно сопровождаться ссылкой на источник"
+
+msgid "Stages of Online Course Development"
+msgstr "Этапы разработки онлайн-курса"
+
+msgid "Application Submission"
+msgstr "Подача заявки"
+
+msgid "Submission of an application for online course development. Participation in the competition of pedagogical scenarios for creating and publishing online courses (MOOC/SPOC)."
+msgstr "Подача заявки на разработку онлайн-курса. Участие в конкурсе педагогических сценариев по созданию и публикации онлайн-курсов (MOOC/SPOC)."
+
+msgid "Course Development"
+msgstr "Разработка курса"
+
+msgid "Start of the online course development process."
+msgstr "Начало процесса разработки онлайн-курса."
+
+msgid "Preparation of Materials"
+msgstr "Подготовка материалов"
+
+msgid "Preparation of online course materials by the author-developer. For documents on requirements and recommendations for recording video materials, please contact the Center for Massive Open Online Courses."
+msgstr "Подготовка материалов онлайн-курса автором-разработчиком. Для получения документов по требованиям и рекомендациям к записи видеоматериалов обращайтесь в Центр массовых открытых онлайн-курсов."
+
+msgid "Material Expertise"
+msgstr "Экспертиза материалов"
+
+msgid "Methodological and technical expertise of online course materials."
+msgstr "Методическая и техническая экспертиза материалов онлайн-курса."
+
+msgid "Video Recording"
+msgstr "Видеозапись"
+
+msgid "Recording of online course video materials."
+msgstr "Запись видеоматериалов онлайн-курса."
+
+msgid "Material Upload"
+msgstr "Загрузка материалов"
+
+msgid "Uploading online course materials to the platform."
+msgstr "Загрузка материалов онлайн-курса на платформу."
+
+msgid "Testing and Expertise"
+msgstr "Тестирование и экспертиза"
+
+msgid "Beta testing and course expertise."
+msgstr "Бета-тестирование и экспертиза курса."
+
+
+msgid "For all inquiries, please contact the Center for Massive Open Online Courses: Building – Rectorate, Office 203, Phone 11-33."
+msgstr "По всем вопросам обращаться в Центр массовых открытых онлайн-курсов: Здание – Ректорат, кабинет 203, телефон 11-33."
+
+
+
 msgid "Competition for the Selection of Pedagogical Scenarios for Online Courses"
 msgstr "Конкурс на отбор педагогических сценариев для онлайн-курсов"
 
