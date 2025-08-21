@@ -131,7 +131,7 @@
   "create.account.for.free.button": "Create an account for free",
   "create.account.cta.button": "{label}",
   "register.institution.login.page.title": "Register with institution/campus credentials",
-  "empty.name.field.error": "Enter your surname and name",
+  "empty.name.field.error": "Enter your fullname",
   "empty.email.field.error": "Enter your email",
   "empty.username.field.error": "Username must be between 2 and 30 characters",
   "empty.password.field.error": "Password criteria has not been met",
