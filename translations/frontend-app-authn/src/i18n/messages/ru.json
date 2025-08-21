@@ -118,7 +118,7 @@
   "recommendation.product-card.footer-text.subscription": "Подписка",
   "recommendation.product-card.launch-icon.sr-text": "Открывает ссылку в новой вкладке",
   "register.page.title": "Зарегистрироваться | {siteName}",
-  "registration.fullname.label": "Полное имя",
+  "registration.fullname.label": "Фамилия и имя",
   "registration.email.label": "Электронная почта",
   "registration.username.label": "Имя пользователя",
   "registration.password.label": "Пароль",
