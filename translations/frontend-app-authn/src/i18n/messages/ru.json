@@ -131,7 +131,7 @@
   "create.account.for.free.button": "Создайте учетную запись бесплатно",
   "create.account.cta.button": "{label}",
   "register.institution.login.page.title": "Зарегистрируйтесь, используя учетные данные учреждения/кампуса.",
-  "empty.name.field.error": "Введите свое полное имя",
+  "empty.name.field.error": "Введите свою фамилию и имя",
   "empty.email.field.error": "Введите вашу эл. почту",
   "empty.username.field.error": "Имя пользователя должно содержать от 2 до 30 символов.",
   "empty.password.field.error": "Критерии пароля не соблюдены",
