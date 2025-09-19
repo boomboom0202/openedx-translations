@@ -2886,14 +2886,14 @@ msgid ""
 "This step's due date '{due}' cannot be later than the next step's due date "
 "'{prev}'."
 msgstr ""
-"Бұл қадамның аяқталу күні &quot;{төлеу}&quot; келесі қадамның "
-"&quot;{prev}&quot; мерзімінен кеш болмауы керек."
+"Бұл қадамның аяқталу күні '{due}' келесі қадамның '{prev}' мерзімінен кеш болмауы керек."
 
 #: xblock/utils/resolve_dates.py:234
 #, python-brace-format
 msgid "The start date '{start}' cannot be later than the due date '{due}'"
 msgstr ""
-"&#39;{start}&#39; басталу күні &#39;{due}&#39; мерзімінен кеш болмауы керек"
+"'{start}' басталу күні '{due}' мерзімінен кеш болмауы керек."
+
 
 #: xblock/utils/validation.py:120
 msgid "This problem must include at least one assessment."
