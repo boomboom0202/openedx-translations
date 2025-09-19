@@ -89,10 +89,6 @@
     "developer_comment": "Бүйірлік тақта сүзгілері компонентінің тақырыбы",
     "string": "Сүзгілер"
   },
-  "pgn.DataTable.filtersDropdownTitle": {
-    "developer_comment": "Фильтрлер ашылмалы тізімінің атауы",
-    "string": "Сүзгілер"
-  },
   "pgn.DataTable.paginationLabel": {
     "developer_comment": "Беттеу компонентінің шарлау элементінің қол жетімді атауы",
     "string": "кестені беттеу"
@@ -133,25 +129,13 @@
     "developer_comment": "Автоматты ұсыныс мәзірі жабылған жағдайда көрсетілетін хабар.",
     "string": "Параметрлер мәзірін ашыңыз"
   },
-  "pgn.Modal.closeButon": {
-    "developer_comment": "Модальды диалогтағы жабу түймесінің қолжетімді атауы",
-    "string": "Жабу"
-  },
   "pgn.ProductTour.Checkpoint.bottom-position-text": {
     "developer_comment": "Пайдаланушыға өнім тур қадамының төменгі жағында орналасқанын хабарлау үшін экранды оқу құралы хабары.",
     "string": "{step} қадамының төменгі жағы"
   },
-  "pgn.ProductTour.Checkpoint.page-index-text": {
-    "developer_comment": "Өнім турындағы орныңызды көрсететін бет индексі",
-    "string": "{қадам} / {барлығы}"
-  },
   "pgn.ProductTour.Checkpoint.top-position-text": {
     "developer_comment": "Пайдаланушыға өнім тур қадамының төменгі жағында орналасқанын хабарлау үшін экранды оқу құралы хабары.",
     "string": "{step} қадамының жоғарғы жағы"
-  },
-  "pgn.ProductTour.checkpointHeader.close": {
-    "developer_comment": "ӨнімТур компоненті үшін балама мәтінді жабу",
-    "string": "Турды жабу"
   },
   "pgn.Toast.closeLabel": {
     "developer_comment": "Тост компонентіне арналған белгіні жабыңыз",

@@ -5,18 +5,16 @@
 # 
 # Translators:
 # Translators:
-# Ruslan Abrayev, 2025
-# Yerbolat Sultanov, 2025
-# Eden Huthmacher, 2025
 # Brian Smith, 2025
+# Eden Huthmacher, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-17 00:31+0000\n"
-"PO-Revision-Date: 2023-01-26 15:39+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
+"POT-Creation-Date: 2025-04-25 00:29+0000\n"
+"PO-Revision-Date: 2025-07-23 17:30+0000\n"
+"Last-Translator: Eden Huthmacher, 2025\n"
 "Language-Team: Kazakh (https://app.transifex.com/open-edx/teams/6205/kk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,12 +22,12 @@ msgstr ""
 "Language: kk\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: apps/api/filters.py:48
+#: apps/api/filters.py:47
 #, python-brace-format
 msgid "No user with the username [{username}] exists."
 msgstr "[ {username} ] пайдаланушы аты бар пайдаланушы жоқ."
 
-#: apps/api/filters.py:51
+#: apps/api/filters.py:50
 msgid ""
 "Only staff users are permitted to filter by username. Remove the username "
 "parameter."
@@ -93,7 +91,7 @@ msgid ""
 msgstr ""
 "Бұл бағдарламада курс орындалатын тілдерде қол жетімді транскрипттер бар."
 
-#: apps/api/utils.py:346
+#: apps/api/utils.py:343
 #, python-brace-format
 msgid ""
 "An error occurred while setting the course run image for [{key}] in studio. "
@@ -128,19 +126,11 @@ msgstr "Курстың орындалу деректерін орнату сәт
 msgid "Can only update status, ofac restrictions, and ofac comment"
 msgstr "Тек күйді, ofac шектеулерін және ofac түсініктемесін жаңарта алады"
 
-#: apps/api/v1/views/course_runs.py:363
-#, python-brace-format
-msgid ""
-"The course run type '{course_run_type}' is not valid for this course type "
-"'{course_type}'."
-msgstr ""
-"Курс түрі '{course_run_type}' осы курс түрі үшін жарамсыз '{course_type}'."
-
-#: apps/api/v1/views/course_runs.py:381
+#: apps/api/v1/views/course_runs.py:369
 msgid "Course run is in review. Editing disabled."
 msgstr "Курс тексерілуде. Өңдеу өшірілген."
 
-#: apps/api/v1/views/course_runs.py:388
+#: apps/api/v1/views/course_runs.py:376
 msgid "Invalid parameter"
 msgstr "Жарамсыз параметр"
 
@@ -476,13 +466,13 @@ msgid "Available now"
 msgstr "Қазір қол жетімді"
 
 #: apps/course_metadata/algolia_models.py:118
-#: apps/course_metadata/models.py:2756
+#: apps/course_metadata/models.py:2704
 msgid "Upcoming"
 msgstr "Алдағы"
 
 #: apps/course_metadata/algolia_models.py:120
-#: apps/course_metadata/choices.py:100 apps/course_metadata/models.py:2750
-#: apps/course_metadata/models.py:2766
+#: apps/course_metadata/choices.py:100 apps/course_metadata/models.py:2698
+#: apps/course_metadata/models.py:2714
 msgid "Archived"
 msgstr "Мұрағатталған"
 
@@ -562,16 +552,16 @@ msgid "Course Create"
 msgstr "Курс құру"
 
 #: apps/course_metadata/choices.py:55
-msgid "Partial Update"
-msgstr "Жартылай жаңарту"
+msgid "Course Partial Update"
+msgstr "Курсты ішінара жаңарту"
 
 #: apps/course_metadata/choices.py:56
 msgid "Course Rerun"
 msgstr "Курсты қайталау"
 
 #: apps/course_metadata/choices.py:57
-msgid "Course Editor Update"
-msgstr "Курс редакторының жаңартылуы"
+msgid "Course Run Partial Update"
+msgstr "Курс жүргізу ішінара жаңарту"
 
 #: apps/course_metadata/choices.py:64
 msgid "Pending"
@@ -842,13 +832,13 @@ msgid "Short code for a partner."
 msgstr "Серіктес үшін қысқа код."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:20
-#: apps/course_metadata/models.py:238 apps/course_metadata/models.py:493
-#: apps/course_metadata/models.py:641 apps/course_metadata/models.py:674
-#: apps/course_metadata/models.py:698 apps/course_metadata/models.py:737
-#: apps/course_metadata/models.py:1054 apps/course_metadata/models.py:1275
-#: apps/course_metadata/models.py:1452 apps/course_metadata/models.py:2287
-#: apps/course_metadata/models.py:3370 apps/course_metadata/models.py:4420
-#: apps/course_metadata/models.py:4561 apps/learner_pathway/models.py:34
+#: apps/course_metadata/models.py:237 apps/course_metadata/models.py:492
+#: apps/course_metadata/models.py:640 apps/course_metadata/models.py:673
+#: apps/course_metadata/models.py:697 apps/course_metadata/models.py:736
+#: apps/course_metadata/models.py:1029 apps/course_metadata/models.py:1250
+#: apps/course_metadata/models.py:1412 apps/course_metadata/models.py:2241
+#: apps/course_metadata/models.py:3308 apps/course_metadata/models.py:4268
+#: apps/course_metadata/models.py:4360 apps/learner_pathway/models.py:34
 #: apps/learner_pathway/models.py:83 apps/learner_pathway/models.py:158
 msgid "UUID"
 msgstr "UUID"
@@ -1049,7 +1039,7 @@ msgstr "{key} курсындағы жарияланымдар сәтті жой�
 msgid "Failed to unpublish runs in course {key}"
 msgstr "{key} курсында жарияланымдарды жою мүмкін болмады"
 
-#: apps/course_metadata/models.py:239
+#: apps/course_metadata/models.py:238
 msgid ""
 "Please do not use any spaces or special characters other than period, "
 "underscore or hyphen. This key will be used in the course's course key."
@@ -1057,15 +1047,15 @@ msgstr ""
 "Нүкте, астын сызу немесе сызықшадан басқа бос орындарды немесе арнайы "
 "таңбаларды қолданбаңыз. Бұл кілт курстың курс кілтінде пайдаланылады."
 
-#: apps/course_metadata/models.py:244
+#: apps/course_metadata/models.py:243
 msgid "If populated, this field will overwrite name in platform."
 msgstr "Толтырылған болса, бұл өріс платформадағы атауды қайта жазады."
 
-#: apps/course_metadata/models.py:249
+#: apps/course_metadata/models.py:248
 msgid "Spanish Description"
 msgstr "Испандық сипаттама"
 
-#: apps/course_metadata/models.py:250
+#: apps/course_metadata/models.py:249
 msgid ""
 "For seo, this field allows for alternate spanish description to be manually "
 "inputted"
@@ -1073,8 +1063,8 @@ msgstr ""
 "SEO үшін бұл өріс балама испанша сипаттаманы қолмен енгізуге мүмкіндік "
 "береді"
 
-#: apps/course_metadata/models.py:275 apps/course_metadata/models.py:1529
-#: apps/course_metadata/models.py:2371
+#: apps/course_metadata/models.py:274 apps/course_metadata/models.py:1489
+#: apps/course_metadata/models.py:2325
 msgid ""
 "Pick a tag from the suggestions. To make a new tag, add a comma after the "
 "tag name."
@@ -1082,11 +1072,11 @@ msgstr ""
 "Ұсыныстардан белгіні таңдаңыз. Жаңа тег жасау үшін тег атынан кейін үтір "
 "қойыңыз."
 
-#: apps/course_metadata/models.py:279
+#: apps/course_metadata/models.py:278
 msgid "Automatically generate course run keys"
 msgstr "Курсты іске қосу кілттерін автоматты түрде жасаңыз"
 
-#: apps/course_metadata/models.py:281
+#: apps/course_metadata/models.py:280
 msgid ""
 "When this flag is enabled, the key of a new course run will be auto "
 "generated.  When this flag is disabled, the key can be manually set."
@@ -1094,7 +1084,7 @@ msgstr ""
 "Бұл жалауша қосылғанда, жаңа курсты іске қосу кілті автоматты түрде "
 "жасалады. Бұл жалауша өшірілгенде, кілтті қолмен орнатуға болады."
 
-#: apps/course_metadata/models.py:287
+#: apps/course_metadata/models.py:286
 msgid ""
 "This field signifies if any of this org's courses are in the enterprise "
 "subscription catalog"
@@ -1102,7 +1092,7 @@ msgstr ""
 "Бұл өріс осы ұйымның кез келген курсының кәсіпорын жазылу каталогында бар-"
 "жоғын білдіреді"
 
-#: apps/course_metadata/models.py:290
+#: apps/course_metadata/models.py:289
 msgid ""
 "The 6 character-hex-value of the orgnization theme color,\n"
 "            all related course under same organization will use this color as theme color.\n"
@@ -1112,11 +1102,11 @@ msgstr ""
 " Бір ұйымның барлық тиісті курстары осы түсті тақырып түсі ретінде пайдаланады.\n"
 " (мысалы, қызылға тең &quot;#ff0000&quot;) `#` берудің қажеті жоқ"
 
-#: apps/course_metadata/models.py:306
+#: apps/course_metadata/models.py:305
 msgid "The timestamp of the last time the organization data was modified."
 msgstr "Ұйым деректері соңғы рет өзгертілген уақыт белгісі."
 
-#: apps/course_metadata/models.py:322
+#: apps/course_metadata/models.py:321
 msgid ""
 "Please do not use any spaces or special characters other than period, "
 "underscore or hyphen in the key field."
@@ -1124,15 +1114,15 @@ msgstr ""
 "Перне өрісінде нүкте, астын сызу немесе сызықшадан басқа бос орындарды "
 "немесе арнайы таңбаларды қолданбаңыз."
 
-#: apps/course_metadata/models.py:393
+#: apps/course_metadata/models.py:392
 msgid "Corresponding organization code in an external product source"
 msgstr "Сыртқы өнім көзіндегі сәйкес ұйым коды"
 
-#: apps/course_metadata/models.py:450
+#: apps/course_metadata/models.py:449
 msgid "LevelType model translations"
 msgstr "LevelType үлгісінің аудармалары"
 
-#: apps/course_metadata/models.py:475
+#: apps/course_metadata/models.py:474
 msgid ""
 "Seat types that qualify for completion of programs of this type. Learners "
 "completing associated courses, but enrolled in other seat types, will NOT "
@@ -1143,41 +1133,41 @@ msgstr ""
 "курстарды аяқтаған, бірақ басқа орын түрлеріне тіркелген студенттердің "
 "курсты аяқтауы бағдарламаның аяқталуына есептелмейді."
 
-#: apps/course_metadata/models.py:489
+#: apps/course_metadata/models.py:488
 msgid "Please provide an image file with transparent background"
 msgstr "Мөлдір фоны бар сурет файлын беріңіз"
 
-#: apps/course_metadata/models.py:492 apps/course_metadata/models.py:536
-#: apps/course_metadata/models.py:702 apps/course_metadata/models.py:740
-#: apps/course_metadata/models.py:1464 apps/course_metadata/models.py:3384
+#: apps/course_metadata/models.py:491 apps/course_metadata/models.py:535
+#: apps/course_metadata/models.py:701 apps/course_metadata/models.py:739
+#: apps/course_metadata/models.py:1424 apps/course_metadata/models.py:3322
 msgid "Leave this field blank to have the value generated automatically."
 msgstr "Мән автоматты түрде жасалуы үшін бұл өрісті бос қалдырыңыз."
 
-#: apps/course_metadata/models.py:533
+#: apps/course_metadata/models.py:532
 msgid "Name of the external source."
 msgstr "Сыртқы көздің атауы."
 
-#: apps/course_metadata/models.py:538
+#: apps/course_metadata/models.py:537
 msgid "Description of the external source."
 msgstr "Сыртқы көздің сипаттамасы."
 
-#: apps/course_metadata/models.py:543
+#: apps/course_metadata/models.py:542
 msgid "Programs of these types will be OFAC restricted"
 msgstr "Бұл түрдегі бағдарламалар OFAC шектеледі"
 
-#: apps/course_metadata/models.py:557
+#: apps/course_metadata/models.py:556
 msgid "ProgramType model translations"
 msgstr "ProgramType үлгісінің аудармалары"
 
-#: apps/course_metadata/models.py:571
+#: apps/course_metadata/models.py:570
 msgid "This mode requires ID verification."
 msgstr "Бұл режим жеке куәлікті растауды қажет етеді."
 
-#: apps/course_metadata/models.py:574
+#: apps/course_metadata/models.py:573
 msgid "Completion can grant credit toward an organization’s degree."
 msgstr "Аяқтау ұйымның дәрежесіне несие бере алады."
 
-#: apps/course_metadata/models.py:578
+#: apps/course_metadata/models.py:577
 msgid ""
 "Certificate type granted if this mode is eligible for a certificate, or "
 "blank if not."
@@ -1185,17 +1175,17 @@ msgstr ""
 "Бұл режим сертификат үшін жарамды болса, сертификат түрі беріледі немесе жоқ"
 " болса бос."
 
-#: apps/course_metadata/models.py:582
+#: apps/course_metadata/models.py:581
 msgid ""
 "Who gets paid for the course? Platform is the site owner, Organization is "
 "the school."
 msgstr "Курстың ақысын кім алады? Платформа – сайт иесі, Ұйым – мектеп."
 
-#: apps/course_metadata/models.py:679
+#: apps/course_metadata/models.py:678
 msgid "Sets the order for displaying Course Run Types."
 msgstr "Курсты орындау түрлерін көрсету ретін орнатады."
 
-#: apps/course_metadata/models.py:682
+#: apps/course_metadata/models.py:681
 msgid ""
 "Leave this blank to allow all orgs. Otherwise, specifies which orgs can see "
 "this course type in Publisher."
@@ -1203,19 +1193,19 @@ msgstr ""
 "Барлық ұйымдарға рұқсат беру үшін осы жерді бос қалдырыңыз. Әйтпесе, "
 "Publisher қолданбасында бұл курс түрін қай ұйымдар көре алатынын көрсетеді."
 
-#: apps/course_metadata/models.py:732
+#: apps/course_metadata/models.py:731
 msgid "Subject model translations"
 msgstr "Пәндік үлгі аудармалары"
 
-#: apps/course_metadata/models.py:779
+#: apps/course_metadata/models.py:778
 msgid "Topic model translations"
 msgstr "Тақырыптық үлгі аудармалары"
 
-#: apps/course_metadata/models.py:846
+#: apps/course_metadata/models.py:837
 msgid "SEO Meta tags for Products"
 msgstr "Өнімдерге арналған SEO мета тегтері"
 
-#: apps/course_metadata/models.py:881
+#: apps/course_metadata/models.py:867
 msgid ""
 "The ID of the Taxi Form (by 2U) that would be rendered in place of the "
 "hubspot capture form"
@@ -1223,7 +1213,7 @@ msgstr ""
 "Такси пішінінің идентификаторы (2U бойынша), ол хабспотты түсіру пішінінің "
 "орнына көрсетіледі"
 
-#: apps/course_metadata/models.py:887
+#: apps/course_metadata/models.py:873
 msgid ""
 "The grouping of the Taxi Form (by 2U) that would be rendered instead of the "
 "hubspot capture form"
@@ -1231,112 +1221,112 @@ msgstr ""
 "Такси пішінін топтастыру (2U бойынша), ол орталық нүктені түсіру пішінінің "
 "орнына көрсетіледі"
 
-#: apps/course_metadata/models.py:933
+#: apps/course_metadata/models.py:911
 msgid "The URL of the paid landing page on external site"
 msgstr "Сыртқы сайттағы ақылы бастапқы беттің URL мекенжайы"
 
-#: apps/course_metadata/models.py:939
+#: apps/course_metadata/models.py:917
 msgid "The URL of the organic landing page on external site"
 msgstr "Сыртқы сайттағы органикалық бастапқы беттің URL мекенжайы"
 
-#: apps/course_metadata/models.py:950
+#: apps/course_metadata/models.py:928
 msgid "The start date of the external course offering for marketing purpose"
 msgstr "Маркетинг мақсатындағы сыртқы курс ұсынысының басталу күні"
 
-#: apps/course_metadata/models.py:954
+#: apps/course_metadata/models.py:932
 msgid "The ends date of the external course offering for marketing purpose"
 msgstr "Маркетинг мақсатындағы сыртқы курстың аяқталу күні"
 
-#: apps/course_metadata/models.py:958
+#: apps/course_metadata/models.py:936
 msgid "The suggested deadline for enrollment for marketing purpose"
 msgstr "Маркетингтік мақсатқа жазылудың ұсынылған соңғы мерзімі"
 
-#: apps/course_metadata/models.py:962
+#: apps/course_metadata/models.py:940
 msgid "The identifier for a product variant."
 msgstr "Өнім нұсқасының идентификаторы."
 
-#: apps/course_metadata/models.py:966
+#: apps/course_metadata/models.py:944
 msgid "Course override"
 msgstr "Курсты қайта анықтау"
 
-#: apps/course_metadata/models.py:967
+#: apps/course_metadata/models.py:945
 msgid "This field allows for override the default course term"
 msgstr "Бұл өріс әдепкі курс мерзімін қайта анықтауға мүмкіндік береді"
 
-#: apps/course_metadata/models.py:993
+#: apps/course_metadata/models.py:971
 msgid ""
 "This field contain external course marketing type specific to product lines"
 msgstr "Бұл өріс өнім желілеріне тән сыртқы курс маркетинг түрін қамтиды"
 
-#: apps/course_metadata/models.py:1002
+#: apps/course_metadata/models.py:980
 msgid ""
 "Determines weather the course should be displayed on the owning "
 "organization's page"
 msgstr "Ауа райын анықтайды курс иесі ұйымның бетінде көрсетілуі керек"
 
-#: apps/course_metadata/models.py:1073
+#: apps/course_metadata/models.py:1048
 msgid "A list of major works by this person. Must be valid HTML."
 msgstr "Бұл адамның негізгі жұмыстарының тізімі. Жарамды HTML болуы керек."
 
-#: apps/course_metadata/models.py:1081
+#: apps/course_metadata/models.py:1056
 msgid "People"
 msgstr "Адамдар"
 
-#: apps/course_metadata/models.py:1272
+#: apps/course_metadata/models.py:1247
 msgid ""
 "Add the collaborator image, please make sure its dimensions are 200x100px"
 msgstr ""
 "Серіктестік суретін қосыңыз, оның өлшемдері 200x100px екенін тексеріңіз"
 
-#: apps/course_metadata/models.py:1296
+#: apps/course_metadata/models.py:1271
 msgid "U.S. Value Per Lead"
 msgstr "Жеткізу үшін АҚШ құны"
 
-#: apps/course_metadata/models.py:1297
+#: apps/course_metadata/models.py:1272
 msgid "U.S. value per lead in U.S. dollars."
 msgstr "АҚШ долларындағы бір қорғасынның АҚШ құны."
 
-#: apps/course_metadata/models.py:1302
+#: apps/course_metadata/models.py:1277
 msgid "International Value Per Lead"
 msgstr "Бір жетекші үшін халықаралық мән"
 
-#: apps/course_metadata/models.py:1303
+#: apps/course_metadata/models.py:1278
 msgid "International value per lead in U.S. dollars."
 msgstr "АҚШ долларындағы бір қорғасынның халықаралық мәні."
 
-#: apps/course_metadata/models.py:1308
+#: apps/course_metadata/models.py:1283
 msgid "U.S. Value Per Click"
 msgstr "Бір басу үшін АҚШ мәні"
 
-#: apps/course_metadata/models.py:1309
+#: apps/course_metadata/models.py:1284
 msgid "U.S. value per click in U.S. dollars."
 msgstr "АҚШ долларындағы бір басу үшін АҚШ құны."
 
-#: apps/course_metadata/models.py:1314
+#: apps/course_metadata/models.py:1289
 msgid "International Value Per Click"
 msgstr "Бір басу үшін халықаралық мән"
 
-#: apps/course_metadata/models.py:1315
+#: apps/course_metadata/models.py:1290
 msgid "International value per click in U.S. dollars."
 msgstr "Бір басу үшін АҚШ долларындағы халықаралық мән."
 
-#: apps/course_metadata/models.py:1359
+#: apps/course_metadata/models.py:1328
 msgid "Latitude"
 msgstr "Ендік"
 
-#: apps/course_metadata/models.py:1366
+#: apps/course_metadata/models.py:1335
 msgid "Longitude"
 msgstr "Бойлық"
 
-#: apps/course_metadata/models.py:1409
+#: apps/course_metadata/models.py:1372
 msgid "Allowlist"
 msgstr "Рұқсат ету тізімі"
 
-#: apps/course_metadata/models.py:1410
+#: apps/course_metadata/models.py:1373
 msgid "Blocklist"
 msgstr "Блоктау тізімі"
 
-#: apps/course_metadata/models.py:1460
+#: apps/course_metadata/models.py:1420
 msgid ""
 "When making reruns for this course, they will use this key instead of the "
 "course key."
@@ -1344,50 +1334,50 @@ msgstr ""
 "Бұл курсты қайталау кезінде олар курс кілтінің орнына осы кілтті "
 "пайдаланады."
 
-#: apps/course_metadata/models.py:1477
+#: apps/course_metadata/models.py:1437
 msgid ""
 "The actual duration of this course as experienced by learners who complete "
 "it."
 msgstr "Бұл курстың нақты ұзақтығы, оны аяқтаған студенттердің тәжірибесі."
 
-#: apps/course_metadata/models.py:1498
+#: apps/course_metadata/models.py:1458
 msgid "Add the course image"
 msgstr "Курстың суретін қосыңыз"
 
-#: apps/course_metadata/models.py:1501 apps/course_metadata/models.py:3356
+#: apps/course_metadata/models.py:1461 apps/course_metadata/models.py:3294
 msgid "FAQ"
 msgstr "Жиі қойылатын сұрақтар"
 
-#: apps/course_metadata/models.py:1504
+#: apps/course_metadata/models.py:1464
 msgid "Total number of learners who have enrolled in this course"
 msgstr "Осы курсқа тіркелген оқушылардың жалпы саны"
 
-#: apps/course_metadata/models.py:1509
+#: apps/course_metadata/models.py:1469
 msgid ""
 "Total number of learners who have enrolled in this course in the last 6 "
 "months"
 msgstr "Соңғы 6 айда осы курсқа тіркелген оқушылардың жалпы саны"
 
-#: apps/course_metadata/models.py:1523
+#: apps/course_metadata/models.py:1483
 msgid "Course number format e.g CS002x, BIO1.1x, BIO1.2x"
 msgstr "Курс нөмірінің пішімі, мысалы, CS002x, BIO1.1x, BIO1.2x"
 
-#: apps/course_metadata/models.py:1537
+#: apps/course_metadata/models.py:1497
 msgid "Additional Information"
 msgstr "Қосымша ақпарат"
 
-#: apps/course_metadata/models.py:1559
+#: apps/course_metadata/models.py:1519
 msgid "The last time this course was modified in the database."
 msgstr "Соңғы рет бұл курс дерекқорда өзгертілді."
 
-#: apps/course_metadata/models.py:1564
+#: apps/course_metadata/models.py:1524
 msgid ""
 "This field signifies if this course is in the enterprise subscription "
 "catalog"
 msgstr ""
 "Бұл өріс осы курстың кәсіпорынның жазылу каталогында бар-жоғын білдіреді"
 
-#: apps/course_metadata/models.py:1572 apps/course_metadata/models.py:3515
+#: apps/course_metadata/models.py:1532 apps/course_metadata/models.py:3453
 msgid ""
 "If checked, this item will not be indexed in Algolia and will not show up in"
 " search results."
@@ -1395,15 +1385,15 @@ msgstr ""
 "Белгі қойылса, бұл элемент Алголияда индекстелмейді және іздеу нәтижелерінде"
 " көрсетілмейді."
 
-#: apps/course_metadata/models.py:1580 apps/course_metadata/models.py:3523
+#: apps/course_metadata/models.py:1540 apps/course_metadata/models.py:3461
 msgid "If checked, the About Page will have a meta tag with noindex value"
 msgstr "Белгі қойылса, туралы бетінде noindex мәні бар мета тег болады"
 
-#: apps/course_metadata/models.py:1585
+#: apps/course_metadata/models.py:1545
 msgid "Watchers"
 msgstr "Бақылаушылар"
 
-#: apps/course_metadata/models.py:1587
+#: apps/course_metadata/models.py:1547
 msgid ""
 "The list of email addresses that will be notified if any of the course runs "
 "is published or scheduled."
@@ -1411,23 +1401,23 @@ msgstr ""
 "Курстардың кез келгені жарияланған немесе жоспарланған жағдайда "
 "хабарландырылатын электрондық пошта мекенжайларының тізімі."
 
-#: apps/course_metadata/models.py:1832
+#: apps/course_metadata/models.py:1786
 msgid "Future"
 msgstr "Болашақ"
 
-#: apps/course_metadata/models.py:1834
+#: apps/course_metadata/models.py:1788
 msgid "Past"
 msgstr "Өткен"
 
-#: apps/course_metadata/models.py:2275 apps/course_metadata/models.py:3367
+#: apps/course_metadata/models.py:2229 apps/course_metadata/models.py:3305
 msgid "Blocked"
 msgstr "Блокталған"
 
-#: apps/course_metadata/models.py:2276 apps/course_metadata/models.py:3368
+#: apps/course_metadata/models.py:2230 apps/course_metadata/models.py:3306
 msgid "Unrestricted"
 msgstr "Шектеусіз"
 
-#: apps/course_metadata/models.py:2297
+#: apps/course_metadata/models.py:2251
 msgid ""
 "Title specific for this run of a course. Leave this value blank to default "
 "to the parent course's title."
@@ -1435,7 +1425,7 @@ msgstr ""
 "Бұл курсқа арналған тақырып. Бұл мәнді ата-аналық курстың атауына әдепкі "
 "етіп қою үшін бос қалдырыңыз."
 
-#: apps/course_metadata/models.py:2306
+#: apps/course_metadata/models.py:2260
 msgid ""
 "Short description specific for this run of a course. Leave this value blank "
 "to default to the parent course's short_description attribute."
@@ -1443,7 +1433,7 @@ msgstr ""
 "Курстың осы кезеңіне арналған қысқаша сипаттама. Бұл мәнді ата-аналық "
 "курстың short_description төлсипатына әдепкі етіп бос қалдырыңыз."
 
-#: apps/course_metadata/models.py:2310
+#: apps/course_metadata/models.py:2264
 msgid ""
 "Full description specific for this run of a course. Leave this value blank "
 "to default to the parent course's full_description attribute."
@@ -1451,21 +1441,21 @@ msgstr ""
 "Курстың осы кезеңіне арналған толық сипаттама. Бұл мәнді ата-аналық курстың "
 "full_description атрибутының әдепкі мәніне бос қалдырыңыз."
 
-#: apps/course_metadata/models.py:2315
+#: apps/course_metadata/models.py:2269
 msgid ""
 "Estimated minimum number of hours per week needed to complete a course run."
 msgstr "Курсты аяқтау үшін аптасына қажет ең аз сағат саны."
 
-#: apps/course_metadata/models.py:2318
+#: apps/course_metadata/models.py:2272
 msgid ""
 "Estimated maximum number of hours per week needed to complete a course run."
 msgstr "Курсты аяқтау үшін аптасына қажет ең көп сағат саны."
 
-#: apps/course_metadata/models.py:2321
+#: apps/course_metadata/models.py:2275
 msgid "Estimated number of weeks needed to complete this course run."
 msgstr "Бұл курсты аяқтау үшін қажет апталардың болжалды саны."
 
-#: apps/course_metadata/models.py:2328
+#: apps/course_metadata/models.py:2282
 msgid ""
 "A JSON dict detailing the available translations and transcriptions for this"
 " run. The dict has two keys: translation_languages and "
@@ -1475,17 +1465,17 @@ msgstr ""
 "тегжейлі көрсететін JSON дикті. Дикттің екі кілті бар: аударма_тілдері және "
 "транскрипция_тілдері."
 
-#: apps/course_metadata/models.py:2335
+#: apps/course_metadata/models.py:2289
 msgid "Total number of learners who have enrolled in this course run"
 msgstr "Осы курсқа қатысқан оқушылардың жалпы саны"
 
-#: apps/course_metadata/models.py:2339
+#: apps/course_metadata/models.py:2293
 msgid ""
 "Total number of learners who have enrolled in this course run in the last 6 "
 "months"
 msgstr "Соңғы 6 айда осы курсқа қатысқан оқушылардың жалпы саны"
 
-#: apps/course_metadata/models.py:2352
+#: apps/course_metadata/models.py:2306
 msgid ""
 "Whether this run should be hidden from API responses.  Do not edit here - "
 "this value will be overwritten by the \"Course Visibility In Catalog\" field"
@@ -1495,11 +1485,11 @@ msgstr ""
 " мән курс метадеректерін жаңарту арқылы Studio бағдарламасындағы "
 "&quot;Каталогтағы курстың көрінуі&quot; өрісімен қайта жазылады."
 
-#: apps/course_metadata/models.py:2358
+#: apps/course_metadata/models.py:2312
 msgid "Indicates whether the course relation has been manually overridden."
 msgstr "Курс қатынасының қолмен қайта анықталғанын көрсетеді."
 
-#: apps/course_metadata/models.py:2365
+#: apps/course_metadata/models.py:2319
 msgid ""
 "'What You Will Learn' description for this particular course run. Leave this"
 " value blank to default to the parent course's Outcome attribute."
@@ -1508,11 +1498,11 @@ msgstr ""
 "Негізгі курстың Нәтиже атрибутына әдепкі мән беру үшін бұл мәнді бос "
 "қалдырыңыз."
 
-#: apps/course_metadata/models.py:2378 apps/course_metadata/models.py:3551
+#: apps/course_metadata/models.py:2332 apps/course_metadata/models.py:3489
 msgid "Add OFAC restriction text to the FAQ section of the Marketing site"
 msgstr "Маркетинг сайтының ЖҚС бөліміне OFAC шектеу мәтінін қосыңыз"
 
-#: apps/course_metadata/models.py:2398
+#: apps/course_metadata/models.py:2352
 msgid ""
 "This calculated field signifies if this course run is in the enterprise "
 "subscription catalog"
@@ -1520,7 +1510,7 @@ msgstr ""
 "Бұл есептелген өріс осы курстың іске қосылуы кәсіпорынның жазылым "
 "каталогында бар-жоғын білдіреді"
 
-#: apps/course_metadata/models.py:2404
+#: apps/course_metadata/models.py:2358
 msgid ""
 "The identifier for a product variant. This is used to link a course run to a"
 " product variant for external LOBs (i.e; ExecEd & Bootcamps)."
@@ -1529,15 +1519,15 @@ msgstr ""
 "ExecEd &amp; Bootcamps) үшін өнім нұсқасымен байланыстыру үшін "
 "пайдаланылады."
 
-#: apps/course_metadata/models.py:2752 apps/course_metadata/models.py:2765
+#: apps/course_metadata/models.py:2700 apps/course_metadata/models.py:2713
 msgid "Current"
 msgstr "Ағымдағы"
 
-#: apps/course_metadata/models.py:2754
+#: apps/course_metadata/models.py:2702
 msgid "Starting Soon"
 msgstr "Жақында басталады"
 
-#: apps/course_metadata/models.py:2804
+#: apps/course_metadata/models.py:2752
 msgid ""
 "Switching seat types after being reviewed is not supported. Please reach out"
 " to your project coordinator for additional help if necessary."
@@ -1545,43 +1535,43 @@ msgstr ""
 "Қарап шыққаннан кейін орындық түрлерін ауыстыруға қолдау көрсетілмейді. "
 "Қажет болса, қосымша көмек алу үшін жоба үйлестірушісіне хабарласыңыз."
 
-#: apps/course_metadata/models.py:3157
+#: apps/course_metadata/models.py:3104
 msgid "Change careers"
 msgstr "Мансапты өзгерту"
 
-#: apps/course_metadata/models.py:3158
+#: apps/course_metadata/models.py:3105
 msgid "Job advancement"
 msgstr "Жұмыс орнын көтеру"
 
-#: apps/course_metadata/models.py:3159
+#: apps/course_metadata/models.py:3106
 msgid "Learn valuable skills"
 msgstr "Құнды дағдыларды үйреніңіз"
 
-#: apps/course_metadata/models.py:3160
+#: apps/course_metadata/models.py:3107
 msgid "Learn for fun"
 msgstr "Көңіл көтеру үшін үйреніңіз"
 
-#: apps/course_metadata/models.py:3357
+#: apps/course_metadata/models.py:3295
 msgid "FAQs"
 msgstr "Жиі қойылатын сұрақтар"
 
-#: apps/course_metadata/models.py:3372
+#: apps/course_metadata/models.py:3310
 msgid "The user-facing display title for this Program."
 msgstr "Осы бағдарламаның пайдаланушыға арналған дисплей тақырыбы."
 
-#: apps/course_metadata/models.py:3374
+#: apps/course_metadata/models.py:3312
 msgid "A brief, descriptive subtitle for the Program."
 msgstr "Бағдарламаға арналған қысқаша, сипаттайтын субтитр."
 
-#: apps/course_metadata/models.py:3376
+#: apps/course_metadata/models.py:3314
 msgid "A brief hook for the marketing website"
 msgstr "Маркетинг веб-сайтына арналған қысқаша ілмек"
 
-#: apps/course_metadata/models.py:3379
+#: apps/course_metadata/models.py:3317
 msgid "The lifecycle status of this Program."
 msgstr "Осы Бағдарламаның өмірлік циклінің күйі."
 
-#: apps/course_metadata/models.py:3391
+#: apps/course_metadata/models.py:3329
 msgid ""
 "If this box is not checked, courses will be ordered as in the courses select"
 " box above."
@@ -1589,7 +1579,7 @@ msgstr ""
 "Егер бұл құсбелгі қойылмаса, курстарға жоғарыдағы курстарды таңдау "
 "жолағындағыдай тапсырыс беріледі."
 
-#: apps/course_metadata/models.py:3406
+#: apps/course_metadata/models.py:3344
 msgid ""
 "This field is now deprecated (ECOM-6021).Estimated number of weeks needed to"
 " complete a course run belonging to this program."
@@ -1597,11 +1587,11 @@ msgstr ""
 "Бұл өріс енді ескірген (ECOM-6021). Осы бағдарламаға жататын курсты аяқтау "
 "үшін қажет апталардың болжалды саны."
 
-#: apps/course_metadata/models.py:3432
+#: apps/course_metadata/models.py:3370
 msgid "DEPRECATED: Use the card image field"
 msgstr "ҚОЛДАНЫЛҒАН: карта кескіні өрісін пайдаланыңыз"
 
-#: apps/course_metadata/models.py:3439
+#: apps/course_metadata/models.py:3377
 msgid ""
 "This field can be used by API clients to determine the order in which "
 "instructors will be displayed on program pages. Instructors in this list "
@@ -1611,16 +1601,16 @@ msgstr ""
 "анықтау үшін пайдалана алады. Бұл тізімдегі нұсқаушылар осы бағдарламалармен"
 " байланысты барлық басқа курстар орындалмас бұрын пайда болуы керек."
 
-#: apps/course_metadata/models.py:3450
+#: apps/course_metadata/models.py:3388
 msgid "The description of credit redemption for courses in program"
 msgstr "Бағдарламадағы курстар бойынша несиені өтеу сипаттамасы"
 
-#: apps/course_metadata/models.py:3455
+#: apps/course_metadata/models.py:3393
 msgid "Allow courses in this program to be purchased in a single transaction"
 msgstr ""
 "Бұл бағдарламадағы курстарды бір транзакцияда сатып алуға рұқсат етіңіз"
 
-#: apps/course_metadata/models.py:3459
+#: apps/course_metadata/models.py:3397
 msgid ""
 "Hide program on marketing site landing and search pages. This program MAY "
 "have a detail page."
@@ -1628,11 +1618,11 @@ msgstr ""
 "Маркетинг сайтының қону және іздеу беттерінде бағдарламаны жасыру. Бұл "
 "бағдарламаның егжей-тегжейлі беті болуы мүмкін."
 
-#: apps/course_metadata/models.py:3462
+#: apps/course_metadata/models.py:3400
 msgid "Total number of learners who have enrolled in courses this program"
 msgstr "Осы бағдарлама бойынша курстарға тіркелген оқушылардың жалпы саны"
 
-#: apps/course_metadata/models.py:3467
+#: apps/course_metadata/models.py:3405
 msgid ""
 "Total number of learners who have enrolled in courses in this program in the"
 " last 6 months"
@@ -1640,13 +1630,13 @@ msgstr ""
 "Соңғы 6 айда осы бағдарлама бойынша курстарға тіркелген оқушылардың жалпы "
 "саны"
 
-#: apps/course_metadata/models.py:3472
+#: apps/course_metadata/models.py:3410
 msgid ""
 "Number of credits a learner will earn upon successful completion of the "
 "program"
 msgstr "Білім алушы бағдарламаны сәтті аяқтаған кезде алатын кредиттер саны"
 
-#: apps/course_metadata/models.py:3476
+#: apps/course_metadata/models.py:3414
 msgid ""
 "This calculated field signifies if all the courses in this program are "
 "included in the enterprise subscription catalog "
@@ -1654,18 +1644,18 @@ msgstr ""
 "Бұл есептелген өріс осы бағдарламадағы барлық курстардың кәсіпорын жазылу "
 "каталогына қосылғанын білдіреді "
 
-#: apps/course_metadata/models.py:3480
+#: apps/course_metadata/models.py:3418
 msgid ""
 "A field to override Organization short code alias specific for this program."
 msgstr ""
 "Осы бағдарлама үшін арнайы Ұйымның қысқа кодының бүркеншік атын қайта "
 "анықтау өрісі."
 
-#: apps/course_metadata/models.py:3487
+#: apps/course_metadata/models.py:3425
 msgid "A field to override Organization logo specific for this program."
 msgstr "Осы бағдарламаға арналған ұйым логотипін қайта анықтау өрісі."
 
-#: apps/course_metadata/models.py:3491
+#: apps/course_metadata/models.py:3429
 msgid ""
 "Primary subject field specific for this program. Useful field in case there "
 "are no courses associated with this program."
@@ -1673,7 +1663,7 @@ msgstr ""
 "Осы бағдарламаға тән негізгі пәндік өріс. Бұл бағдарламамен байланысты "
 "курстар болмаған жағдайда пайдалы өріс."
 
-#: apps/course_metadata/models.py:3496
+#: apps/course_metadata/models.py:3434
 msgid ""
 "Level type specific for this program. Useful field in case there are no "
 "courses associated with this program."
@@ -1681,7 +1671,7 @@ msgstr ""
 "Осы бағдарлама үшін арнайы деңгей түрі. Бұл бағдарламамен байланысты курстар"
 " болмаған жағдайда пайдалы өріс."
 
-#: apps/course_metadata/models.py:3501
+#: apps/course_metadata/models.py:3439
 msgid ""
 "Language code specific for this program. Useful field in case there are no "
 "courses associated with this program."
@@ -1689,7 +1679,7 @@ msgstr ""
 "Осы бағдарлама үшін арнайы тіл коды. Бұл бағдарламамен байланысты курстар "
 "болмаған жағдайда пайдалы өріс."
 
-#: apps/course_metadata/models.py:3535
+#: apps/course_metadata/models.py:3473
 msgid ""
 "Useful field to overwrite the duration of a program. It can be a text "
 "describing a period of time, Ex: 6-9 months."
@@ -1697,7 +1687,7 @@ msgstr ""
 "Бағдарламаның ұзақтығын қайта жазу үшін пайдалы өріс. Бұл уақыт кезеңін "
 "сипаттайтын мәтін болуы мүмкін, мысалы: 6-9 ай."
 
-#: apps/course_metadata/models.py:3544
+#: apps/course_metadata/models.py:3482
 msgid ""
 "Pick a tag/label from the suggestions. To make a new tag, add a comma after "
 "the tag name."
@@ -1705,35 +1695,35 @@ msgstr ""
 "Ұсыныстардан тег/белгіні таңдаңыз. Жаңа тег жасау үшін тег атынан кейін үтір"
 " қойыңыз."
 
-#: apps/course_metadata/models.py:3555
+#: apps/course_metadata/models.py:3493
 msgid "The last time this program was modified."
 msgstr "Бұл бағдарлама соңғы рет өзгертілген."
 
-#: apps/course_metadata/models.py:4007 apps/course_metadata/models.py:4024
+#: apps/course_metadata/models.py:3950 apps/course_metadata/models.py:3967
 msgid "ID"
 msgstr "ID"
 
-#: apps/course_metadata/models.py:4043
+#: apps/course_metadata/models.py:3986
 msgid "The actual rank number"
 msgstr "Нақты ранг нөмірі"
 
-#: apps/course_metadata/models.py:4044
+#: apps/course_metadata/models.py:3987
 msgid "What does the rank number mean"
 msgstr "Ранг саны нені білдіреді"
 
-#: apps/course_metadata/models.py:4045
+#: apps/course_metadata/models.py:3988
 msgid "From where the rank is obtained"
 msgstr "Дәреже қайдан алынады"
 
-#: apps/course_metadata/models.py:4092
+#: apps/course_metadata/models.py:4004
 msgid "Callback URL to partner application flow"
 msgstr "Серіктес қолданбалар ағынына кері шақыру URL мекенжайы"
 
-#: apps/course_metadata/models.py:4095
+#: apps/course_metadata/models.py:4007
 msgid "Overall program ranking (e.g. \"#1 in the U.S.\")"
 msgstr "Бағдарламаның жалпы рейтингі (мысалы, «АҚШ-тағы №1»)"
 
-#: apps/course_metadata/models.py:4100
+#: apps/course_metadata/models.py:4012
 msgid ""
 "The 6 character hex value of the color to make the banner borders\n"
 "            (e.g. \"#ff0000\" which equals red) No need to provide the `#`"
@@ -1741,51 +1731,51 @@ msgstr ""
 "Баннер жиектерін жасау үшін түстің 6 таңбалы он алтылық мәні\n"
 " (мысалы, қызылға тең &quot;#ff0000&quot;) `#` берудің қажеті жоқ"
 
-#: apps/course_metadata/models.py:4109
+#: apps/course_metadata/models.py:4021
 msgid "Provide a campus image for the header of the degree"
 msgstr "Дәреже тақырыбы үшін кампус кескінін беріңіз"
 
-#: apps/course_metadata/models.py:4115
+#: apps/course_metadata/models.py:4027
 msgid "Provide a background image for the title section of the degree"
 msgstr "Дәреженің тақырып бөлімі үшін фондық суретті қамтамасыз етіңіз"
 
-#: apps/course_metadata/models.py:4120
+#: apps/course_metadata/models.py:4032
 msgid "The fine print that displays at the Tuition section's bottom"
 msgstr "Оқу ақысы бөлімінің төменгі жағында көрсетілетін жақсы басып шығару"
 
-#: apps/course_metadata/models.py:4125
+#: apps/course_metadata/models.py:4037
 msgid "The fine print that displays at the Deadline section's bottom"
 msgstr "Мерзімі бөлімінің төменгі жағында көрсетілетін жақсы басып шығару"
 
-#: apps/course_metadata/models.py:4132
+#: apps/course_metadata/models.py:4044
 msgid "The sailthru email list name to capture leads"
 msgstr "Мүмкіндіктерді алу үшін sailthru электрондық пошта тізімінің атауы"
 
-#: apps/course_metadata/models.py:4146
+#: apps/course_metadata/models.py:4058
 msgid "Please provide an image file for the lead capture banner."
 msgstr "Жетекші түсіру баннері үшін сурет файлын беріңіз."
 
-#: apps/course_metadata/models.py:4149
+#: apps/course_metadata/models.py:4061
 msgid "The Hubspot form ID for the lead capture form"
 msgstr "Жетекші түсіру пішініне арналған Hubspot пішін идентификаторы"
 
-#: apps/course_metadata/models.py:4155
+#: apps/course_metadata/models.py:4067
 msgid "URL to micromasters landing page"
 msgstr "Микромастерлердің бастапқы бетінің URL мекенжайы"
 
-#: apps/course_metadata/models.py:4161
+#: apps/course_metadata/models.py:4073
 msgid "Micromasters verbose title"
 msgstr "Микромастерлердің толық атауы"
 
-#: apps/course_metadata/models.py:4167
+#: apps/course_metadata/models.py:4079
 msgid "Micromasters descriptive paragraph"
 msgstr "Micromasters сипаттама параграфы"
 
-#: apps/course_metadata/models.py:4180
+#: apps/course_metadata/models.py:4092
 msgid "Customized background image for the MicroMasters section."
 msgstr "MicroMasters бөлімі үшін теңшелген фондық сурет."
 
-#: apps/course_metadata/models.py:4184
+#: apps/course_metadata/models.py:4096
 msgid ""
 "Override org name if micromasters program comes from different organization "
 "than Masters program"
@@ -1793,117 +1783,117 @@ msgstr ""
 "Микромастер бағдарламасы магистрлік бағдарламадан басқа ұйымнан келсе, ұйым "
 "атауын қайта анықтаңыз"
 
-#: apps/course_metadata/models.py:4191
+#: apps/course_metadata/models.py:4103
 msgid "Ranking display for search card (e.g. \"#1 in the U.S.\""
 msgstr "Іздеу картасы үшін рейтинг дисплейі (мысалы, &quot;АҚШ-тағы №1&quot;"
 
-#: apps/course_metadata/models.py:4197
+#: apps/course_metadata/models.py:4109
 msgid "Cost display for search card (e.g. \"$9,999\""
 msgstr "Іздеу картасының құнын көрсету (мысалы, &quot;$9 999&quot;"
 
-#: apps/course_metadata/models.py:4203
+#: apps/course_metadata/models.py:4115
 msgid "Number of courses for search card (e.g. \"11 Courses\""
 msgstr "Іздеу картасына арналған курстар саны (мысалы, &quot;11 курс&quot;"
 
-#: apps/course_metadata/models.py:4211
+#: apps/course_metadata/models.py:4123
 msgid ""
 "Designates whether the degree should be displayed on the owning "
 "organization's page"
 msgstr "Дәреженің иелік ететін ұйымның бетінде көрсетілу керектігін анықтайды"
 
-#: apps/course_metadata/models.py:4230
+#: apps/course_metadata/models.py:4140
 msgid "The redirect URL of the degree on external site"
 msgstr "Сыртқы сайттағы дәреженің қайта бағыттау URL мекенжайы"
 
-#: apps/course_metadata/models.py:4235
+#: apps/course_metadata/models.py:4145
 msgid "The URL of the landing page on external site"
 msgstr "Сыртқы сайттағы бастапқы беттің URL мекенжайы"
 
-#: apps/course_metadata/models.py:4286
+#: apps/course_metadata/models.py:4180
 msgid "Bell"
 msgstr "Қоңырау"
 
-#: apps/course_metadata/models.py:4287
+#: apps/course_metadata/models.py:4181
 msgid "Certificate"
 msgstr "Сертификат"
 
-#: apps/course_metadata/models.py:4288
+#: apps/course_metadata/models.py:4182
 msgid "Checkmark"
 msgstr "Құсбелгі"
 
-#: apps/course_metadata/models.py:4289
+#: apps/course_metadata/models.py:4183
 msgid "Clock"
 msgstr "Сағат"
 
-#: apps/course_metadata/models.py:4290
+#: apps/course_metadata/models.py:4184
 msgid "Desktop"
 msgstr "Жұмыс үстелі"
 
-#: apps/course_metadata/models.py:4291
+#: apps/course_metadata/models.py:4185
 msgid "Info"
 msgstr "Ақпарат"
 
-#: apps/course_metadata/models.py:4292
+#: apps/course_metadata/models.py:4186
 msgid "Sitemap"
 msgstr "Сайт картасы"
 
-#: apps/course_metadata/models.py:4293
+#: apps/course_metadata/models.py:4187
 msgid "User"
 msgstr "Пайдаланушы"
 
-#: apps/course_metadata/models.py:4294
+#: apps/course_metadata/models.py:4188
 msgid "Dollar"
 msgstr "доллар"
 
-#: apps/course_metadata/models.py:4295
+#: apps/course_metadata/models.py:4189
 msgid "Book"
 msgstr "Кітап"
 
-#: apps/course_metadata/models.py:4296
+#: apps/course_metadata/models.py:4190
 msgid "Mortar Board"
 msgstr "Миномет тақтасы"
 
-#: apps/course_metadata/models.py:4297
+#: apps/course_metadata/models.py:4191
 msgid "Star"
 msgstr "Жұлдыз"
 
-#: apps/course_metadata/models.py:4298
+#: apps/course_metadata/models.py:4192
 msgid "Trophy"
 msgstr "Трофей"
 
-#: apps/course_metadata/models.py:4302
+#: apps/course_metadata/models.py:4196
 msgid "Icon FA class"
 msgstr "FA класының белгішесі"
 
-#: apps/course_metadata/models.py:4303
+#: apps/course_metadata/models.py:4197
 msgid "Paired text"
 msgstr "Жұптастырылған мәтін"
 
-#: apps/course_metadata/models.py:4338
+#: apps/course_metadata/models.py:4216
 msgid "Deadline applies for this semester (e.g. Spring 2019"
 msgstr "Мерзімі осы семестрге қолданылады (мысалы, 2019 жылдың көктемі"
 
-#: apps/course_metadata/models.py:4342
+#: apps/course_metadata/models.py:4220
 msgid "Describes the deadline (e.g. Early Admission Deadline)"
 msgstr "Мерзімді сипаттайды (мысалы, ерте қабылдау мерзімі)"
 
-#: apps/course_metadata/models.py:4346
+#: apps/course_metadata/models.py:4224
 msgid "The date after which the deadline expires (e.g. January 1, 2019)"
 msgstr "Мерзім бітетін күн (мысалы, 2019 жылдың 1 қаңтары)"
 
-#: apps/course_metadata/models.py:4350
+#: apps/course_metadata/models.py:4228
 msgid "The time after which the deadline expires (e.g. 11:59 PM EST)."
 msgstr "Мерзім бітетін уақыт (мысалы, EST 23:59)."
 
-#: apps/course_metadata/models.py:4386
+#: apps/course_metadata/models.py:4249
 msgid "Describes what the cost is for (e.g. Tuition)"
 msgstr "Құны не үшін екенін сипаттайды (мысалы, оқу ақысы)"
 
-#: apps/course_metadata/models.py:4390
+#: apps/course_metadata/models.py:4253
 msgid "String-based field stating how much the cost is (e.g. $1000)."
 msgstr "Құны қанша екенін көрсететін жолға негізделген өріс (мысалы, $1000)."
 
-#: apps/course_metadata/models.py:4433
+#: apps/course_metadata/models.py:4281
 msgid ""
 "A high-level overview of the degree's courseware. The \"brief\"\n"
 "            text is the first 750 characters of \"marketing_text\" and must be\n"
@@ -1913,35 +1903,35 @@ msgstr ""
 " мәтін &quot;marketing_text&quot; бірінші 750 таңбасы және болуы керек\n"
 " жарамды HTML."
 
-#: apps/course_metadata/models.py:4441
+#: apps/course_metadata/models.py:4289
 msgid "A high-level overview of the degree's courseware."
 msgstr "Дипломдық бағдарламаның жоғары деңгейлі шолуы."
 
-#: apps/course_metadata/models.py:4566
+#: apps/course_metadata/models.py:4365
 msgid "Organization name"
 msgstr "Ұйым атауы"
 
-#: apps/course_metadata/models.py:4593
+#: apps/course_metadata/models.py:4392
 msgid "These programs are for a different partner than the pathway itself: {}"
 msgstr "Бұл бағдарламалар жолдың өзінен басқа серіктеске арналған: {}"
 
-#: apps/course_metadata/models.py:4620
+#: apps/course_metadata/models.py:4419
 msgid "Facebook"
 msgstr "Facebook"
 
-#: apps/course_metadata/models.py:4621
+#: apps/course_metadata/models.py:4420
 msgid "Twitter"
 msgstr "Twitter"
 
-#: apps/course_metadata/models.py:4622
+#: apps/course_metadata/models.py:4421
 msgid "Blog"
 msgstr "Блог"
 
-#: apps/course_metadata/models.py:4623
+#: apps/course_metadata/models.py:4422
 msgid "Others"
 msgstr "Басқалар"
 
-#: apps/course_metadata/models.py:4683
+#: apps/course_metadata/models.py:4482
 #, python-brace-format
 msgid ""
 "Partner {partner_key} and course partner {course_partner_key} do not match "
@@ -1950,7 +1940,7 @@ msgstr ""
 "{partner_key} серіктесі мен курс серіктесі {course_partner_key} url слогын "
 "сақтау әрекеті кезінде сәйкес келмейді {url_slug}"
 
-#: apps/course_metadata/models.py:4703
+#: apps/course_metadata/models.py:4502
 #, python-brace-format
 msgid ""
 "Partner {partner_key} and course partner {course_partner_key} do not match "
@@ -1959,19 +1949,19 @@ msgstr ""
 "{partner_key} серіктесі мен курс серіктесі {course_partner_key} url қайта "
 "бағыттауды сақтау әрекеті кезінде сәйкес келмейді {url_path}"
 
-#: apps/course_metadata/models.py:4724
+#: apps/course_metadata/models.py:4523
 msgid "It expects the data will be provided in a csv file format "
 msgstr "Ол деректер csv файл пішімінде беріледі деп күтеді "
 
-#: apps/course_metadata/models.py:4736
+#: apps/course_metadata/models.py:4535
 msgid "A csv file containing uuid of the courses to be archived"
 msgstr "Мұрағатталатын курстардың uuid файлы бар csv файлы"
 
-#: apps/course_metadata/models.py:4750 apps/course_metadata/models.py:4763
-#: apps/course_metadata/models.py:4776 apps/course_metadata/models.py:4811
-#: apps/course_metadata/models.py:4824 apps/course_metadata/models.py:4843
-#: apps/course_metadata/models.py:4863 apps/course_metadata/models.py:4878
-#: apps/course_metadata/models.py:5031
+#: apps/course_metadata/models.py:4549 apps/course_metadata/models.py:4562
+#: apps/course_metadata/models.py:4575 apps/course_metadata/models.py:4595
+#: apps/course_metadata/models.py:4608 apps/course_metadata/models.py:4627
+#: apps/course_metadata/models.py:4647 apps/course_metadata/models.py:4662
+#: apps/course_metadata/models.py:4814
 msgid ""
 "It expects the data will be provided in a csv file format with first row "
 "containing all the headers."
@@ -1979,75 +1969,75 @@ msgstr ""
 "Ол деректер барлық тақырыптарды қамтитын бірінші жолмен csv файл пішімінде "
 "беріледі деп күтеді."
 
-#: apps/course_metadata/models.py:4835
+#: apps/course_metadata/models.py:4619
 msgid "Open Courses"
 msgstr "Ашық курстар"
 
-#: apps/course_metadata/models.py:4836
+#: apps/course_metadata/models.py:4620
 msgid "2U Executive Education Courses"
 msgstr "2U басқарушы білім беру курстары"
 
-#: apps/course_metadata/models.py:4837
+#: apps/course_metadata/models.py:4621
 msgid "Bootcamps"
 msgstr "Оқу лагерлері"
 
-#: apps/course_metadata/models.py:4848 apps/course_metadata/models.py:4952
+#: apps/course_metadata/models.py:4632 apps/course_metadata/models.py:4736
 msgid "Course UUIDs"
 msgstr "UUID курстары"
 
-#: apps/course_metadata/models.py:4928
+#: apps/course_metadata/models.py:4712
 msgid "Course Run IDs"
 msgstr "Курсты іске қосу идентификаторлары"
 
-#: apps/course_metadata/models.py:4944
+#: apps/course_metadata/models.py:4728
 msgid "Profile Image UUIDs"
 msgstr "Профиль кескінінің UUID кодтары"
 
-#: apps/course_metadata/models.py:4951
+#: apps/course_metadata/models.py:4735
 msgid "Tag"
 msgstr "Тег"
 
-#: apps/course_metadata/models.py:4967
+#: apps/course_metadata/models.py:4751
 msgid "Remove All Redirects"
 msgstr "Барлық қайта бағыттауларды жою"
 
-#: apps/course_metadata/models.py:4968
+#: apps/course_metadata/models.py:4752
 msgid "Url Paths"
 msgstr "Url жолдары"
 
-#: apps/course_metadata/models.py:4976
+#: apps/course_metadata/models.py:4760
 msgid "Add redirects from all published course url slugs"
 msgstr "Барлық жарияланған курс url слагтарынан қайта бағыттауларды қосыңыз"
 
-#: apps/course_metadata/models.py:4977 apps/taxonomy_support/models.py:55
+#: apps/course_metadata/models.py:4761 apps/taxonomy_support/models.py:55
 msgid "Course uuids"
 msgstr "Курс"
 
-#: apps/course_metadata/models.py:5042
+#: apps/course_metadata/models.py:4825
 msgid "User who uploaded the file"
 msgstr "Файлды жүктеп салған пайдаланушы"
 
-#: apps/course_metadata/models.py:5047
+#: apps/course_metadata/models.py:4830
 msgid "Summary of the task"
 msgstr "Тапсырманың қысқаша мазмұны"
 
-#: apps/course_metadata/models.py:5050
+#: apps/course_metadata/models.py:4833
 msgid "Task Type"
 msgstr "Тапсырма түрі"
 
-#: apps/course_metadata/models.py:5053
+#: apps/course_metadata/models.py:4836
 msgid "Type of Bulk Task to be performed"
 msgstr "Орындалатын жаппай тапсырма түрі"
 
-#: apps/course_metadata/models.py:5056
+#: apps/course_metadata/models.py:4839
 msgid "Status"
 msgstr "Күй"
 
-#: apps/course_metadata/models.py:5059
+#: apps/course_metadata/models.py:4842
 msgid "Status of the Bulk Task"
 msgstr "Жаппай тапсырманың күйі"
 
-#: apps/course_metadata/models.py:5067
+#: apps/course_metadata/models.py:4850
 msgid "Identifier of the celery task associated with this bulk task"
 msgstr ""
 "Осы көлемді тапсырмамен байланысты балдыркөк тапсырмасының идентификаторы"
@@ -2120,159 +2110,8 @@ msgstr ""
 "%(user_name)s %(time)s мекенжайында %(course_name)s %(date)s туралы келесі "
 "түсініктеме жасады"
 
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:7
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:3
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:9
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:3
-msgid "Hi Course Team,"
-msgstr "Сәлем, курс командасы,"
-
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:12
-#, python-format
-msgid ""
-"\n"
-"        This is an automated reminder that the course \"%(course_name)s\" (Course Key: %(course_key)s) is scheduled to end in %(days)s on %(course_end_date)s.\n"
-"        "
-msgstr ""
-"\n"
-"        Бұл \"%(course_name)s\" курсының (Курс кілті: %(course_key)s) %(days)s күннен кейін %(course_end_date)s аяқталатыны туралы автоматтандырылған еске салу.\n"
-"        "
-
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:16
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:16
-msgid ""
-"To ensure uninterrupted learner access and enrollment, please take one of "
-"the following actions:"
-msgstr ""
-"Оқушылардың үздіксіз қолжетімділігі мен тіркелуін қамтамасыз ету үшін келесі"
-" әрекеттердің бірін орындаңыз:"
-
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:19
-#, python-format
-msgid ""
-"\n"
-"        This is an automated reminder that the course \"%(course_name)s\" (Course Key: %(course_key)s) has officially ended as of %(course_end_date)s.\n"
-"        "
-msgstr ""
-"\n"
-"        Бұл \"%(course_name)s\" курсы (Курс кілті: %(course_key)s) %(course_end_date)s күні ресми түрде аяқталғаны туралы автоматтандырылған еске салу.\n"
-"        "
-
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:23
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:18
-msgid ""
-"If this was intentional, no action is needed. However, if this course was "
-"meant to remain available, you have two options to restore access:"
-msgstr ""
-"Егер бұл әдейі жасалған болса, ешқандай әрекет қажет емес. Алайда, егер бұл "
-"курс қолжетімді болып қалуы керек болса, қолжетімділікті қалпына келтіру "
-"үшін екі нұсқа бар:"
-
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:29
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:21
-msgid ""
-"Extend the current course run’s end date if the same course is meant to "
-"remain available."
-msgstr ""
-"Ағымдағы курстың аяқталу күнін ұзарту, егер сол курс қолжетімді болып қалуы "
-"керек болса."
-
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:31
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:22
-msgid ""
-"Create a new course run if you are planning to offer this course again with "
-"updated content, pacing, or a new cohort of learners."
-msgstr ""
-"Бұл курсты жаңартылған мазмұнмен, қарқынмен немесе жаңа оқушылар тобымен "
-"қайта ұсынуды жоспарласаңыз, жаңа курс жүргізуін жасаңыз."
-
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:32
-msgid "Visit the Course in Publisher"
-msgstr "Курсты баспагерде қарау"
-
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:37
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:25
-msgid "You can review and modify the course end settings here:"
-msgstr "Курстың аяқталу параметрлерін осы жерден қарап, өзгерте аласыз:"
-
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:41
-#, python-format
-msgid ""
-"\n"
-"        If no action is taken, the course will no longer be available for enrollment or access by learners on \n"
-"        <a href=\"%(partner_marketing_site_url)s\">%(partner_marketing_site_url)s</a> after the end date.\n"
-"        "
-msgstr ""
-"\n"
-"        Егер ешқандай әрекет жасалмаса, курс аяқталғаннан кейін <a href=\"%(partner_marketing_site_url)s\">%(partner_marketing_site_url)s</a> сайтында оқушыларға тіркелу немесе қолжетімділік үшін қолжетімсіз болады.\n"
-"        "
-
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.html:47
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:34
-msgid "Thanks"
-msgstr "Рахмет"
-
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:6
-#, python-format
-msgid ""
-"\n"
-"This is an automated reminder that the course \"%(course_name)s\" (Course Key: %(course_key)s) is scheduled to end in %(days)s on %(course_end_date)s.\n"
-msgstr ""
-"\n"
-"Бұл \"%(course_name)s\" курсы (Курс кілті: %(course_key)s) %(days)s күннен кейін %(course_end_date)s аяқталатыны туралы автоматтандырылған еске салу.\n"
-
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:10
-#, python-format
-msgid ""
-"\n"
-"This is an automated reminder that the course \"%(course_name)s\" (Course Key: %(course_key)s) has officially ended as of %(course_end_date)s.\n"
-msgstr ""
-"\n"
-"Бұл \"%(course_name)s\" курсы (Курс кілті: %(course_key)s) %(course_end_date)s күні ресми түрде аяқталғаны туралы автоматтандырылған еске салу.\n"
-
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:23
-msgid "Visit the Course in Publisher:"
-msgstr "Курсты баспагерде қараңыз:"
-
-#: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:29
-#, python-format
-msgid ""
-"\n"
-"If no action is taken, the course will no longer be available for enrollment or access by learners on %(partner_marketing_site_url)s after the end date.\n"
-msgstr ""
-"\n"
-"Егер ешқандай әрекет жасалмаса, курс аяқталғаннан кейін %(partner_marketing_site_url)s сайтында оқушылар үшін тіркелуге немесе қолжетімділікке қолжетімсіз болады.\n"
-
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:17
-#: apps/course_metadata/templates/course_metadata/email/go_live.txt:7
-#, python-format
-msgid ""
-"The About page for the %(course_run_number)s course run of %(course_name)s "
-"has been submitted for publishing. The new session will appear on the edX "
-"website following the next couple of deployments—typically within 24 to 48 "
-"business hours."
-msgstr ""
-"%(course_run_number)s курсының %(course_name)s курсы туралы беті жариялауға "
-"жіберілді. Жаңа сессия edX веб-сайтында келесі бірнеше орналастырудан кейін "
-"пайда болады — әдетте 24-тен 48 жұмыс сағатына дейін."
-
-#: apps/course_metadata/templates/course_metadata/email/go_live.html:26
-#: apps/course_metadata/templates/course_metadata/email/legal_review.html:23
-#: apps/course_metadata/templates/course_metadata/email/reviewed.html:38
-#, python-brace-format
-msgid ""
-"{link_start}{contact_us_email}{link_middle}{contact_us_email}{link_end}"
-msgstr ""
-"{link_start} {contact_us_email} {link_middle} {contact_us_email} {link_end}"
-
-#: apps/course_metadata/templates/course_metadata/email/go_live.txt:11
-msgid ""
-"Note: This is a no-reply email. For any questions or comments, please "
-"contact your Project Coordinator at"
-msgstr ""
-"Назар аударыңыз: Бұл жауап берілмейтін электрондық пошта. Кез келген "
-"сұрақтар немесе пікірлер үшін жоба үйлестірушісіне хабарласыңыз."
-
 #: apps/course_metadata/templates/course_metadata/email/internal_review.html:9
 #: apps/course_metadata/templates/course_metadata/email/internal_review.txt:3
 #: apps/course_metadata/templates/course_metadata/email/legal_review.html:9
@@ -2282,6 +2121,47 @@ msgstr ""
 #, python-format
 msgid "Dear %(recipient_name)s,"
 msgstr "Құрметті %(recipient_name)s ,"
+
+#: apps/course_metadata/templates/course_metadata/email/go_live.html:17
+#: apps/course_metadata/templates/course_metadata/email/go_live.txt:7
+#, python-format
+msgid ""
+"The About page for the %(course_run_number)s course run of %(course_name)s "
+"has been published. No further action is necessary."
+msgstr ""
+"%(course_name)s бағдарламасының %(course_run_number)s курсына арналған "
+"&quot;Ақпарат&quot; беті жарияланды. Қосымша әрекет қажет емес."
+
+#: apps/course_metadata/templates/course_metadata/email/go_live.html:24
+#, python-brace-format
+msgid "{link_start}{preview_url}{link_middle}View this About page.{link_end}"
+msgstr ""
+"{link_start} {preview_url} {link_middle} Бұл туралы бетін қараңыз. "
+"{link_end}"
+
+#: apps/course_metadata/templates/course_metadata/email/go_live.html:33
+#: apps/course_metadata/templates/course_metadata/email/legal_review.html:23
+#: apps/course_metadata/templates/course_metadata/email/reviewed.html:38
+#, python-brace-format
+msgid ""
+"{link_start}{contact_us_email}{link_middle}{contact_us_email}{link_end}"
+msgstr ""
+"{link_start} {contact_us_email} {link_middle} {contact_us_email} {link_end}"
+
+#: apps/course_metadata/templates/course_metadata/email/go_live.txt:11
+#, python-format
+msgid "View this About page. %(preview_url)s"
+msgstr "Бұл туралы бетін қараңыз. %(preview_url)s"
+
+#: apps/course_metadata/templates/course_metadata/email/go_live.txt:15
+#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:15
+#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:25
+msgid ""
+"Note: This email address is unable to receive replies. For questions or "
+"comments, please contact your Project Coordinator(s):"
+msgstr ""
+"Ескертпе: Бұл электрондық пошта мекенжайы жауап ала алмайды. Сұрақтар немесе"
+" түсініктемелер үшін Жоба үйлестіруші(лер)іңізге хабарласыңыз:"
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.html:14
 #, python-brace-format
@@ -2354,15 +2234,6 @@ msgid "View this course run in Publisher above to determine OFAC status."
 msgstr ""
 "OFAC күйін анықтау үшін жоғарыдағы Publisher бағдарламасында орындалатын осы"
 " курсты қараңыз."
-
-#: apps/course_metadata/templates/course_metadata/email/legal_review.txt:15
-#: apps/course_metadata/templates/course_metadata/email/reviewed.txt:25
-msgid ""
-"Note: This email address is unable to receive replies. For questions or "
-"comments, please contact your Project Coordinator(s):"
-msgstr ""
-"Ескертпе: Бұл электрондық пошта мекенжайы жауап ала алмайды. Сұрақтар немесе"
-" түсініктемелер үшін Жоба үйлестіруші(лер)іңізге хабарласыңыз:"
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:15
 #, python-brace-format

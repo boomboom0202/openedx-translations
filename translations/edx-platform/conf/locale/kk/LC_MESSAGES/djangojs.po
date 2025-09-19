@@ -11,17 +11,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 # 
 # Translators:
-# Ruslan Abrayev, 2025
-# Eden Huthmacher, 2025
+# Brian Smith, 2025
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-19 00:44+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Eden Huthmacher, 2025\n"
+"POT-Creation-Date: 2025-04-25 00:36+0000\n"
+"PO-Revision-Date: 2025-07-23 17:30+0000\n"
+"Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Kazakh (https://app.transifex.com/open-edx/teams/6205/kk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,11 +63,11 @@ msgstr "OpenAssessment сақтау қатесі"
 msgid "Saving"
 msgstr "Сақтау"
 
-#: cms/static/js/base.js:113
+#: cms/static/js/base.js:101
 msgid "This link will open in a new browser window/tab"
 msgstr "Бұл сілтеме жаңа браузер терезесінде/қойындысында ашылады"
 
-#: cms/static/js/base.js:120
+#: cms/static/js/base.js:108
 msgid "This link will open in a modal window"
 msgstr "Бұл сілтеме модальды терезеде ашылады"
 
@@ -536,7 +535,6 @@ msgstr "Файлыңызды жүктеп салу мүмкін болмады"
 #: cms/static/js/views/modals/course_outline_modals.js:351
 #: cms/static/js/views/modals/edit_xblock.js:151
 #: cms/static/js/views/video_transcripts.js:325
-#: lms/static/js/student_account/enrollment.js:87
 #: lms/static/js/student_account/tos_modal.js:48
 #: xmodule/js/src/html/edit.js:370
 #: cms/templates/js/course-video-settings.underscore:6
@@ -678,7 +676,7 @@ msgstr "Кітапхана мазмұнын қосыңыз"
 
 #: cms/static/js/views/components/add_xblock.js:120
 #: cms/static/js/views/components/add_xblock.js:131
-#: cms/static/js/views/pages/container.js:652
+#: cms/static/js/views/pages/container.js:642
 #: cms/static/js/views/utils/xblock_utils.js:55
 msgid "Adding"
 msgstr "Қосу"
@@ -697,8 +695,8 @@ msgstr "Бұл жаңартуды шынымен жойғыңыз келе ме?
 #: cms/static/js/views/course_info_update.js:241
 #: cms/static/js/views/course_outline.js:390
 #: cms/static/js/views/course_outline.js:402
-#: cms/static/js/views/pages/container.js:424
-#: cms/static/js/views/pages/container.js:436 cms/static/js/views/tabs.js:164
+#: cms/static/js/views/pages/container.js:414
+#: cms/static/js/views/pages/container.js:426 cms/static/js/views/tabs.js:164
 #: cms/static/js/views/utils/xblock_utils.js:101
 #: cms/static/js/views/utils/xblock_utils.js:113
 #: lms/static/js/Markdown.Editor.js:1091 xmodule/js/src/html/edit.js:885
@@ -708,7 +706,7 @@ msgid "OK"
 msgstr "Жарайды"
 
 #: cms/static/js/views/course_outline.js:242
-#: cms/static/js/views/pages/container.js:779
+#: cms/static/js/views/pages/container.js:767
 #: cms/static/js/views/pages/container_subviews.js:187
 msgid "Copying"
 msgstr "Көшіру"
@@ -718,31 +716,31 @@ msgid "Copy of \"{componentDisplayName}\""
 msgstr "&quot; {componentDisplayName} &quot; көшірмесі"
 
 #: cms/static/js/views/course_outline.js:367
-#: cms/static/js/views/pages/container.js:395
+#: cms/static/js/views/pages/container.js:385
 #: cms/static/js/views/utils/xblock_utils.js:79
 msgid "Pasting"
 msgstr "Қою"
 
 #: cms/static/js/views/course_outline.js:385
-#: cms/static/js/views/pages/container.js:419
+#: cms/static/js/views/pages/container.js:409
 #: cms/static/js/views/utils/xblock_utils.js:96
 msgid "Some errors occurred"
 msgstr "Кейбір қателер орын алды"
 
 #: cms/static/js/views/course_outline.js:387
-#: cms/static/js/views/pages/container.js:421
+#: cms/static/js/views/pages/container.js:411
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid "The following required files could not be added to the course:"
 msgstr "Келесі қажетті файлдарды курсқа қосу мүмкін емес:"
 
 #: cms/static/js/views/course_outline.js:395
-#: cms/static/js/views/pages/container.js:429
+#: cms/static/js/views/pages/container.js:419
 #: cms/static/js/views/utils/xblock_utils.js:106
 msgid "You may need to update a file(s) manually"
 msgstr "Файл(дарды) қолмен жаңарту қажет болуы мүмкін"
 
 #: cms/static/js/views/course_outline.js:398
-#: cms/static/js/views/pages/container.js:432
+#: cms/static/js/views/pages/container.js:422
 #: cms/static/js/views/utils/xblock_utils.js:109
 msgid ""
 "The following files already exist in this course but don't match the version"
@@ -752,25 +750,25 @@ msgstr ""
 "пайдаланған нұсқаға сәйкес келмейді:"
 
 #: cms/static/js/views/course_outline.js:407
-#: cms/static/js/views/pages/container.js:441
+#: cms/static/js/views/pages/container.js:431
 #: cms/static/js/views/utils/xblock_utils.js:118
 msgid "New file(s) added to Files & Uploads."
 msgstr "Файлдар мен жүктеп салуларға жаңа файлдар қосылды."
 
 #: cms/static/js/views/course_outline.js:409
-#: cms/static/js/views/pages/container.js:443
+#: cms/static/js/views/pages/container.js:433
 #: cms/static/js/views/utils/xblock_utils.js:120
 msgid "The following required files were imported to this course:"
 msgstr "Бұл курсқа келесі қажетті файлдар импортталды:"
 
 #: cms/static/js/views/course_outline.js:414
-#: cms/static/js/views/pages/container.js:448
+#: cms/static/js/views/pages/container.js:438
 #: cms/static/js/views/utils/xblock_utils.js:125
 msgid "View files"
 msgstr "Файлдарды көру"
 
 #: cms/static/js/views/course_outline.js:422
-#: cms/static/js/views/pages/container.js:457
+#: cms/static/js/views/pages/container.js:447
 #: cms/static/js/views/utils/xblock_utils.js:134
 msgid "Dismiss"
 msgstr "Босату"
@@ -810,7 +808,7 @@ msgid "Select language"
 msgstr "Тілді таңдаңыз"
 
 #: cms/static/js/views/course_video_settings.js:474
-#: cms/static/js/views/metadata.js:362
+#: cms/static/js/views/metadata.js:357
 #: cms/static/js/views/previous_video_upload.js:78
 #: cms/static/js/views/video_transcripts.js:270
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:96
@@ -1114,7 +1112,7 @@ msgstr ""
 "{email} рұқсатын “ {container} ” дегенге шектегіңіз келетініне сенімдісіз "
 "бе?"
 
-#: cms/static/js/views/metadata.js:615 lms/static/js/views/file_uploader.js:47
+#: cms/static/js/views/metadata.js:610 lms/static/js/views/file_uploader.js:47
 msgid "Upload File"
 msgstr "Файлды жүктеп салу"
 
@@ -1329,7 +1327,7 @@ msgstr "Қосылған күні"
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
-#: cms/static/js/views/pages/container.js:731
+#: cms/static/js/views/pages/container.js:719
 msgid "Editing access for: {title}"
 msgstr "Келесі үшін өңдеу рұқсаты: {title}"
 
@@ -1942,7 +1940,7 @@ msgstr "Ескерту"
 #: common/static/common/js/discussion/views/discussion_thread_view.js:233
 #: common/static/common/js/discussion/views/response_comment_view.js:121
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:33
-#: lms/static/js/student_account/views/FinishAuthView.js:84
+#: lms/static/js/student_account/views/FinishAuthView.js:82
 #: lms/static/js/verify_student/views/step_view.js:50
 #: lms/static/js/views/fields.js:43
 msgid "Error"
@@ -3791,64 +3789,56 @@ msgstr "Деректер жүктелуде..."
 msgid "Error getting issued certificates list."
 msgstr "Берілген сертификаттар тізімін алу қатесі."
 
-#: lms/static/js/instructor_dashboard/data_download.js:124
+#: lms/static/js/instructor_dashboard/data_download.js:123
 msgid "Error generating anonymous IDs. Please try again."
 msgstr "Анонимді идентификаторларды жасау қатесі. Қайталап көріңіз."
 
-#: lms/static/js/instructor_dashboard/data_download.js:150
+#: lms/static/js/instructor_dashboard/data_download.js:149
 #: lms/static/js/instructor_dashboard/data_download_2.js:49
 msgid "Error generating proctored exam results. Please try again."
 msgstr "Прокуратуралық емтихан нәтижелерін жасау қатесі. Қайталап көріңіз."
 
-#: lms/static/js/instructor_dashboard/data_download.js:176
+#: lms/static/js/instructor_dashboard/data_download.js:175
 #: lms/static/js/instructor_dashboard/data_download_2.js:48
 msgid "Error generating survey results. Please try again."
 msgstr "Сауалнама нәтижелерін жасау қатесі. Қайталап көріңіз."
 
-#: lms/static/js/instructor_dashboard/data_download.js:202
+#: lms/static/js/instructor_dashboard/data_download.js:201
 #: lms/static/js/instructor_dashboard/data_download_2.js:47
 msgid "Error generating student profile information. Please try again."
 msgstr "Студент профилінің ақпаратын жасау қатесі. Қайталап көріңіз."
 
-#: lms/static/js/instructor_dashboard/data_download.js:228
+#: lms/static/js/instructor_dashboard/data_download.js:227
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js:23
 #: cms/templates/js/move-xblock-modal.underscore:6
 #: openedx/features/course_search/static/course_search/templates/search_loading.underscore:1
 msgid "Loading"
 msgstr "Жүктелуде"
 
-#: lms/static/js/instructor_dashboard/data_download.js:236
+#: lms/static/js/instructor_dashboard/data_download.js:235
 msgid "Error getting student list."
 msgstr "Оқушылар тізімін алу қатесі."
 
-#: lms/static/js/instructor_dashboard/data_download.js:302
+#: lms/static/js/instructor_dashboard/data_download.js:301
 #: lms/static/js/instructor_dashboard/data_download_2.js:50
 msgid "Error generating list of students who may enroll. Please try again."
 msgstr "Тіркелуі мүмкін студенттер тізімін жасау қатесі. Қайталап көріңіз."
 
-#: lms/static/js/instructor_dashboard/data_download.js:327
-msgid ""
-"Error generating list of inactive students who are enrolled in a course. "
-"Please try again."
-msgstr ""
-"Курсқа тіркелген, бірақ белсенді емес студенттердің тізімін жасау кезінде "
-"қате пайда болды. Қайта көріңіз."
-
-#: lms/static/js/instructor_dashboard/data_download.js:359
+#: lms/static/js/instructor_dashboard/data_download.js:333
 msgid "Error retrieving grading configuration."
 msgstr "Бағалау конфигурациясын алу қатесі."
 
-#: lms/static/js/instructor_dashboard/data_download.js:384
+#: lms/static/js/instructor_dashboard/data_download.js:358
 #: lms/static/js/instructor_dashboard/data_download_2.js:156
 msgid "Error generating grades. Please try again."
 msgstr "Бағаларды жасау қатесі. Қайталап көріңіз."
 
-#: lms/static/js/instructor_dashboard/data_download.js:386
+#: lms/static/js/instructor_dashboard/data_download.js:360
 #: lms/static/js/instructor_dashboard/data_download_2.js:46
 msgid "Error generating problem grade report. Please try again."
 msgstr "Мәселелік баға есебін жасау қатесі. Қайталап көріңіз."
 
-#: lms/static/js/instructor_dashboard/data_download.js:388
+#: lms/static/js/instructor_dashboard/data_download.js:362
 #: lms/static/js/instructor_dashboard/data_download_2.js:45
 msgid "Error generating ORA data report. Please try again."
 msgstr "ORA деректер есебін жасау қатесі. Қайталап көріңіз."
@@ -4897,39 +4887,19 @@ msgstr ""
 msgid "Terms of Service and Honor Code"
 msgstr "Қызмет көрсету шарттары және Ар-намыс кодексі"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:71
-msgid "query param next is provide"
-msgstr "Сұрау параметрі келесі болып табылады"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:73
-msgid "query param next is internal"
-msgstr "сұрау параметрі келесі ішкі болып табылады"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:111
+#: lms/static/js/student_account/views/FinishAuthView.js:109
 msgid "Saving your email preference"
 msgstr "Электрондық пошта қалауы сақталуда"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:129
+#: lms/static/js/student_account/views/FinishAuthView.js:127
 msgid "Enrolling you in the selected course"
 msgstr "Таңдалған курсқа тіркелу"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:140
-msgid "course mode param is not provided"
-msgstr "Курс режимінің параметрі берілмеген"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:148
-msgid "course mode param is provided"
-msgstr "курстың режим параметрі берілген"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:163
+#: lms/static/js/student_account/views/FinishAuthView.js:159
 msgid "Adding the selected course to your cart"
 msgstr "Таңдалған курсты себетке қосу"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:167
-msgid " redirect the user to the next page"
-msgstr " Пайдаланушыны келесі бетке бағыттау"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:177
+#: lms/static/js/student_account/views/FinishAuthView.js:172
 msgid "Loading your courses"
 msgstr "Курстар жүктелуде"
 
@@ -5257,7 +5227,7 @@ msgid "Bookmark this page"
 msgstr "Осы бетті белгілеңіз"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js:10
-#: xmodule/js/src/sequence/display.js:521
+#: xmodule/js/src/sequence/display.js:445
 msgid "Bookmarked"
 msgstr "Бетбелгі қойылған"
 
@@ -5369,16 +5339,16 @@ msgid_plural "{earned}/{possible} points (ungraded)"
 msgstr[0] "{earned} / {possible} ұпай (бағаланбаған)"
 msgstr[1] "{earned} / {possible} ұпай (бағаланбаған)"
 
-#: xmodule/js/src/capa/display.js:356
+#: xmodule/js/src/capa/display.js:349
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr ""
 "Бағалау процесі әлі жалғасуда. Жаңартуларды көру үшін бетті жаңартыңыз."
 
-#: xmodule/js/src/capa/display.js:465
+#: xmodule/js/src/capa/display.js:458
 msgid "Could not grade your answer. The submission was aborted."
 msgstr "Жауабыңызға баға қою мүмкін болмады. Жіберу тоқтатылды."
 
-#: xmodule/js/src/capa/display.js:529
+#: xmodule/js/src/capa/display.js:522
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
 "you can, please use Chrome or Safari which have been verified to support "
@@ -5388,33 +5358,33 @@ msgstr ""
 "қолдамайды. Мүмкін болса, файлдарды жүктеп салуды қолдау үшін расталған "
 "Chrome немесе Safari қолданбасын пайдаланыңыз."
 
-#: xmodule/js/src/capa/display.js:555
+#: xmodule/js/src/capa/display.js:548
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr "Сіз {filename} жібердіңіз; тек {allowedFiles} рұқсат етілген."
 
-#: xmodule/js/src/capa/display.js:568
+#: xmodule/js/src/capa/display.js:561
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr "{filename} файлыңыз тым үлкен (ең үлкен өлшемі: {maxSize} МБ)."
 
-#: xmodule/js/src/capa/display.js:584
+#: xmodule/js/src/capa/display.js:577
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr "Сіз қажетті файлдарды жіберген жоқсыз: {requiredFiles} ."
 
-#: xmodule/js/src/capa/display.js:594
+#: xmodule/js/src/capa/display.js:587
 msgid "You did not select any files to submit."
 msgstr "Сіз жіберу үшін ешбір файлды таңдамадыңыз."
 
 #. Translators: This is only translated to allow for reordering of label and
 #. associated status.;
-#: xmodule/js/src/capa/display.js:688
+#: xmodule/js/src/capa/display.js:681
 msgid "{label}: {status}"
 msgstr "{label} : {status}"
 
-#: xmodule/js/src/capa/display.js:719
+#: xmodule/js/src/capa/display.js:712
 msgid "This problem has been reset."
 msgstr "Бұл мәселе қалпына келтірілді."
 
-#: xmodule/js/src/capa/display.js:1025
+#: xmodule/js/src/capa/display.js:1018
 msgid "unsubmitted"
 msgstr "жіберілмеді"
 
@@ -6702,7 +6672,7 @@ msgstr "Жауап опциясы бос қалдырылды. Компонен�
 msgid "Explanation"
 msgstr "Түсіндіру"
 
-#: xmodule/js/src/sequence/display.js:406
+#: xmodule/js/src/sequence/display.js:330
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
@@ -6892,29 +6862,29 @@ msgstr "Қайта көрсетпеу"
 msgid "Open language menu"
 msgstr "Тіл мәзірін ашыңыз"
 
-#: xmodule/js/src/video/09_video_caption.js:630
+#: xmodule/js/src/video/09_video_caption.js:589
 msgid "Transcript will be displayed when you start playing the video."
 msgstr "Бейнені ойнатуды бастағанда транскрипт көрсетіледі."
 
-#: xmodule/js/src/video/09_video_caption.js:878
+#: xmodule/js/src/video/09_video_caption.js:837
 msgid ""
 "Activating a link in this group will skip to the corresponding point in the "
 "video."
 msgstr "Осы топтағы сілтемені белсендіру бейнедегі сәйкес нүктеге өтеді."
 
-#: xmodule/js/src/video/09_video_caption.js:881
+#: xmodule/js/src/video/09_video_caption.js:840
 msgid "Video transcript"
 msgstr "Бейне транскрипт"
 
-#: xmodule/js/src/video/09_video_caption.js:884
+#: xmodule/js/src/video/09_video_caption.js:843
 msgid "Start of transcript. Skip to the end."
 msgstr "Транскрипттің басталуы. Соңына дейін өткізіңіз."
 
-#: xmodule/js/src/video/09_video_caption.js:888
+#: xmodule/js/src/video/09_video_caption.js:847
 msgid "End of transcript. Skip to the start."
 msgstr "Транскрипттің соңы. Басына өтіңіз."
 
-#: xmodule/js/src/video/09_video_caption.js:892
+#: xmodule/js/src/video/09_video_caption.js:851
 msgid ""
 "Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
 " keys to navigate language options. Press ENTER to change to the selected "
@@ -6924,23 +6894,23 @@ msgstr ""
 "опцияларын шарлау үшін ЖОҒАРЫ және ТӨМЕН көрсеткі пернелерін пайдаланыңыз. "
 "Таңдалған тілге өзгерту үшін ENTER пернесін басыңыз."
 
-#: xmodule/js/src/video/09_video_caption.js:1248
+#: xmodule/js/src/video/09_video_caption.js:1205
 msgid "Hide closed captions"
 msgstr "Жабық субтитрлерді жасыру"
 
-#: xmodule/js/src/video/09_video_caption.js:1266
+#: xmodule/js/src/video/09_video_caption.js:1223
 msgid "(Caption will be displayed when you start playing the video.)"
 msgstr "(Бейнені ойната бастағанда субтитр көрсетіледі.)"
 
-#: xmodule/js/src/video/09_video_caption.js:1273
+#: xmodule/js/src/video/09_video_caption.js:1230
 msgid "Turn on closed captioning"
 msgstr "Жабық жазуды қосыңыз"
 
-#: xmodule/js/src/video/09_video_caption.js:1381
+#: xmodule/js/src/video/09_video_caption.js:1338
 msgid "Turn on transcripts"
 msgstr "Транскрипттерді қосыңыз"
 
-#: xmodule/js/src/video/09_video_caption.js:1396
+#: xmodule/js/src/video/09_video_caption.js:1353
 msgid "Turn off transcripts"
 msgstr "Транскрипттерді өшіріңіз"
 
@@ -10382,11 +10352,11 @@ msgstr "Қазір тіркеліңіз"
 msgid "Coming Soon"
 msgstr "Жақында"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:48
+#: lms/templates/learner_dashboard/course_enroll.underscore:47
 msgid "Enrollment Opens on"
 msgstr "Тіркеу күні ашылады"
 
-#: lms/templates/learner_dashboard/course_enroll.underscore:56
+#: lms/templates/learner_dashboard/course_enroll.underscore:54
 msgid "Not Currently Available"
 msgstr "Қазіргі уақытта қолжетімді емес"
 

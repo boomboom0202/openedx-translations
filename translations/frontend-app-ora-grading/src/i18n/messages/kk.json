@@ -35,6 +35,8 @@
   "ora-grading.ListView.backToResponsesLowercase": "барлық Ашық жауаптарға оралу",
   "ora-grading.ListView.reloadSubmissions": "Жіберулерді қайта жүктеңіз",
   "ora-grading.ListView.loadingResponses": "Жауаптар жүктелуде",
+  "ora-grading.NotificationsBanner.Message": "Сіз енді қызметкерлердің бағалауын қажет ететін ORA тапсырмалары үшін хабарландыруларды қосуға болады,",
+  "ora-grading.NotificationsBanner.linkMessage": "таңдаулар орталығы.",
   "ora-grading.ResponseDisplay.SubmissionFiles.tableNameHeader": "Аты",
   "ora-grading.ResponseDisplay.SubmissionFiles.tableExtensionHeader": "Файл кеңейтімі",
   "ora-grading.ResponseDisplay.SubmissionFiles.tablePopoverHeader": "Файл метадеректері",

@@ -147,7 +147,6 @@
   "registration.request.server.error": "Қате орын алды. Бетті жаңартып көріңіз немесе интернет байланысын тексеріңіз.",
   "registration.rate.limit.error": "Тым көп сәтсіз тіркелу әрекеттері. Әрекетті кейінірек қайталаңыз.",
   "registration.tpa.session.expired": "{provider} арқылы тіркеу уақыты аяқталды.",
-  "registration.forbidden.username": "Пайдаланушы аттарында курс рөлдерімен шатастырылуы мүмкін сөздер болмауы керек. Басқа пайдаланушы атын таңдаңыз.",
   "registration.tpa.authentication.failure": "Кешіріңіз, сізге осы арна арқылы {platform_name} кіруге рұқсатыңыз жоқ. {platform_name} кіру үшін оқу әкімшісіне немесе менеджеріне хабарласыңыз. {lineBreak} {lineBreak} Қате туралы мәліметтер: {lineBreak} {errorMessage}",
   "terms.of.service.and.honor.code": "Қызмет көрсету шарттары және Ар-намыс кодексі",
   "privacy.policy": "Құпиялылық саясаты",
