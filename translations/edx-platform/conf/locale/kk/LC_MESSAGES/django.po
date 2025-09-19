@@ -4814,7 +4814,7 @@ msgid ""
 "%(comment_body|truncatechars:200)s"
 msgstr ""
 "%(comment_username)s жауап берді %(thread_title)s : "
-"%(comment_body|truncachars:200)s"
+"%(comment_body|truncatechars:200)s"
 
 #: lms/djangoapps/discussion/views.py:80
 msgid "Access to this discussion is restricted to team members and staff."
@@ -5943,7 +5943,7 @@ msgstr "&#39;{student}&#39; студенті үшін {action} болуын та
 #: lms/djangoapps/instructor_task/views.py:164
 #, python-brace-format
 msgid "Problem failed to be {action} for student '{student}'"
-msgstr "Мәселе &quot;{студент}&quot; студенті үшін {action} бола алмады"
+msgstr "Мәселе {student} студенті үшін {action} бола алмады"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.  # lint-amnesty, pylint: disable=line-
@@ -5951,8 +5951,7 @@ msgstr "Мәселе &quot;{студент}&quot; студенті үшін {act
 #: lms/djangoapps/instructor_task/views.py:168
 #, python-brace-format
 msgid "Problem successfully {action} for student '{student}'"
-msgstr ""
-"&quot;{студент}&quot; студентіне арналған {action} мәселесі сәтті шықты"
+msgstr "{student} студенті үшін {action} мәселесі сәтті орындалды"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
@@ -5961,9 +5960,7 @@ msgstr ""
 msgid ""
 "Unable to find entrance exam submission to be {action} for student "
 "'{student}'"
-msgstr ""
-"&quot;{студент}&quot; студенті үшін {action} болуы мүмкін қабылдау емтиханы "
-"табылмады."
+msgstr "{student} студенті үшін {action} болуы тиіс қабылдау емтиханы табылмады."
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
@@ -13038,8 +13035,7 @@ msgstr ""
 #: xmodule/graders.py:276
 #, python-brace-format
 msgid "{assignment_type} = {weighted_percent:.2%} of a possible {weight:.2%}"
-msgstr ""
-"{тағайындау_түрі} = ықтимал {салмақ:.2%} шамасының {салмағы_пайызы:.2%}"
+msgstr "{assignment_type} = ықтимал {weight:.2%}-дың {weighted_percent:.2%}"
 
 #: xmodule/graders.py:382
 msgid "Generated"
@@ -13061,13 +13057,13 @@ msgstr "Ең төменгі {drop_count} {section_type} ұпайлары жой�
 #: xmodule/graders.py:433
 #, python-brace-format
 msgid "{section_type} Average = {percent:.2%}"
-msgstr "{section_type} Орташа = {пайыз:.2%}"
+msgstr "{section_type} Орташа = {percent:.2%}"
 
 #. Translators: Avg is short for Average
 #: xmodule/graders.py:438
 #, python-brace-format
 msgid "{short_label} Avg"
-msgstr "{short_label} Орт"
+msgstr "{short_label} Орта"
 
 #: xmodule/hidden_block.py:38
 #, python-brace-format
