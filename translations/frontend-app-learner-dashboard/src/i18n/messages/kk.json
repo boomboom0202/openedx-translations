@@ -1,4 +1,13 @@
 {
+  "nav.my_courses": "Менің курстарым",
+  "nav.profile": "Профиль",
+  "nav.account": "Аккаунт",
+  "nav.sign_out": "Шығу",
+  "nav.courses": "Курстар",
+  "nav.competition": "Конкурстар",
+  "nav.catalog": "Кредитке есептелетін MOOК каталогы",
+  "nav.authors": "Авторларға",
+  "nav.checking": "Тексеру жүйесі",
   "learner-dash.loadingSR": "Жүктелуде...",
   "learner-dash.error-page-message": "Қайталанатын сәтсіздіктерге тап болсаңыз, {supportEmail} мекенжайына қолдау көрсетуге электрондық хат жіберіңіз.",
   "learner-dash.title": "Білім алушының негізгі беті",
