@@ -425,7 +425,7 @@ msgid "Login via Univer"
 msgstr "Univer арқылы кіру"
 
 msgid "Competition"
-msgstr "Конкурс"
+msgstr "Конкурстар"
 
 msgid "Catalog MOOC for Transfer"
 msgstr "Кредитке есептелетін MOOC каталогы"
