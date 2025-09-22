@@ -458,7 +458,7 @@ msgid "Massive"
 msgstr "Жаппай"
 
 msgid "About MOOC"
-msgstr "MOOC ЖАОК"
+msgstr "ЖАОК туралы"
 
 msgid "Massive Open Online Courses (MOOCs) are free online courses available to everyone. MOOCs provide a flexible and accessible way to gain new skills, advance your career, and deliver quality education at scale."
 msgstr "Жаппай ашық онлайн-курстар (ЖАОК) – бұл барлығына қолжетімді тегін онлайн-курстар. ЖАОК жаңа дағдыларды меңгерудің, мансапты дамытудың және ауқымды деңгейде сапалы білім алудың ыңғайлы әрі қолжетімді тәсілін ұсынады."
