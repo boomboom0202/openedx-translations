@@ -385,8 +385,8 @@ msgstr "Барлық сұрақтар бойынша Академиялық жә
 msgid "(ext."
 msgstr "(ішкі."
 
-msgid "Developed by the Office of OAICI"
-msgstr "АжжОЦИ офисімен әзірленді"
+msgid "Developed by the OAICI team"
+msgstr "АжЦИК командасымен әзірленді"
 
 msgid "About Us"
 msgstr "Біз туралы"
@@ -437,10 +437,10 @@ msgid "ONLINE COURSES FROM LEADING PROFESSORS OF Al-Farabi KazNU"
 msgstr "әл-Фараби атындағы ҚазҰУ-дың жетекші профессорларынан онлайн-курстар"
 
 msgid "Leader of higher education in Kazakhstan in implementing MOOCs on the Open edX platform"
-msgstr "Қазақстанда Open edX платформасында MOOC енгізуде жоғары білімнің көшбасшысы"
+msgstr "Қазақстанда Open edX платформасында ЖАОК енгізуде жоғары білімнің көшбасшысы"
 
 msgid "MOOC"
-msgstr "MOOC"
+msgstr "ЖАОК"
 
 msgid "Online"
 msgstr "Онлайн"
@@ -455,16 +455,16 @@ msgid "Massive"
 msgstr "Жаппай"
 
 msgid "About MOOC"
-msgstr "MOOC туралы"
+msgstr "MOOC ЖАОК"
 
 msgid "Massive Open Online Courses (MOOCs) are free online courses available to everyone. MOOCs provide a flexible and accessible way to gain new skills, advance your career, and deliver quality education at scale."
-msgstr "Жаппай ашық онлайн-курстар (MOOC) – бұл барлығына қолжетімді тегін онлайн-курстар. MOOC жаңа дағдыларды меңгерудің, мансапты дамытудың және ауқымды деңгейде сапалы білім алудың ыңғайлы әрі қолжетімді тәсілін ұсынады."
+msgstr "Жаппай ашық онлайн-курстар (ЖАОК) – бұл барлығына қолжетімді тегін онлайн-курстар. ЖАОК жаңа дағдыларды меңгерудің, мансапты дамытудың және ауқымды деңгейде сапалы білім алудың ыңғайлы әрі қолжетімді тәсілін ұсынады."
 
 msgid "Millions of people worldwide use MOOCs for various reasons, including career advancement, career change, college preparation, additional education, lifelong learning, corporate e-learning, training, and much more."
 msgstr "Әлем бойынша миллиондаған адамдар MOOC-ты әртүрлі мақсаттар үшін пайдаланады: мансаптық өсуді, мамандықты ауыстыруды, университетке дайындықты, қосымша білім алуды, өмір бойы оқуды, корпоративтік электронды оқытуды және тағы басқаларын."
 
 msgid "MOOCs have fundamentally changed the way people learn around the world. Ready to get started?"
-msgstr "MOOC адамдардың бүкіл әлемде оқыту тәсілін түбегейлі өзгертті. Бастауға дайынсыз ба?"
+msgstr "ЖАОК адамдардың бүкіл әлемде оқыту тәсілін түбегейлі өзгертті. Бастауға дайынсыз ба?"
 
 msgid "Our News"
 msgstr "Біздің жаңалықтар"
