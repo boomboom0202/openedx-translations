@@ -42,6 +42,497 @@ msgstr ""
 "Language: kk\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
+#Мой переводы 
+msgid "Course launches"
+msgstr "Курс басталуы"
+
+msgid "Creating an Online Course for Authors"
+msgstr "Авторлар үшін онлайн-курсты құру"
+
+msgid "Methodological Requirements"
+msgstr "Әдістемелік талаптар"
+
+msgid "Requirements for Online Course Design"
+msgstr "Онлайн-курсты әзірлеу талаптары"
+
+msgid "Electronic UMKD (e-UMKD)"
+msgstr "Электрондық ОӘК (e-ОӘК)"
+
+msgid "Electronic syllabus"
+msgstr "Электрондық силлабус"
+
+msgid "Announcements for students – 1 per module"
+msgstr "Студенттерге хабарландырулар – әр модульге 1"
+
+msgid "Questionnaires at the beginning and end of the course"
+msgstr "Курс басында және соңында сауалнама"
+
+msgid "Lecture notes with a list of sources – 1 per topic"
+msgstr "Дереккөздер тізімі бар дәріс конспектілері – әр тақырыпқа 1"
+
+msgid "Presentation – 1 per topic"
+msgstr "Презентация – әр тақырыпқа 1"
+
+msgid "Additional course materials with active links for online reading and viewing"
+msgstr "Онлайн қарауға және оқуға арналған сілтемелері бар қосымша материалдар"
+
+msgid "Study questions – at least 10 per module"
+msgstr "Оқу сұрақтары – әр модульге кемінде 10"
+
+msgid "Discussion questions – at least 1 per module"
+msgstr "Талқылау сұрақтары – әр модульге кемінде 1"
+
+msgid "Test tasks – at least 3 practice and 10 graded per module"
+msgstr "Тест тапсырмалары – әр модульге кемінде 3 жаттығу және 10 бағаланатын"
+
+msgid "Peer review assignments – no more than 1–2 per course"
+msgstr "Өзара бағалау тапсырмалары – курсқа 1–2-ден артық емес"
+
+msgid "Academic Presentation of the Online Course"
+msgstr "Онлайн-курстың академиялық таныстырылымы"
+
+msgid "Measurable learning objectives"
+msgstr "Өлшенетін оқу мақсаттары"
+
+msgid "Expected Learning Outcomes (LO)"
+msgstr "Күтілетін оқу нәтижелері (ОҚ)"
+
+msgid "Indicators of LO achievement"
+msgstr "ОҚ-қа жету көрсеткіштері"
+
+msgid "Course language – student-oriented, accessible to a diverse audience"
+msgstr "Курс тілі – студентке бағытталған, кең аудиторияға түсінікті"
+
+msgid "Course duration – at least 4 and no more than 15 weeks"
+msgstr "Курс ұзақтығы – кемінде 4 және 15 аптадан артық емес"
+
+msgid "Student workload per week – no less than 2 and no more than 5 hours"
+msgstr "Студенттің апталық жүктемесі – 2 сағаттан кем емес, 5 сағаттан артық емес"
+
+msgid "Technical Requirements for Video"
+msgstr "Бейне үшін техникалық талаптар"
+
+msgid "Video recording must be carried out with professional equipment with track parameters not lower than the following:"
+msgstr "Бейнетүсірілім келесі параметрлерден төмен емес кәсіби жабдықпен жүргізілуі тиіс:"
+
+msgid "Video"
+msgstr "Бейне"
+
+msgid "Timing"
+msgstr "Хронометраж"
+
+msgid "Welcome/Promo video – no more than 3 minutes"
+msgstr "Қош келдіңіз/промо бейне – 3 минуттан артық емес"
+
+msgid "Course introduction (purpose, objectives, structure, assignments) – 3 minutes"
+msgstr "Курсқа кіріспе (мақсаты, міндеттері, құрылымы, тапсырмалары) – 3 минут"
+
+msgid "Video lecture – 3–9 minutes"
+msgstr "Бейне-дәріс – 3–9 минут"
+
+msgid "Weekly video duration – at least 15 and no more than 30 minutes"
+msgstr "Апталық бейне ұзақтығы – кемінде 15 және 30 минуттан артық емес"
+
+msgid "File format (container) – MP4"
+msgstr "Файл форматы (контейнер) – MP4"
+
+msgid "Codec – H264"
+msgstr "Кодек – H264"
+
+msgid "Resolution: 1920 x 1080 (1080p)"
+msgstr "Ажыратылымдылығы: 1920 x 1080 (1080p)"
+
+msgid "Aspect ratio – 16:9"
+msgstr "Бейне өлшемі – 16:9"
+
+msgid "Frame rate – 25 or 30 fps"
+msgstr "Кадр жиілігі – 25 немесе 30 fps"
+
+msgid "Progressive scan (25p/30p)"
+msgstr "Прогрессивті ажырату (25p/30p)"
+
+msgid "Bitrate – not less than 10,000 kbps and not more than 30,000 kbps"
+msgstr "Битрейт – 10 000 кбит/с кем емес және 30 000 кбит/с артық емес"
+
+msgid "Audio"
+msgstr "Аудио"
+
+msgid "Codec: AAC, AC3, OGG, mp3"
+msgstr "Кодек: AAC, AC3, OGG, mp3"
+
+msgid "Channels: 2 (stereo)"
+msgstr "Каналдар: 2 (стерео)"
+
+msgid "Sample rate: 48 kHz"
+msgstr "Дискреттеу жиілігі: 48 кГц"
+
+msgid "Audio stream: CBR not less than 192 kbps, VBR 160–320 kbps"
+msgstr "Аудио ағыны: CBR 192 кбит/с кем емес, VBR 160–320 кбит/с"
+
+msgid "Audio Quality Characteristics"
+msgstr "Аудио сапа сипаттамалары"
+
+msgid "Audio track must be true stereo, with the lecturer’s voice localized strictly between the left and right channels"
+msgstr "Аудиожолақ нағыз стерео болуы тиіс, лекция жүргізушінің даусы сол және оң каналдардың ортасында орналасуы керек"
+
+msgid "Stereo track must be playable on monophonic equipment"
+msgstr "Стереожолақ моно құрылғыларда да ойнатылуы тиіс"
+
+msgid "Signal-to-noise ratio – at least 40 dB"
+msgstr "Сигнал/шум қатынасы – кемінде 40 дБ"
+
+msgid "Dynamic range of useful signal – no more than 16 dB"
+msgstr "Пайдалы сигналдың динамикалық диапазоны – 16 дБ-дан артық емес"
+
+msgid "Average RMS loudness – from -14 dB to -12 dB"
+msgstr "Орташа RMS дыбыс деңгейі – -14 дБ-дан -12 дБ-ға дейін"
+
+msgid "Peak loudness – limited to -2 dB"
+msgstr "Ең жоғарғы дыбыс деңгейі – -2 дБ-дан аспайды"
+
+msgid "Presentation Design Quality for Video"
+msgstr "Бейне үшін презентация сапасы"
+
+msgid "Sans-serif font is recommended"
+msgstr "Қаріптердің сызықшасыз түрін қолдану ұсынылады"
+
+msgid "No more than 2 fonts per course"
+msgstr "Курста 2 қаріптен артық қолданбау"
+
+msgid "Bullet points must be consistent throughout the course"
+msgstr "Таңбалы тізімдер курстың барлық бөлімдерінде бірдей болуы тиіс"
+
+msgid "Use contrasting text and background colors for readability"
+msgstr "Мәтінді оқуға ыңғайлы ету үшін қарама-қарсы түстерді пайдалану"
+
+msgid "No more than 3 font colors per course"
+msgstr "Курста 3 қаріп түсінен артық қолданбау"
+
+msgid "Avoid mixing contrasting colors within one sentence, paragraph, or table"
+msgstr "Бір сөйлемде, абзацта немесе кестеде қарама-қарсы түстерді араластырмау"
+
+msgid "Line thickness for borders, tables, and arrows should match font line thickness"
+msgstr "Шекаралар, кестелер мен жебелер сызығының қалыңдығы қаріп сызығының қалыңдығына сәйкес болуы тиіс"
+
+msgid "Use photos, drawings, and animations in a consistent color scheme"
+msgstr "Фото, сурет және анимацияларды бір түстік гаммада пайдалану"
+
+msgid "Icons and infographics are recommended"
+msgstr "Иконкалар мен инфографикаларды қолдану ұсынылады"
+
+msgid "Avoid merging same-sized scenes for natural perception"
+msgstr "Бірдей өлшемдегі көріністерді біріктірмеу қажет"
+
+msgid "Avoid distracting clothing and makeup during recording"
+msgstr "Жазу кезінде назарды аударатын киім мен макияждан аулақ болу"
+
+msgid "Slides: heading font – 20 pt, body text – 18 pt"
+msgstr "Слайдтар: тақырып қарпі – 20 pt, негізгі мәтін – 18 pt"
+
+msgid "Image size – at least 1280x720p (HD)"
+msgstr "Сурет өлшемі – кемінде 1280x720p (HD)"
+
+msgid "Image format – PNG"
+msgstr "Сурет форматы – PNG"
+
+msgid "All external materials must have a CC Attribution license"
+msgstr "Барлық сыртқы материалдарда CC Attribution лицензиясы болуы тиіс"
+
+msgid "Each borrowed image must include a source link"
+msgstr "Әр алынған сурет дереккөзіне сілтемемен бірге берілуі керек"
+
+msgid "Stages of Online Course Development"
+msgstr "Онлайн-курсты әзірлеу кезеңдері"
+
+msgid "Application Submission"
+msgstr "Өтінім беру"
+
+msgid "Submission of an application for online course development. Participation in the competition of pedagogical scenarios for creating and publishing online courses (MOOC/SPOC)."
+msgstr "Онлайн-курсты әзірлеуге өтінім беру. Онлайн-курстарды (MOOC/SPOC) құру және жариялау бойынша педагогикалық сценарийлер конкурсына қатысу."
+
+msgid "Course Development"
+msgstr "Курсты әзірлеу"
+
+msgid "Start of the online course development process."
+msgstr "Онлайн-курсты әзірлеу процесінің басталуы."
+
+msgid "Preparation of Materials"
+msgstr "Материалдарды дайындау"
+
+msgid "Preparation of online course materials by the author-developer. For documents on requirements and recommendations for recording video materials, please contact the Center for Massive Open Online Courses."
+msgstr "Онлайн-курс материалдарын автор әзірлеушінің дайындауы. Бейнежазба талаптары мен ұсынымдары құжаттарын алу үшін Ашық онлайн-курстар орталығына хабарласыңыз."
+
+msgid "Material Expertise"
+msgstr "Материалдарға сараптама"
+
+msgid "Methodological and technical expertise of online course materials."
+msgstr "Онлайн-курс материалдарының әдістемелік және техникалық сараптамасы."
+
+msgid "Video Recording"
+msgstr "Бейнетүсірілім"
+
+msgid "Recording of online course video materials."
+msgstr "Онлайн-курстың бейнематериалдарын жазу."
+
+msgid "Material Upload"
+msgstr "Материалдарды жүктеу"
+
+msgid "Uploading online course materials to the platform."
+msgstr "Онлайн-курс материалдарын платформаға жүктеу."
+
+msgid "Testing and Expertise"
+msgstr "Тестілеу және сараптама"
+
+msgid "Beta testing and course expertise."
+msgstr "Бета-тестілеу және курс сараптамасы."
+
+msgid "For all inquiries, please contact the Center for Massive Open Online Courses: Building – Rectorate, Office 203, Phone 11-33."
+msgstr "Барлық сұрақтар бойынша Ашық онлайн-курстар орталығына хабарласыңыз: Ғимарат – Ректорат, 203-кабинет, телефон 11-33."
+
+msgid "Competition for the Selection of Pedagogical Scenarios for Online Courses"
+msgstr "Онлайн-курстарға педагогикалық сценарийлерді іріктеу конкурсы"
+
+msgid "Al-Farabi Kazakh National University"
+msgstr "әл-Фараби атындағы Қазақ ұлттық университеті"
+
+msgid "About the Competition"
+msgstr "Конкурс туралы"
+
+msgid "The Office of Academic and Digital Innovations is accepting applications for participation in the competition of pedagogical scenarios for the creation and publication of online courses (MOOC/SPOC)"
+msgstr "Академиялық және цифрлық инновациялар офисі онлайн-курстарды (MOOC/SPOC) құру және жариялау бойынша педагогикалық сценарийлер конкурсына өтінімдерді қабылдайды"
+
+msgid "MOOC Competition Regulations"
+msgstr "MOOC конкурсының ережелері"
+
+msgid "Both creative teams of university departments and individual teaching or research staff of the university can participate in the competition"
+msgstr "Конкурсқа университет кафедраларының шығармашылық ұжымдары да, жеке оқытушылар немесе ғылыми қызметкерлер де қатыса алады"
+
+msgid "Based on the results of the competition, the commission will approve and release 5 MOOC and 5 SPOC"
+msgstr "Конкурс нәтижесі бойынша комиссия 5 MOOC және 5 SPOC бекітеді және іске қосады"
+
+msgid "Competition Stages"
+msgstr "Конкурс кезеңдері"
+
+msgid "Stage"
+msgstr "Кезең"
+
+msgid "Registration and Submission of Applications"
+msgstr "Тіркеу және өтінімдерді беру"
+
+msgid "Until"
+msgstr "Дейін"
+
+msgid "Public Defense of Pedagogical Scenarios"
+msgstr "Педагогикалық сценарийлерді көпшілік алдында қорғау"
+
+msgid "Evaluation of Applications and Selection of Winners"
+msgstr "Өтінімдерді бағалау және жеңімпаздарды анықтау"
+
+msgid "Approval of Competition Results"
+msgstr "Конкурс нәтижелерін бекіту"
+
+msgid "Application Requirements"
+msgstr "Өтінім талаптары"
+
+msgid "Cover Letter"
+msgstr "Сопроводительное хат"
+
+msgid "Pedagogical Scenario of an Online Course"
+msgstr "Онлайн-курстың педагогикалық сценарийі"
+
+msgid "Lecture Video Recording"
+msgstr "Дәріс бейнетүсірілімі"
+
+msgid "Online Course Certificate"
+msgstr "Онлайн-курс сертификаты"
+
+msgid "Author Information"
+msgstr "Автор туралы ақпарат"
+
+msgid "Competition Announcement"
+msgstr "Конкурс туралы хабарландыру"
+
+msgid "The Office of Academic and Digital Innovations"
+msgstr "Академиялық және цифрлық инновациялар офисі"
+
+msgid "is pleased to announce the launch of the competition for the selection of pedagogical scenarios for online courses."
+msgstr "онлайн-курстарға педагогикалық сценарийлерді іріктеу конкурсының басталғанын хабарлайды."
+
+msgid "Application submission"
+msgstr "Өтінім беру"
+
+msgid "Selection of applications for participation"
+msgstr "Қатысуға өтінімдерді іріктеу"
+
+msgid "Public defense of projects"
+msgstr "Жобаларды көпшілік алдында қорғау"
+
+msgid "Announcement of winners"
+msgstr "Жеңімпаздарды жариялау"
+
+msgid "Applications are accepted online via the form on the Open Kaznu website. Details and application templates can be found on the competition page"
+msgstr "Өтінімдер Open Kaznu сайтындағы онлайн-форма арқылы қабылданады. Толығырақ ақпарат пен өтінім үлгілері конкурс бетінде қолжетімді"
+
+msgid "Submit Application"
+msgstr "Өтінім беру"
+
+msgid "Contacts"
+msgstr "Байланыс"
+
+msgid "For all inquiries, please contact the Office of Academic and Digital Innovations: Building - Rectorate, Office 207, phone"
+msgstr "Барлық сұрақтар бойынша Академиялық және цифрлық инновациялар офисіне хабарласыңыз: Ғимарат - Ректорат, 207-кабинет, телефон"
+
+msgid "(ext."
+msgstr "(ішкі."
+
+msgid "Developed by the Office of OAICI"
+msgstr "АжжОЦИ офисімен әзірленді"
+
+msgid "About Us"
+msgstr "Біз туралы"
+
+msgid "Quick Links"
+msgstr "Жылдам сілтемелер"
+
+msgid "Statistics"
+msgstr "Статистика"
+
+msgid "We are on social media"
+msgstr "Біз әлеуметтік желілердеміз"
+
+msgid "Almaty"
+msgstr "Алматы"
+
+msgid "аl"
+msgstr "әл"
+
+msgid "Farabi"
+msgstr "Фараби"
+
+msgid "Terms of service"
+msgstr "Қызмет көрсету шарты"
+
+msgid "Privacy policy"
+msgstr "Құпиялық саясаты"
+
+msgid "Login for external users"
+msgstr "Сыртқы пайдаланушыларға кіру"
+
+msgid "Login via Univer"
+msgstr "Univer арқылы кіру"
+
+msgid "Competition"
+msgstr "Конкурс"
+
+msgid "Catalog MOOC for Transfer"
+msgstr "Кредитке есептелетін MOOC каталогы"
+
+msgid "For Authors"
+msgstr "Авторларға"
+
+msgid "The System of Checking"
+msgstr "Тексеру жүйесі"
+
+msgid "ONLINE COURSES FROM LEADING PROFESSORS OF Al-Farabi KazNU"
+msgstr "әл-Фараби атындағы ҚазҰУ-дың жетекші профессорларынан онлайн-курстар"
+
+msgid "Leader of higher education in Kazakhstan in implementing MOOCs on the Open edX platform"
+msgstr "Қазақстанда Open edX платформасында MOOC енгізуде жоғары білімнің көшбасшысы"
+
+msgid "MOOC"
+msgstr "MOOC"
+
+msgid "Online"
+msgstr "Онлайн"
+
+msgid "Courses"
+msgstr "Курстар"
+
+msgid "Open"
+msgstr "Ашық"
+
+msgid "Massive"
+msgstr "Жаппай"
+
+msgid "About MOOC"
+msgstr "MOOC туралы"
+
+msgid "Massive Open Online Courses (MOOCs) are free online courses available to everyone. MOOCs provide a flexible and accessible way to gain new skills, advance your career, and deliver quality education at scale."
+msgstr "Жаппай ашық онлайн-курстар (MOOC) – бұл барлығына қолжетімді тегін онлайн-курстар. MOOC жаңа дағдыларды меңгерудің, мансапты дамытудың және ауқымды деңгейде сапалы білім алудың ыңғайлы әрі қолжетімді тәсілін ұсынады."
+
+msgid "Millions of people worldwide use MOOCs for various reasons, including career advancement, career change, college preparation, additional education, lifelong learning, corporate e-learning, training, and much more."
+msgstr "Әлем бойынша миллиондаған адамдар MOOC-ты әртүрлі мақсаттар үшін пайдаланады: мансаптық өсуді, мамандықты ауыстыруды, университетке дайындықты, қосымша білім алуды, өмір бойы оқуды, корпоративтік электронды оқытуды және тағы басқаларын."
+
+msgid "MOOCs have fundamentally changed the way people learn around the world. Ready to get started?"
+msgstr "MOOC адамдардың бүкіл әлемде оқыту тәсілін түбегейлі өзгертті. Бастауға дайынсыз ба?"
+
+msgid "Our News"
+msgstr "Біздің жаңалықтар"
+
+msgid "Check out our latest updates on the platform"
+msgstr "Платформадағы соңғы жаңалықтармен танысыңыз"
+
+msgid "Guide"
+msgstr "Нұсқаулық"
+
+msgid "Follow the step-by-step guide to quickly and easily start learning."
+msgstr "Қадамдық нұсқаулық бойынша оқуды жылдам әрі оңай бастаңыз."
+
+msgid "Popular Topics"
+msgstr "Танымал тақырыптар"
+
+msgid "Artificial Intelligence, Digital Marketing, Web Development, Project Management, and Personal Growth."
+msgstr "Жасанды интеллект, цифрлық маркетинг, веб-әзірлеу, жобаларды басқару және жеке даму."
+
+msgid "Browse courses"
+msgstr "Курстарды қарау"
+
+msgid "Join us!"
+msgstr "Бізге қосылыңыз!"
+
+msgid "Become part of a community of 2 million students. Connect, share projects, and find like-minded people."
+msgstr "2 миллион студенттен тұратын қауымдастықтың бір бөлігі болыңыз. Байланысыңыз, жобалармен бөлісіңіз және пікірлес адамдарды табыңыз."
+
+msgid "Register"
+msgstr "Тіркелу"
+
+msgid "Advantages of Online Courses"
+msgstr "Онлайн-курстардың артықшылықтары"
+
+msgid "Flexible Schedule"
+msgstr "Икемді кесте"
+
+msgid "Learn at your own pace and at a convenient time, balancing studies with work or other commitments."
+msgstr "Өзіңізге ыңғайлы уақытта және өз қарқыныңызбен оқыңыз, оқуды жұмыс немесе басқа міндеттермен ұштастырыңыз."
+
+msgid "Accessibility"
+msgstr "Қолжетімділік"
+
+msgid "Get access to high-quality courses from anywhere in the world, without leaving your home."
+msgstr "Үйден шықпай-ақ, әлемнің кез келген жерінен сапалы курстарға қол жеткізіңіз."
+
+msgid "Variety of Courses"
+msgstr "Курстардың алуан түрлілігі"
+
+msgid "Choose from a wide range of programs: from programming to personal development."
+msgstr "Бағдарламалаудан бастап жеке дамуға дейінгі кең ауқымды бағдарламаларды таңдаңыз."
+
+msgid "Earn official certificates upon course completion to strengthen your resume."
+msgstr "Курс аяқталғаннан кейін түйіндемеңізді күшейту үшін ресми сертификаттарға ие болыңыз."
+
+msgid "Community"
+msgstr "Қауымдастық"
+
+msgid "Connect with instructors and students, share experiences, and exchange ideas."
+msgstr "Оқытушылармен және студенттермен байланысыңыз, тәжірибе алмасыңыз, идеялармен бөлісіңіз."
+
+msgid "Free Learning"
+msgstr "Тегін оқу"
+
+msgid "Many courses are available for free, making education accessible to everyone."
+msgstr "Көптеген курстар тегін қолжетімді, бұл білімді баршаға қолжетімді етеді."
+
+#Переводы openedx
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
 msgstr "Курс командасының пайдаланушысы жоқ"
