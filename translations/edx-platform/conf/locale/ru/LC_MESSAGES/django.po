@@ -440,7 +440,7 @@ msgid "ONLINE COURSES FROM LEADING PROFESSORS OF Al-Farabi KazNU"
 msgstr "ОНЛАЙН-КУРСЫ ОТ ВЕДУЩИХ ПРОФЕССОРОВ КазНУ имени аль-Фараби"
 
 msgid "Leader of higher education in Kazakhstan in implementing MOOCs on the Open edX platform"
-msgstr "Лидер высшего образования в Казахстане по внедрению массовых открытых онлайн-курсов (MOOCs) на платформе Open edX"
+msgstr "Лидер высшего образования в Казахстане по внедрению массовых открытых онлайн-курсов (МООК) на платформе Open edX"
 
 msgid "MOOC"
 msgstr "MOOК"
