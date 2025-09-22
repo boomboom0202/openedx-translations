@@ -1,4 +1,14 @@
 {
+  "nav.my_courses": "Менің курстарым",
+  "nav.profile": "Профиль",
+  "nav.account": "Аккаунт",
+  "nav.sign_out": "Шығу",
+
+  "nav.courses": "Курстар",
+  "nav.competition": "Байқаулар",
+  "nav.catalog": "MOOC аудару каталогы",
+  "nav.authors": "Авторларға",
+  "nav.checking": "Тексеру жүйесі",
   "header.links.courses": "Курстар",
   "header.links.programs": "Бағдарламалар",
   "header.links.content.search": "Жаңадан ашыңыз",
