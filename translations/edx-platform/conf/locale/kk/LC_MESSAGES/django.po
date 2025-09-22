@@ -1246,8 +1246,6 @@ msgstr "Талқылау"
 
 #: cms/djangoapps/contentstore/views/component.py:284
 #: lms/templates/video.html:57
-msgid "Video"
-msgstr "Бейне"
 
 #: cms/djangoapps/contentstore/views/component.py:285
 msgid "Open Response"
@@ -8316,8 +8314,6 @@ msgstr "%(platform_name)s Басты бетіне өтіңіз"
 #: lms/templates/navigation/bootstrap/navbar-authenticated.html:39
 #: lms/templates/navigation/navbar-authenticated.html:22
 #: lms/templates/navigation/navbar-not-authenticated.html:20
-msgid "Courses"
-msgstr "Курстар"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"
@@ -10643,8 +10639,7 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/views/login.py:102
 #: lms/templates/navigation/navbar-not-authenticated.html:38
 #: themes/stanford-style/lms/templates/register-form.html:272
-msgid "Register"
-msgstr "Тіркелу"
+
 
 #: openedx/core/djangoapps/user_authn/views/login.py:138
 msgid "There was an error receiving your login information. Please email us."
