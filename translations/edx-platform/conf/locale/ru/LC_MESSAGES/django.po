@@ -388,8 +388,8 @@ msgstr "По всем вопросам обращаться в Офис акад
 msgid "(ext."
 msgstr "(доб."
 
-msgid "Developed by the Office of OAICI"
-msgstr "Разработано Офисом ОАиЦИ"
+msgid "Developed by the OAICI team"
+msgstr "Разработано командой ОАиЦИ"
 
 msgid "About Us"
 msgstr "О Нас"
