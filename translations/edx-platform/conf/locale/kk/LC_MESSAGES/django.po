@@ -428,7 +428,7 @@ msgid "Competition"
 msgstr "Байқаулар"
 
 msgid "Catalog MOOC for Transfer"
-msgstr "Кредитке есептелетін MOOC каталогы"
+msgstr "Кредитке есептелетін ЖАОК каталогы"
 
 msgid "For Authors"
 msgstr "Авторларға"
