@@ -15027,7 +15027,7 @@ msgstr "Выберите язык"
 #: lms/templates/header/user_dropdown.html:48
 #: lms/templates/user_dropdown.html:31 lms/templates/user_dropdown.html:39
 msgid "Account"
-msgstr "Учётная запись"
+msgstr "Аккаунт"
 
 #: cms/templates/widgets/header.html:358 cms/templates/widgets/header.html:373
 msgid "Account Navigation"
