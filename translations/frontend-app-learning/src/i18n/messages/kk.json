@@ -311,7 +311,7 @@
   "progress.relatedLinks.datesCard.description": "Курстың аяқталу мерзімдері мен алдағы тапсырмалардың кесте көрінісі.",
   "progress.relatedLinks.datesCard.link": "Күндер",
   "progress.relatedLinks.outlineCard.description": "Курс мазмұнына құс көзімен қарау.",
-  "progress.relatedLinks.outlineCard.link": "Курстың қысқаша мазмұны",
+  "progress.relatedLinks.outlineCard.link": "Курстың структурасы",
   "progress.relatedLinks": "Қатысты сілтемелер",
   "unit.bookmark.button.add.bookmark": "Осы бетті белгілеңіз",
   "unit.bookmark.button.remove.bookmark": "Бетбелгі қойылған",
@@ -477,7 +477,7 @@
   "learn.sequence.navigation.previous.button": "Алдыңғы",
   "courseOutline.loading": "Жүктелуде...",
   "courseOutline.toggle.button": "Курс контуры науасын ауыстырып-қосқыш",
-  "courseOutline.tray.title": "Курстың қысқаша мазмұны",
+  "courseOutline.tray.title": "Курстың структурасы",
   "courseOutline.completedUnit": "Аяқталған бірлік",
   "courseOutline.incompleteUnit": "Толық емес бірлік",
   "discussions.sidebar.open.button": "Талқылау науасын көрсету"
