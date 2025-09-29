@@ -279,7 +279,7 @@
   "progress.courseGrade.preview.body.upgradeDeadlinePassed": "Срок обновления этого курса истек.",
   "progress.courseGrade.preview.button.upgrade": "Улучшить подписку",
   "progress.courseGrade.gradeRange.tooltip": "Диапазон оценок для этого предмета:",
-  "progress.courseOutline": "План курса",
+  "progress.courseOutline": "Структура курса",
   "progress.courseGrade.label.currentGrade": "Ваша текущая оценка",
   "progress.detailedGrades": "Подробные оценки",
   "progress.detailedGrades.emptyTable": "В настоящее время у вас нет оценок за решение задач.",
