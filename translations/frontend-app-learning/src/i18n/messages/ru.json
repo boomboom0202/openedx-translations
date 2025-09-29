@@ -311,7 +311,7 @@
   "progress.relatedLinks.datesCard.description": "Расписание с указанием сроков выполнения и предстоящих заданий.",
   "progress.relatedLinks.datesCard.link": "Даты",
   "progress.relatedLinks.outlineCard.description": "Обзор содержания вашего курса с высоты птичьего полета.",
-  "progress.relatedLinks.outlineCard.link": "План курса",
+  "progress.relatedLinks.outlineCard.link": "Структура курса",
   "progress.relatedLinks": "Похожие ссылки",
   "unit.bookmark.button.add.bookmark": "Добавить страницу в закладки",
   "unit.bookmark.button.remove.bookmark": "Добавлено в закладки",
@@ -473,7 +473,7 @@
   "learn.sequence.navigation.previous.button": "Предыдущий",
   "courseOutline.loading": "Загрузка...",
   "courseOutline.toggle.button": "Переключить лоток с планом курса",
-  "courseOutline.tray.title": "План курса",
+  "courseOutline.tray.title": "Структура курса",
   "courseOutline.completedUnit": "Завершенный раздел",
   "courseOutline.incompleteUnit": "Неполный блок",
   "discussions.sidebar.open.button": "Показать панель обсуждений"
