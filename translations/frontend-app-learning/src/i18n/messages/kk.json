@@ -279,7 +279,7 @@
   "progress.courseGrade.preview.body.upgradeDeadlinePassed": "Бұл курсты жаңартудың соңғы мерзімі өтті.",
   "progress.courseGrade.preview.button.upgrade": "Қазір жаңартыңыз",
   "progress.courseGrade.gradeRange.tooltip": "Бұл курстың баға диапазоны:",
-  "progress.courseOutline": "Курстың қысқаша мазмұны",
+  "progress.courseOutline": "Курстың структурасы",
   "progress.courseGrade.label.currentGrade": "Сіздің қазіргі бағаңыз",
   "progress.detailedGrades": "Егжей-тегжейлі бағалар",
   "progress.detailedGrades.emptyTable": "Сізде қазір бағаланған мәселе ұпайлары жоқ.",
