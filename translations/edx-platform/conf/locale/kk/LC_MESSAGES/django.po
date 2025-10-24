@@ -43,6 +43,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #Мой переводы 
+msgid "Stay updated with the latest news and announcements"
+msgstr "Соңғы жаңалықтар мен хабарландырулардан хабардар болыңыз"
+
 msgid "Users"
 msgstr "Пайдаланушылар"
 
