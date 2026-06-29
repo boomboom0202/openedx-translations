@@ -46,6 +46,69 @@ msgstr ""
 msgid "About Us"
 msgstr "О Нас"
 
+msgid "EAST KAZAKHSTAN TECHNICAL UNIVERSITY"
+msgstr "ВОСТОЧНО-КАЗАХСТАНСКИЙ ТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ"
+
+msgid "Knowledge that builds the future of {platform name}"
+msgstr "Знания, которые строят будущее {platform name}"
+
+msgid "The online learning platform of East Kazakhstan Technical University — open courses, modern programs and engineering expertise available to everyone, anywhere."
+msgstr "Онлайн-платформа обучения Восточно-Казахстанского технического университета — открытые курсы, современные программы и инженерная экспертиза, доступные каждому и в любой точке."
+
+msgid "About the university"
+msgstr "Об университете"
+
+msgid "Students"
+msgstr "Студенты"
+
+msgid "Educational programs"
+msgstr "Образовательные программы"
+
+msgid "Years of history"
+msgstr "Лет истории"
+
+msgid "Online access"
+msgstr "Онлайн-доступ"
+
+msgid "WHY EKTU"
+msgstr "ПОЧЕМУ ВКТУ"
+
+msgid "Learning built on engineering excellence"
+msgstr "Обучение, построенное на инженерном мастерстве"
+
+msgid "We combine the academic traditions of East Kazakhstan Technical University with a modern digital learning experience."
+msgstr "Мы сочетаем академические традиции Восточно-Казахстанского технического университета с современным цифровым опытом обучения."
+
+msgid "Accredited programs"
+msgstr "Аккредитованные программы"
+
+msgid "Learn at your pace"
+msgstr "Учитесь в своём темпе"
+
+msgid "Recognized certificates"
+msgstr "Признанные сертификаты"
+
+msgid "Courses designed by university faculty across engineering, IT, business and the natural sciences."
+msgstr "Курсы, разработанные преподавателями университета в области инженерии, ИТ, бизнеса и естественных наук."
+
+msgid "Study anywhere and anytime with interactive materials, practical assignments and progress tracking."
+msgstr "Учитесь где угодно и когда угодно — с интерактивными материалами, практическими заданиями и отслеживанием прогресса."
+
+msgid "Earn verified certificates that confirm your skills and support your professional growth."
+msgstr "Получайте подтверждённые сертификаты, которые удостоверяют ваши навыки и способствуют профессиональному росту."
+
+msgid "Start learning with EKTU today"
+msgstr "Начните учиться с ВКТУ уже сегодня"
+
+msgid "Join thousands of learners and open new opportunities with East Kazakhstan Technical University."
+msgstr "Присоединяйтесь к тысячам учащихся и откройте новые возможности с Восточно-Казахстанским техническим университетом."
+
+msgid "Browse the catalog"
+msgstr "Просмотреть каталог"
+
+msgid "All rights reserved."
+msgstr "Все права защищены."
+
 #Начались переводы Openedx
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
@@ -395,6 +458,8 @@ msgstr "PermissionDenied: ошибка аутентификации пользо
 #, python-brace-format
 msgid "{platform_name} Support Levels:"
 msgstr "Уровни поддержки {platform_name}:"
+
+
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: 'Discussion' refers to the tab in the courseware that leads to
