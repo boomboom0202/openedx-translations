@@ -73,8 +73,8 @@ msgstr "Лет истории"
 msgid "Online access"
 msgstr "Онлайн-доступ"
 
-msgid "WHY EKTU"
-msgstr "ПОЧЕМУ ВКТУ"
+msgid "Why EKTU"
+msgstr "Почему ВКТУ"
 
 msgid "Learning built on engineering excellence"
 msgstr "Обучение, построенное на инженерном мастерстве"
