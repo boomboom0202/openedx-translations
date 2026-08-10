@@ -49,11 +49,11 @@ msgstr "Зарегистрироваться"
 msgid "About Us"
 msgstr "О Нас"
 
-msgid "EAST KAZAKHSTAN TECHNICAL UNIVERSITY"
-msgstr "ВОСТОЧНО-КАЗАХСТАНСКИЙ ТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ"
+msgid "East Kazakhstan Technical University"
+msgstr "Восточно-Казахстанский Технический университет"
 
-msgid "Knowledge that builds the future of {platform name}"
-msgstr "Знания, которые строят будущее {platform name}"
+msgid "Knowledge that builds the future of {platform_name}"
+msgstr "Знания, которые строят будущее {platform_name}"
 
 msgid "The online learning platform of East Kazakhstan Technical University — open courses, modern programs and engineering expertise available to everyone, anywhere."
 msgstr "Онлайн-платформа обучения Восточно-Казахстанского технического университета — открытые курсы, современные программы и инженерная экспертиза, доступные каждому и в любой точке."
