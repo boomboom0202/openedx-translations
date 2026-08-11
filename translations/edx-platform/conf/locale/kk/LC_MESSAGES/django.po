@@ -43,500 +43,262 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #Мой переводы 
-msgid "Stay updated with the latest news and announcements"
-msgstr "Соңғы жаңалықтар мен хабарландырулардан хабардар болыңыз"
+msgid "Support"
+msgstr "Қолдау"
 
-msgid "Users"
-msgstr "Пайдаланушылар"
+msgid "organization logo"
+msgstr "ұйым логотипі"
 
-msgid "Course launches"
-msgstr "Курс басталуы"
+msgid "Learning"
+msgstr "Оқу"
 
-msgid "Creating an Online Course for Authors"
-msgstr "Авторлар үшін онлайн-курсты құру"
+msgid "Course catalog"
+msgstr "Курстар каталогы"
 
-msgid "Methodological Requirements"
-msgstr "Әдістемелік талаптар"
+#. also used in: help.html
+msgid "Frequently asked questions"
+msgstr "Жиі қойылатын сұрақтар"
 
-msgid "Requirements for Online Course Design"
-msgstr "Онлайн-курсты әзірлеу талаптары"
+msgid "Resources"
+msgstr "Ресурстар"
 
-msgid "Electronic UMKD (e-UMKD)"
-msgstr "Электрондық ОӘК (e-ОӘК)"
+#. also used in: help.html
+msgid "Center for Educational Technologies"
+msgstr "Білім беру технологиялары орталығы"
 
-msgid "Electronic syllabus"
-msgstr "Электрондық силлабус"
+# ======================================================================
+#  Help page  (lms/templates/static_templates/help.html)
+# ======================================================================
 
-msgid "Announcements for students – 1 per module"
-msgstr "Студенттерге хабарландырулар – әр модульге 1"
+#. also used in: faq.html
+msgid "Contact the support desk"
+msgstr "Анықтама қызметіне жазу"
 
-msgid "Questionnaires at the beginning and end of the course"
-msgstr "Курс басында және соңында сауалнама"
+msgid "How to sign in, where to find guides, and who to contact when something is not working."
+msgstr "Платформаға қалай кіру керек, нұсқаулықтарды қайдан табуға болады және бірдеңе жұмыс істемесе кімге хабарласу керек."
 
-msgid "Lecture notes with a list of sources – 1 per topic"
-msgstr "Дереккөздер тізімі бар дәріс конспектілері – әр тақырыпқа 1"
+msgid "How to sign in"
+msgstr "Платформаға қалай кіру керек"
 
-msgid "Presentation – 1 per topic"
-msgstr "Презентация – әр тақырыпқа 1"
+msgid "The way you sign in depends on whether you study or work at the university."
+msgstr "Кіру тәсілі сіздің университетте оқитыныңызға немесе жұмыс істейтініңізге байланысты."
 
-msgid "Additional course materials with active links for online reading and viewing"
-msgstr "Онлайн қарауға және оқуға арналған сілтемелері бар қосымша материалдар"
+msgid "University students and staff"
+msgstr "Университет студенттері мен қызметкерлеріне"
 
-msgid "Study questions – at least 10 per module"
-msgstr "Оқу сұрақтары – әр модульге кемінде 10"
+msgid "Sign in with the {strong_start}Sign in with Google{strong_end} button using your university account. You do not need to create a separate password."
+msgstr "{strong_start}«Google арқылы кіру»{strong_end} түймесі арқылы университеттік аккаунтыңызбен кіріңіз. Бөлек құпиясөз жасаудың қажеті жоқ."
 
-msgid "Discussion questions – at least 1 per module"
-msgstr "Талқылау сұрақтары – әр модульге кемінде 1"
+msgid "Step-by-step sign-in guide"
+msgstr "Кіру бойынша қадамдық нұсқаулық"
 
-msgid "Test tasks – at least 3 practice and 10 graded per module"
-msgstr "Тест тапсырмалары – әр модульге кемінде 3 жаттығу және 10 бағаланатын"
+msgid "External learners"
+msgstr "Сыртқы тыңдаушыларға"
 
-msgid "Peer review assignments – no more than 1–2 per course"
-msgstr "Өзара бағалау тапсырмалары – курсқа 1–2-ден артық емес"
-
-msgid "Academic Presentation of the Online Course"
-msgstr "Онлайн-курстың академиялық таныстырылымы"
-
-msgid "Measurable learning objectives"
-msgstr "Өлшенетін оқу мақсаттары"
-
-msgid "Expected Learning Outcomes (LO)"
-msgstr "Күтілетін оқу нәтижелері (ОҚ)"
-
-msgid "Indicators of LO achievement"
-msgstr "ОҚ-қа жету көрсеткіштері"
-
-msgid "Course language – student-oriented, accessible to a diverse audience"
-msgstr "Курс тілі – студентке бағытталған, кең аудиторияға түсінікті"
-
-msgid "Course duration – at least 4 and no more than 15 weeks"
-msgstr "Курс ұзақтығы – кемінде 4 және 15 аптадан артық емес"
-
-msgid "Student workload per week – no less than 2 and no more than 5 hours"
-msgstr "Студенттің апталық жүктемесі – 2 сағаттан кем емес, 5 сағаттан артық емес"
-
-msgid "Technical Requirements for Video"
-msgstr "Бейне үшін техникалық талаптар"
-
-msgid "Video recording must be carried out with professional equipment with track parameters not lower than the following:"
-msgstr "Бейнетүсірілім келесі параметрлерден төмен емес кәсіби жабдықпен жүргізілуі тиіс:"
-
-msgid "Video"
-msgstr "Бейне"
-
-msgid "Timing"
-msgstr "Хронометраж"
-
-msgid "Welcome/Promo video – no more than 3 minutes"
-msgstr "Қош келдіңіз/промо бейне – 3 минуттан артық емес"
-
-msgid "Course introduction (purpose, objectives, structure, assignments) – 3 minutes"
-msgstr "Курсқа кіріспе (мақсаты, міндеттері, құрылымы, тапсырмалары) – 3 минут"
-
-msgid "Video lecture – 3–9 minutes"
-msgstr "Бейне-дәріс – 3–9 минут"
-
-msgid "Weekly video duration – at least 15 and no more than 30 minutes"
-msgstr "Апталық бейне ұзақтығы – кемінде 15 және 30 минуттан артық емес"
-
-msgid "File format (container) – MP4"
-msgstr "Файл форматы (контейнер) – MP4"
-
-msgid "Codec – H264"
-msgstr "Кодек – H264"
-
-msgid "Resolution: 1920 x 1080 (1080p)"
-msgstr "Ажыратылымдылығы: 1920 x 1080 (1080p)"
-
-msgid "Aspect ratio – 16:9"
-msgstr "Бейне өлшемі – 16:9"
-
-msgid "Frame rate – 25 or 30 fps"
-msgstr "Кадр жиілігі – 25 немесе 30 fps"
-
-msgid "Progressive scan (25p/30p)"
-msgstr "Прогрессивті ажырату (25p/30p)"
-
-msgid "Bitrate – not less than 10,000 kbps and not more than 30,000 kbps"
-msgstr "Битрейт – 10 000 кбит/с кем емес және 30 000 кбит/с артық емес"
-
-msgid "Audio"
-msgstr "Аудио"
-
-msgid "Codec: AAC, AC3, OGG, mp3"
-msgstr "Кодек: AAC, AC3, OGG, mp3"
-
-msgid "Channels: 2 (stereo)"
-msgstr "Каналдар: 2 (стерео)"
-
-msgid "Sample rate: 48 kHz"
-msgstr "Дискреттеу жиілігі: 48 кГц"
-
-msgid "Audio stream: CBR not less than 192 kbps, VBR 160–320 kbps"
-msgstr "Аудио ағыны: CBR 192 кбит/с кем емес, VBR 160–320 кбит/с"
-
-msgid "Audio Quality Characteristics"
-msgstr "Аудио сапа сипаттамалары"
-
-msgid "Audio track must be true stereo, with the lecturer’s voice localized strictly between the left and right channels"
-msgstr "Аудиожолақ нағыз стерео болуы тиіс, лекция жүргізушінің даусы сол және оң каналдардың ортасында орналасуы керек"
-
-msgid "Stereo track must be playable on monophonic equipment"
-msgstr "Стереожолақ моно құрылғыларда да ойнатылуы тиіс"
-
-msgid "Signal-to-noise ratio – at least 40 dB"
-msgstr "Сигнал/шум қатынасы – кемінде 40 дБ"
-
-msgid "Dynamic range of useful signal – no more than 16 dB"
-msgstr "Пайдалы сигналдың динамикалық диапазоны – 16 дБ-дан артық емес"
-
-msgid "Average RMS loudness – from -14 dB to -12 dB"
-msgstr "Орташа RMS дыбыс деңгейі – -14 дБ-дан -12 дБ-ға дейін"
-
-msgid "Peak loudness – limited to -2 dB"
-msgstr "Ең жоғарғы дыбыс деңгейі – -2 дБ-дан аспайды"
-
-msgid "Presentation Design Quality for Video"
-msgstr "Бейне үшін презентация сапасы"
-
-msgid "Sans-serif font is recommended"
-msgstr "Қаріптердің сызықшасыз түрін қолдану ұсынылады"
-
-msgid "No more than 2 fonts per course"
-msgstr "Курста 2 қаріптен артық қолданбау"
-
-msgid "Bullet points must be consistent throughout the course"
-msgstr "Таңбалы тізімдер курстың барлық бөлімдерінде бірдей болуы тиіс"
-
-msgid "Use contrasting text and background colors for readability"
-msgstr "Мәтінді оқуға ыңғайлы ету үшін қарама-қарсы түстерді пайдалану"
-
-msgid "No more than 3 font colors per course"
-msgstr "Курста 3 қаріп түсінен артық қолданбау"
-
-msgid "Avoid mixing contrasting colors within one sentence, paragraph, or table"
-msgstr "Бір сөйлемде, абзацта немесе кестеде қарама-қарсы түстерді араластырмау"
-
-msgid "Line thickness for borders, tables, and arrows should match font line thickness"
-msgstr "Шекаралар, кестелер мен жебелер сызығының қалыңдығы қаріп сызығының қалыңдығына сәйкес болуы тиіс"
-
-msgid "Use photos, drawings, and animations in a consistent color scheme"
-msgstr "Фото, сурет және анимацияларды бір түстік гаммада пайдалану"
-
-msgid "Icons and infographics are recommended"
-msgstr "Иконкалар мен инфографикаларды қолдану ұсынылады"
-
-msgid "Avoid merging same-sized scenes for natural perception"
-msgstr "Бірдей өлшемдегі көріністерді біріктірмеу қажет"
-
-msgid "Avoid distracting clothing and makeup during recording"
-msgstr "Жазу кезінде назарды аударатын киім мен макияждан аулақ болу"
-
-msgid "Slides: heading font – 20 pt, body text – 18 pt"
-msgstr "Слайдтар: тақырып қарпі – 20 pt, негізгі мәтін – 18 pt"
-
-msgid "Image size – at least 1280x720p (HD)"
-msgstr "Сурет өлшемі – кемінде 1280x720p (HD)"
-
-msgid "Image format – PNG"
-msgstr "Сурет форматы – PNG"
-
-msgid "All external materials must have a CC Attribution license"
-msgstr "Барлық сыртқы материалдарда CC Attribution лицензиясы болуы тиіс"
-
-msgid "Each borrowed image must include a source link"
-msgstr "Әр алынған сурет дереккөзіне сілтемемен бірге берілуі керек"
-
-msgid "Stages of Online Course Development"
-msgstr "Онлайн-курсты әзірлеу кезеңдері"
-
-msgid "Application Submission"
-msgstr "Өтінім беру"
-
-msgid "Submission of an application for online course development. Participation in the competition of pedagogical scenarios for creating and publishing online courses (MOOC/SPOC)."
-msgstr "Онлайн-курсты әзірлеуге өтінім беру. Онлайн-курстарды (MOOC/SPOC) құру және жариялау бойынша педагогикалық сценарийлер конкурсына қатысу."
-
-msgid "Course Development"
-msgstr "Курсты әзірлеу"
-
-msgid "Start of the online course development process."
-msgstr "Онлайн-курсты әзірлеу процесінің басталуы."
-
-msgid "Preparation of Materials"
-msgstr "Материалдарды дайындау"
-
-msgid "Preparation of online course materials by the author-developer. For documents on requirements and recommendations for recording video materials, please contact the Center for Massive Open Online Courses."
-msgstr "Онлайн-курс материалдарын автор әзірлеушінің дайындауы. Бейнежазба талаптары мен ұсынымдары құжаттарын алу үшін Ашық онлайн-курстар орталығына хабарласыңыз."
-
-msgid "Material Expertise"
-msgstr "Материалдарға сараптама"
-
-msgid "Methodological and technical expertise of online course materials."
-msgstr "Онлайн-курс материалдарының әдістемелік және техникалық сараптамасы."
-
-msgid "Video Recording"
-msgstr "Бейнетүсірілім"
-
-msgid "Recording of online course video materials."
-msgstr "Онлайн-курстың бейнематериалдарын жазу."
-
-msgid "Material Upload"
-msgstr "Материалдарды жүктеу"
-
-msgid "Uploading online course materials to the platform."
-msgstr "Онлайн-курс материалдарын платформаға жүктеу."
-
-msgid "Testing and Expertise"
-msgstr "Тестілеу және сараптама"
-
-msgid "Beta testing and course expertise."
-msgstr "Бета-тестілеу және курс сараптамасы."
-
-msgid "For all inquiries, please contact the Center for Massive Open Online Courses: Building – Rectorate, Office 203, Phone 11-33."
-msgstr "Барлық сұрақтар бойынша Ашық онлайн-курстар орталығына хабарласыңыз: Ғимарат – Ректорат, 203-кабинет, телефон 11-33."
-
-msgid "Competition for the Selection of Pedagogical Scenarios for Online Courses"
-msgstr "Онлайн-курстарға педагогикалық сценарийлерді іріктеу конкурсы"
-
-msgid "Al-Farabi Kazakh National University"
-msgstr "әл-Фараби атындағы Қазақ ұлттық университеті"
-
-msgid "About the Competition"
-msgstr "Конкурс туралы"
-
-msgid "The Office of Academic and Digital Innovations is accepting applications for participation in the competition of pedagogical scenarios for the creation and publication of online courses (MOOC/SPOC)"
-msgstr "Академиялық және цифрлық инновациялар офисі онлайн-курстарды (MOOC/SPOC) құру және жариялау бойынша педагогикалық сценарийлер конкурсына өтінімдерді қабылдайды"
-
-msgid "MOOC Competition Regulations"
-msgstr "MOOC конкурсының ережелері"
-
-msgid "Both creative teams of university departments and individual teaching or research staff of the university can participate in the competition"
-msgstr "Конкурсқа университет кафедраларының шығармашылық ұжымдары да, жеке оқытушылар немесе ғылыми қызметкерлер де қатыса алады"
-
-msgid "Based on the results of the competition, the commission will approve and release 5 MOOC and 5 SPOC"
-msgstr "Конкурс нәтижесі бойынша комиссия 5 MOOC және 5 SPOC бекітеді және іске қосады"
-
-msgid "Competition Stages"
-msgstr "Конкурс кезеңдері"
-
-msgid "Stage"
-msgstr "Кезең"
-
-msgid "Registration and Submission of Applications"
-msgstr "Тіркеу және өтінімдерді беру"
-
-msgid "Until"
-msgstr "Дейін"
-
-msgid "Public Defense of Pedagogical Scenarios"
-msgstr "Педагогикалық сценарийлерді көпшілік алдында қорғау"
-
-msgid "Evaluation of Applications and Selection of Winners"
-msgstr "Өтінімдерді бағалау және жеңімпаздарды анықтау"
-
-msgid "Approval of Competition Results"
-msgstr "Конкурс нәтижелерін бекіту"
-
-msgid "Application Requirements"
-msgstr "Өтінім талаптары"
-
-msgid "Cover Letter"
-msgstr "Сопроводительное хат"
-
-msgid "Pedagogical Scenario of an Online Course"
-msgstr "Онлайн-курстың педагогикалық сценарийі"
-
-msgid "Lecture Video Recording"
-msgstr "Дәріс бейнетүсірілімі"
-
-msgid "Online Course Certificate"
-msgstr "Онлайн-курс сертификаты"
-
-msgid "Author Information"
-msgstr "Автор туралы ақпарат"
-
-msgid "Competition Announcement"
-msgstr "Конкурс туралы хабарландыру"
-
-msgid "The Office of Academic and Digital Innovations"
-msgstr "Академиялық және цифрлық инновациялар офисі"
-
-msgid "is pleased to announce the launch of the competition for the selection of pedagogical scenarios for online courses."
-msgstr "онлайн-курстарға педагогикалық сценарийлерді іріктеу конкурсының басталғанын хабарлайды."
-
-msgid "Application submission"
-msgstr "Өтінім беру"
-
-msgid "Selection of applications for participation"
-msgstr "Қатысуға өтінімдерді іріктеу"
-
-msgid "Public defense of projects"
-msgstr "Жобаларды көпшілік алдында қорғау"
-
-msgid "Announcement of winners"
-msgstr "Жеңімпаздарды жариялау"
-
-msgid "Applications are accepted online via the form on the Open Kaznu website. Details and application templates can be found on the competition page"
-msgstr "Өтінімдер Open Kaznu сайтындағы онлайн-форма арқылы қабылданады. Толығырақ ақпарат пен өтінім үлгілері конкурс бетінде қолжетімді"
-
-msgid "Submit Application"
-msgstr "Өтінім беру"
-
-msgid "Contacts"
-msgstr "Байланыс"
-
-msgid "For all inquiries, please contact the Office of Academic and Digital Innovations: Building - Rectorate, Office 207, phone"
-msgstr "Барлық сұрақтар бойынша Академиялық және цифрлық инновациялар офисіне хабарласыңыз: Ғимарат - Ректорат, 207-кабинет, телефон"
-
-msgid "(ext."
-msgstr "(ішкі."
-
-msgid "Developed by the OAICI team"
-msgstr "АжЦИК командасымен әзірленді"
-
-msgid "About Us"
-msgstr "Біз туралы"
-
-msgid "Quick Links"
-msgstr "Жылдам сілтемелер"
-
-msgid "Statistics"
-msgstr "Статистика"
-
-msgid "We are on social media"
-msgstr "Біз әлеуметтік желілердеміз"
-
-msgid "Almaty"
-msgstr "Алматы"
-
-msgid "аl"
-msgstr "әл"
-
-msgid "Farabi"
-msgstr "Фараби"
-
-msgid "Terms of service"
-msgstr "Қызмет көрсету шарты"
-
-msgid "Privacy policy"
-msgstr "Құпиялық саясаты"
-
-msgid "Login for external users"
-msgstr "Сыртқы пайдаланушыларға кіру"
-
-msgid "Login via Univer"
-msgstr "Univer арқылы кіру"
-
-msgid "Competition"
-msgstr "Байқаулар"
-
-msgid "Catalog MOOC for Transfer"
-msgstr "Кредитке есептелетін ЖАОК каталогы"
-
-msgid "For Authors"
-msgstr "Авторларға"
-
-msgid "The System of Checking"
-msgstr "Тексеру жүйесі"
-
-msgid "ONLINE COURSES FROM LEADING PROFESSORS OF Al-Farabi KazNU"
-msgstr "әл-Фараби атындағы ҚазҰУ-дың жетекші профессорларынан онлайн-курстар"
-
-msgid "Leader of higher education in Kazakhstan in implementing MOOCs on the Open edX platform"
-msgstr "Қазақстанда Open edX платформасында ЖАОК енгізуде жоғары білімнің көшбасшысы"
-
-msgid "MOOC"
-msgstr "ЖАОК"
-
-msgid "Online"
-msgstr "Онлайн"
-
-msgid "Courses"
-msgstr "Курстар"
-
-msgid "Open"
-msgstr "Ашық"
-
-msgid "Massive"
-msgstr "Жаппай"
-
-msgid "About MOOC"
-msgstr "ЖАОК туралы"
-
-msgid "Massive Open Online Courses (MOOCs) are free online courses available to everyone. MOOCs provide a flexible and accessible way to gain new skills, advance your career, and deliver quality education at scale."
-msgstr "Жаппай ашық онлайн-курстар (ЖАОК) – бұл барлығына қолжетімді тегін онлайн-курстар. ЖАОК жаңа дағдыларды меңгерудің, мансапты дамытудың және ауқымды деңгейде сапалы білім алудың ыңғайлы әрі қолжетімді тәсілін ұсынады."
-
-msgid "Millions of people worldwide use MOOCs for various reasons, including career advancement, career change, college preparation, additional education, lifelong learning, corporate e-learning, training, and much more."
-msgstr "Әлем бойынша миллиондаған адамдар MOOC-ты әртүрлі мақсаттар үшін пайдаланады: мансаптық өсуді, мамандықты ауыстыруды, университетке дайындықты, қосымша білім алуды, өмір бойы оқуды, корпоративтік электронды оқытуды және тағы басқаларын."
-
-msgid "MOOCs have fundamentally changed the way people learn around the world. Ready to get started?"
-msgstr "ЖАОК адамдардың бүкіл әлемде оқыту тәсілін түбегейлі өзгертті. Бастауға дайынсыз ба?"
-
-msgid "Our News"
-msgstr "Біздің жаңалықтар"
-
-msgid "Check out our latest updates on the platform"
-msgstr "Платформадағы соңғы жаңалықтармен танысыңыз"
-
-msgid "Guide"
-msgstr "Нұсқаулық"
-
-msgid "Follow the step-by-step guide to quickly and easily start learning."
-msgstr "Қадамдық нұсқаулық бойынша оқуды жылдам әрі оңай бастаңыз."
-
-msgid "Popular Topics"
-msgstr "Танымал тақырыптар"
-
-msgid "Artificial Intelligence, Digital Marketing, Web Development, Project Management, and Personal Growth."
-msgstr "Жасанды интеллект, цифрлық маркетинг, веб-әзірлеу, жобаларды басқару және жеке даму."
-
-msgid "Browse courses"
-msgstr "Курстарды қарау"
-
-msgid "Join us!"
-msgstr "Бізге қосылыңыз!"
-
-msgid "Become part of a community of 2 million students. Connect, share projects, and find like-minded people."
-msgstr "2 миллион студенттен тұратын қауымдастықтың бір бөлігі болыңыз. Байланысыңыз, жобалармен бөлісіңіз және пікірлес адамдарды табыңыз."
+msgid "If you are not affiliated with the university, register the usual way: with your own email address and a password you choose."
+msgstr "Егер сіз университетпен байланысты болмасаңыз, әдеттегі жолмен тіркеліңіз — өз электрондық поштаңызбен, құпиясөзді өзіңіз ойлап тауып."
 
 msgid "Register"
 msgstr "Тіркелу"
 
-msgid "Advantages of Online Courses"
-msgstr "Онлайн-курстардың артықшылықтары"
+msgid "Important for university students and staff."
+msgstr "Университет студенттері мен қызметкерлеріне маңызды."
 
-msgid "Flexible Schedule"
-msgstr "Икемді кесте"
+msgid "Do not register separately with a password using the same address you sign in with through Google. Two accounts on one address conflict with each other and you will not be able to sign in, which then requires help from technical support."
+msgstr "Google арқылы кіретін адресіңізге құпиясөзбен бөлек тіркелмеңіз. Бір адреске жасалған екі есептік жазба бір-бірімен қайшы келеді де, кіру мүмкін болмайды — техникалық қолдау қызметінің көмегі қажет болады."
 
-msgid "Learn at your own pace and at a convenient time, balancing studies with work or other commitments."
-msgstr "Өзіңізге ыңғайлы уақытта және өз қарқыныңызбен оқыңыз, оқуды жұмыс немесе басқа міндеттермен ұштастырыңыз."
+msgid "Cannot sign in, or something is not working"
+msgstr "Кіру мүмкін болмай тұр немесе бірдеңе жұмыс істемейді"
 
-msgid "Accessibility"
-msgstr "Қолжетімділік"
+msgid "Describe the problem in the support desk and the engineers of the center will see your ticket. Where possible, include your email address, the course name and a screenshot."
+msgstr "Мәселені анықтама қызметінде сипаттаңыз — өтінімді орталық инженерлері көреді. Мүмкіндігінше поштаңызды, курс атауын көрсетіп, скриншот қоса беріңіз."
 
-msgid "Get access to high-quality courses from anywhere in the world, without leaving your home."
-msgstr "Үйден шықпай-ақ, әлемнің кез келген жерінен сапалы курстарға қол жеткізіңіз."
+msgid "Useful resources"
+msgstr "Пайдалы ресурстар"
 
-msgid "Variety of Courses"
-msgstr "Курстардың алуан түрлілігі"
+msgid "For students"
+msgstr "Студенттерге"
 
-msgid "Choose from a wide range of programs: from programming to personal development."
-msgstr "Бағдарламалаудан бастап жеке дамуға дейінгі кең ауқымды бағдарламаларды таңдаңыз."
+msgid "Guides on signing in, accounts and university services"
+msgstr "Кіру, аккаунттар және университет сервистері бойынша нұсқаулықтар"
 
-msgid "Earn official certificates upon course completion to strengthen your resume."
-msgstr "Курс аяқталғаннан кейін түйіндемеңізді күшейту үшін ресми сертификаттарға ие болыңыз."
+msgid "For teachers"
+msgstr "Оқытушыларға"
 
-msgid "Community"
-msgstr "Қауымдастық"
+msgid "How to build and run courses on the platform"
+msgstr "Платформада курстарды қалай жасау және жүргізу керек"
 
-msgid "Connect with instructors and students, share experiences, and exchange ideas."
-msgstr "Оқытушылармен және студенттермен байланысыңыз, тәжірибе алмасыңыз, идеялармен бөлісіңіз."
+msgid "Support desk"
+msgstr "Анықтама қызметі"
 
-msgid "Free Learning"
-msgstr "Тегін оқу"
+msgid "Tickets for technical problems"
+msgstr "Техникалық мәселелер бойынша өтінімдер"
 
-msgid "Many courses are available for free, making education accessible to everyone."
-msgstr "Көптеген курстар тегін қолжетімді, бұл білімді баршаға қолжетімді етеді."
+msgid "About the center, news and blog"
+msgstr "Орталық туралы, жаңалықтар және блог"
+
+msgid "Our platforms"
+msgstr "Біздің платформалар"
+
+msgid "The platform for university students"
+msgstr "Университет студенттеріне арналған платформа"
+
+msgid "The open platform, available to everyone"
+msgstr "Барлық қалаушыға қолжетімді ашық платформа"
+
+msgid "Still have questions?"
+msgstr "Сұрақтарыңыз қалды ма?"
+
+msgid "Take a look at the frequently asked questions: your case may already be covered there."
+msgstr "Жиі қойылатын сұрақтарға жауаптарды қараңыз — сіздің жағдайыңыз сонда талданған болуы мүмкін."
+
+# ======================================================================
+#  FAQ page  (lms/templates/static_templates/faq.html)
+# ======================================================================
+
+msgid "Answers to the questions students and teachers ask most often."
+msgstr "Студенттер мен оқытушылар жиі қоятын сұрақтарға жауаптар."
+
+msgid "How do I sign in?"
+msgstr "Платформаға қалай кіруге болады?"
+
+msgid "University students and staff sign in with the {strong_start}Sign in with Google{strong_end} button using their university account; there is no need to create a separate password. There is a {link_start}step-by-step sign-in guide{link_end}."
+msgstr "Университет студенттері мен қызметкерлері {strong_start}«Google арқылы кіру»{strong_end} түймесімен университеттік аккаунт арқылы кіруі керек — бөлек құпиясөз жасаудың қажеті жоқ. {link_start}Кіру бойынша қадамдық нұсқаулық{link_end} бар."
+
+msgid "External learners register the usual way, with their own email address."
+msgstr "Сыртқы тыңдаушылар әдеттегі жолмен — өз электрондық поштасы арқылы тіркеледі."
+
+msgid "I cannot sign in: my account is not linked, or it says the email is already taken"
+msgstr "Кіре алмаймын: аккаунт байланыспайды немесе пошта бос емес деп жазады"
+
+msgid "This usually happens when two accounts exist for the same address: one created through Google and another created by regular registration with a password. Such accounts conflict with each other."
+msgstr "Бұл көбінесе бір адреске екі есептік жазба тіркелгенде болады: біреуі Google арқылы, екіншісі құпиясөзбен әдеттегі тіркелу арқылы жасалған. Мұндай жазбалар бір-бірімен қайшы келеді."
+
+msgid "You cannot fix this yourself, the engineers have to do it. {link_start}Submit a ticket to the support desk{link_end} and include the email address you are trying to sign in with."
+msgstr "Мұны өз бетіңізше шешу мүмкін емес — инженерлердің көмегі қажет. {link_start}Анықтама қызметіне өтінім қалдырыңыз{link_end} және кіргіңіз келген пошта адресін көрсетіңіз."
+
+msgid "How do I enroll in a course?"
+msgstr "Курсқа қалай жазылуға болады?"
+
+msgid "Open the course page in the {link_start}catalog{link_end} and click {strong_start}Enroll{strong_end}. If the button is unavailable, enrollment is closed, the course has already finished, or enrollment is by invitation only, in which case the teacher will enroll you."
+msgstr "{link_start}Каталогтан{link_end} курс бетін ашып, {strong_start}«Жазылу»{strong_end} түймесін басыңыз. Егер түйме қолжетімсіз болса, курсқа жазылу жабылған, курс аяқталған немесе жазылу тек шақыру бойынша жүргізіледі — бұл жағдайда сізді оқытушы тіркейді."
+
+msgid "Where can I see my grades?"
+msgstr "Бағаларымды қайдан көруге болады?"
+
+msgid "Grades for assignments are available inside the course, in the {strong_start}Progress{strong_end} section. They are updated as soon as your work has been graded."
+msgstr "Тапсырмалар бағалары курстың өзінде, {strong_start}«Прогресс»{strong_end} бөлімінде қолжетімді. Олар жұмыс тексерілген соң бірден жаңарады."
+
+msgid "When will my certificate appear?"
+msgstr "Сертификат қашан пайда болады?"
+
+msgid "A certificate is issued once you reach the passing grade. By default it becomes available {strong_start}after the course end date{strong_end}, so it may not be there straight after you submit your last assignment."
+msgstr "Сертификат өту балын жинағанда беріледі. Әдепкі бойынша ол {strong_start}курстың аяқталу күнінен кейін{strong_end} қолжетімді болады, сондықтан соңғы жұмысты тапсырған соң бірден болмауы мүмкін."
+
+msgid "If the course has finished and you reached the passing grade but there is still no certificate, {link_start}contact the support desk{link_end}."
+msgstr "Егер курс аяқталса, өту балы жиналса, ал сертификат әлі жоқ болса — {link_start}анықтама қызметіне жазыңыз{link_end}."
+
+msgid "Something went wrong during the exam and my attempt was lost"
+msgstr "Емтихан кезінде ақау болып, әрекет жоғалып кетті"
+
+msgid "Tell the course teacher: an attempt can be reset, but only with their approval. If the problem is technical and keeps happening, also report it to the {link_start}support desk{link_end}."
+msgstr "Бұл туралы курс оқытушысына хабарлаңыз — әрекетті қайта бастауға болады, бірақ тек оның рұқсатымен. Егер мәселе техникалық болса және қайталанса, өтінімді {link_start}анықтама қызметіне{link_end} де жіберіңіз."
+
+msgid "What is the difference between edx.ektu.kz and open.ektu.kz?"
+msgstr "edx.ektu.kz пен open.ektu.kz айырмашылығы неде?"
+
+msgid "{link_start}edx.ektu.kz{link_end} is the platform for university students; its courses are part of the study process."
+msgstr "{link_start}edx.ektu.kz{link_end} — университет студенттеріне арналған платформа, оның курстары оқу үдерісімен байланысты."
+
+msgid "{link_start}open.ektu.kz{link_end} is the open platform: its courses are available to everyone, not only to students."
+msgstr "{link_start}open.ektu.kz{link_end} — ашық платформа: оның курстары тек студенттерге ғана емес, барлық қалаушыға қолжетімді."
+
+msgid "Where do I report a technical problem?"
+msgstr "Техникалық мәселемен қайда хабарласу керек?"
+
+msgid "To the {link_start}support desk{link_end}. To get your ticket resolved faster, include your email address, the course name, what exactly you were doing, and a screenshot of the error."
+msgstr "{link_start}Анықтама қызметіне{link_end}. Өтінім тезірек қаралуы үшін поштаңызды, курс атауын, нақты не істегеніңізді көрсетіп, қате скриншотын қоса беріңіз."
+
+msgid "Did not find your question?"
+msgstr "Сұрағыңызды таппадыңыз ба?"
+
+msgid "Describe the problem in the support desk and the engineers of the center will help you sort it out."
+msgstr "Мәселені анықтама қызметінде сипаттаңыз — орталық инженерлері шешуге көмектеседі."
+
+
+msgid "Public Offer Agreement"
+msgstr "Жария оферта шарты"
+
+
+msgid "Register for free"
+msgstr "Тіркелу"
+
+msgid "About Us"
+msgstr "Біз туралы"
+
+msgid "East Kazakhstan Technical University"
+msgstr "Шығыс Қазақстан техникалық университеті"
+
+msgid "Knowledge that builds the future of {platform_name}"
+msgstr "{platform_name} болашағын қалыптастыратын білім"
+
+msgid "The online learning platform of East Kazakhstan Technical University — open courses, modern programs and engineering expertise available to everyone, anywhere."
+msgstr "Шығыс Қазақстан техникалық университетінің онлайн оқыту платформасы — ашық курстар, заманауи бағдарламалар және инженерлік сараптама әркімге, кез келген жерде қолжетімді."
+
+msgid "About the university"
+msgstr "Университет туралы"
+
+msgid "Students"
+msgstr "Студенттер"
+
+msgid "Educational programs"
+msgstr "Білім беру бағдарламалары"
+
+msgid "Years of history"
+msgstr "Жылдық тарих"
+
+msgid "Online access"
+msgstr "Онлайн-қолжетімділік"
+
+msgid "Why EKTU"
+msgstr "Неліктен ШҚТУ"
+
+msgid "Learning built on engineering excellence"
+msgstr "Инженерлік шеберлікке негізделген оқыту"
+
+msgid "We combine the academic traditions of East Kazakhstan Technical University with a modern digital learning experience."
+msgstr "Біз Шығыс Қазақстан техникалық университетінің академиялық дәстүрлерін заманауи цифрлық оқу тәжірибесімен ұштастырамыз."
+
+msgid "Accredited programs"
+msgstr "Аккредиттелген бағдарламалар"
+
+msgid "Learn at your pace"
+msgstr "Өз қарқыныңызбен оқыңыз"
+
+msgid "Recognized certificates"
+msgstr "Танылған сертификаттар"
+
+msgid "Courses designed by university faculty across engineering, IT, business and the natural sciences."
+msgstr "Инженерия, IT, бизнес және жаратылыстану ғылымдары салаларында университет оқытушылары әзірлеген курстар."
+
+msgid "Study anywhere and anytime with interactive materials, practical assignments and progress tracking."
+msgstr "Интерактивті материалдармен, практикалық тапсырмалармен және прогресті қадағалау мүмкіндігімен кез келген жерде әрі кез келген уақытта оқыңыз."
+
+msgid "Earn verified certificates that confirm your skills and support your professional growth."
+msgstr "Дағдыларыңызды растайтын және кәсіби өсуіңізге септесетін расталған сертификаттар алыңыз."
+
+msgid "Start learning with EKTU today"
+msgstr "ШҚТУ-мен бүгіннен бастап оқуды бастаңыз"
+
+msgid "Join thousands of learners and open new opportunities with East Kazakhstan Technical University."
+msgstr "Мыңдаған оқушыға қосылып, Шығыс Қазақстан техникалық университетімен жаңа мүмкіндіктер ашыңыз."
+
+msgid "Browse the catalog"
+msgstr "Каталогты қарау"
+
+msgid "All rights reserved."
+msgstr "Барлық құқықтар қорғалған."
+
 
 #Переводы openedx
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
