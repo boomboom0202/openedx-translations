@@ -46,8 +46,6 @@ msgstr ""
 msgid "Support"
 msgstr "Қолдау"
 
-msgid "organization logo"
-msgstr "ұйым логотипі"
 
 msgid "Learning"
 msgstr "Оқу"
