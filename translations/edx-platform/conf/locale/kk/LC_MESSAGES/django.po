@@ -24648,10 +24648,6 @@ msgstr "Ол қалай жұмыс істейді"
 msgid "Schools"
 msgstr "Мектептер"
 
-#: lms/templates/header/navbar-not-authenticated.html:53
-#: lms/templates/header/navbar-not-authenticated.html:57
-msgid "Register for free"
-msgstr "Тегін тіркелу"
 
 #: lms/templates/header/user_dropdown.html:47
 msgid "Profile"
