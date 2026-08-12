@@ -45,6 +45,55 @@ msgstr ""
 #Мой переводы
 
 
+msgid "About the University"
+msgstr "Об университете"
+
+msgid "A leading center of engineering and technical education in East Kazakhstan, preparing specialists for industry, science and the digital economy."
+msgstr "Ведущий центр инженерно-технического образования Восточного Казахстана, готовящий специалистов для промышленности, науки и цифровой экономики."
+
+msgid "East Kazakhstan Technical University (EKTU) is one of the oldest and most respected universities in the region. For decades we have trained engineers, scientists and innovators, combining strong academic traditions with modern technology and a practice-oriented approach to learning."
+msgstr "Восточно-Казахстанский технический университет (ВКТУ) — один из старейших и наиболее уважаемых вузов региона. Десятилетиями мы готовим инженеров, учёных и новаторов, сочетая крепкие академические традиции с современными технологиями и практико-ориентированным подходом к обучению."
+
+msgid "Our mission"
+msgstr "Наша миссия"
+
+msgid "To deliver high-quality, accessible education and research that drives the sustainable development of the region and the country. Through this online platform we open the university's knowledge to learners everywhere — without barriers of place or time."
+msgstr "Давать качественное и доступное образование, вести исследования, которые способствуют устойчивому развитию региона и страны. Через эту онлайн-платформу мы открываем знания университета всем желающим — без границ места и времени."
+
+msgid "We believe that modern engineering education must be open, practical and connected to real industry needs. That is why our courses are built together with faculty members and partners from leading enterprises."
+msgstr "Мы убеждены, что современное инженерное образование должно быть открытым, практичным и связанным с реальными задачами отрасли. Поэтому наши курсы создаются вместе с преподавателями университета и партнёрами из ведущих предприятий."
+
+msgid "Engineering the future since 1958"
+msgstr "Создаём будущее инженерии с 1958 года"
+
+msgid "Our values"
+msgstr "Наши ценности"
+
+msgid "Innovation"
+msgstr "Инновационность"
+
+msgid "We embrace new technologies and teaching methods to keep our education relevant and forward-looking."
+msgstr "Мы осваиваем новые технологии и методы преподавания, чтобы наше образование оставалось актуальным и работало на перспективу."
+
+msgid "Openness"
+msgstr "Открытость"
+
+msgid "Knowledge should be accessible to everyone. We share our courses openly with students and lifelong learners."
+msgstr "Знания должны быть доступны каждому. Мы открыто делимся своими курсами со студентами и всеми, кто учится в течение жизни."
+
+msgid "Excellence"
+msgstr "Качество"
+
+msgid "We hold ourselves to the highest academic and professional standards in everything we teach."
+msgstr "Во всём, чему мы учим, мы придерживаемся высочайших академических и профессиональных стандартов."
+
+msgid "Ready to learn with us?"
+msgstr "Готовы учиться вместе с нами?"
+
+msgid "Browse the catalog and join the East Kazakhstan Technical University learning community."
+msgstr "Загляните в каталог и присоединяйтесь к учебному сообществу Восточно-Казахстанского технического университета."
+
+
 
 msgid "Courses"
 msgstr "Курсы"
