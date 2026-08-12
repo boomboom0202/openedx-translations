@@ -43,6 +43,56 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #Мой переводы 
+
+msgid "About the University"
+msgstr "Университет туралы"
+
+msgid "A leading center of engineering and technical education in East Kazakhstan, preparing specialists for industry, science and the digital economy."
+msgstr "Өнеркәсіп, ғылым және цифрлық экономика үшін мамандар даярлайтын Шығыс Қазақстандағы инженерлік-техникалық білім берудің жетекші орталығы."
+
+msgid "East Kazakhstan Technical University (EKTU) is one of the oldest and most respected universities in the region. For decades we have trained engineers, scientists and innovators, combining strong academic traditions with modern technology and a practice-oriented approach to learning."
+msgstr "Шығыс Қазақстан техникалық университеті (ШҚТУ) — өңірдегі ең көне әрі беделді жоғары оқу орындарының бірі. Ондаған жыл бойы біз мықты академиялық дәстүрлерді заманауи технологиялармен және практикаға бағдарланған оқыту тәсілімен ұштастыра отырып, инженерлер, ғалымдар мен жаңашылдар даярлап келеміз."
+
+msgid "Our mission"
+msgstr "Біздің миссиямыз"
+
+msgid "To deliver high-quality, accessible education and research that drives the sustainable development of the region and the country. Through this online platform we open the university's knowledge to learners everywhere — without barriers of place or time."
+msgstr "Өңір мен елдің тұрақты дамуына ықпал ететін сапалы әрі қолжетімді білім беру мен зерттеулер жүргізу. Осы онлайн-платформа арқылы біз университет білімін орын мен уақыт шектеуінсіз барлық қалаушыға ашамыз."
+
+msgid "We believe that modern engineering education must be open, practical and connected to real industry needs. That is why our courses are built together with faculty members and partners from leading enterprises."
+msgstr "Біз заманауи инженерлік білім ашық, практикалық және саланың нақты қажеттіліктерімен байланысты болуы тиіс деп сенеміз. Сондықтан курстарымыз университет оқытушылары мен жетекші кәсіпорын серіктестерімен бірлесіп әзірленеді."
+
+msgid "Engineering the future since 1958"
+msgstr "1958 жылдан бері инженерия болашағын жасап келеміз"
+
+msgid "Our values"
+msgstr "Біздің құндылықтарымыз"
+
+msgid "Innovation"
+msgstr "Инновациялық"
+
+msgid "We embrace new technologies and teaching methods to keep our education relevant and forward-looking."
+msgstr "Біліміміз өзекті әрі болашаққа бағдарланған болуы үшін біз жаңа технологиялар мен оқыту әдістерін игереміз."
+
+msgid "Openness"
+msgstr "Ашықтық"
+
+msgid "Knowledge should be accessible to everyone. We share our courses openly with students and lifelong learners."
+msgstr "Білім әркімге қолжетімді болуы керек. Біз курстарымызды студенттермен және өмір бойы оқитындардың бәрімен ашық бөлісеміз."
+
+msgid "Excellence"
+msgstr "Сапа"
+
+msgid "We hold ourselves to the highest academic and professional standards in everything we teach."
+msgstr "Оқытатын әрбір ісімізде біз ең жоғары академиялық және кәсіби стандарттарды ұстанамыз."
+
+msgid "Ready to learn with us?"
+msgstr "Бізбен бірге оқуға дайынсыз ба?"
+
+msgid "Browse the catalog and join the East Kazakhstan Technical University learning community."
+msgstr "Каталогты қарап шығып, Шығыс Қазақстан техникалық университетінің оқу қауымдастығына қосылыңыз."
+
+
 msgid "Support"
 msgstr "Қолдау"
 
