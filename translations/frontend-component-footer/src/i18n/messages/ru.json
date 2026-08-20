@@ -1,5 +1,14 @@
 {
+  
   "footer.learning": "Обучение", 
+  "footer.support": "Поддержка",
+  "footer.resources": "Ресурсы",
+  "footer.course_catalog": "Каталог курсов",
+  "footer.about_university": "Об университете",
+  "footer.help": "Помощь",
+  "footer.faq": "Часто задаваемые вопросы",
+  "footer.center": "Центр образовательных технологий",
+  "footer.university": "Восточно-Казахстанский Технический университет",
   "footer.public_offer": "Договор публичной оферты",
   "footer.quick_links": "Быстрые ссылки", 
   "footer.about_platform": "О нас", 
