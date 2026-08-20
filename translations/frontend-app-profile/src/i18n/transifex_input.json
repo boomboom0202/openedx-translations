@@ -1,5 +1,5 @@
 {
-  
+  "nav.about" : "About Us",
   "profile.page.title": "Profile | {siteName}",
   "profile.certificate.organization.label": "From",
   "profile.certificate.completion.date.label": "Completed on {date}",
