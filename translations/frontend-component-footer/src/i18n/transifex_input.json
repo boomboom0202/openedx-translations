@@ -1,4 +1,12 @@
 {
+  "footer.support": "Support",
+  "footer.resources": "Resources",
+  "footer.course_catalog": "Course catalog",
+  "footer.about_university": "About the university",
+  "footer.help": "Help",
+  "footer.faq": "Frequently asked questions",
+  "footer.center": "Center for Educational Technologies",
+  "footer.university": "East Kazakhstan Technical University",
   "footer.learning": "Learning",
   "footer.quick_links": "Quick Links",
   "footer.about_platform": "About Us",
@@ -16,7 +24,7 @@
 
   "footer.social": "We are on social media",
   "footer.rights": "All rights reserved",
-  "footer.developed": "Developed by the Office of OAICI",
+
   
   "footer.socialLinks.srText.facebook": "Like edX on Facebook",
   "footer.socialLinks.srText.twitter": "Follow edX on Twitter",
