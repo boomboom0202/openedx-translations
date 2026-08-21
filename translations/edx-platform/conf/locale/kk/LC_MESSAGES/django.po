@@ -92,13 +92,26 @@ msgstr "Бізбен бірге оқуға дайынсыз ба?"
 msgid "Browse the catalog and join the East Kazakhstan Technical University learning community."
 msgstr "Каталогты қарап шығып, Шығыс Қазақстан техникалық университетінің оқу қауымдастығына қосылыңыз."
 
+msgid "EKTU Course Catalog"
+msgstr "EKTU курс каталогы"
 
 msgid "Support"
 msgstr "Қолдау"
 
+msgid "Search courses by title, organization or number"
+msgstr "Курстарды атауы, ұйымы немесе нөмірі бойынша іздеу"
+
+msgid "Discover open courses and programs from East Kazakhstan Technical University and start learning today."
+msgstr "Шығыс Қазақстан техникалық университетінің ашық курстары мен бағдарламаларымен танысып, бүгіннен бастап білім алуды бастаңыз."
+
+msgid "Explore our courses"
+msgstr "Біздің курстарымызбен танысыңыз"
 
 msgid "Learning"
 msgstr "Оқу"
+
+msgid "Showing {count} of {total} courses"
+msgstr "Көрсетілгені: {count} курс / барлығы {total} курс"
 
 msgid "Course catalog"
 msgstr "Курстар каталогы"
