@@ -43,6 +43,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #Мой переводы 
+msgid "Our Team"
+msgstr "Біздің команда"
+
+msgid "The people who build and support the university's online learning platform."
+msgstr "Университеттің онлайн оқыту платформасын әзірлейтін және қолдау көрсететін мамандар."
+
+msgid "Consent to data collection and processing"
+msgstr "Деректерді жинауға және өңдеуге келісім"
 
 msgid "About the University"
 msgstr "Университет туралы"
