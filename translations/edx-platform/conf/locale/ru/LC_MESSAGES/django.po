@@ -43,8 +43,14 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #Мой переводы
-msgid "Consent to Personal Data Processing"
-msgstr "Согласие на обработку данных"
+msgid "Our Team"
+msgstr "Наша команда"
+
+msgid "The people who build and support the university's online learning platform."
+msgstr "Люди, которые создают и поддерживают платформу онлайн-обучения университета."
+
+msgid "Consent to data collection and processing"
+msgstr "Согласие на сбор и обработку данных"
 
 msgid "About the University"
 msgstr "Об университете"
