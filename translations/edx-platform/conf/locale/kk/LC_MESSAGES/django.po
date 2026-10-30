@@ -27774,3 +27774,140 @@ msgstr "Білім беру технологиялары орталығы уни
 
 msgid "Go to the center's page"
 msgstr "Орталық бетіне өту"
+
+# EKTU: support form and footer (2026-10-30)
+
+msgid "I am a learner"
+msgstr "Мен тыңдаушымын"
+
+msgid "I am a teacher"
+msgstr "Мен оқытушымын"
+
+msgid "Signing in, registration and my account"
+msgstr "Кіру, тіркелу және менің аккаунтым"
+
+msgid "Enrolling in a course and access to it"
+msgstr "Курсқа жазылу және оған қолжетімділік"
+
+msgid "Paying for a course"
+msgstr "Курс үшін төлем"
+
+msgid "Videos, materials or assignments do not open"
+msgstr "Бейне, материалдар немесе тапсырмалар ашылмайды"
+
+msgid "Grades, deadlines and assignment attempts"
+msgstr "Бағалар, мерзімдер және тапсырманы орындау әрекеттері"
+
+msgid "Something else"
+msgstr "Басқа"
+
+msgid "Creating a course and access to Studio"
+msgstr "Курс құру және Studio-ға қолжетімділік"
+
+msgid "Uploading videos and course materials"
+msgstr "Бейне мен курс материалдарын жүктеу"
+
+msgid "Assignments, quizzes and grading"
+msgstr "Тапсырмалар, тесттер және бағалау"
+
+msgid "Learners, enrolment and cohorts"
+msgstr "Тыңдаушылар, курсқа жазылу және топтар"
+
+msgid "Course certificates"
+msgstr "Курс сертификаттары"
+
+msgid "Methodological advice and instructional design"
+msgstr "Әдістемелік кеңес және педагогикалық дизайн"
+
+msgid "Choose a topic from the list for your role."
+msgstr "Рөліңізге арналған тізімнен тақырыпты таңдаңыз."
+
+msgid "You can attach up to {count} screenshots."
+msgstr "{count} скриншоттан артық тіркеуге болмайды."
+
+msgid "{name} is larger than 5 MB."
+msgstr "{name} файлы 5 МБ-тан үлкен."
+
+msgid "{name} is not an image (PNG, JPG, GIF or WebP)."
+msgstr "{name} файлы сурет емес (PNG, JPG, GIF немесе WebP)."
+
+msgid "Too many requests from your network. Please try again in an hour."
+msgstr "Желіңізден сұраулар тым көп. Бір сағаттан кейін қайталап көріңіз."
+
+msgid "The message could not be sent. Please try again later or write to us by email."
+msgstr "Хабарламаны жіберу мүмкін болмады. Кейінірек қайталап көріңіз немесе бізге поштаға жазыңыз."
+
+msgid "Who"
+msgstr "Кім"
+
+msgid "Topic"
+msgstr "Тақырып"
+
+msgid "not signed in"
+msgstr "жүйеге кірмеген"
+
+msgid "Language of the page"
+msgstr "Бет тілі"
+
+msgid "Browser"
+msgstr "Браузер"
+
+msgid "Ask a question"
+msgstr "Сұрақ қою"
+
+msgid "Tell us what happened, and the engineers of the center will answer you by email."
+msgstr "Не болғанын айтыңыз, орталық инженерлері сізге электрондық пошта арқылы жауап береді."
+
+msgid "Your question has been sent"
+msgstr "Сұрағыңыз жіберілді"
+
+msgid "We will reply to the email address you gave. If the answer is urgent, you can also call us."
+msgstr "Біз сіз көрсеткен электрондық пошта мекенжайына жауап береміз. Егер сұрақ шұғыл болса, бізге қоңырау шалуға да болады."
+
+msgid "Back to help"
+msgstr "Көмек бөліміне оралу"
+
+msgid "Ask another question"
+msgstr "Тағы сұрақ қою"
+
+msgid "Who are you?"
+msgstr "Сіз кімсіз?"
+
+msgid "What is your question about?"
+msgstr "Сұрағыңыз не туралы?"
+
+msgid "Choose a topic"
+msgstr "Тақырыпты таңдаңыз"
+
+msgid "Your name"
+msgstr "Сіздің атыңыз"
+
+msgid "Email for the reply"
+msgstr "Жауапқа арналған пошта"
+
+msgid "(if the question is about a specific course)"
+msgstr "(егер сұрақ нақты курсқа қатысты болса)"
+
+msgid "Describe the problem"
+msgstr "Мәселені сипаттаңыз"
+
+msgid "What were you doing, what did you expect, and what happened instead? If there was an error message, copy its text."
+msgstr "Не істедіңіз, не күттіңіз және іс жүзінде не болды? Егер қате туралы хабарлама шықса, оның мәтінін көшіріп алыңыз."
+
+msgid "Screenshots"
+msgstr "Скриншоттар"
+
+msgid "(optional)"
+msgstr "(міндетті емес)"
+
+msgid "Up to 3 images, no more than 5 MB each."
+msgstr "3 суретке дейін, әрқайсысы 5 МБ-тан аспауы керек."
+
+msgid "Send"
+msgstr "Жіберу"
+
+msgid "You can also write to us directly at {email}."
+msgstr "Сондай-ақ бізге тікелей жазуға болады: {email}."
+
+msgid "Resources for working with Open edX"
+msgstr "Open edX-пен жұмыс бойынша ресурстар"

@@ -20564,3 +20564,140 @@ msgstr "Пользовательский CSS для всего курса"
 
 msgid "Enter CSS resource URLs you want to be loaded globally throughout the course pages."
 msgstr "Укажите URL CSS-ресурсов, которые нужно загружать на всех страницах курса."
+
+# EKTU: support form and footer (2026-10-30)
+
+msgid "I am a learner"
+msgstr "Я слушатель"
+
+msgid "I am a teacher"
+msgstr "Я преподаватель"
+
+msgid "Signing in, registration and my account"
+msgstr "Вход, регистрация и мой аккаунт"
+
+msgid "Enrolling in a course and access to it"
+msgstr "Запись на курс и доступ к нему"
+
+msgid "Paying for a course"
+msgstr "Оплата курса"
+
+msgid "Videos, materials or assignments do not open"
+msgstr "Не открываются видео, материалы или задания"
+
+msgid "Grades, deadlines and assignment attempts"
+msgstr "Оценки, сроки и попытки выполнения заданий"
+
+msgid "Something else"
+msgstr "Другое"
+
+msgid "Creating a course and access to Studio"
+msgstr "Создание курса и доступ в Studio"
+
+msgid "Uploading videos and course materials"
+msgstr "Загрузка видео и материалов курса"
+
+msgid "Assignments, quizzes and grading"
+msgstr "Задания, тесты и оценивание"
+
+msgid "Learners, enrolment and cohorts"
+msgstr "Слушатели, запись на курс и группы"
+
+msgid "Course certificates"
+msgstr "Сертификаты курса"
+
+msgid "Methodological advice and instructional design"
+msgstr "Методическая консультация и педагогический дизайн"
+
+msgid "Choose a topic from the list for your role."
+msgstr "Выберите тему из списка для вашей роли."
+
+msgid "You can attach up to {count} screenshots."
+msgstr "Можно приложить не более {count} снимков экрана."
+
+msgid "{name} is larger than 5 MB."
+msgstr "Файл {name} больше 5 МБ."
+
+msgid "{name} is not an image (PNG, JPG, GIF or WebP)."
+msgstr "Файл {name} не является изображением (PNG, JPG, GIF или WebP)."
+
+msgid "Too many requests from your network. Please try again in an hour."
+msgstr "Слишком много запросов из вашей сети. Попробуйте через час."
+
+msgid "The message could not be sent. Please try again later or write to us by email."
+msgstr "Не удалось отправить сообщение. Попробуйте позже или напишите нам на почту."
+
+msgid "Who"
+msgstr "Кто"
+
+msgid "Topic"
+msgstr "Тема"
+
+msgid "not signed in"
+msgstr "не вошёл в систему"
+
+msgid "Language of the page"
+msgstr "Язык страницы"
+
+msgid "Browser"
+msgstr "Браузер"
+
+msgid "Ask a question"
+msgstr "Задать вопрос"
+
+msgid "Tell us what happened, and the engineers of the center will answer you by email."
+msgstr "Расскажите, что случилось, и инженеры центра ответят вам по электронной почте."
+
+msgid "Your question has been sent"
+msgstr "Ваш вопрос отправлен"
+
+msgid "We will reply to the email address you gave. If the answer is urgent, you can also call us."
+msgstr "Мы ответим на указанный вами адрес электронной почты. Если вопрос срочный, можно также позвонить нам."
+
+msgid "Back to help"
+msgstr "Вернуться в раздел помощи"
+
+msgid "Ask another question"
+msgstr "Задать ещё вопрос"
+
+msgid "Who are you?"
+msgstr "Кто вы?"
+
+msgid "What is your question about?"
+msgstr "О чём ваш вопрос?"
+
+msgid "Choose a topic"
+msgstr "Выберите тему"
+
+msgid "Your name"
+msgstr "Ваше имя"
+
+msgid "Email for the reply"
+msgstr "Почта для ответа"
+
+msgid "(if the question is about a specific course)"
+msgstr "(если вопрос касается конкретного курса)"
+
+msgid "Describe the problem"
+msgstr "Опишите проблему"
+
+msgid "What were you doing, what did you expect, and what happened instead? If there was an error message, copy its text."
+msgstr "Что вы делали, что ожидали увидеть и что произошло на самом деле? Если появилось сообщение об ошибке, скопируйте его текст."
+
+msgid "Screenshots"
+msgstr "Снимки экрана"
+
+msgid "(optional)"
+msgstr "(необязательно)"
+
+msgid "Up to 3 images, no more than 5 MB each."
+msgstr "До 3 изображений, не более 5 МБ каждое."
+
+msgid "Send"
+msgstr "Отправить"
+
+msgid "You can also write to us directly at {email}."
+msgstr "Также можно написать нам напрямую: {email}."
+
+msgid "Resources for working with Open edX"
+msgstr "Ресурсы по работе с Open edX"
