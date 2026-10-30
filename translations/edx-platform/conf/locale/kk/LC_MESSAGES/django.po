@@ -27425,3 +27425,352 @@ msgstr "Авторлық құқық мәтінін осы жерге қойың�
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Код редакторы"
+
+# EKTU: site pages, payments and Studio strings (2026-10-30)
+
+msgid "Paid"
+msgstr "Төленді"
+
+msgid "Refunded"
+msgstr "Қайтарылды"
+
+msgid "The CourseMode slug the learner is buying, e.g. 'verified'."
+msgstr "Тыңдаушы сатып алатын курс режимі (CourseMode), мысалы «verified»."
+
+msgid "Halyk payment"
+msgstr "Halyk төлемі"
+
+msgid "Halyk payments"
+msgstr "Halyk төлемдері"
+
+msgid "Payment"
+msgstr "Төлем"
+
+msgid "Payment for course access"
+msgstr "Курсқа қолжетімділік үшін төлем"
+
+msgid "Test mode."
+msgstr "Тест режимі."
+
+msgid "No money is taken and no request reaches the bank. This button simulates the bank's callback so the whole flow can be checked end to end."
+msgstr "Ақша алынбайды және банкке сұрау жіберілмейді. Бұл түйме бүкіл үдерісті басынан аяғына дейін тексеру үшін банктің жауабын имитациялайды."
+
+msgid "Invoice"
+msgstr "Шот"
+
+msgid "Amount"
+msgstr "Сома"
+
+msgid "Simulate a successful payment"
+msgstr "Сәтті төлемді имитациялау"
+
+msgid "Pay"
+msgstr "Төлеу"
+
+msgid "You will be taken to the result page, exactly as after a real payment."
+msgstr "Сіз нәтиже бетіне өтесіз — нақты төлемнен кейінгідей."
+
+msgid "You will be redirected to the secure payment page of Halyk Bank. The university never sees your card details."
+msgstr "Сіз Halyk Bank-тің қорғалған төлем бетіне бағытталасыз. Университет сіздің картаңыздың деректерін көрмейді."
+
+msgid "Opening the secure payment page…"
+msgstr "Қорғалған төлем беті ашылуда…"
+
+msgid "The payment service is unavailable. Please try again later."
+msgstr "Төлем қызметі қолжетімсіз. Кейінірек қайталап көріңіз."
+
+msgid "The payment service could not be loaded. Please try again later."
+msgstr "Төлем қызметін жүктеу мүмкін болмады. Кейінірек қайталап көріңіз."
+
+msgid "Order history"
+msgstr "Тапсырыстар тарихы"
+
+msgid "My account"
+msgstr "Менің аккаунтым"
+
+msgid "Every course you have paid for, and what became of each payment."
+msgstr "Сіз төлеген барлық курстар және әр төлемнің жағдайы."
+
+msgid "Not completed"
+msgstr "Аяқталмаған"
+
+msgid "Awaiting confirmation"
+msgstr "Растауды күтуде"
+
+msgid "Receipt"
+msgstr "Түбіртек"
+
+msgid "Go to the course"
+msgstr "Курсқа өту"
+
+msgid "Try again"
+msgstr "Қайталап көру"
+
+msgid "Check the status"
+msgstr "Күйін тексеру"
+
+msgid "You have not bought any courses yet."
+msgstr "Сіз әлі бірде-бір курс сатып алмадыңыз."
+
+#, python-format
+msgid "%(refunded)s refunded"
+msgstr "%(refunded)s қайтарылды"
+
+msgid "Payment receipt"
+msgstr "Төлем түбіртегі"
+
+msgid "Payment received"
+msgstr "Төлем қабылданды"
+
+msgid "Access to the course is open."
+msgstr "Курсқа қолжетімділік ашылды."
+
+msgid "Test payment."
+msgstr "Тест төлемі."
+
+msgid "This receipt was produced on the bank's test terminal. No money changed hands."
+msgstr "Бұл түбіртек банктің тест терминалында жасалды. Ақша алынған жоқ."
+
+msgid "Card"
+msgstr "Карта"
+
+msgid "Bank reference"
+msgstr "Банктегі операция нөмірі"
+
+msgid "Payer"
+msgstr "Төлеуші"
+
+msgid "Go to my courses"
+msgstr "Менің курстарыма"
+
+msgid "Start learning"
+msgstr "Оқуды бастау"
+
+msgid "Print or save as PDF"
+msgstr "Басып шығару немесе PDF-ке сақтау"
+
+#, python-format
+msgid "Keep invoice %(invoice)s — support will ask for it if anything about this payment needs checking."
+msgstr "%(invoice)s шот нөмірін сақтаңыз — осы төлем бойынша бірдеңені тексеру қажет болса, қолдау қызметі оны сұрайды."
+
+msgid "Waiting for confirmation"
+msgstr "Растау күтілуде"
+
+msgid "The payment did not go through"
+msgstr "Төлем өтпеді"
+
+msgid "Payment cannot be started"
+msgstr "Төлемді бастау мүмкін емес"
+
+msgid "The payment has not been confirmed by the bank yet. This page refreshes on its own; access opens as soon as the confirmation arrives."
+msgstr "Банк төлемді әлі растаған жоқ. Бет өздігінен жаңарады; растау келген бойда қолжетімділік ашылады."
+
+msgid "Back to the course"
+msgstr "Курсқа оралу"
+
+msgid "Access was not opened. If your bank shows the money as taken, quote the invoice number below to support and it will be sorted out."
+msgstr "Қолжетімділік ашылмады. Егер банк ақшаның алынғанын көрсетсе, қолдау қызметіне төмендегі шот нөмірін хабарлаңыз — біз мәселені шешеміз."
+
+msgid "Get in touch"
+msgstr "Бізбен байланысыңыз"
+
+msgid "The platform is run by the university Center for Educational Technologies."
+msgstr "Платформаны университеттің Білім беру технологиялары орталығы жүргізеді."
+
+msgid "Technical questions"
+msgstr "Техникалық сұрақтар"
+
+msgid "Everything to do with how the platform works, such as signing in, course access, grades and certificates, is handled by email. That way your request reaches the engineers of the center directly."
+msgstr "Платформа жұмысына қатысты барлық мәселе — кіру, курстарға қолжетімділік, бағалар мен сертификаттар — электрондық пошта арқылы шешіледі. Осылайша өтінішіңіз орталық инженерлеріне тікелей жетеді."
+
+msgid "Write to us by email"
+msgstr "Бізге поштаға жазыңыз"
+
+msgid "Questions about course content, assignments and deadlines are handled by the course teacher, so it is best to ask them inside the course itself."
+msgstr "Курс мазмұны, тапсырмалар мен мерзімдер туралы сұрақтарды курс оқытушысы шешеді, сондықтан оларды курстың өзінде қойған дұрыс."
+
+msgid "By phone"
+msgstr "Телефон арқылы"
+
+msgid "weekdays"
+msgstr "жұмыс күндері"
+
+msgid "Useful links"
+msgstr "Пайдалы сілтемелер"
+
+msgid "About the center, its staff, news and blog"
+msgstr "Орталық, оның қызметкерлері, жаңалықтар мен блог"
+
+msgid "Guides on accounts and university services"
+msgstr "Тіркелгілер мен университет қызметтері бойынша нұсқаулықтар"
+
+msgid "How to sign in and what to do if there are problems"
+msgstr "Қалай кіруге болады және мәселе туындаса не істеу керек"
+
+msgid "University students and staff sign in with the {strong_start}Sign in with Google{strong_end} button using their university account; there is no need to create a separate password. See the {link_start}Instructions{link_end} (PDF)."
+msgstr "Университет студенттері мен қызметкерлері университеттік тіркелгімен {strong_start}Google арқылы кіру{strong_end} түймесі арқылы кіреді; бөлек құпиясөз жасаудың қажеті жоқ. {link_start}Нұсқаулықты{link_end} (PDF) қараңыз."
+
+msgid "You cannot fix this yourself, the engineers have to do it. {link_start}Write to us by email{link_end} and include the email address you are trying to sign in with."
+msgstr "Мұны өзіңіз түзете алмайсыз — инженерлердің араласуы қажет. {link_start}Бізге поштаға жазыңыз{link_end} және кіруге тырысып жатқан электрондық пошта мекенжайын көрсетіңіз."
+
+msgid "If the course has finished and you reached the passing grade but there is still no certificate, {link_start}write to us by email{link_end}."
+msgstr "Егер курс аяқталып, сіз өту балын жинасаңыз, бірақ сертификат әлі жоқ болса, {link_start}бізге поштаға жазыңыз{link_end}."
+
+msgid "Tell the course teacher: an attempt can be reset, but only with their approval. If the problem is technical and keeps happening, also {link_start}report it by email{link_end}."
+msgstr "Курс оқытушысына хабарлаңыз: әрекетті қалпына келтіруге болады, бірақ тек оның келісімімен. Егер мәселе техникалық болса және қайталанса, {link_start}ол туралы поштаға да хабарлаңыз{link_end}."
+
+msgid "{link_start}Write to us by email{link_end}. To get an answer faster, include your email address, the course name, what exactly you were doing, and a screenshot of the error."
+msgstr "{link_start}Бізге поштаға жазыңыз{link_end}. Жауапты тезірек алу үшін электрондық пошта мекенжайыңызды, курс атауын, нақты не істегеніңізді көрсетіп, қатенің скриншотын тіркеңіз."
+
+msgid "Describe the problem in an email and the engineers of the center will help you sort it out."
+msgstr "Мәселені хатта сипаттаңыз, орталық инженерлері оны шешуге көмектеседі."
+
+msgid "Write to the center by email and the engineers will look into it. Where possible, include your email address, the course name and a screenshot."
+msgstr "Орталыққа электрондық пошта арқылы жазыңыз, инженерлер мәселені қарайды. Мүмкіндігінше электрондық пошта мекенжайыңызды, курс атауын көрсетіп, скриншот тіркеңіз."
+
+msgid "Email support"
+msgstr "Пошта арқылы қолдау"
+
+msgid "Write to us about a technical problem"
+msgstr "Техникалық мәселе туралы бізге жазыңыз"
+
+msgid "Academic integrity"
+msgstr "Академиялық адалдық"
+
+msgid "The rules of academic integrity that every student of the university is expected to follow."
+msgstr "Университеттің әр студенті сақтауға міндетті академиялық адалдық ережелері."
+
+msgid "Document language"
+msgstr "Құжат тілі"
+
+msgid "Open in a new tab"
+msgstr "Жаңа қойындыда ашу"
+
+msgid "Download PDF"
+msgstr "PDF жүктеп алу"
+
+msgid "If the document does not open above, use \"Download PDF\" — some mobile browsers cannot display PDF files inside a page."
+msgstr "Егер құжат жоғарыда ашылмаса, «PDF жүктеп алу» түймесін басыңыз — кейбір мобильді браузерлер PDF файлдарын бет ішінде көрсете алмайды."
+
+msgid "Personal data"
+msgstr "Дербес деректер"
+
+msgid "How the university collects, uses, stores and protects your personal data."
+msgstr "Университет сіздің дербес деректеріңізді қалай жинайды, пайдаланады, сақтайды және қорғайды."
+
+msgid "Head of the Center for Educational Technologies"
+msgstr "Білім беру технологиялары орталығының басшысы"
+
+msgid "Senior Specialist at the Center for Educational Technologies"
+msgstr "Білім беру технологиялары орталығының аға маманы"
+
+msgid "Chief Specialist of the Center for Educational Technologies"
+msgstr "Білім беру технологиялары орталығының бас маманы"
+
+msgid "First-Category Specialist at the Center for Educational Technologies"
+msgstr "Білім беру технологиялары орталығының бірінші санатты маманы"
+
+msgid "First Category Engineer at the Center for Educational Technologies"
+msgstr "Білім беру технологиялары орталығының бірінші санатты инженері"
+
+msgid "Technical and methodological support for teachers creating online and blended courses."
+msgstr "Онлайн және аралас курстарды жасау кезінде оқытушыларды техникалық және әдістемелік қолдау."
+
+msgid "Methodological support for modernising traditional teaching and moving it to online and blended formats."
+msgstr "Дәстүрлі оқытуды жаңғыртуды және оны онлайн және аралас форматтарға көшіруді әдістемелік қолдау."
+
+msgid "Integration of external resources into the learning management system (LMS)."
+msgstr "Сыртқы ресурстарды оқытуды басқару жүйесіне (LMS) интеграциялау."
+
+msgid "Monetisation of the university's online courses."
+msgstr "Университеттің онлайн-курстарын монетизациялау."
+
+msgid "Developing distance learning at the university:"
+msgstr "Университетте қашықтықтан оқытуды дамыту:"
+
+msgid "finding online learning resources at partner universities and on online learning platforms;"
+msgstr "серіктес университеттерде және онлайн-оқыту платформаларында онлайн-оқыту ресурстарын іздеу;"
+
+msgid "working with university teachers to publish content on online platforms as open or paid courses."
+msgstr "университет оқытушыларымен бірге контентті онлайн-платформаларда ашық немесе ақылы курстар ретінде орналастыру."
+
+msgid "Expanding and introducing innovative educational technologies."
+msgstr "Инновациялық білім беру технологияларын кеңейту және енгізу."
+
+msgid "helping teachers build online and blended courses: technical and methodological support, and instructional design;"
+msgstr "оқытушыларға онлайн және аралас курстарды жасауға көмек: техникалық және әдістемелік қолдау, педагогикалық дизайн;"
+
+msgid "providing the tools needed to develop and teach courses online;"
+msgstr "курстарды онлайн әзірлеуге және өткізуге қажетті құралдарды ұсыну;"
+
+msgid "training in e-learning methods;"
+msgstr "электрондық оқыту әдістеріне үйрету;"
+
+msgid "a standardised course structure, a single format and templates;"
+msgstr "курстың бірыңғай құрылымы, бірыңғай формат пен үлгілер;"
+
+msgid "workshops aimed at practical skills in building online and blended courses;"
+msgstr "онлайн және аралас курстарды жасау дағдыларына бағытталған практикумдар;"
+
+msgid "training in the core tools for building online courses;"
+msgstr "онлайн-курстарды жасаудың негізгі құралдарына үйрету;"
+
+msgid "instructional design using online and blended learning methods to produce electronic teaching materials;"
+msgstr "электрондық оқу материалдарын жасау үшін онлайн және аралас оқыту әдістерін қолданатын педагогикалық дизайн;"
+
+msgid "methods of asynchronous online teaching."
+msgstr "асинхронды онлайн-оқыту әдістері."
+
+msgid "Guidelines and standards"
+msgstr "Нұсқаулықтар мен стандарттар"
+
+msgid "Developing guidelines and standards for building online and blended courses, based on current trends and best practice in educational technology. The guide covers core principles, templates and detailed guidance on instructional design, pedagogy and assessment."
+msgstr "Білім беру технологияларындағы заманауи үрдістер мен үздік тәжірибеге негізделген онлайн және аралас курстарды жасау бойынша нұсқаулықтар мен стандарттар әзірлеу. Нұсқаулық негізгі қағидаттарды, үлгілерді және педагогикалық дизайн, педагогика мен бағалау бойынша толық ұсынымдарды қамтиды."
+
+msgid "Methodological support for faculty"
+msgstr "Оқытушыларды әдістемелік қолдау"
+
+msgid "The center helps teaching staff master modern e-learning tools, and runs methodological workshops and pedagogical seminars."
+msgstr "Орталық оқытушыларға заманауи электрондық оқыту құралдарын меңгеруге көмектеседі, әдістемелік практикумдар мен педагогикалық семинарлар өткізеді."
+
+msgid "Open edX for video courses and self-paced study, Moodle for blended learning and static materials, and Google Classroom for collaborative work."
+msgstr "Open edX — бейнекурстар мен өздігінен оқу үшін, Moodle — аралас оқыту мен статикалық материалдар үшін, Google Classroom — бірлескен жұмыс үшін."
+
+msgid "Teacher training"
+msgstr "Оқытушыларды оқыту"
+
+msgid "Training is aimed entirely at building online and blended courses: seminars and workshops on course development and pedagogy, teaching aids and a dedicated online course for faculty, plus practical guides and recommendations."
+msgstr "Оқыту толығымен онлайн және аралас курстарды жасауға бағытталған: курс әзірлеу мен педагогика бойынша семинарлар мен практикумдар, оқу құралдары мен оқытушыларға арналған арнайы онлайн-курс, сондай-ақ практикалық нұсқаулықтар мен ұсынымдар."
+
+msgid "Our goal"
+msgstr "Біздің мақсатымыз"
+
+msgid "To bring modern digital educational technologies into the university's teaching process."
+msgstr "Университеттің оқу үдерісіне заманауи цифрлық білім беру технологияларын енгізу."
+
+msgid "Objectives"
+msgstr "Міндеттер"
+
+msgid "The center's work rests on industry standards, current e-learning practice and educational technology, in the service of developing distance learning at the university."
+msgstr "Орталықтың жұмысы салалық стандарттарға, электрондық оқытудың заманауи тәжірибесі мен білім беру технологияларына сүйенеді және университетте қашықтықтан оқытуды дамытуға қызмет етеді."
+
+msgid "What the center does"
+msgstr "Орталық не істейді"
+
+msgid "Training and support for teaching staff"
+msgstr "Оқытушыларды оқыту және қолдау"
+
+msgid "The center provides methodological, educational and organisational support: it trains and advises teachers, applies industry e-learning standards and develops the online learning environment."
+msgstr "Орталық әдістемелік, білім беру және ұйымдастырушылық қолдау көрсетеді: оқытушыларды оқытады және кеңес береді, электрондық оқытудың салалық стандарттарын қолданады және онлайн-оқыту ортасын дамытады."
+
+msgid "The center works towards an online learning environment comparable to that of the world's leading universities, built on standard industry tools and established e-learning practice."
+msgstr "Орталық стандартты салалық құралдар мен электрондық оқытудың тексерілген тәжірибесіне негізделген, әлемнің жетекші университеттерімен салыстырмалы онлайн-оқыту ортасын құруға ұмтылады."
+
+msgid "More about the center"
+msgstr "Орталық туралы толығырақ"
+
+msgid "What the Center for Educational Technologies does at the university, and the projects it runs."
+msgstr "Білім беру технологиялары орталығы университетте немен айналысады және қандай жобаларды жүргізеді."
+
+msgid "Go to the center's page"
+msgstr "Орталық бетіне өту"
