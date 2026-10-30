@@ -27911,3 +27911,197 @@ msgstr "Сондай-ақ бізге тікелей жазуға болады: {
 
 msgid "Resources for working with Open edX"
 msgstr "Open edX-пен жұмыс бойынша ресурстар"
+
+# EKTU: staff course log (2026-10-30)
+
+msgid "Course settings"
+msgstr "Курс баптаулары"
+
+msgid "Video"
+msgstr "Бейне"
+
+msgid "About page"
+msgstr "«Курс туралы» беті"
+
+msgid "Custom page"
+msgstr "Қосымша бет"
+
+msgid "Course updates"
+msgstr "Курс жаңалықтары"
+
+msgid "PDF"
+msgstr "PDF"
+
+msgid "Open response assessment"
+msgstr "Толық жауапты тапсырма"
+
+msgid "Library content"
+msgstr "Кітапхана мазмұны"
+
+msgid "Drag and drop"
+msgstr "Сүйреп апару"
+
+msgctxt "course log"
+msgid "published (new)"
+msgstr "жарияланды (жаңа)"
+
+msgctxt "course log"
+msgid "published"
+msgstr "жарияланды"
+
+msgctxt "course log"
+msgid "published removal"
+msgstr "жою жарияланды"
+
+msgctxt "course log"
+msgid "created"
+msgstr "құрылды"
+
+msgctxt "course log"
+msgid "changed"
+msgstr "өзгертілді"
+
+msgctxt "course log"
+msgid "deleted"
+msgstr "жойылды"
+
+msgid "System"
+msgstr "Жүйе"
+
+msgid "User {id}"
+msgstr "{id} пайдаланушы"
+
+msgid "Unknown course"
+msgstr "Белгісіз курс"
+
+msgid "Draft"
+msgstr "Жоба"
+
+msgid "Published"
+msgstr "Жарияланған"
+
+msgid "{size} MB"
+msgstr "{size} МБ"
+
+msgid "{size} KB"
+msgstr "{size} КБ"
+
+msgid "Course log"
+msgstr "Курстардағы өзгерістер журналы"
+
+msgid "All courses"
+msgstr "Барлық курстар"
+
+msgid "From"
+msgstr "Бастап"
+
+msgid "To"
+msgstr "Дейін"
+
+msgid "Newer"
+msgstr "Жаңарақ"
+
+msgid "Page {page}"
+msgstr "{page}-бет"
+
+msgid "Older"
+msgstr "Ескірек"
+
+msgid "Staff only"
+msgstr "Тек әкімшілер үшін"
+
+msgid "Who changed what in the courses, and which files were uploaded. Times are in Kazakhstan time (UTC+5)."
+msgstr "Курстарда кім не өзгерткені және қандай файлдар жүктелгені. Уақыт — Қазақстан уақыты бойынша (UTC+5)."
+
+msgid "Uploaded files"
+msgstr "Жүктелген файлдар"
+
+msgid "Authors"
+msgstr "Авторлар"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "Everyone"
+msgstr "Барлығы"
+
+msgid "Kind"
+msgstr "Түрі"
+
+msgid "Edits and publishing"
+msgstr "Түзетулер мен жариялаулар"
+
+msgid "Edits only"
+msgstr "Тек түзетулер"
+
+msgid "Publishing only"
+msgstr "Тек жариялаулар"
+
+msgid "Show system changes"
+msgstr "Жүйелік өзгерістерді көрсету"
+
+msgid "Found: {count}"
+msgstr "Табылды: {count}"
+
+msgid "Nothing found for these filters."
+msgstr "Осы сүзгілер бойынша ештеңе табылмады."
+
+msgid "When"
+msgstr "Қашан"
+
+msgid "What was done"
+msgstr "Не істелді"
+
+msgid "No changes to the content"
+msgstr "Мазмұн өзгерген жоқ"
+
+msgid "and {count} more"
+msgstr "және тағы {count}"
+
+msgid "Back to changes"
+msgstr "Өзгерістер тізіміне"
+
+msgid "This save did not change the content of any block."
+msgstr "Бұл сақтау ешбір блоктың мазмұнын өзгертпеді."
+
+msgid "No field-level differences."
+msgstr "Өрістерде айырмашылық жоқ."
+
+msgid "Added:"
+msgstr "Қосылды:"
+
+msgid "Removed:"
+msgstr "Алынды:"
+
+msgid "The order was changed."
+msgstr "Реті өзгертілді."
+
+msgid "Before"
+msgstr "Бұрын"
+
+msgid "After"
+msgstr "Кейін"
+
+msgid "The uploader is known from November 2025, when Studio's request log starts."
+msgstr "Жүктеген адам 2025 жылдың қарашасынан бастап белгілі — Studio сұраулар журналы сол кезден жүргізіледі."
+
+msgid "Who uploaded"
+msgstr "Кім жүктеді"
+
+msgid "copied on re-run from {course}"
+msgstr "{course} курсынан қайта іске қосу кезінде көшірілді"
+
+msgid "Since"
+msgstr "Бастап"
+
+msgid "Saves"
+msgstr "Сақтаулар"
+
+msgid "Publishes"
+msgstr "Жариялаулар"
+
+msgid "Courses"
+msgstr "Курстар"
+
+msgid "Last activity"
+msgstr "Соңғы белсенділік"

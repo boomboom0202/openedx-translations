@@ -20701,3 +20701,203 @@ msgstr "Также можно написать нам напрямую: {email}.
 
 msgid "Resources for working with Open edX"
 msgstr "Ресурсы по работе с Open edX"
+
+# EKTU: staff course log (2026-10-30)
+
+msgid "Course settings"
+msgstr "Настройки курса"
+
+msgid "Section"
+msgstr "Раздел"
+
+msgid "Subsection"
+msgstr "Подраздел"
+
+msgid "Video"
+msgstr "Видео"
+
+msgid "Problem"
+msgstr "Задача"
+
+msgid "About page"
+msgstr "Страница «О курсе»"
+
+msgid "Custom page"
+msgstr "Дополнительная страница"
+
+msgid "Course updates"
+msgstr "Новости курса"
+
+msgid "PDF"
+msgstr "PDF"
+
+msgid "Open response assessment"
+msgstr "Задание с развёрнутым ответом"
+
+msgid "Library content"
+msgstr "Содержимое библиотеки"
+
+msgid "Drag and drop"
+msgstr "Перетаскивание"
+
+msgctxt "course log"
+msgid "published (new)"
+msgstr "опубликовано (новое)"
+
+msgctxt "course log"
+msgid "published"
+msgstr "опубликовано"
+
+msgctxt "course log"
+msgid "published removal"
+msgstr "опубликовано удаление"
+
+msgctxt "course log"
+msgid "created"
+msgstr "создано"
+
+msgctxt "course log"
+msgid "changed"
+msgstr "изменено"
+
+msgctxt "course log"
+msgid "deleted"
+msgstr "удалено"
+
+msgid "System"
+msgstr "Система"
+
+msgid "User {id}"
+msgstr "Пользователь {id}"
+
+msgid "Unknown course"
+msgstr "Неизвестный курс"
+
+msgid "Draft"
+msgstr "Черновик"
+
+msgid "Published"
+msgstr "Опубликовано"
+
+msgid "{size} MB"
+msgstr "{size} МБ"
+
+msgid "{size} KB"
+msgstr "{size} КБ"
+
+msgid "Course log"
+msgstr "Журнал изменений курсов"
+
+msgid "All courses"
+msgstr "Все курсы"
+
+msgid "From"
+msgstr "С"
+
+msgid "To"
+msgstr "По"
+
+msgid "Newer"
+msgstr "Новее"
+
+msgid "Page {page}"
+msgstr "Страница {page}"
+
+msgid "Older"
+msgstr "Старее"
+
+msgid "Staff only"
+msgstr "Только для администраторов"
+
+msgid "Who changed what in the courses, and which files were uploaded. Times are in Kazakhstan time (UTC+5)."
+msgstr "Кто и что менял в курсах и какие файлы загружал. Время — по Казахстану (UTC+5)."
+
+msgid "Uploaded files"
+msgstr "Загруженные файлы"
+
+msgid "Authors"
+msgstr "Авторы"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "Everyone"
+msgstr "Все"
+
+msgid "Kind"
+msgstr "Вид"
+
+msgid "Edits and publishing"
+msgstr "Правки и публикации"
+
+msgid "Edits only"
+msgstr "Только правки"
+
+msgid "Publishing only"
+msgstr "Только публикации"
+
+msgid "Show system changes"
+msgstr "Показывать системные изменения"
+
+msgid "Found: {count}"
+msgstr "Найдено: {count}"
+
+msgid "Nothing found for these filters."
+msgstr "По этим фильтрам ничего не найдено."
+
+msgid "When"
+msgstr "Когда"
+
+msgid "What was done"
+msgstr "Что сделано"
+
+msgid "No changes to the content"
+msgstr "Содержимое не менялось"
+
+msgid "and {count} more"
+msgstr "и ещё {count}"
+
+msgid "Back to changes"
+msgstr "К списку изменений"
+
+msgid "This save did not change the content of any block."
+msgstr "Это сохранение не изменило содержимое ни одного блока."
+
+msgid "No field-level differences."
+msgstr "Отличий в полях нет."
+
+msgid "Added:"
+msgstr "Добавлено:"
+
+msgid "Removed:"
+msgstr "Убрано:"
+
+msgid "The order was changed."
+msgstr "Изменён порядок."
+
+msgid "Before"
+msgstr "Было"
+
+msgid "After"
+msgstr "Стало"
+
+msgid "The uploader is known from November 2025, when Studio's request log starts."
+msgstr "Автор загрузки известен с ноября 2025 года — с этого времени ведётся журнал запросов Studio."
+
+msgid "Who uploaded"
+msgstr "Кто загрузил"
+
+msgid "copied on re-run from {course}"
+msgstr "скопировано при перезапуске из {course}"
+
+msgid "Since"
+msgstr "Начиная с"
+
+msgid "Saves"
+msgstr "Сохранений"
+
+msgid "Publishes"
+msgstr "Публикаций"
+
+msgid "Last activity"
+msgstr "Последняя активность"
