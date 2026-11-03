@@ -28105,3 +28105,11 @@ msgstr "Курстар"
 
 msgid "Last activity"
 msgstr "Соңғы белсенділік"
+
+# EKTU: Edufusion catalogue (2026-11-03)
+
+msgid "Edufusion Course Catalogue"
+msgstr "Edufusion курстарының каталогы"
+
+msgid "Co-funded by the European Union"
+msgstr "Еуропалық Одақ бірлесіп қаржыландырады"

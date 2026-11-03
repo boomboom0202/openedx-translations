@@ -20901,3 +20901,11 @@ msgstr "Публикаций"
 
 msgid "Last activity"
 msgstr "Последняя активность"
+
+# EKTU: Edufusion catalogue (2026-11-03)
+
+msgid "Edufusion Course Catalogue"
+msgstr "Каталог курсов Edufusion"
+
+msgid "Co-funded by the European Union"
+msgstr "Софинансируется Европейским союзом"
