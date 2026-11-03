@@ -20909,3 +20909,74 @@ msgstr "Каталог курсов Edufusion"
 
 msgid "Co-funded by the European Union"
 msgstr "Софинансируется Европейским союзом"
+
+# EKTU: online session block (2026-11-03)
+
+msgid "The name of the session. Learners see it above the button."
+msgstr "Название занятия. Слушатели видят его над кнопкой."
+
+msgid "Online session"
+msgstr "Онлайн-занятие"
+
+msgid "Optional. Shown to learners as written, for example: Tuesdays at 10:00."
+msgstr "Необязательно. Слушатели увидят текст как есть, например: по вторникам в 10:00."
+
+msgid "Allow recording"
+msgstr "Разрешить запись"
+
+msgid "The teacher can start and stop recording during the session. Nothing is recorded until they do. Recordings appear in this block."
+msgstr "Преподаватель может включать и выключать запись во время занятия. Пока он её не включит, ничего не записывается. Записи появятся в этом блоке."
+
+msgid "You cannot join this session"
+msgstr "Вы не можете подключиться к этому занятию"
+
+msgid "Sign in with an account enrolled in this course to join the session."
+msgstr "Чтобы подключиться к занятию, войдите в учётную запись, записанную на этот курс."
+
+msgid "The teacher has not started this session yet. Keep this page open: it will take you in as soon as the session begins."
+msgstr "Преподаватель ещё не начал занятие. Не закрывайте эту страницу: она подключит вас, как только занятие начнётся."
+
+msgid "{minutes} min"
+msgstr "{minutes} мин"
+
+msgid "Online sessions are not available right now"
+msgstr "Онлайн-занятия сейчас недоступны"
+
+msgid "Please try again in a few minutes."
+msgstr "Попробуйте ещё раз через несколько минут."
+
+msgid "Start the session"
+msgstr "Начать занятие"
+
+msgid "Join the session"
+msgstr "Подключиться к занятию"
+
+msgid "You are on the course team, so you join as a moderator. The session opens in a new tab."
+msgstr "Вы в команде курса, поэтому войдёте как модератор. Занятие откроется в новой вкладке."
+
+msgid "The session opens in a new tab."
+msgstr "Занятие откроется в новой вкладке."
+
+msgid "Recordings"
+msgstr "Записи"
+
+msgid "In progress"
+msgstr "Идёт сейчас"
+
+msgid "Not started"
+msgstr "Не началось"
+
+msgid "Participants: {count}"
+msgstr "Участников: {count}"
+
+msgid "Watch"
+msgstr "Смотреть"
+
+msgid "Online session. The course team and learners join it from the published course, not from Studio."
+msgstr "Онлайн-занятие. Команда курса и слушатели подключаются к нему из опубликованного курса, а не из Studio."
+
+msgid "Recording allowed"
+msgstr "Запись разрешена"
+
+msgid "Recording not allowed"
+msgstr "Запись не разрешена"

@@ -28113,3 +28113,74 @@ msgstr "Edufusion курстарының каталогы"
 
 msgid "Co-funded by the European Union"
 msgstr "Еуропалық Одақ бірлесіп қаржыландырады"
+
+# EKTU: online session block (2026-11-03)
+
+msgid "The name of the session. Learners see it above the button."
+msgstr "Сабақтың атауы. Тыңдаушылар оны түйменің үстінен көреді."
+
+msgid "Online session"
+msgstr "Онлайн-сабақ"
+
+msgid "Optional. Shown to learners as written, for example: Tuesdays at 10:00."
+msgstr "Міндетті емес. Тыңдаушылар мәтінді жазылғандай көреді, мысалы: сейсенбі сайын 10:00-де."
+
+msgid "Allow recording"
+msgstr "Жазуға рұқсат беру"
+
+msgid "The teacher can start and stop recording during the session. Nothing is recorded until they do. Recordings appear in this block."
+msgstr "Оқытушы сабақ барысында жазуды қосып, өшіре алады. Ол қоспайынша ештеңе жазылмайды. Жазбалар осы блокта пайда болады."
+
+msgid "You cannot join this session"
+msgstr "Сіз бұл сабаққа қосыла алмайсыз"
+
+msgid "Sign in with an account enrolled in this course to join the session."
+msgstr "Сабаққа қосылу үшін осы курсқа жазылған тіркелгіге кіріңіз."
+
+msgid "The teacher has not started this session yet. Keep this page open: it will take you in as soon as the session begins."
+msgstr "Оқытушы сабақты әлі бастаған жоқ. Бұл бетті жаппаңыз: сабақ басталған бойда ол сізді қосады."
+
+msgid "{minutes} min"
+msgstr "{minutes} мин"
+
+msgid "Online sessions are not available right now"
+msgstr "Онлайн-сабақтар қазір қолжетімсіз"
+
+msgid "Please try again in a few minutes."
+msgstr "Бірнеше минуттан кейін қайталап көріңіз."
+
+msgid "Start the session"
+msgstr "Сабақты бастау"
+
+msgid "Join the session"
+msgstr "Сабаққа қосылу"
+
+msgid "You are on the course team, so you join as a moderator. The session opens in a new tab."
+msgstr "Сіз курс тобындасыз, сондықтан модератор ретінде кіресіз. Сабақ жаңа қойындыда ашылады."
+
+msgid "The session opens in a new tab."
+msgstr "Сабақ жаңа қойындыда ашылады."
+
+msgid "Recordings"
+msgstr "Жазбалар"
+
+msgid "In progress"
+msgstr "Қазір жүріп жатыр"
+
+msgid "Not started"
+msgstr "Басталған жоқ"
+
+msgid "Participants: {count}"
+msgstr "Қатысушылар: {count}"
+
+msgid "Watch"
+msgstr "Көру"
+
+msgid "Online session. The course team and learners join it from the published course, not from Studio."
+msgstr "Онлайн-сабақ. Курс тобы мен тыңдаушылар оған Studio-дан емес, жарияланған курстан қосылады."
+
+msgid "Recording allowed"
+msgstr "Жазуға рұқсат етілген"
+
+msgid "Recording not allowed"
+msgstr "Жазуға рұқсат етілмеген"
